@@ -1,0 +1,18 @@
+{
+  "lang": "pl",
+  "dir": "ltr",
+  "name": "Skrzynka Improwizatora",
+  "short_name": "Skrzynka Impro",
+  "description": "Bezpłatny zestaw narzędzi dla improwizatorów: koło archetypów, generator scen, 60+ rozgrzewek, kreator postaci, słownik impro i więcej. Działa offline.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#f1f9f3",
+  "background_color": "#f1f9f3",
+  "icons": [
+    { "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/pwa-512x512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/pwa-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
