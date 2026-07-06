@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Improv Toolbox</string>
+    <string name="title_activity_main">Improv Toolbox</string>
+    <string name="package_name">com.improvtoolbox.app</string>
+    <string name="custom_url_scheme">com.improvtoolbox.app</string>
+</resources>
