@@ -1,0 +1,81 @@
+import type { Emotion } from '../types';
+
+export const EMOTIONS: Emotion[] = [
+  // Joy
+  { id: 'j1',  textKey: 'emotion.items.j1',  family: 'joy' },
+  { id: 'j2',  textKey: 'emotion.items.j2',  family: 'joy' },
+  { id: 'j3',  textKey: 'emotion.items.j3',  family: 'joy' },
+  { id: 'j4',  textKey: 'emotion.items.j4',  family: 'joy' },
+  { id: 'j5',  textKey: 'emotion.items.j5',  family: 'joy' },
+  { id: 'j6',  textKey: 'emotion.items.j6',  family: 'joy' },
+  { id: 'j7',  textKey: 'emotion.items.j7',  family: 'joy' },
+  { id: 'j8',  textKey: 'emotion.items.j8',  family: 'joy' },
+  { id: 'j9',  textKey: 'emotion.items.j9',  family: 'joy' },
+  { id: 'j10', textKey: 'emotion.items.j10', family: 'joy' },
+
+  { id: 'j11', textKey: 'emotion.items.j11', family: 'joy' },
+  { id: 'j12', textKey: 'emotion.items.j12', family: 'joy' },
+  { id: 'j13', textKey: 'emotion.items.j13', family: 'joy' },
+  // Sadness
+  { id: 's1',  textKey: 'emotion.items.s1',  family: 'sadness' },
+  { id: 's2',  textKey: 'emotion.items.s2',  family: 'sadness' },
+  { id: 's3',  textKey: 'emotion.items.s3',  family: 'sadness' },
+  { id: 's4',  textKey: 'emotion.items.s4',  family: 'sadness' },
+  { id: 's5',  textKey: 'emotion.items.s5',  family: 'sadness' },
+  { id: 's6',  textKey: 'emotion.items.s6',  family: 'sadness' },
+  { id: 's7',  textKey: 'emotion.items.s7',  family: 'sadness' },
+  { id: 's8',  textKey: 'emotion.items.s8',  family: 'sadness' },
+
+  { id: 's9', textKey: 'emotion.items.s9', family: 'sadness' },
+  { id: 's10', textKey: 'emotion.items.s10', family: 'sadness' },
+  { id: 's11', textKey: 'emotion.items.s11', family: 'sadness' },
+  // Anger
+  { id: 'a1',  textKey: 'emotion.items.a1',  family: 'anger' },
+  { id: 'a2',  textKey: 'emotion.items.a2',  family: 'anger' },
+  { id: 'a3',  textKey: 'emotion.items.a3',  family: 'anger' },
+  { id: 'a4',  textKey: 'emotion.items.a4',  family: 'anger' },
+  { id: 'a5',  textKey: 'emotion.items.a5',  family: 'anger' },
+  { id: 'a6',  textKey: 'emotion.items.a6',  family: 'anger' },
+  { id: 'a7',  textKey: 'emotion.items.a7',  family: 'anger' },
+  { id: 'a8',  textKey: 'emotion.items.a8',  family: 'anger' },
+
+  { id: 'a9', textKey: 'emotion.items.a9', family: 'anger' },
+  { id: 'a10', textKey: 'emotion.items.a10', family: 'anger' },
+  { id: 'a11', textKey: 'emotion.items.a11', family: 'anger' },
+  // Fear
+  { id: 'f1',  textKey: 'emotion.items.f1',  family: 'fear' },
+  { id: 'f2',  textKey: 'emotion.items.f2',  family: 'fear' },
+  { id: 'f3',  textKey: 'emotion.items.f3',  family: 'fear' },
+  { id: 'f4',  textKey: 'emotion.items.f4',  family: 'fear' },
+  { id: 'f5',  textKey: 'emotion.items.f5',  family: 'fear' },
+  { id: 'f6',  textKey: 'emotion.items.f6',  family: 'fear' },
+  { id: 'f7',  textKey: 'emotion.items.f7',  family: 'fear' },
+
+  { id: 'f8', textKey: 'emotion.items.f8', family: 'fear' },
+  { id: 'f9', textKey: 'emotion.items.f9', family: 'fear' },
+  { id: 'f10', textKey: 'emotion.items.f10', family: 'fear' },
+  // Surprise
+  { id: 'u1',  textKey: 'emotion.items.u1',  family: 'surprise' },
+  { id: 'u2',  textKey: 'emotion.items.u2',  family: 'surprise' },
+  { id: 'u3',  textKey: 'emotion.items.u3',  family: 'surprise' },
+  { id: 'u4',  textKey: 'emotion.items.u4',  family: 'surprise' },
+  { id: 'u5',  textKey: 'emotion.items.u5',  family: 'surprise' },
+  { id: 'u6',  textKey: 'emotion.items.u6',  family: 'surprise' },
+  { id: 'u7',  textKey: 'emotion.items.u7',  family: 'surprise' },
+
+  { id: 'u8', textKey: 'emotion.items.u8', family: 'surprise' },
+  { id: 'u9', textKey: 'emotion.items.u9', family: 'surprise' },
+  { id: 'u10', textKey: 'emotion.items.u10', family: 'surprise' },
+  // Disgust
+  { id: 'd1',  textKey: 'emotion.items.d1',  family: 'disgust' },
+  { id: 'd2',  textKey: 'emotion.items.d2',  family: 'disgust' },
+  { id: 'd3',  textKey: 'emotion.items.d3',  family: 'disgust' },
+  { id: 'd4',  textKey: 'emotion.items.d4',  family: 'disgust' },
+  { id: 'd5',  textKey: 'emotion.items.d5',  family: 'disgust' },
+  { id: 'd6',  textKey: 'emotion.items.d6',  family: 'disgust' },
+  { id: 'd7',  textKey: 'emotion.items.d7',  family: 'disgust' },
+  { id: 'd8',  textKey: 'emotion.items.d8',  family: 'disgust' },
+  { id: 'd9', textKey: 'emotion.items.d9', family: 'disgust' },
+  { id: 'd10', textKey: 'emotion.items.d10', family: 'disgust' },
+  { id: 'd11', textKey: 'emotion.items.d11', family: 'disgust' },
+];

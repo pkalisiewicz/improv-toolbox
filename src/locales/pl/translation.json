@@ -1,0 +1,2999 @@
+{
+  "app": {
+    "title": "Skrzynka Improwizatora",
+    "chooseLanguage": "Język"
+  },
+  "theme": {
+    "switchToDark": "Włącz tryb ciemny",
+    "switchToLight": "Włącz tryb jasny"
+  },
+  "install": {
+    "button": "Tryb offline?",
+    "modalTitle": "Zainstaluj aplikację",
+    "close": "Zamknij",
+    "iosStep1": "Dotknij przycisku <strong>Udostępnij</strong> (⬆️) na dole Safari.",
+    "iosStep2": "Przewiń w dół i dotknij <strong>„Dodaj do ekranu głównego”</strong>.",
+    "iosStep3": "Dotknij <strong>„Dodaj”</strong> w prawym górnym rogu."
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "subtitle": "Co Skrzynka Improwizatora zbiera, a czego nie.",
+    "lastUpdated": "Ostatnia aktualizacja: 20 czerwca 2026",
+    "short": {
+      "title": "W skrócie",
+      "items": [
+        "Brak konta i logowania. Aplikacja nigdy nie pyta, kim jesteś.",
+        "Twoje ustawienia i zapisane elementy zostają na Twoim urządzeniu.",
+        "Statystyki użycia są anonimowe i nie służą do reklam ani śledzenia.",
+        "Opcjonalne napiwki przechodzą przez Apple lub Google. Nigdy nie widzimy Twojej karty.",
+        "Nie sprzedajemy danych, nie wyświetlamy reklam, nie śledzimy Cię między aplikacjami."
+      ]
+    },
+    "noServer": {
+      "title": "Bez kont i bez serwerów",
+      "body": "Skrzynka Improwizatora działa na Twoim urządzeniu. Nie ma rejestracji, profilu ani serwera zapisującego to, co robisz. Każde narzędzie działa offline."
+    },
+    "local": {
+      "title": "Co zostaje na Twoim urządzeniu",
+      "body": "Wybór języka, jasny lub ciemny motyw, ulubione narzędzia i wszystko, co generują narzędzia, zapisują się w pamięci lokalnej przeglądarki na stronie lub w pamięci aplikacji na telefonie. Te dane nigdy nie opuszczają Twojego urządzenia, a wyczyszczenie przeglądarki lub usunięcie aplikacji je kasuje."
+    },
+    "analytics": {
+      "title": "Anonimowe statystyki użycia",
+      "web": "Na stronie używamy Vercel Analytics i Speed Insights, aby liczyć wizyty i mierzyć szybkość ładowania. Nie ustawiają ciasteczek ani nie zapisują danych osobowych. Widzimy liczby zbiorcze, nigdy pojedyncze osoby.",
+      "app": "W aplikacji mobilnej używamy Aptabase, narzędzia analitycznego stawiającego prywatność na pierwszym miejscu. Wysyła anonimowe zdarzenia użycia, takie jak otwarcie aplikacji, bez identyfikatora urządzenia, bez identyfikatora reklamowego, bez ciasteczek, bez fingerprintingu i bez długoterminowej identyfikacji użytkownika. Mówi nam mniej więcej, jak aplikacja jest używana."
+    },
+    "purchases": {
+      "title": "Zakupy i napiwki",
+      "body": "Aplikacja mobilna zawiera opcjonalny słoik na napiwki. Płatność pobiera App Store firmy Apple albo Google Play, a RevenueCat weryfikuje i zapisuje zakup. RevenueCat otrzymuje historię zakupów, szczegóły transakcji sklepowej, informacje o produkcie i cenie, anonimowy identyfikator instalacji oraz ogólne dane sklepowe i urządzenia, takie jak kraj, locale, waluta i platforma. Nie wysyłamy do RevenueCat Twojego imienia, adresu e-mail ani żadnych własnych atrybutów klienta. RevenueCat nigdy nie otrzymuje od nas numeru Twojej karty, a my nigdy jej nie widzimy. Strona internetowa prowadzi zamiast tego do Buy Me a Coffee, które ma własną politykę prywatności."
+    },
+    "providers": {
+      "title": "Dostawcy usług",
+      "items": [
+        "Vercel: hosting strony, anonimowe statystyki ruchu i pomiar szybkości ładowania.",
+        "Aptabase: anonimowe statystyki użycia aplikacji mobilnej.",
+        "RevenueCat: historia zakupów i weryfikacja paragonów dla napiwków w aplikacji mobilnej.",
+        "App Store firmy Apple i Google Play: obsługa płatności w aplikacji na własnych zasadach."
+      ]
+    },
+    "store": {
+      "title": "Deklaracje dla sklepów z aplikacjami",
+      "body": "W formularzach prywatności App Store i Google Play aplikacja mobilna deklaruje dwa typy zbieranych danych: Usage Data / Product Interaction dla statystyk Aptabase oraz Purchases / Purchase History dla napiwków obsługiwanych przez RevenueCat. Nie używamy tych danych do reklam, śledzenia między aplikacjami ani handlu danymi i nie łączymy ich z Twoją tożsamością."
+    },
+    "never": {
+      "title": "Czego nigdy nie robimy",
+      "body": "Nie sprzedajemy ani nie wynajmujemy Twoich danych. Nie wyświetlamy reklam. Nie śledzimy Cię w innych aplikacjach ani na stronach i nie budujemy Twojego profilu."
+    },
+    "rights": {
+      "title": "Twoje prawa",
+      "body": "Większość danych aplikacji zostaje na Twoim urządzeniu. Aby usunąć dane lokalne, wyczyść pamięć przeglądarki lub odinstaluj aplikację. Anonimowych statystyk Aptabase nie da się powiązać z Tobą, więc nie mamy indywidualnego profilu analitycznego do eksportu lub usunięcia. W sprawie danych zakupowych RevenueCat napisz do nas z paragonem sklepowym, numerem zamówienia albo informacjami pozwalającymi odnaleźć zakup, a obsłużymy usunięcie tam, gdzie to możliwe. Apple i Google mogą zachować dane płatności zgodnie z własnymi zasadami. Jeśli masz prośbę na podstawie RODO lub podobnego prawa, napisz do nas."
+    },
+    "children": {
+      "title": "Dzieci",
+      "body": "Skrzynka Improwizatora powstała dla szerokiego grona odbiorców. Nie wymaga kont, nie prosi dzieci o podawanie danych osobowych i nie zbieramy świadomie danych osobowych dzieci. Niektóre oceny wiekowe w sklepach mogą wynikać z łagodnych podpowiedzi tekstowych, takich jak gatunek horroru albo tematy dramatyczne."
+    },
+    "changes": {
+      "title": "Zmiany",
+      "body": "Jeśli ta polityka się zmieni, zaktualizujemy datę na górze tej strony. Większe zmiany odnotujemy w aplikacji lub na stronie."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Pytania o prywatność? Napisz do nas na adres",
+      "email": "privacy@improv-toolbox.com"
+    }
+  },
+  "error": {
+    "notFound": {
+      "kicker": "404",
+      "title": "Oho, zgubiliśmy się!",
+      "body": "Miało być „Tak, i”. Wyszło „Nie, nie”. Spokojnie, ogarniam. Wróć do skrzynki."
+    },
+    "crash": {
+      "kicker": "500",
+      "title": "Oho, coś poszło nie tak!",
+      "body": "Miało być „Tak, i”. Wyszło „Nie, nie”. Spokojnie, ogarniam. Odśwież albo wróć do skrzynki."
+    },
+    "actions": {
+      "home": "Wróć",
+      "retry": "Odśwież",
+      "scene": "Scena",
+      "warmup": "Rozgrzewka",
+      "prompts": "Podpowiedzi"
+    },
+    "quickMoves": "Albo wybierz narzędzie"
+  },
+  "nav": {
+    "main": "Główna",
+    "wheel": "Koło",
+    "scene": "Scena",
+    "warmup": "Rozgrzewka",
+    "facts": "Fakty",
+    "more": "Więcej"
+  },
+  "favorites": {
+    "title": "Ulubione",
+    "add": "Dodaj {{tool}} do ulubionych",
+    "remove": "Usuń {{tool}} z ulubionych"
+  },
+  "wheel": {
+    "title": "Koło archetypów",
+    "subtitle": "Losuj archetyp dla każdej osoby",
+    "setupTitle": "Ile osób gra w scenie?",
+    "setupHint": "Wybierz liczbę grających osób",
+    "spinButton": "Kręć!",
+    "nextButton": "Następna osoba →",
+    "resetButton": "Zacznij od nowa",
+    "resultLabel": "Osoba {{number}}",
+    "gets": "dostaje:",
+    "allDoneTitle": "Wszystkie archetypy przydzielone!",
+    "allDoneSubtitle": "Czas na scenę!",
+    "player": "Osoba {{number}}",
+    "remainingLabel": "Pozostało archetypów: {{count}}",
+    "assignedTitle": "Przydzielone archetypy",
+    "spinning": "Losowanie...",
+    "viewResults": "Podgląd wyników",
+    "allDoneButton": "Zobacz wyniki",
+    "backToSpin": "Wróć do losowania",
+    "rerollButton": "Losuj ponownie dla tej osoby",
+    "archetypePool": "Pula archetypów",
+    "wheelPool": "Pula koła",
+    "poolModeLabel": "Tryb puli koła",
+    "useAllPool": "Wszystkie archetypy",
+    "useCustomPool": "Własna pula",
+    "allPoolCount": "{{count}} w kole",
+    "customPoolCount": "{{selected}}/{{total}}",
+    "allPoolSummary": "W kole jest {{count}} archetypów",
+    "selectAll": "Zaznacz wszystkie",
+    "clearAll": "Odznacz wszystkie",
+    "allowDuplicates": "Powtórki archetypów",
+    "allowDuplicatesHint": "Ten sam archetyp może trafić do kilku osób",
+    "notEnoughWarning": "Za mało wybranych archetypów dla tej liczby osób",
+    "startSession": "Zacznij losowanie!"
+  },
+  "archetypes": {
+    "hero": {
+      "name": "Bohater",
+      "desc": "Odważny, zdeterminowany, gotowy do poświęceń dla innych."
+    },
+    "fool": {
+      "name": "Błazen",
+      "desc": "Naiwny, spontaniczny, mówi prawdę przez żart i absurd."
+    },
+    "villain": {
+      "name": "Antagonista",
+      "desc": "Bezwzględny, cyniczny, przekonany o słuszności własnej drogi."
+    },
+    "mentor": {
+      "name": "Mentor",
+      "desc": "Mądry i doświadczony – prowadzi innych ku odkryciom."
+    },
+    "trickster": {
+      "name": "Trickster",
+      "desc": "Przebiegły i nieprzewidywalny – miesza szyki, zmienia zasady."
+    },
+    "lover": {
+      "name": "Kochanek",
+      "desc": "Namiętny i empatyczny – kieruje się sercem ponad wszystko."
+    },
+    "sage": {
+      "name": "Mędrzec",
+      "desc": "Kontemplacyjny i skupiony na prawdzie – szuka sensu."
+    },
+    "shadow": {
+      "name": "Cień",
+      "desc": "Mroczna strona – stłumione lęki, pragnienia i żądze."
+    },
+    "rebel": {
+      "name": "Buntownik",
+      "desc": "Kwestionuje zasady – chce zburzyć stary porządek."
+    },
+    "caregiver": {
+      "name": "Opiekun",
+      "desc": "Troskliwy i poświęcający się – stawia innych na pierwszym miejscu."
+    },
+    "creator": {
+      "name": "Twórca",
+      "desc": "Wizjoner pełen pasji – buduje nowe światy z niczego."
+    },
+    "explorer": {
+      "name": "Odkrywca",
+      "desc": "Niespokojny duch – wciąż szuka czegoś poza horyzontem."
+    }
+  },
+  "scenes": {
+    "title": "Losowa scena",
+    "subtitle": "Losuj elementy sceny",
+    "regenerateAll": "Losuj wszystko",
+    "regenerateThis": "Losuj",
+    "location": "Miejsce",
+    "relationship": "Relacja",
+    "situation": "Sytuacja",
+    "mood": "Nastrój",
+    "timePeriod": "Epoka",
+    "showExtras": "Pokaż epokę i nastrój",
+    "hideExtras": "Ukryj detale",
+    "filterByGenre": "Gatunek",
+    "genres": {
+      "all": "Wszystkie",
+      "comedy": "Komedia",
+      "drama": "Dramat",
+      "romantic": "Romantyczny",
+      "thriller": "Thriller",
+      "absurd": "Absurd",
+      "historical": "Historyczny"
+    },
+    "locations": {
+      "hospital": "Szpitalny oddział ratunkowy",
+      "laundromat": "Pralnia samoobsługowa o północy",
+      "spaceship": "Pokład statku kosmicznego",
+      "royal_court": "Królewski dwór",
+      "aquarium": "Akwarium morskie",
+      "job_interview": "Rozmowa kwalifikacyjna",
+      "haunted_house": "Nawiedzony dom",
+      "wedding": "Wesele",
+      "subway": "Metro podczas awarii",
+      "volcano": "Krawędź aktywnego wulkanu",
+      "bakery": "Piekarnia o świcie",
+      "courtroom": "Sala sądowa",
+      "airport": "Lotnisko – hala odlotów",
+      "library": "Biblioteka zamknięta na noc",
+      "submarine": "Pokład łodzi podwodnej",
+      "dentist": "Gabinet dentystyczny",
+      "therapist": "Gabinet terapeuty",
+      "grocery_store": "Supermarket tuż przed zamknięciem",
+      "park_bench": "Ławka w parku w deszczu",
+      "radio_station": "Studio radiowe na żywo",
+      "prison": "Cela więzienna",
+      "casino": "Sala kasyna o 3 w nocy",
+      "museum_night": "Muzeum po zamknięciu",
+      "rooftop": "Dach wieżowca",
+      "diner": "Przydrożny nocny bar",
+      "fire_station": "Remiza strażacka",
+      "zoo": "Zoo po godzinach",
+      "lighthouse": "Latarnia morska podczas sztormu",
+      "elevator": "Unieruchomiona winda",
+      "boxing_ring": "Ring bokserski",
+      "retirement_home": "Dom spokojnej starości",
+      "kindergarten": "Przedszkole",
+      "tv_studio": "Plan telewizyjny na żywo",
+      "hot_air_balloon": "Gondola balonu nad miastem",
+      "cemetery": "Cmentarz w Halloween",
+      "pirate_ship": "Pokład pirackiego okrętu",
+      "escape_room": "Escape room – ostatnie 5 minut",
+      "moon_base": "Stacja badawcza na Księżycu",
+      "barber_shop": "Zakład fryzjerski",
+      "circus": "Cyrk tuż przed pokazem",
+      "community_theater": "Lokalny teatr przed premierą",
+      "backstage_corridor": "Korytarz za kulisami",
+      "train_station_platform": "Peron dworca nocą",
+      "hotel_lobby": "Lobby hotelowe podczas awarii systemu",
+      "city_hall_counter": "Okienko w urzędzie miasta",
+      "antique_shop": "Sklep z antykami pełen sekretów",
+      "rooftop_garden": "Ogród na dachu",
+      "ferry_terminal": "Terminal promowy we mgle",
+      "ski_lift": "Zatrzymany wyciąg narciarski",
+      "courtroom_hallway": "Korytarz przed salą sądową",
+      "school_reunion": "Zjazd absolwentów",
+      "hospital_waiting_room": "Poczekalnia szpitalna",
+      "recording_booth": "Kabina nagraniowa",
+      "funeral_home": "Dom pogrzebowy przed ceremonią",
+      "village_square": "Rynek małego miasteczka",
+      "tailor_shop": "Zakład krawiecki przed balem",
+      "night_bus": "Nocny autobus na ostatnim kursie",
+      "observatory": "Obserwatorium podczas zaćmienia",
+      "backstage_award_show": "Kulisy gali rozdania nagród",
+      "city_archive": "Miejskie archiwum po godzinach",
+      "canoe_on_lake": "Kajak na środku jeziora",
+      "broken_photo_booth": "Zepsuta fotobudka",
+      "palace_kitchen": "Kuchnia pałacowa przed ucztą",
+      "weather_station": "Stacja meteorologiczna w czasie alarmu",
+      "pawn_shop": "Lombard z podejrzanym klientem",
+      "rehearsal_room": "Sala prób tuż przed występem",
+      "conference_center": "Centrum konferencyjne po ewakuacji",
+      "border_checkpoint": "Przejście graniczne w środku nocy",
+      "alien_embassy": "Ambasada kosmitów na Ziemi",
+      "underwater_hotel": "Podwodny hotel z przeciekiem"
+    },
+    "relationships": {
+      "exes": "Byli partnerzy",
+      "coworkers": "Współpracownicy z rywalizujących działów",
+      "siblings": "Rodzeństwo po latach rozłąki",
+      "strangers_on_train": "Nieznajomi w nocnym pociągu",
+      "detective_suspect": "Detektyw i główny podejrzany",
+      "teacher_student": "Nauczyciel i uczeń",
+      "rivals": "Rywale walczący o to samo",
+      "long_lost_friends": "Najlepsi przyjaciele po dwudziestu latach",
+      "parent_child": "Rodzic i dorosłe dziecko",
+      "superhero_sidekick": "Superbohater i jego pomocnik",
+      "boss_employee": "Szef i pracownik w kryzysie",
+      "therapist_patient": "Terapeuta i pacjent",
+      "neighbors": "Sąsiedzi po latach konfliktu",
+      "doctor_patient": "Lekarz i pacjent z niespodzianką",
+      "coach_athlete": "Trener i sportowiec przed finałem",
+      "ghost_living": "Duch i żywy człowiek",
+      "celebrity_fan": "Celebryta i obsesyjny fan",
+      "first_date": "Pierwsza randka z internetu",
+      "pen_pals": "Przyjaciele ze starej korespondencji",
+      "cellmates": "Współwięźniowie",
+      "twins": "Bliźnięta rozdzielone od lat",
+      "bartender_regular": "Barman i stały bywalec z problemami",
+      "magician_assistant": "Magik i asystent",
+      "captain_crew": "Kapitan i zbuntowana załoga",
+      "landlord_tenant": "Właściciel i najemca",
+      "enemies_cooperating": "Wrogowie zmuszeni do współpracy",
+      "interviewer_applicant": "Dziennikarz i rozmówca z sekretem",
+      "janitor_ceo": "Sprzątaczka i prezes zarządu",
+      "chef_food_critic": "Kucharz i krytyk kulinarny",
+      "time_traveler_native": "Podróżnik w czasie i mieszkaniec epoki",
+      "director_actor": "Reżyser i osoba grająca po fatalnej próbie",
+      "stage_manager_star": "Inspicjent i gwiazda spektaklu",
+      "wedding_planner_couple": "Konsultant ślubny i para młoda",
+      "mentor_protege": "Mentor i protegowany po zdradzie",
+      "former_bandmates": "Dawni członkowie zespołu",
+      "rival_podcasters": "Konkurencyjni podcasterzy",
+      "landlord_ghost": "Właściciel mieszkania i duch lokatora",
+      "nurse_hypochondriac": "Pielęgniarka i hipochondryk",
+      "mayor_protester": "Burmistrz i lider protestu",
+      "heir_butler": "Dziedzic fortuny i kamerdyner",
+      "oracle_skeptic": "Wyrocznia i sceptyk",
+      "cab_driver_passenger": "Taksówkarz i pasażer w pośpiechu",
+      "translator_diplomat": "Tłumacz i dyplomata",
+      "archivist_treasure_hunter": "Archiwista i poszukiwacz skarbów",
+      "two_understudies": "Dwóch dublerów do tej samej roli",
+      "coach_parent": "Trener i nadopiekuńczy rodzic",
+      "inventor_investor": "Wynalazca i inwestor",
+      "best_man_bride": "Świadek i panna młoda przed ceremonią",
+      "funeral_director_widow": "Pracownik domu pogrzebowego i wdowa",
+      "security_guard_thief": "Ochroniarz i złodziej po godzinach",
+      "cruise_director_guest": "Animator rejsu i wymagający gość",
+      "escaped_clone_original": "Uciekinier-klon i oryginał",
+      "royal_bodyguard_prince": "Królewski ochroniarz i książę",
+      "weather_reporter_mayor": "Prezenter pogody i burmistrz przed katastrofą"
+    },
+    "situations": {
+      "hiding_secret": "Jedna z osób ukrywa ważny sekret",
+      "asking_favor": "Ktoś prosi o niemożliwą do spełnienia przysługę",
+      "first_meeting": "Pierwsze spotkanie po długiej rozłące",
+      "last_chance": "To może być ostatnia szansa na zmianę",
+      "wrong_identity": "Doszło do pomyłki tożsamości",
+      "power_cuts_out": "Nagle gaśnie światło i wszystko zamiera",
+      "confession": "Czas na trudne wyznanie",
+      "grand_plan_fails": "Wielki plan właśnie się posypał",
+      "wrong_place": "Ktoś jest tu zupełnie nie na miejscu",
+      "time_running_out": "Zostały tylko trzy minuty",
+      "same_job_interview": "Obie osoby aplikują na to samo stanowisko",
+      "discovered_lying": "Jedna osoba odkrywa, że druga kłamała przez lata",
+      "surprise_party_wrong": "Przyjęcie-niespodzianka poszło kompletnie nie tak",
+      "unexpected_heir": "Jedna z osób nieoczekiwanie odziedziczyła majątek",
+      "doppelganger": "Spotykają kogoś wyglądającego identycznie jak jedna z nich",
+      "stuck_elevator": "Utknęli razem w windzie między piętrami",
+      "wrong_number": "Pomyłkowy telefon stał się początkiem prawdziwej relacji",
+      "overheard_secret": "Jedna osoba podsłuchała to, czego nie powinna",
+      "superpowers": "Jedna z osób odkrywa, że ma supermoce",
+      "ancient_prophecy": "Starożytne proroctwo mówi o jednej z osób",
+      "time_loop": "Ten sam dzień powtarza się w kółko",
+      "bad_news": "Ktoś musi przekazać bardzo złą wiadomość",
+      "forgotten_anniversary": "Ktoś zapomniał o bardzo ważnej dacie",
+      "mistaken_for_famous": "Jedna z osób jest brana za sławną osobę",
+      "swap_bodies": "Zamienili się ciałami i muszą się odnaleźć",
+      "last_day_on_earth": "To ich ostatni dzień na Ziemi",
+      "competition_for_prize": "Rywalizują o tę samą nagrodę",
+      "alien_visitor": "Jedna z osób jest w rzeczywistości kosmitą",
+      "caught_in_the_act": "Ktoś przyłapuje drugą osobę w kompromitującej sytuacji",
+      "one_knows_the_ending": "Jedna osoba wie, jak to wszystko się skończy",
+      "secret_rehearsal_discovered": "Tajna próba zostaje odkryta",
+      "someone_is_late": "Ktoś bardzo się spóźnia",
+      "prop_goes_missing": "Najważniejszy rekwizyt zniknął",
+      "inheritance_condition": "Spadek ma absurdalny warunek",
+      "locked_in_after_hours": "Zostali zamknięci po godzinach",
+      "fake_relationship": "Muszą udawać związek",
+      "surprise_inspection": "Zaczyna się niezapowiedziana kontrola",
+      "ceremony_interrupted": "Uroczystość zostaje przerwana",
+      "message_arrives_too_late": "Wiadomość dociera chwilę za późno",
+      "suitcase_swapped": "Walizki zostały zamienione",
+      "rehearsal_becomes_real": "Próba nagle staje się prawdziwym wydarzeniem",
+      "bet_must_be_won": "Zakład trzeba wygrać za wszelką cenę",
+      "apology_required": "Ktoś musi przeprosić, ale nie wie za co",
+      "camera_is_live": "Okazuje się, że kamera nadaje na żywo",
+      "guest_refuses_to_leave": "Gość odmawia wyjścia",
+      "someone_hears_future": "Ktoś przypadkiem słyszy przyszłość",
+      "map_is_wrong": "Mapa prowadzi w złe miejsce",
+      "both_need_same_ticket": "Obie osoby potrzebują tego samego biletu",
+      "promise_from_childhood": "Wraca obietnica z dzieciństwa",
+      "stranger_claims_family": "Nieznajomy twierdzi, że należy do rodziny",
+      "contract_has_clause": "Umowa ma ukryty paragraf",
+      "award_must_be_returned": "Nagroda musi zostać oddana",
+      "escape_plan_too_polite": "Plan ucieczki jest zbyt uprzejmy",
+      "quiet_place_gets_loud": "Miejsce, które miało być ciche, robi się głośne"
+    },
+    "moods": {
+      "melancholic": "Melancholijny",
+      "hysterical": "Histeryczny",
+      "tense": "Napięty",
+      "nostalgic": "Nostalgiczny",
+      "euphoric": "Euforyczny",
+      "paranoid": "Paranoiczny",
+      "suspicious": "Podejrzliwy",
+      "exhausted": "Wyczerpany",
+      "whimsical": "Kapryśny",
+      "desperate": "Desperacki",
+      "gleeful": "Radośnie chaotyczny",
+      "bittersweet": "Słodko-gorzki",
+      "pompous": "Napuszony",
+      "dreamy": "Marzycielski",
+      "frantic": "Gorączkowy",
+      "stoic": "Stoicki",
+      "sardonic": "Sardoniczny",
+      "giddy": "Rozentuzjazmowany",
+      "tender": "Czuły",
+      "ceremonious": "Uroczysty",
+      "awkward": "Niezręczny",
+      "triumphant": "Triumfalny",
+      "haunted": "Nawiedzony",
+      "playful": "Figlarny",
+      "solemn": "Podniosły",
+      "conspiratorial": "Konspiracyjny",
+      "romantic_comedy": "Komedia romantyczna",
+      "bitterly_funny": "Gorzko zabawny",
+      "claustrophobic": "Klaustrofobiczny",
+      "falsely_cheerful": "Fałszywie pogodny",
+      "relieved": "Pełen ulgi",
+      "dangerously_calm": "Niebezpiecznie spokojny"
+    },
+    "timePeriods": {
+      "medieval": "Średniowiecze",
+      "wild_west": "Dziki Zachód",
+      "future_2400": "Rok 2400",
+      "roaring_20s": "Lata 20. XX wieku",
+      "now": "Współczesność",
+      "ancient_egypt": "Starożytny Egipt",
+      "victorian": "Epoka wiktoriańska",
+      "renaissance": "Renesans",
+      "sixties": "Lata 60. – rewolucja kulturalna",
+      "cold_war": "Zimna wojna",
+      "stone_age": "Epoka kamienia",
+      "prohibition": "Prohibicja (USA, lata 20.)",
+      "eighties": "Lata 80. – neon i dyskoteka",
+      "ancient_greece": "Starożytna Grecja",
+      "wwii": "II wojna światowa",
+      "far_future": "Odległa przyszłość – rok 3000+",
+      "ancient_rome": "Starożytny Rzym",
+      "age_of_sail": "Epoka wielkich żaglowców",
+      "jazz_age_paris": "Paryż ery jazzu",
+      "wartime_home_front": "Zaplecze wojenne",
+      "nineties": "Lata 90.",
+      "early_internet": "Początki internetu",
+      "near_future": "Bliska przyszłość",
+      "post_apocalyptic": "Po katastrofie cywilizacji",
+      "golden_age_hollywood": "Złota era Hollywood",
+      "feudal_japan": "Feudalna Japonia",
+      "interwar_warsaw": "Międzywojenna Warszawa",
+      "climate_future": "Przyszłość kryzysu klimatycznego"
+    }
+  },
+  "warmups": {
+    "title": "Generator rozgrzewek",
+    "subtitle": "Znajdź idealną rozgrzewkę dla swojej grupy",
+    "filterByPlayers": "Liczba uczestników",
+    "filterByCategory": "Kategoria",
+    "filterByLevel": "Poziom",
+    "allPlayers": "Dowolna",
+    "allCategories": "Wszystkie",
+    "allLevels": "Wszystkie",
+    "randomPick": "Losuj!",
+    "players_range": "{{min}}–{{max}} os.",
+    "players_min": "{{min}}+ os.",
+    "minutes": "{{count}} min",
+    "tips": "Wskazówka",
+    "levels": {
+      "beginner": "Początkujący",
+      "intermediate": "Średniozaawansowany",
+      "advanced": "Zaawansowany"
+    },
+    "categories": {
+      "physical": "Ruchowa",
+      "vocal": "Głosowa",
+      "focus": "Skupienie",
+      "ensemble": "Zespołowa",
+      "storytelling": "Narracyjna",
+      "character": "Postać"
+    },
+    "zip_zap_zop": {
+      "name": "Zip Zap Zop",
+      "description": "Stańcie w ciasnym kręgu, na tyle blisko, żeby dało się wskazać każdego po drugiej stronie. Jedna osoba łapie kontakt wzrokowy z kimś, wyrzuca rękę w jego stronę i mówi 'Zip'. Ta osoba przekazuje dalej w ten sam sposób do dowolnej innej, mówiąc 'Zap', następna posyła 'Zop', po czym słowo wraca do 'Zip' i cykl rusza od nowa. Trzy słowa zawsze idą w tej kolejności; zmienia się tylko kierunek i osoba, w którą celujesz. Trzymaj ostry kontakt wzrokowy i kieruj energię prosto w wybraną osobę. Złe słowo, złamana kolejność albo zbyt długie wahanie i wypadasz z kręgu (albo płacisz fant, na przykład szybki przysiad), zanim ruszy kolejna runda.",
+      "tips": "Zacznij na tyle wolno, żeby cała grupa utrwaliła kolejność Zip-Zap-Zop, a potem podkręcaj tempo, aż się posypie. Gdy grupa się rozgrzeje, dodaj do każdego słowa osobny, przesadny gest, żeby razem z głosem obudziło się całe ciało."
+    },
+    "yes_and": {
+      "name": "Tak, i...",
+      "description": "Dwie osoby budują scenę, ale każda wypowiedź MUSI zaczynać się od 'Tak, i...'. Cel: akceptuj to, co oferuje partner, i rozbudowuj tę rzeczywistość bez blokowania.",
+      "tips": "Pilnuj, żeby 'tak' było prawdziwe – nie 'tak, ale'."
+    },
+    "sound_ball": {
+      "name": "Piłka dźwięków",
+      "description": "Wyobraźcie sobie piłkę. Rzucaj ją przez krąg z charakterystycznym dźwiękiem i gestem. Osoba łapiąca naśladuje twój dźwięk, a przy kolejnym rzucie tworzy zupełnie nowy dźwięk i gest.",
+      "tips": "Wyolbrzymiaj gesty – to rozgrzewa ciało i głos jednocześnie."
+    },
+    "freeze_tag": {
+      "name": "Freeze – Zamroź!",
+      "description": "Dwie osoby grają scenę. W dowolnym momencie ktoś z widowni krzyczy 'Freeze!'. Obie osoby zastygają. Osoba, która zawołała, wchodzi, dotyka jednej z nich, zajmuje jej miejsce i przyjmuje jej pozycję, po czym zaczyna zupełnie nową scenę.",
+      "tips": "Wchodź szybko – nie czekaj na 'idealny' moment. Ciekawa pozycja ciała to punkt wyjścia."
+    },
+    "mirror": {
+      "name": "Lustro",
+      "description": "Dobierzcie się w pary i stańcie naprzeciw siebie na odległość ramienia, jak dwie połówki odbicia. Jedna osoba prowadzi powolnymi, płynnymi ruchami: unosi rękę, przechyla głowę, przenosi ciężar ciała. Partner powtarza wszystko w tej samej chwili, jakby był jej lustrzanym odbiciem. Prowadź na tyle wolno, żeby partner mógł zostać dokładnie przy tobie, bez gwałtownych szarpnięć, które chcą go złapać na błędzie. Po mniej więcej minucie zamieńcie się rolami. W ostatniej rundzie porzućcie rolę lidera i pozwólcie, żeby ruch sam przechodził między wami, tak że żadne z was nie decyduje, kto go zaczyna.",
+      "tips": "Patrzcie sobie w oczy, zamiast wpatrywać się w dłonie, a śledzenie ruchu zostawcie widzeniu peryferyjnemu. Udaje się wtedy, gdy ktokolwiek z boku naprawdę nie potrafi powiedzieć, kto prowadzi, a kto naśladuje."
+    },
+    "one_word_story": {
+      "name": "Historia po jednym słowie",
+      "description": "Uczestnicy po kolei dodają jedno słowo, budując razem spójną historię. Zakazane: blokowanie przez 'Koniec.' lub celowo niespójne słowa. Spójniki (i, ale, więc) są jak najbardziej dozwolone.",
+      "tips": "Nie planuj – reaguj na słowo poprzednika. Akceptuj każdy kierunek."
+    },
+    "status_walk": {
+      "name": "Spacer statusów",
+      "description": "Każdy dostaje kartę z liczbą 1–10 (swój status). Bez pokazywania karty chodzicie po przestrzeni i tworzycie społeczność według statusów. Następnie odnajdźcie swoje miejsce w hierarchii.",
+      "tips": "Szczegóły: postawa, tempo, kontakt wzrokowy, ton głosu – to buduje status."
+    },
+    "kitty_wants_a_corner": {
+      "name": "Kotek szuka kątka",
+      "description": "Jedna osoba stoi na środku jako 'kotek'. Reszta ma swoje miejsca. Kotek prosi kogoś 'Kotku, masz wolny kąt?'. Jeśli odmówi, kotek idzie dalej. Tymczasem inni mogą zamieniać się miejscami – jeśli kotek zajmie wolne miejsce, tamta osoba zostaje nowym kotkiem.",
+      "tips": "Szybkość zamiany miejsc jest kluczowa – rób kontakt wzrokowy z innymi, żeby koordynować ruchy."
+    },
+    "emotional_replay": {
+      "name": "Powtórka emocji",
+      "description": "Zagraj prostą, codzienną scenę (np. zakupy). Potem prowadzący krzyczy emocję i cała scena jest powtarzana w tej emocji. Zmień emocję kilka razy.",
+      "tips": "Im bardziej banalny temat sceny, tym bardziej wyraźny kontrast z emocją. Nie bój się przesady."
+    },
+    "conducted_story": {
+      "name": "Dyrygowana opowieść",
+      "description": "Rząd osób opowiada historię – jedna naraz. Dyrygent wskazuje palcem, kto mówi. Przy zmianie nowa osoba kontynuuje dokładnie od miejsca, w którym poprzednia się zatrzymała – nawet w połowie słowa.",
+      "tips": "Mów wolno i wyraźnie. Zostawiaj otwarte słowa/zdania, żeby inni mogli je dokończyć w ciekawy sposób."
+    },
+    "name_ball": {
+      "name": "Piłka imion",
+      "description": "Stańcie w kręgu. Rzucajcie niewidzialną piłkę przez krąg, mówiąc imię osoby, do której rzucacie – przed rzutem. Zacznij powoli, potem przyspieszaj. Gdy wszyscy znają imiona, wprowadź drugą piłkę.",
+      "tips": "Kontakt wzrokowy PRZED rzutem – nie rzucaj z zaskoczenia. Ta gra jest idealna na pierwsze zajęcia, bo naturalnie uczy imion."
+    },
+    "superhero_poses": {
+      "name": "Pozy superbohaterów",
+      "description": "Wszyscy chodzą po przestrzeni. Na sygnał prowadzącego każdy zastyga w pozie superbohatera i krzyczy swoje supermoce. Potem swobodnie wchodzicie w różne pozy: smutny bohater, zmęczony bohater, zdezorientowany bohater.",
+      "tips": "Zachęcaj do przesadnych póz i mocnego głosu. Świetne do rozgrzania ciała i pokonania zahamowań na początku warsztatu."
+    },
+    "presents": {
+      "name": "Prezenty",
+      "description": "Parami: jedna osoba wręcza partnerowi wyobrażony prezent, mówiąc 'Mam dla ciebie coś!' i zaczyna go odwijać. Partner musi rozpoznać przedmiot po kształcie i wadze, zanim go dostanie. Potem zamiana ról.",
+      "tips": "Osoba dająca: bądź precyzyjna gestem, nie mów, co to jest. Osoba przyjmująca: mów, co widzisz, zanim prezent będzie gotowy – ucz się czytać oferty ciałem."
+    },
+    "space_object": {
+      "name": "Obiekt w Przestrzeni",
+      "description": "Jedna osoba wchodzi i zaczyna pracować z wyobrażonym obiektem (np. piłą). Kiedy inna osoba wejdzie, musi przejąć ten sam obiekt i kontynuować – a potem przemienić go w coś innego przez zmianę działania.",
+      "tips": "Bądź konkretny – rozmiar, ciężar, faktura. Przemiana musi być płynna, nie nagła."
+    },
+    "what_are_you_doing": {
+      "name": "Co robisz?",
+      "description": "Osoba A zaczyna wykonywać czynność (np. mycie naczyń). Osoba B pyta: 'Co robisz?' A odpowiada podając INNĄ czynność (np. 'Wspinam się na Everest'). B musi teraz wykonać tę czynność. Kolejna osoba pyta B – i tak dalej.",
+      "tips": "Odpowiedź musi być natychmiastowa i absurdalna. Nie wolno powtarzać czynności, którą się aktualnie wykonuje."
+    },
+    "gibberish": {
+      "name": "Bełkot",
+      "description": "Pary lub grupy grają sceny w wymyślonym języku – bez prawdziwych słów. Komunikacja tylko przez ton, rytm, gesty i mimikę. Wariant: jedna osoba mówi po polsku, druga tłumaczy w bełkocie.",
+      "tips": "Skupiaj się na emocji i intencji, nie na brzmieniu. Bełkot ujawnia, ile przekazu niosą ciało i głos, a ile same słowa."
+    },
+    "worlds_worst": {
+      "name": "Najgorszy na świecie",
+      "description": "Prowadzący podaje kategorię (np. 'dentysta', 'pilot', 'terapeuta'). Uczestnicy kolejno wchodzą i pokazują jednominutową scenkę jako 'najgorszy [zawód] na świecie'. Cel: być jak najbardziej konkretnym, nie po prostu złym.",
+      "tips": "Najlepsza wersja to nie chaos, ale spójna, absurdalna postać z własną logiką. Zadaj sobie pytanie: dlaczego ta osoba jest tu zatrudniona?"
+    },
+    "abc_scene": {
+      "name": "Scena ABC",
+      "description": "Dwójka gra scenę, w której każda wypowiedź zaczyna się od kolejnej litery alfabetu. A zaczyna zdaniem na 'A', B odpowiada na 'B', A mówi na 'C', itd. aż do Z.",
+      "tips": "Skup się na scenie, nie na literze. Litera ma być automatyczna – wtedy scena ma szansę być naprawdę dobra."
+    },
+    "new_choice": {
+      "name": "Nowy wybór!",
+      "description": "Dwójka gra scenę. Prowadzący w dowolnym momencie woła 'Nowy wybór!'. Osoba, która właśnie mówiła lub działała, musi natychmiast zastąpić to czymś innym. Prowadzący może wołać kilkukrotnie pod rząd, wymuszając coraz dziwniejsze wybory.",
+      "tips": "Ćwiczenie uczy odczepiania się od pierwszego pomysłu. Zaawansowana wersja: 'Nowy wybór' może dotyczyć nawet całej relacji lub miejsca akcji."
+    },
+    "emotional_orchestra": {
+      "name": "Orkiestra emocji",
+      "description": "Grupa osób stoi w rzędzie. Dyrygent wskazuje na poszczególne osoby lub sekcje – te osoby wyrażają emocję przypisaną im przez dyrygenta (głosem, ciałem). Dyrygent może eskalować, wyciszać, łączyć sekcje.",
+      "tips": "Dyrygent powinien budować dramaturgię – nie tylko losowo wybierać. Grający: słuchajcie całej orkiestry, nie tylko siebie."
+    },
+    "harold_opening": {
+      "name": "Otwarcie Harolda",
+      "description": "Całą grupą budujcie 'sieć skojarzeń' na podstawie słowa-sugestii od publiczności. Każda osoba dodaje obraz, wspomnienie lub pomysł – NIE bezpośrednio powiązany z poprzednim, ale z oryginalnym słowem lub dowolnym wcześniejszym obrazem. Cel: zbudować bogaty materiał tematyczny.",
+      "tips": "Nie myśl za długo. Zaufaj pierwszemu obrazowi, który pojawi się w głowie. To ćwiczenie na 'grupowy umysł' – klucz do długiej formy."
+    },
+    "mapping": {
+      "name": "Mapowanie (statusy Johnstone'a)",
+      "description": "Cała grupa chodzi po przestrzeni. Prowadzący przydziela każdemu ukryty status (1–10). Zadanie: znaleźć swoje miejsce w hierarchii TYLKO przez obserwację i reagowanie – bez komunikowania statusu wprost. Finalnie: uszeregujcie się od najniższego do najwyższego.",
+      "tips": "To zaawansowane ćwiczenie z długą historią. Kluczowe pytanie po zakończeniu: skąd wiedziałeś? Dyskusja jest równie ważna jak samo ćwiczenie."
+    },
+    "clap_circle": {
+      "name": "Krąg klaśnięć",
+      "description": "Stańcie w kręgu. Klaśnięcie przechodzi wokół – jedna osoba klaszcze, sąsiad natychmiast po niej. Tempo rośnie aż do granicy możliwości. Wariant: zmiana kierunku na zawołanie.",
+      "tips": "Klucz to kontakt wzrokowy i gotowość – bądź zawsze przygotowany na przyjęcie klaśnięcia."
+    },
+    "splat": {
+      "name": "Splat!",
+      "description": "Jedna osoba stoi w środku z wyimaginowanym pistoletem. Wskazuje na kogoś i krzyczy 'Splat!'. Wskazana osoba przykuca, a jej sąsiedzi muszą wycelować w siebie nawzajem i krzyknąć 'Splat!'. Kto ostatni – odpada.",
+      "tips": "Ćwiczenie uczy szybkości reakcji i obserwacji. Błędy są częścią zabawy – świetne do rozgrzania grupy z energią."
+    },
+    "count_to_twenty": {
+      "name": "Policz do dwudziestu",
+      "description": "Cała grupa liczy do 20 – bez żadnego porządku ani sygnału. Tylko jedna osoba może powiedzieć cyfrę naraz. Jeśli dwie osoby mówią jednocześnie, zaczynacie od 1. Zasada: brak komunikacji niewerbalnej.",
+      "tips": "To ćwiczenie na grupową świadomość i zaufanie. Cisza i uwaga są ważniejsze niż tempo."
+    },
+    "three_things": {
+      "name": "Trzy rzeczy",
+      "description": "Prowadzący wskazuje osobę i podaje kategorię (np. 'Podaj trzy marki samochodów'). Wskazana osoba musi wymienić trzy rzeczy jak najszybciej. Grupa klaszcze po każdej. Tempo jest kluczowe – czas trwa tylko tyle, ile trwają oklaski.",
+      "tips": "Celem jest wyzbycie się cenzury. Błędne lub absurdalne odpowiedzi są tak samo dobre – liczy się natychmiastowość."
+    },
+    "energy_circle": {
+      "name": "Koło energii",
+      "description": "Stańcie w kręgu. Jedna osoba wysyła energię (ruch + dźwięk) przez środek kręgu do konkretnej osoby. Odbiorca przyjmuje energię i wysyła ją dalej – ale przekształca ją w coś nowego.",
+      "tips": "Zadbaj o kontakt wzrokowy przed wysłaniem. Ćwiczenie buduje uważność na to, co oferuje partner."
+    },
+    "trust_walk": {
+      "name": "Spacer z Zaufaniem",
+      "description": "Pary: jedna osoba ma zamknięte oczy, druga prowadzi ją przez przestrzeń tylko za pomocą lekkich dotknięć albo samą bliskością dłoni. Potem zamiana. Wariant: przewodnik używa tylko głosu.",
+      "tips": "Zaufanie buduje się przez mały krok. Prowadzący: przejmij pełną odpowiedzialność za bezpieczeństwo partnera."
+    },
+    "walking_speed": {
+      "name": "Tempa chodzenia",
+      "description": "Wszyscy chodzą po przestrzeni. Prowadzący podaje tempo: 1 (powolne jak mucha w miodzie) przez 5 (normalne) do 10 (bieganie). Uczestnicy dostosowują prędkość, nie wpadając na siebie.",
+      "tips": "Zwróć uwagę, jak zmiana tempa zmienia emocje ciała. Wolne tempo buduje napięcie, szybkie – energię i chaos."
+    },
+    "blob_tag": {
+      "name": "Blob (Plama)",
+      "description": "Jedna osoba jest 'plamą'. Gdy dotknie inną, tamta dołącza do plamy trzymając się za ręce. Plama rośnie i poluje wspólnie. Wygrywa ostatnia wolna osoba.",
+      "tips": "Plama musi działać wspólnie – rozciąganie się i otaczanie. Dobre na rozgrzanie i śmiech na początku warsztatu."
+    },
+    "impulse_pass": {
+      "name": "Impuls w Kręgu",
+      "description": "Stójcie w kręgu, wszyscy trzymają się za ręce. Jedna osoba ściska dłoń sąsiada – impuls biegnie w jednym kierunku wokół kręgu. Gdy dotrze do początku, zmieniacie kierunek. Wariant: kilka impulsów jednocześnie.",
+      "tips": "Celem jest zsynchronizowanie się jako grupa. Zakończenie: otwórzcie oczy i sprawdźcie, jak szybko impulsy obiegają krąg."
+    },
+    "bus_stop": {
+      "name": "Przystanek autobusowy",
+      "description": "Jedna osoba siedzi na 'przystanku' z wyraźną postacią (wiek, zawód, emocja). Kolejna osoba dołącza, grając inną postać – kontakt jest nieuchronny. Po chwili prowadzący woła 'Autobus!' – pierwsza osoba wsiada i odjeżdża. Nowa osoba zajmuje miejsce.",
+      "tips": "Zmień co najmniej jedną rzecz w swojej postaci po każdej interakcji. Baw się tym, jak różne postaci reagują na siebie nawzajem."
+    },
+    "emotion_walk": {
+      "name": "Spacer emocji",
+      "description": "Wszyscy chodzą po przestrzeni. Prowadzący mówi emocję – wszyscy zaczynają ją wyrażać całym ciałem: postawą, tempem, spojrzeniem. Zmieniaj emocje co 30 sekund. Wariant: spotkaj kogoś w tej emocji i poczuj, jak zmienia interakcję.",
+      "tips": "Zacznij od ciała, nie od myślenia o emocji. Fizyczne wyrażenie emocji jest szybsze i bardziej autentyczne."
+    },
+    "machines": {
+      "name": "Ludzkie maszyny",
+      "description": "Jedna osoba zaczyna powtarzalny ruch z dźwiękiem. Kolejne osoby wchodzą i stają się częścią tej 'maszyny' – ich ruchy muszą współgrać z ruchem poprzednika. Efekt: synchronizowana, żywa maszyna.",
+      "tips": "Szukaj połączeń – twój ruch może być wywoływany przez ruch sąsiada. Ćwiczenie buduje świadomość grupy jako systemu."
+    },
+    "dubbing": {
+      "name": "Dubbing",
+      "description": "Pary lub czwórki. Dwie osoby grają scenę ciałem (bez słów). Dwie inne siedzą tyłem i produkują dialog. Ciało i głos muszą razem stworzyć postać. Potem zamiana.",
+      "tips": "Osoby dubbingujące: słuchajcie oddechu i rytmu ruchów osób grających. Synchronizacja to klucz – bardziej niż 'sensowne' słowa."
+    },
+    "party_quirks": {
+      "name": "Dziwaczne przyjęcie",
+      "description": "Jedna osoba jest gospodarzem przyjęcia i odchodzi na bok, a reszta grupy albo publiczność przydziela każdemu gościowi sekretne dziwactwo: 'myślisz, że jesteś psem', 'zakochałeś się w każdej osobie w pokoju', 'powoli zamieniasz się w swoją matkę'. Gospodarz wraca i zaczyna witać ludzi w wyobrażonym salonie. Goście wchodzą pojedynczo, a każdy gra swoje dziwactwo przez to, jak się zachowuje podczas rozmowy, nalewania drinka czy witania się z innymi. Gospodarz podtrzymuje pogawędkę i próbuje rozgryźć, co jest 'nie tak' z każdym gościem, mówiąc swój domysł na głos, gdy tylko przeczucie zaskoczy. Kiedy gospodarz rozpracuje wszystkie dziwactwa, przyjęcie może dobiec końca.",
+      "tips": "Graj dziwactwo przez działanie, pozwalając mu najpierw przeciekać do drobnych gestów, zanim cię całkiem przejmie, żeby gospodarz miał trop do śledzenia. Zacznij subtelnie i podkręcaj, im bliżej krąży gospodarz, a zgadywanie zbuduje prawdziwe komiczne napięcie."
+    },
+    "questions_only": {
+      "name": "Tylko pytania",
+      "description": "Dwójka gra scenę, w której można mówić WYŁĄCZNIE pytaniami. Jakiekolwiek zdanie twierdzące, zawahanie lub powtórzenie pytania partnera = przegrana i zamiana osoby.",
+      "tips": "Pytania mogą być retoryczne i emocjonalne. Ćwiczenie uczy unikania blokowania przez twierdzenia i aktywnego słuchania."
+    },
+    "sit_stand_lie": {
+      "name": "Siedzi, Stoi, Leży",
+      "description": "Trzy osoby grają scenę. Zawsze DOKŁADNIE jedna musi siedzieć, jedna stać, jedna leżeć. Gdy ktoś zmieni pozycję, reszta musi się dostosować. Scena musi być spójna mimo ciągłych zmian pozycji.",
+      "tips": "Nie zatrzymuj sceny – zmiany pozycji to element, nie przeszkoda. Świetne ćwiczenie na kreatywne uzasadnianie fizyczności."
+    },
+    "last_letter": {
+      "name": "Ostatnia litera",
+      "description": "Scena w parach lub grupie, w której każda wypowiedź musi zaczynać się od ostatniej litery poprzedniej wypowiedzi. Np. A: 'Kocham koty.' B: 'Yyy, mam kota w domu.' A: 'Umiesz go karmić?' itd.",
+      "tips": "Utrudnienie: zakazane jest powtarzanie słów. Skupiaj się na scenie – litera powinna być podświadoma."
+    },
+    "two_line_vocabulary": {
+      "name": "Dwa zdania",
+      "description": "Każda postać w scenie może mówić tylko dwa konkretne zdania – dowolne, ale zdecydowane przed sceną. Cały dialog tworzą wyłącznie z tych dwóch fraz. Oznacza to, że kontekst i emocja muszą robić całą robotę.",
+      "tips": "Wybierz zdania, które pasują do WIELU sytuacji. Odkryjesz, jak wiele może powiedzieć ton, a nie słowa."
+    },
+    "sound_effect_scene": {
+      "name": "Efekty dźwiękowe",
+      "description": "Osoby grające prowadzą scenę i same tworzą wszystkie efekty dźwiękowe – tło, dźwięki otoczenia, odgłosy działań. Jedna osoba może pełnić rolę 'centrum dźwięku' albo każdy tworzy własne.",
+      "tips": "Zacznij od najprostszych – kroki, drzwi, wiatr. Synchronizacja z działaniem jest ważniejsza niż realizm dźwięku."
+    },
+    "word_association": {
+      "name": "Łańcuch skojarzeń",
+      "description": "Krąg: jedna osoba mówi słowo, następna mówi pierwsze skojarzenie, które przyszło jej do głowy. Żadnych pauz i żadnego myślenia. Tempo: jedno słowo na sekundę.",
+      "tips": "Jeśli ktoś zastanawia się dłużej niż sekundę – 'bum!', zaczynacie od nowa. Ćwiczenie wyzwala spontaniczność i wyłącza cenzurę."
+    },
+    "four_things": {
+      "name": "Cztery rzeczy",
+      "description": "Prowadzący mówi kategorię. Osoba wskazana musi wymienić cztery konkretne rzeczy z tej kategorii – tak szybko, jak tylko może. Reszta grupy liczy klaśnięciami: jeden, dwa, trzy, cztery.",
+      "tips": "Kategorie mogą być coraz bardziej absurdalne ('Cztery rzeczy, które superbohater mówi w autobusie'). Śmiech jest jak najbardziej pożądany."
+    },
+    "gibberish_translation": {
+      "name": "Tłumacz bełkotu",
+      "description": "Dwójka: jeden mówi przemowę w wymyślonym języku (emocjonalnie i z gestykulacją). Drugi stoi obok i tłumaczy na polski zdanie po zdaniu. Tłumacz musi interpretować to, co widzi i słyszy, nie wymyślać od siebie.",
+      "tips": "Tłumacz powinien podążać za emocją i rytmem, nie za dźwiękami. Im bardziej dramatyczna przemowa, tym lepsza scena."
+    },
+    "typewriter": {
+      "name": "Maszyna do Pisania",
+      "description": "Jedna lub dwie osoby siedzą jako 'autorzy'. Reszta gra scenę. Autor dyktuje narrację i dialog. Osoby grające natychmiast to odgrywają. Autor może zatrzymać, cofnąć, zmienić.",
+      "tips": "Autor powinien reagować na to, co robią osoby grające i rozwijać to, nie ignorować. Ćwiczenie uczy współtworzenia narracji."
+    },
+    "columns": {
+      "name": "Kolumny",
+      "description": "Trzy osoby stoją w rzędzie. Każda reprezentuje inny temat lub głos (np. nauka/miłość/polityka). Prowadzący wskazuje, która kolumna mówi. Każda musi kontynuować swoją narrację. Efekt: trzy równoległe światy w jednej scenie.",
+      "tips": "Kolumny mogą rozmawiać ze sobą lub być całkowicie odrębne. Ćwiczenie zaawansowane – wymaga utrzymania spójności w chaosie przełączeń."
+    },
+    "space_jump": {
+      "name": "Skok w Przestrzeń",
+      "description": "Jedna osoba gra monolog lub scenę solową. Druga osoba wchodzi z krzykiem, zatrzymując akcję. Teraz obie grają razem nową scenę. Trzecia osoba wchodzi – i znów wszystko zatrzymuje się, tworząc nowy kontekst. Na końcu cofamy się przez warstwy.",
+      "tips": "Każda nowa warstwa musi pamiętać, gdzie była. Powrót do poprzednich scen to mistrzostwo – ćwicz cierpliwość i pamięć."
+    },
+    "pattern_game": {
+      "name": "Gra wzorców",
+      "description": "Grupa stoi w kręgu. Podaj słowo-sugestię. Kolejno każdy dodaje skojarzenie z oryginalnym słowem (nie poprzednim). Po przejściu przez wszystkich – wróćcie dokładnie do tego samego słowa każdej osoby. Zbudujcie 'wzorzec' (pattern) i powtórzcie go kilkukrotnie.",
+      "tips": "Celem jest zapamiętanie wzorca i odtworzenie go ze wzrastającym tempem. Podstawa Harolda i długiej formy UCB."
+    },
+    "organic_groove": {
+      "name": "Organiczny groove",
+      "description": "Cała grupa stoi w kręgu. Jedna osoba zaczyna powtarzalny ruch z dźwiękiem. Kolejna dodaje swój własny, pasujący rytmicznie. Stopniowo cała grupa tworzy żywy, zsynchronizowany 'groove'. Prowadzący może wprowadzać zmiany.",
+      "tips": "Słuchaj grupy zanim dołączysz. Twój ruch powinien wzbogacać całość, nie dominować. Ćwiczenie buduje 'grupowy umysł'."
+    },
+    "armando": {
+      "name": "Armando",
+      "description": "Jedna osoba (Armando) opowiada prawdziwą historię ze swojego życia. Po chwili grupa zaczyna grać sceny zainspirowane fragmentami tej historii – nie ilustrując jej dosłownie, ale tematycznie. Armando co jakiś czas wraca z kolejnym fragmentem.",
+      "tips": "Sceny nie muszą odwzorowywać historii – szukaj tematycznego połączenia. Format uczy pracowania z materiałem 'ofiarowanym' przez kogoś innego."
+    },
+    "pan_left_pan_right": {
+      "name": "Pan Left / Pan Right",
+      "description": "Trzy lub więcej osób grają sceny równolegle na scenie. Prowadzący woła 'Pan left!' lub 'Pan right!' – skupienie publiczności (i energii) przenosi się na kolejną grupę, która kontynuuje swoją scenę. Każda scena musi zapamiętać, gdzie była.",
+      "tips": "Grupy: zostawajcie w scenie, nawet gdy 'kamera' na was nie patrzy. Wznowienie powinno być płynne."
+    },
+    "slow_motion_replay": {
+      "name": "Powtórka w zwolnionym tempie",
+      "description": "Zagraj energiczną scenę. Następnie powtórz ją w zwolnionym tempie – każdy ruch, każde słowo, każda emocja. Prowadzący może zatrzymywać i prosić o 'freeze frame' w kluczowych momentach.",
+      "tips": "Zwolnienie tempa ujawnia impulsy, które normalnie pozostają niewidoczne. Ćwiczenie uczy świadomości ciała i intencji każdego działania."
+    },
+    "deconstruction": {
+      "name": "Dekonstrukcja",
+      "description": "Zagraj krótką scenę (3–5 minut). Potem 'zdekonstruuj' ją: każda z trzech lub czterech grup bierze JEDEN element (postać, emocję, obraz, temat) i buduje z niego nową, krótką scenę. Finalnie: cała grupa łączy wszystkie tematy.",
+      "tips": "Format wymaga analizy i abstrakcji – ćwicz w grupach zaawansowanych. Debrief po ćwiczeniu jest szczególnie wartościowy."
+    },
+    "soundscape": {
+      "name": "Pejzaż dźwiękowy",
+      "description": "Grupa tworzy 'pejzaż dźwiękowy' dla konkretnego miejsca (las, port, miasto nocą). Każda osoba dodaje jeden powtarzalny dźwięk głosem. Prowadzący 'dyryguje' – wskazuje, kogo wyłączyć lub wzmocnić. Wariant: jedna osoba wchodzi w ten pejzaż jako postać.",
+      "tips": "Zaczynaj od ciszy i buduj wolno. Dźwięki powinny być konkretne i powtarzalne. Finalne 'solo' powinno wyłonić się z warstw."
+    },
+    "mind_meld": {
+      "name": "Telepatia (Mind Meld)",
+      "description": "W parach. Liczcie razem 'raz, dwa, trzy', a na 'trzy' oboje wypowiadacie na głos, jednocześnie, pierwsze słowo, które przychodzi do głowy. Korzystając z tych dwóch słów jako odskoczni, liczycie ponownie i mówicie nowe słowo, próbując trafić w to samo. Powtarzajcie, aż oboje powiecie identyczne słowo.",
+      "tips": "Czysta swobodna skojarzeniówka, żadnego ustalania na głos. Gdy w końcu traficie w to samo słowo, świętujcie. Ten wspólny instynkt to dokładnie 'grupowy umysł', na którym stoi impro."
+    },
+    "big_booty": {
+      "name": "Big Booty",
+      "description": "Stańcie w kręgu. Jedna osoba to 'Big Booty', reszta odlicza (Jeden, Dwa, Trzy...). Grupa skanduje rytm: 'Big Booty, Big Booty, Big Booty, o tak!'. Potem Big Booty woła 'Big Booty numer Trzy', Trójka natychmiast woła kolejny numer i tak dalej, nigdy nie gubiąc rytmu. Zawahanie lub pomyłka, i wędrujesz na koniec, a wszyscy przesuwają numery.",
+      "tips": "Z czasem przyspieszajcie skandowanie. Chodzi o to, by mylić się ze śmiechem, a nie wygrywać, trzymajcie luźną, radosną energię."
+    },
+    "bibbity_bop": {
+      "name": "Bibbity Bibbity Bop",
+      "description": "Stańcie w kręgu, jedna osoba w środku. Środkowa osoba wskazuje kogoś i mówi albo 'Bibbity Bibbity Bop' (wskazany musi powiedzieć 'Bop', zanim wołający skończy), albo samo 'Bop' (wtedy wskazany musi milczeć). Pomyłka, i idziesz do środka. Dodawajcie grupowe pozy, np. 'Słoń' albo 'Toster', które wskazany i jego dwaj sąsiedzi muszą zbudować w trzy sekundy.",
+      "tips": "Trzymajcie szybkie tempo i dorzucajcie nowe pozy. Ćwiczy błyskawiczną reakcję i radosne mylenie się pod presją."
+    },
+    "yes_lets": {
+      "name": "Tak, róbmy to!",
+      "description": "Wszyscy poruszają się swobodnie po przestrzeni. W dowolnym momencie ktokolwiek wykrzykuje czynność, np. 'Płyńmy wszyscy kajakiem!'. Cała grupa odpowiada 'Tak, róbmy to!' i natychmiast robi to razem. Po kilku sekundach ktoś inny proponuje kolejną czynność, a grupa ponownie ją przyjmuje.",
+      "tips": "Przyjmuj każdą propozycję z pełnym entuzjazmem, choćby najgłupszą. To najczystszy możliwy trening odruchu 'tak, i...' oraz grupowej zgody."
+    },
+    "whoosh_bang": {
+      "name": "Whoosh Bang",
+      "description": "Stańcie w kręgu. Podawaj kulę energii sąsiadowi z okrzykiem 'Whoosh' i gestem. Każdy może ją zmienić: 'Bang' (ręce w górę) odbija ją w drugą stronę, a 'Groan' wysyła ją przez krąg do kogoś innego. Zbudujcie mały słownik komend i utrzymujcie energię w ruchu, nie gubiąc rytmu.",
+      "tips": "Angażuj dźwięk i gest jednocześnie. Zacznijcie od dwóch komend i dodawajcie kolejne dopiero, gdy grupa złapie rytm."
+    },
+    "bunny_bunny": {
+      "name": "Bunny Bunny",
+      "description": "Stańcie w kręgu. Jedna osoba robi 'królicze' łapki przy własnej twarzy, śpiewając 'Bunny bunny', a potem obraca się do sąsiada ze śpiewem 'Bunny bunny', żeby przekazać dalej, podczas gdy reszta 'przebiera łapkami' w bok, śpiewając 'Toki toki toki'. Odbierający przejmuje to natychmiast i podaje dalej. Trzymajcie stały rytm.",
+      "tips": "Cały sens to wspólny rytm i energia, a nie zrobienie tego 'poprawnie'. Jeśli rozpada się w śmiech, robicie to dobrze."
+    },
+    "honey_i_love_you": {
+      "name": "Kochanie, kocham cię",
+      "description": "Usiądźcie lub stańcie w kręgu. Jedna osoba 'goni'. Podchodzi do kogokolwiek, patrzy w oczy i mówi 'Kochanie, kocham cię, czy uśmiechniesz się do mnie?'. Wskazana osoba musi odpowiedzieć z kamienną twarzą: 'Kochanie, kocham cię, ale nie mogę się uśmiechnąć', bez uśmiechu i śmiechu. Jeśli pęknie, zaczyna gonić.",
+      "tips": "Bez dotykania, ale poza tym wszystko wolno, miny, głos, timing. Świetna lekcja zaangażowania i utrzymania poważnej twarzy pod presją."
+    },
+    "alien_tiger_cow": {
+      "name": "Kosmita, Tygrys, Krowa",
+      "description": "Grupowa wersja papier-kamień-nożyce. Na 'trzy' każdy przyjmuje jedną z trzech póz z jej dźwiękiem: Kosmita ('bip bip', czułki), Tygrys ('rrr', pazury) lub Krowa ('muu', dojenie). Celem nie jest kogoś pokonać, tylko żeby cała grupa przyjęła tę samą pozę. Powtarzajcie, aż wszyscy się zgrają.",
+      "tips": "Nikt nie ustala na głos, czytacie grupę. Gdy wszyscy trafią w tę samą pozę, to grupowy umysł na żywo."
+    },
+    "space_walk": {
+      "name": "Spacer w przestrzeni",
+      "description": "Wszyscy chodzą po sali neutralnie. Prowadzący wykrzykuje otoczenie lub substancję, np. głęboki śnieg, gorący piasek, gęsty miód, brak grawitacji, zatłoczony pociąg, a każdy dostosowuje sposób poruszania się. Zmieniajcie świat co jakieś 30 sekund. Klasyk Violi Spolin do budowania fizycznej konkretności.",
+      "tips": "Angażuj całe ciało, nie tylko stopy. Zauważ, jak wyobrażone otoczenie zmienia twój ciężar, tempo, a nawet nastrój."
+    },
+    "i_am_a_tree": {
+      "name": "Jestem drzewem",
+      "description": "Jedna osoba wchodzi w przestrzeń, przyjmuje pozę i mówi 'Jestem drzewem'. Druga dokłada się do obrazu powiązanym pomysłem: 'Jestem ptakiem na drzewie'. Trzecia domyka: 'Jestem robakiem, którego je ptak'. Potem pierwsza osoba 'zabiera' ze sobą jeden element, a ten element rozpoczyna kolejny obraz. Grupowe skojarzenia i budowanie żywej sceny.",
+      "tips": "Idź za pierwszym odruchem, nie za najsprytniejszym pomysłem. Każda nowa propozycja powinna łączyć się z tym, co już jest na scenie."
+    },
+    "who_started_motion": {
+      "name": "Kto prowadzi ruch",
+      "description": "Jedna osoba, detektyw, wychodzi z sali. Krąg po cichu wybiera lidera, który zaczyna powtarzalny ruch (klaskanie, kołysanie), a wszyscy go naśladują. Lider co jakiś czas zmienia ruch, a grupa natychmiast podąża. Detektyw wraca do środka i ma trzy próby, żeby wskazać lidera.",
+      "tips": "Naśladujący: nie wpatrujcie się w lidera, używajcie kąta oka, żeby go nie zdradzić. Czysty trening skupienia i czujności na grupę."
+    },
+    "three_headed_expert": {
+      "name": "Trzygłowy ekspert",
+      "description": "Trzy osoby stoją ramię w ramię jako jeden 'ekspert' od dowolnego tematu podanego przez widownię. Prowadzący zadaje pytania, a ekspert odpowiada słowo po słowie, każda głowa dokłada kolejne słowo po kolei, budując zdania, których nikt nie zaplanował. Zabawa polega na spójnym dokańczaniu cudzych myśli.",
+      "tips": "Nie próbuj sterować zdaniem, przyjmij słowo, które padło przed tobą, i dołóż najbardziej naturalne kolejne. Zamknij myśl wyraźnym ostatnim słowem, żeby prowadzący wiedział, że to koniec."
+    },
+    "one_eighty_five": {
+      "name": "185",
+      "description": "Grupa wybiera rzeczownik, np. 'pingwiny'. Każda osoba po kolei opowiada dowcip: '185 pingwinów wchodzi do baru. Barman mówi: nie obsługujemy tu pingwinów. Pingwiny na to...' i kończy go grą słów opartą na tym wyrazie. Krążcie tak długo, aż skończą się pomysły.",
+      "tips": "Jęki zawodu są tak samo dobre jak śmiech; im gorszy żart, tym lepiej. Ćwiczy szybką grę słów i odwagę wejścia w żart, który może nie wypalić."
+    },
+    "string_of_pearls": {
+      "name": "Sznur pereł",
+      "description": "Rząd osób opowiada historię nie po kolei. Pierwsza osoba podaje zdanie otwierające, ostatnia podaje zdanie kończące. Potem osoby wchodzą pojedynczo w dowolne miejsce w środku. Każda dokłada jedno zdanie łączące to, co jest przed i po, jak nawlekanie pereł między dwoma węzłami, aż historia się domknie.",
+      "tips": "Każde nowe zdanie musi uszanować oba końce, między którymi się znajduje. Świetny pomost od gier krótkiej formy do myślenia narracyjnego w długiej formie."
+    },
+    "invocation": {
+      "name": "Inwokacja",
+      "description": "To grupowe otwarcie do długiej formy, prowadzone jako cztery przejścia po jednym słowie od publiczności. Cały zespół rozstawia się na scenie i za każdym przejściem bierze słowo z innej strony. W pierwszym przejściu wyrzucacie dosłowne definicje, każda zaczyna się od 'Jesteś...', jak w 'Jesteś kluczem, jesteś zimnym metalem, jesteś tym, co zawsze gubię'. W drugim przechodzicie na emocje, każda linijka zaczyna się od 'Sprawiasz, że czuję...'. W trzecim wracacie do 'Jesteś...', ale sięgacie po metaforę i obraz. W czwartym mówicie w pierwszej osobie i stajecie się samą rzeczą, 'Jestem...'. Głosy nakładają się i odpowiadają sobie przez cały czas, a cztery przejścia układają się w jeden wspólny mówiony wiersz.",
+      "tips": "Zapomnij o scenie i fabule; twoim jedynym zadaniem jest wzmacnianie obrazów i uczucia wokół słowa. Zaufaj temu, co słowo wyciąga na wierzch, bo skojarzenia, które tu wydobędziecie, stają się surowcem, z którego sceny będą czerpać przez resztę setu."
+    }
+  },
+  "facts": {
+    "title": "Fakty o Impro",
+    "subtitle": "Odkryj historię i techniki improwizacji",
+    "tabFacts": "Fakty",
+    "tabGlossary": "Słownik",
+    "nextFact": "Następny fakt",
+    "prevFact": "Poprzedni fakt",
+    "allCategories": "Wszystkie",
+    "filterLabel": "Kategoria",
+    "categories": {
+      "history": "Historia",
+      "technique": "Technika",
+      "tips": "Wskazówki",
+      "famous": "Postacie"
+    },
+    "sources": {
+      "improvisation_for_theater": "Viola Spolin, \"Improvisation for the Theater\" (1963)",
+      "truth_in_comedy": "Charna Halpern, Del Close, Kim Johnson – \"Truth in Comedy\" (1994)",
+      "impro": "Keith Johnstone – \"Impro\" (1979)",
+      "bossypants": "Tina Fey – \"Bossypants\" (2011)",
+      "del_close": "Del Close, Harold – Annex Theatre, Chicago"
+    },
+    "history": {
+      "viola_spolin": "Viola Spolin jest uważana za matkę nowoczesnej improwizacji teatralnej. W 1963 roku opublikowała \"Improvisation for the Theater\" – biblię treningu improwizowanego, która do dziś wyznacza standardy pracy z grupą.",
+      "second_city": "The Second City w Chicago, założone w 1959 roku przez osoby uczące się u Violi Spolin, stało się fabryką gwiazd: Tina Fey, Stephen Colbert, Steve Carell, Bill Murray, Gilda Radner – wszyscy zaczynali właśnie tam.",
+      "keith_johnstone": "Keith Johnstone opracował system statusów, maskę i teatr narracyjny. Jego książka \"Impro\" (1979) jest jedną z najważniejszych publikacji o improwizacji. Johnstone jest też twórcą Theatresports – improwizowanego turnieju.",
+      "del_close": "Del Close wymyślił format Harolda – długą formę improwizowaną opartą na tematach zamiast skeczy. Pracował w Second City i ImprovOlympic (dziś iO). Mówi się, że ucząc improwizacji, dosłownie zmienił oblicze komedii.",
+      "commedia_dellarte": "Commedia dell'arte – XVI-wieczna włoska forma teatru ulicznego – jest jednym z najstarszych przodków współczesnej improwizacji. Osoby grające wcielały się w stałe typy postaci (Arlecchino, Pantalone) i improwizowały dialogi w oparciu o zarys scenariusza.",
+      "io_chicago": "ImprovOlympic (dziś iO Chicago) założyli w 1981 roku Charna Halpern i Del Close. To tam Harold stał się oficjalnym formatem długiej formy, a takie gwiazdy jak Mike Myers i Amy Poehler zaczęły swoje kariery.",
+      "ucb_founding": "Upright Citizens Brigade Theatre (UCB) założyli w 1999 roku w Nowym Jorku Amy Poehler, Matt Walsh, Matt Besser i Ian Roberts – wszyscy byli absolwentami iO Chicago. UCB spopularyzowało krótkie, oparte na 'grze' podejście do improwizacji.",
+      "theatresports": "Theatresports – format kompetycyjnej improwizacji – wymyślił Keith Johnstone w latach 70. w Calgary. Dziś działa w ponad 30 krajach. W Polsce improwizacja kompetycyjna jest popularna pod nazwą Match Impro.",
+      "second_city_toronto": "The Second City Toronto, otwarte w 1973 roku, wychowało m.in. Mike'a Myersa, Dana Aykroyda, Jima Carrey'a i Martina Shorta. Kanada stała się równie ważnym centrum improwizacji, co Chicago.",
+      "groundlings": "The Groundlings w Los Angeles, założone w 1974 roku przez Gary'ego Austina, wychowało gwiazdy SNL: Kristen Wiig, Will Forte, Maya Rudolph i Darrell Hammond.",
+      "whose_line": "Program 'Whose Line Is It Anyway?' (1988 UK, 1998 USA) wprowadził krótką formę improwizacji do masowej widowni. Był to przełomowy moment popularyzacji impro poza teatrami.",
+      "harold_origin": "Harold (format długiej formy) został stworzony przez Del Close'a w połowie lat 60. w San Francisco. Jego nazwa pochodzi od żartu: kiedy improwizatorzy pytali o nazwę formatu, Del odpowiadał 'Harold' – i tak zostało.",
+      "chicago_vs_ny": "Improwizacja chicagowska (iO, Second City) kładzie nacisk na długą formę, relacje i 'granie z rzeczywistości'. Styl nowojorski (UCB) jest oparty na koncepcji 'gry sceny' – znajdowaniu i eskalowaniu powtarzającego się wzorca zachowania.",
+      "annoyance_theatre": "The Annoyance Theatre w Chicago, założone w 1987 roku przez Micka Napiera, przyczyniło się do rozwoju improwizacji narracyjnej i estetyki 'punk improv' – bardziej surowej, niekonwencjonalnej i odważnej tematycznie."
+    },
+    "technique": {
+      "yes_and": "\"Tak, i...\" to fundamentalna zasada improwizacji: akceptuj to, co proponuje partner (\"tak\"), i rozbuduj tę rzeczywistość (\"i...\"). Blokowanie – zaprzeczanie temu, co powiedział partner – niszczy scenę i relację.",
+      "offer": "Każde działanie i słowo na scenie to oferta – zaproszenie dla partnera do wspólnego budowania rzeczywistości. Dobry improwizator dostrzega oferty i na nie odpowiada, zamiast narzucać własne pomysły.",
+      "status": "Status to sposób, w jaki postać postrzega siebie w relacji do innych. Status wysoki: spokój, powolność, kontrola przestrzeni. Status niski: chaotyczność, uniki, szybkie ruchy. Konflikty statusowe napędzają sceny.",
+      "endowment": "Endowment (obdarowanie) to nadanie partnerowi lub przedmiotowi cechy lub historii. Zamiast mówić 'masz na sobie fajny sweter', powiedz 'czy to sweter, który babcia robiła ci na drutach przez dwa lata?' – i scena ożywa.",
+      "game_of_scene": "\"Game of Scene\" to powtarzający się, niezwykły wzorzec zachowania lub absurdalna logika sceny. Gdy odkryjesz grę, graj w nią świadomie – eskaluj ją i rozwijaj, zamiast uciekać do nowych pomysłów.",
+      "crow": "CROW to skrót od Character (Postać), Relationship (Relacja), Objective (Cel) i Where (Gdzie). Ustanowienie tych czterech elementów na początku sceny daje improwizatorom solidne fundamenty do budowania historii.",
+      "base_reality": "Base Reality (rzeczywistość bazowa) – termin z UCB – oznacza normalny świat sceny, zanim pojawia się 'gra'. Im bardziej naturalna i przekonująca rzeczywistość bazowa, tym lepiej działa absurd, gdy się pojawia.",
+      "callbacks": "Callback to powrót do wcześniejszego elementu sceny lub występu – słowa, gestu lub pomysłu – który nagle zyskuje nowe znaczenie w nowym kontekście. Callbacki tworzą poczucie spójności i nagradzają uwagę widowni.",
+      "patterns": "W formacie Harold akcja dzieli się na trzy rundy. W każdej rundzie tematy i postacie z różnych scen zaczynają się nieoczekiwanie łączyć. Ta technika 'wzorców' daje publiczności poczucie, że występ jest przemyślany i doskonale zaplanowany.",
+      "first_unusual_thing": "Zasada UCB: 'Pierwsza niecodzienna rzecz' w scenie to punkt wyjścia do gry. Jeśli partner mówi 'Mój szef jest kotem' – to właśnie tam jest gra. Nie ignoruj tego. Eksploruj.",
+      "emotional_truth": "Prawda emocjonalna to zasada Violi Spolin: osoba grająca nie musi wiedzieć, jak zagrać emocję – musi ją poczuć. Dlatego ćwiczenia Spolin stawiają na 'focus' (punkt skupienia), a nie na technikę – naturalność bierze się z zaangażowania, nie z naśladownictwa.",
+      "physicality": "Viola Spolin twierdziła, że ciało jest podstawowym narzędziem osoby improwizującej. Praca z wyobrażonymi przedmiotami i przestrzenią – tzw. 'space work' – buduje konkretność sceny, na której reszta może oprzeć swoją grę.",
+      "avoidance_of_questions": "Pytania na scenie są często 'pułapką lenistwa' – przerzucają odpowiedzialność za ofertę na partnera zamiast samemu coś dawać. Zasada: zamiast pytać 'Gdzie jesteśmy?', powiedz 'Piękne widoki z tego szczytu Kilimandżaro'.",
+      "specificity": "Konkretność ratuje sceny. Nie 'jakiś samochód' lecz '1987 Fiat Maluch koloru musztardowego'. Nie 'dużo lat temu' lecz 'w 1974 roku'. Szczegółowość tworzy świat, a świat angażuje.",
+      "sweep_edit": "Sweep (odcięcie sceny) to technika cięcia: jedna osoba wchodzi z zamaszystym ruchem ręki, a reszta schodzi ze sceny. Nowa scena zaczyna się natychmiast. To, jak i kiedy tniesz sceny, w dużej mierze buduje tempo całego pokazu.",
+      "tag_out": "Tag out to cięcie, w którym osoba wchodzi i dotyka ramienia innej osoby, przejmując jej miejsce w scenie. Nowa osoba może zagrać tę samą postać w innym kontekście lub zupełnie nową postać.",
+      "support_and_explore": "Zasada 'support and explore': zanim zaproponujesz nowy kierunek, upewnij się, że odpowiedziałeś na to, co właśnie zaproponował partner. Improwizacja to najpierw uważność, a dopiero potem kreatywność.",
+      "naming_partner": "Nazwij partnera na początku sceny. To jedno z najważniejszych narzędzi – nadaje mu tożsamość, buduje relację i podpowiada widowni, jak ich postrzegać. 'Hej Marek, znowu spóźniasz się do roboty' – i scena istnieje."
+    },
+    "tips": {
+      "listen_first": "Słuchaj, zanim zaczniesz mówić. Większość problemów w improwizacji wynika z tego, że gramy własny pomysł zamiast reagować na to, co faktycznie się dzieje na scenie.",
+      "make_partner_look_good": "Twoim jedynym zadaniem jest sprawić, żeby twój partner wyglądał świetnie. Jeśli każdy myśli tak samo, magia sama się pojawi.",
+      "commit_fully": "Nie proponuj – deklaruj. Wchodź w każdy pomysł w 100%. Połowicznie zagrany absurd nie jest zabawny ani wzruszający. Pełne zaangażowanie robi scenę.",
+      "slow_down": "Zwalniaj. Kiedy czujesz, że scena gdzieś ucieka, zwolnij i zostań z tym, co masz. Pędzenie to często ucieczka od prawdziwej emocji.",
+      "avoid_denial": "Zaprzeczenie (denial) niszczy scenę. Jeśli partner mówi 'Widzisz tego dinozaura?', a ty odpowiadasz 'To nie dinozaur, to krowa' – właśnie zabiłeś impuls, zaufanie i historię jednocześnie.",
+      "play_to_intelligence": "Graj na poziomie inteligencji swojej widowni. Unikaj oczywistych żartów i banalnych rozwiązań. Publiczność nagradza niespodzianki i precyzję.",
+      "dont_plan": "Nie planuj, co powiesz. Planowanie odcina cię od chwili obecnej. Zaufaj impulsom – to, co powiesz bez myślenia, jest często najbardziej autentyczne i zaskakujące.",
+      "be_changed": "Daj się zmienić przez scenę. Jeśli partner właśnie powiedział coś ważnego, pozwól, żeby to na ciebie wpłynęło. Zmiana emocji jest bardziej interesująca niż nieustępliwość.",
+      "trust_the_ensemble": "Zaufaj grupie. Jedna osoba nie powinna ratować całego występu. Czekaj na impulsy, podążaj za nimi, bądź częścią systemu zamiast solową gwiazdą.",
+      "object_work": "Pracuj z przedmiotami precyzyjnie – pamiętaj rozmiar, ciężar i to, jak je trzymasz. Konsekwentna praca z wyobraźnią jest dowodem szacunku dla partnera i dla publiczności.",
+      "follow_your_gut": "Pierwsze 'tak' jest zwykle właściwe. Drugi pomysł – ten, który 'wydaje się bezpieczniejszy' – często jest gorszy. Intuicja improwizatora kształtuje się przez lata pracy, zaufaj jej.",
+      "begin_in_middle": "Zacznij scenę w połowie działania, nie od 'Hej, co u ciebie?'. Wejdź w środek konfliktu, emocji, chwili. Opóźnianie wejścia w grę to strata cennego czasu.",
+      "name_the_relationship": "Nazwij relację jak najwcześniej. 'Mamo, nie mogę w to uwierzyć' mówi więcej niż trzy minuty dialogu. Relacja to mapa – bez niej zarówno ty, jak i widownia, błądzą.",
+      "sweat_the_small_stuff": "Detal jest królem. Jeśli partner coś zbudował – zapamiętaj i odnieś się do tego. Nawet mały powrót do wcześniejszego szczegółu tworzy poczucie spójnego świata.",
+      "drop_the_joke": "Lepszy żart wychodzi z prawdy niż z próby bycia śmiesznym. Kiedy gonisz za żartem, tracisz scenę. Kiedy jesteś szczery – humor pojawia się sam, jako bonus."
+    },
+    "famous": {
+      "tina_fey": "Tina Fey w \"Bossypants\" opisuje cztery zasady improwizacji: (1) Powiedz 'tak', (2) Powiedz 'tak, i...', (3) Nie zaczynaj zdań od negacji, (4) Nie ma błędów – są tylko możliwości.",
+      "del_longform": "Del Close mawiał: \"Zaufaj swoim impulsom. Improwizacja nie polega na byciu śmiesznym – polega na byciu prawdziwym.\" Harold stał się podstawą długiej formy na całym świecie.",
+      "tina_fey2": "Tina Fey spędziła lata jako scenarzystka w Saturday Night Live, zanim stanęła przed kamerą. W \"Bossypants\" pisze, że improwizacja nauczyła ją najważniejszej zasady pracy zespołowej: twoja rola polega na tym, żeby twój partner wyglądał świetnie. Ta filozofia stała się fundamentem jej kariery.",
+      "amy_poehler": "Amy Poehler zaczynała w ImprovOlympic Chicago, a potem współtworzyła UCB Theatre w Nowym Jorku. Jej autobiografia 'Yes Please' (2014) poświęca wiele miejsca lekcjom, których nauczyła ją improwizacja.",
+      "bill_murray": "Bill Murray nigdy nie chodził do szkoły teatralnej. Swoje warsztaty zaczął w Second City Chicago w latach 70. Mówi, że improwizacja nauczyła go jednej rzeczy: 'Bądź obecny. Nie przeszłość, nie przyszłość – tu, teraz.'",
+      "stephen_colbert": "Stephen Colbert przez lata twierdził, że improwizacja uratowała mu życie. Po śmierci ojca i braci w katastrofie lotniczej znalazł w Second City Chicago wspólnotę i cel. \"Tak, i...\" stało się dla niego filozofią życia, nie tylko techniką.",
+      "adam_mckay": "Adam McKay – reżyser \"The Big Short\" i \"Vice\" – współtworzył revue Second City i grał w długiej formie w iO, zanim trafił do SNL jako główny scenarzysta. Twierdzi, że improwizacja nauczyła go słuchania i pracy zespołowej.",
+      "mike_myers": "Mike Myers uczył się improwizacji w Second City Toronto, a potem w Second City Chicago. Postać Austina Powersa i dr Evil były wynikiem improwizacji podczas castingów – Myers grał te postaci 'na żarty', ale publiczność je pokochała.",
+      "charna_halpern": "Charna Halpern współtworzyła iO Chicago z Del Close'em i przez dekady była strażniczką formatu Harold. To ona upewniła się, że nauki Del Close'a przetrwają – dokumentując je w książce 'Truth in Comedy' (1994).",
+      "johnstone_quote": "Keith Johnstone: \"Widzę, że moi studenci boją się wyglądać głupio. Mówię im: cała wasza edukacja nauczyła was, że głupota to klęska. W improwizacji głupota to narzędzie. Używajcie jej bez wstydu.\"",
+      "gilda_radner": "Gilda Radner, jedna z pierwszych gwiazd SNL, była absolwentką Second City Toronto. Jej postacie – Emily Litella, Roseanne Roseannadanna – rodziły się z improwizacji i obserwacji prawdziwych ludzi.",
+      "ryan_stiles": "Ryan Stiles z 'Whose Line Is It Anyway?' przez lata był uważany za jednego z najszybszych improwizatorów na świecie. Jego zasada: 'Nigdy nie mów NIE. Nawet jeśli nie wiesz co powiedzieć – wejdź i zrób cokolwiek.'"
+    }
+  },
+  "glossary": {
+    "title": "Słownik impro",
+    "searchPlaceholder": "Szukaj pojęć...",
+    "allCategories": "Wszystkie",
+    "categories": {
+      "foundation": "Podstawy",
+      "longform": "Długa forma",
+      "editing": "Edycja",
+      "stagecraft": "Technika sceniczna"
+    },
+    "terms": {
+      "yes_and": {
+        "term": "Tak, i...",
+        "def": "Podstawowa zasada impro, przyjmij ofertę partnera (tak) i dodaj do niej nową informację (i). Silnik wspólnego opowiadania historii."
+      },
+      "offer": {
+        "term": "Oferta",
+        "def": "Każde działanie, zdanie lub wybór, który wnosi informację do sceny. Silna oferta daje partnerowi coś konkretnego, na co może zareagować."
+      },
+      "block": {
+        "term": "Blokada",
+        "def": "Odrzucenie lub zanegowanie oferty partnera. Blokada zatrzymuje scenę i zmusza partnera do zaczynania od nowa, wyciągając z niej energię."
+      },
+      "crow": {
+        "term": "CROW",
+        "def": "Character (Postać), Relationship (Relacja), Objective (Cel), Where (Gdzie): cztery elementy, które uziemiają scenę. Ich szybkie ustalenie daje publiczności i osobom grającym wspólną rzeczywistość."
+      },
+      "status": {
+        "term": "Status",
+        "def": "Względna władza lub pozycja społeczna między postaciami. Status jest płynny i może się zmieniać poprzez kontakt wzrokowy, postawę, mowę i milczenie."
+      },
+      "justification": {
+        "term": "Uzasadnienie",
+        "def": "Przyjęcie niespodziewanej oferty lub błędu i nadanie mu sensu w świecie sceny. Uzasadnienie zamienia wypadki w prezenty."
+      },
+      "endowment": {
+        "term": "Obdarowanie",
+        "def": "Nadanie innej osobie konkretnej cechy, historii lub emocji przez słowa albo zachowanie. 'Od jak dawna jesteś weterynarzem?' natychmiast tworzy postać."
+      },
+      "pimping": {
+        "term": "Pimping",
+        "def": "Celowe stawianie partnera scenicznego w niezręcznej lub trudnej sytuacji na scenie. Używany oszczędnie w grach; nadużycie niszczy zaufanie."
+      },
+      "harold": {
+        "term": "Harold",
+        "def": "Format długiej formy wymyślony przez Del Close'a. Trzy rundy po trzy sceny każda, przedzielone grami grupowymi, wszystkie rozgałęziające się z jednej sugestii publiczności."
+      },
+      "game_of_scene": {
+        "term": "Gra sceny",
+        "def": "Niezwykły, powtarzalny wzorzec leżący u serca sceny. Grę się odkrywa, nazywa (wewnętrznie) i eskaluje za każdym razem, gdy się powtarza."
+      },
+      "heightening": {
+        "term": "Eskalacja",
+        "def": "Zaostrzanie niezwykłego elementu sceny, czynienie go bardziej ekstremalnym, bardziej konkretnym lub dziwniejszym za każdym razem. Przeciwieństwo wycofywania się."
+      },
+      "platforming": {
+        "term": "Platforma",
+        "def": "Otwierająca faza sceny, w której osoby grające ustalają informacje (kto, co, gdzie), zanim w pełni wyłoni się niezwykły element, czyli gra sceny."
+      },
+      "second_beat": {
+        "term": "Drugi beat",
+        "def": "W długiej formie, powrót do tych samych postaci lub sytuacji z wcześniejszej sceny, zwykle po to, by rozwinąć lub skomplikować to, co zostało ustalone."
+      },
+      "callback": {
+        "term": "Callback",
+        "def": "Powrót do konkretnego szczegółu, żartu lub postaci ustalonej wcześniej w spektaklu. Callbacki nagradzają uważną publiczność i tworzą poczucie spójności."
+      },
+      "reincorporation": {
+        "term": "Reinkorporacja",
+        "def": "Przywrócenie szczegółów zasianych wcześniej w scenie lub spektaklu, aby nadać mu poczucie kompletności. To, co było wstępem, staje się pointą."
+      },
+      "la_ronde": {
+        "term": "La Ronde",
+        "def": "Struktura długiej formy, w której sceny łączy jedna wspólna postać: A gra z B, B gra z C, C gra z D, tworząc łańcuch powiązanych scen."
+      },
+      "monoscene": {
+        "term": "Monoscena",
+        "def": "Format długiej formy, w którym cały spektakl rozgrywa się w jednym miejscu z ciągłą grupą postaci, bez cięć i zmian scen."
+      },
+      "tilt": {
+        "term": "Tilt",
+        "def": "Duży przełom w ustalonej rzeczywistości lub zasadach sceny, często wprowadzany przez cięcie albo nową postać. Tilt podnosi stawkę i zmusza do adaptacji."
+      },
+      "pattern_game": {
+        "term": "Pattern game",
+        "def": "Gra zbudowana na znalezieniu niespodziewanego skojarzenia lub połączenia, a następnie powtarzaniu i wariowaniu tego wzorca. Często stosowana w otwarciach Harolda."
+      },
+      "tag_out": {
+        "term": "Tag out",
+        "def": "Technika cięcia, w której jedna osoba dotyka innej w środku sceny i zajmuje jej miejsce, często po to, by zbadać alternatywną rzeczywistość lub postać."
+      },
+      "swipe_edit": {
+        "term": "Swipe edit",
+        "def": "Jedna osoba przechodzi przez scenę szerokim, zamaszystym ruchem, kończąc jedną scenę i rozpoczynając następną. Czyste, szybkie i czytelne cięcie."
+      },
+      "time_dash": {
+        "term": "Skok w czasie",
+        "def": "Technika cięcia, która przenosi scenę do przodu lub do tyłu w czasie, zachowując te same postaci i lokalizację."
+      },
+      "side_by_side": {
+        "term": "Sceny równoległe",
+        "def": "Prowadzenie dwóch scen jednocześnie, cięcie między nimi. Zestawienie tworzy znaczenie, którego żadna scena nie miałaby sama."
+      },
+      "sweep_edit": {
+        "term": "Sweep edit",
+        "def": "Szeroki, łukowaty ruch ręką, który wyraźnie sygnalizuje koniec sceny. Jedno z najbardziej rozpoznawalnych cięć scenicznych."
+      },
+      "walk_on": {
+        "term": "Walk-on",
+        "def": "Osoba wchodzi do istniejącej sceny, by wnieść informację, energię lub nową postać, a następnie czysto wychodzi, gdy oferta zostanie złożona."
+      },
+      "button": {
+        "term": "Button",
+        "def": "Ostatni moment, który kończy scenę z mocną pointą, callback, żart fizyczny lub zdanie, które jasno sygnalizuje, że scena dobiegła końca."
+      },
+      "run": {
+        "term": "Run",
+        "def": "Szybka sekwencja bardzo krótkich scen (czasami zaledwie kilkusekundowych) połączonych tematem, miejscem lub postacią. Służy do eskalacji wzorca w szybkim tempie."
+      },
+      "object_work": {
+        "term": "Object work",
+        "def": "Fizyczna pantomima prawdziwych lub wyobrażonych przedmiotów w scenie. Konkretna, spójna praca z przedmiotami uziemia sceny i podnosi odczuwaną rzeczywistość."
+      },
+      "space_object": {
+        "term": "Przedmiot wyobrażony",
+        "def": "Udawany lub niewidzialny fizyczny przedmiot uzgodniony i używany przez osoby grające. Przedmioty wyobrażone stają się realne przez konsekwentne obchodzenie się z nimi."
+      },
+      "grounding": {
+        "term": "Uziemienie",
+        "def": "Ustanowienie wyraźnej fizycznej rzeczywistości na początku sceny poprzez konkretną pracę z przedmiotami, pozycję ciała i szczegóły środowiskowe."
+      },
+      "scene_painting": {
+        "term": "Malowanie sceny",
+        "def": "Werbalne opisywanie środowiska, często przy jednoczesnym udawaniu interakcji z nim, w celu zbudowania wspólnego fizycznego świata dla osób grających i publiczności."
+      },
+      "initiation": {
+        "term": "Inicjacja",
+        "def": "Pierwszy moment sceny, który ustanawia kto, co lub gdzie. Silna inicjacja daje scenie wyraźny punkt startowy i kierunek."
+      }
+    },
+    "noResults": "Nie znaleziono terminów"
+  },
+  "more": {
+    "title": "Więcej narzędzi",
+    "subtitle": "Dodatkowe narzędzia dla improwizatorów",
+    "allTools": "Wszystkie narzędzia",
+    "otherTools": "Pozostałe",
+    "timer": {
+      "title": "Timer",
+      "desc": "Odliczanie do ćwiczeń"
+    },
+    "character": {
+      "title": "Kreator postaci",
+      "desc": "Losuj cechy postaci"
+    },
+    "prompts": {
+      "title": "Karty podpowiedzi",
+      "desc": "Impulsy do scen"
+    },
+    "suggestions": {
+      "title": "Sugestie publiczności",
+      "desc": "Losowe podpowiedzi"
+    },
+    "formats": {
+      "title": "Biblioteka form",
+      "desc": "Poznaj formy impro"
+    },
+    "reflection": {
+      "title": "Pytania refleksyjne",
+      "desc": "Pytania po scenie"
+    },
+    "soundscape": {
+      "title": "Soundscape",
+      "desc": "Dźwięki tła do scen"
+    },
+    "status": {
+      "title": "Losowanie statusu",
+      "desc": "Sekretne przypisanie liczb 1–10"
+    },
+    "spine": {
+      "title": "Kręgosłup historii",
+      "desc": "Ziarno struktury fabularnej"
+    },
+    "jam": {
+      "title": "Tablica jamu",
+      "desc": "Kolejka gier na jam"
+    },
+    "principles": {
+      "title": "Zasady impro",
+      "desc": "Podstawowe zasady jako karty pamięci"
+    },
+    "monologue": {
+      "title": "Ziarna monologu",
+      "desc": "Podpowiedzi do osobistych historii"
+    },
+    "genres": {
+      "title": "Karty gatunków",
+      "desc": "Graj w każdym gatunku pewnie"
+    },
+    "harold": {
+      "title": "Prowadzenie Harolda",
+      "desc": "Śledź strukturę Harolda"
+    },
+    "deconstruction": {
+      "title": "Dekonstrukcja",
+      "desc": "Śledź i notuj Dekonstrukcję"
+    },
+    "emotion": {
+      "title": "Koło emocji",
+      "desc": "Losuj spośród 48 konkretnych emocji"
+    },
+    "constraints": {
+      "title": "Ograniczenia sceny",
+      "desc": "Przełam nawyki sceniczne"
+    },
+    "metronome": {
+      "title": "Metronom BPM",
+      "desc": "Rytm i tempo dla impro muzycznego"
+    },
+    "variants": {
+      "title": "Generator wariantów gry",
+      "desc": "Dodaj zwrot do dowolnej gry"
+    },
+    "replay": {
+      "title": "Karty powtórki sceny",
+      "desc": "Zagraj scenę jeszcze raz: zmień gatunek, fizyczność albo postać"
+    },
+    "coffee": {
+      "title": "Postaw mi wirtualną kawę",
+      "desc": "Jeśli ta aplikacja pomaga w twojej improwizacji, możesz wesprzeć jej rozwój.",
+      "cta": "Wesprzyj twórcę"
+    },
+    "legal": {
+      "privacy": "Polityka prywatności"
+    }
+  },
+  "timer": {
+    "title": "Timer warsztatowy",
+    "subtitle": "Odmierzaj czas ćwiczeń",
+    "start": "Start",
+    "pause": "Pauza",
+    "reset": "Resetuj",
+    "done": "Czas!",
+    "customMin": "min...",
+    "fullscreen": "Pełny ekran",
+    "exitFullscreen": "Wyjdź",
+    "customPlaceholder": "sek",
+    "notificationTitle": "Czas minął!",
+    "notificationBody": "Twój timer warsztatowy zakończył odliczanie."
+  },
+  "tip": {
+    "title": "Postaw twórcy kawę",
+    "subtitle": "Jeśli Skrzynka Improwizatora pomaga w Twojej praktyce, możesz wesprzeć jej rozwój. Każdy napiwek się liczy.",
+    "loading": "Ładowanie…",
+    "unavailable": "Napiwki są chwilowo niedostępne. Spróbuj ponownie później.",
+    "processing": "Przetwarzanie…",
+    "thanksTitle": "Dziękuję!",
+    "thanksBody": "Twoje wsparcie wiele znaczy.",
+    "done": "Gotowe",
+    "error": "Coś poszło nie tak — nie pobrano żadnej opłaty.",
+    "retry": "Spróbuj ponownie",
+    "close": "Zamknij"
+  },
+  "character": {
+    "title": "Kreator postaci",
+    "subtitle": "Losuj cechy, buduj postać",
+    "regenerateAll": "Nowa postać",
+    "occupation": "Zawód",
+    "want": "Potrzeba",
+    "quirk": "Fizyczny nawyk",
+    "speechType": "Styl mówienia",
+    "emotion": "Nastrój bazowy",
+    "status": "Status",
+    "occupations": {
+      "surgeon": "Chirurg",
+      "kindergarten_teacher": "Nauczyciel/ka przedszkola",
+      "retired_detective": "Emerytowany detektyw",
+      "dog_groomer": "Fryzjer dla psów",
+      "street_magician": "Uliczny magik",
+      "tax_accountant": "Księgowy/a podatkowy/a",
+      "sommelier": "Sommelier",
+      "lighthouse_keeper": "Latarnik",
+      "competitive_eater": "Uczestnik zawodów w jedzeniu",
+      "dolphin_trainer": "Treser delfinów",
+      "food_blogger": "Bloger kulinarny",
+      "cryptographer": "Kryptograf",
+      "professional_mourner": "Zawodowy żałobnik",
+      "conspiracy_theorist": "Teoretyk spisku",
+      "chess_grandmaster": "Szachowy arcymistrz",
+      "astrologist": "Astrolog",
+      "wedding_photographer": "Fotograf ślubny",
+      "escape_room_designer": "Projektant escape roomów",
+      "jingle_writer": "Autor dżingli",
+      "mattress_tester": "Tester materacy",
+      "patent_attorney": "Rzecznik patentowy",
+      "perfumer": "Perfumiarz",
+      "ghost_hunter": "Łowca duchów",
+      "sand_castle_architect": "Architekt zamków z piasku",
+      "professional_bridesmaid": "Zawodowa druhna",
+      "stage_manager": "Inspicjent",
+      "crisis_pr_consultant": "Konsultant od kryzysów PR",
+      "museum_guard": "Ochroniarz muzealny",
+      "radio_host": "Prowadzący audycję radiową",
+      "funeral_director": "Pracownik domu pogrzebowego",
+      "cruise_director": "Animator rejsu",
+      "wedding_officiant": "Urzędnik ślubny",
+      "city_planner": "Urbanista",
+      "animal_behaviorist": "Behawiorysta zwierząt",
+      "handwriting_analyst": "Grafolog",
+      "toy_designer": "Projektant zabawek",
+      "forensic_cleaner": "Specjalista od sprzątania po śledztwach",
+      "voice_coach": "Trener głosu",
+      "antique_restorer": "Konserwator antyków",
+      "sleep_researcher": "Badacz snu",
+      "park_ranger": "Strażnik parku",
+      "elevator_inspector": "Inspektor wind",
+      "etiquette_coach": "Trener etykiety",
+      "disaster_planner": "Planista kryzysowy",
+      "mapmaker": "Kartograf",
+      "food_truck_owner": "Właściciel food trucka",
+      "court_sketch_artist": "Rysownik sądowy",
+      "scent_tester": "Tester zapachów",
+      "childrens_party_entertainer": "Animator zabaw dla dzieci",
+      "professional_line_stander": "Zawodowy kolejkowicz",
+      "meteorologist": "Meteorolog",
+      "chess_clock_repairer": "Naprawiacz zegarów szachowych",
+      "simultaneous_translator": "Tłumacz symultaniczny",
+      "puppeteer": "Lalkarz",
+      "archivist": "Archiwista",
+      "stunt_coordinator": "Koordynator kaskaderów",
+      "hotel_concierge": "Hotelowy concierge",
+      "obituary_writer": "Autor nekrologów",
+      "carnival_barker": "Naganiacz jarmarczny",
+      "prop_master": "Rekwizytor",
+      "rehearsal_pianist": "Pianista prób",
+      "town_crier": "Miejski obwoływacz",
+      "memory_coach": "Trener pamięci",
+      "fake_psychic": "Fałszywy jasnowidz",
+      "etiquette_influencer": "Influencer od etykiety"
+    },
+    "wants": {
+      "needs_to_be_liked": "Potrzebuje, żeby wszyscy go/ją lubili",
+      "wants_to_seem_mysterious": "Chce wydawać się tajemniczy/a",
+      "needs_to_be_smartest": "Musi być najmądrzejszy/a w pokoju",
+      "wants_to_be_elsewhere": "Chce być gdzieś indziej",
+      "needs_last_word": "Musi mieć ostatnie słowo",
+      "wants_to_confess": "Chce się wyspowiadać",
+      "needs_permission": "Potrzebuje pozwolenia na wszystko",
+      "wants_to_make_history": "Chce przejść do historii",
+      "needs_control": "Musi mieć wszystko pod kontrolą",
+      "wants_to_be_normal": "Chce być normalny/a",
+      "needs_constant_movement": "Musi być w ciągłym ruchu",
+      "wants_to_save_someone": "Chce kogoś uratować",
+      "needs_validation": "Potrzebuje ciągłego potwierdzenia",
+      "wants_a_different_life": "Chce innego życia",
+      "needs_more_time": "Potrzebuje więcej czasu",
+      "wants_to_prove_something": "Chce coś udowodnić",
+      "needs_silence": "Potrzebuje ciszy",
+      "wants_to_impress_parent": "Chce zaimponować rodzicom",
+      "needs_to_finish": "Musi dokończyć co zaczął/a",
+      "wants_to_disappear": "Chce zniknąć",
+      "wants_to_be_remembered": "Chce być pamiętany/a",
+      "needs_forgiveness": "Potrzebuje przebaczenia",
+      "wants_revenge": "Pragnie zemsty",
+      "needs_to_belong": "Potrzebuje przynależności",
+      "wants_one_perfect_day": "Marzy o jednym idealnym dniu",
+      "wants_to_keep_peace": "Chce za wszelką cenę utrzymać spokój",
+      "needs_to_win_argument": "Musi wygrać każdą kłótnię",
+      "wants_to_be_taken_seriously": "Chce być traktowany/a poważnie",
+      "needs_everyone_to_wait": "Potrzebuje, żeby wszyscy poczekali",
+      "wants_to_be_chosen": "Chce zostać wybrany/a",
+      "needs_to_hide_panic": "Musi ukryć panikę",
+      "wants_to_rewrite_past": "Chce przepisać przeszłość",
+      "needs_apology": "Potrzebuje przeprosin",
+      "wants_to_be_surprised": "Chce zostać zaskoczony/a",
+      "needs_to_protect_secret": "Musi chronić sekret",
+      "wants_to_make_partner_proud": "Chce, żeby partner był dumny",
+      "needs_to_escape_boredom": "Musi uciec od nudy",
+      "wants_to_be_brave": "Chce być odważny/a",
+      "needs_a_clear_rule": "Potrzebuje jasnej zasady",
+      "wants_to_control_story": "Chce kontrolować opowieść",
+      "needs_to_feel_useful": "Musi czuć się potrzebny/a",
+      "wants_to_be_first": "Chce być pierwszy/a",
+      "needs_to_keep_promise": "Musi dotrzymać obietnicy",
+      "wants_to_be_seen_as_kind": "Chce uchodzić za dobrą osobę",
+      "needs_to_test_loyalty": "Musi sprawdzić czyjąś lojalność",
+      "wants_to_start_over": "Chce zacząć od nowa",
+      "needs_to_avoid_goodbye": "Musi uniknąć pożegnania",
+      "wants_to_hear_truth": "Chce usłyszeć prawdę",
+      "needs_to_be_needed": "Potrzebuje być potrzebny/a",
+      "wants_to_turn_back_time": "Chce cofnąć czas"
+    },
+    "quirks": {
+      "cracks_knuckles": "Trzeszczy kostkami",
+      "avoids_eye_contact": "Unika kontaktu wzrokowego",
+      "touches_face_when_lying": "Dotyka twarzy kiedy kłamie",
+      "sways_when_still": "Kołysze się stojąc",
+      "very_deep_breaths": "Oddycha bardzo głęboko",
+      "gestures_like_conductor": "Gestykuluje jak dyrygent",
+      "sniffs_before_speaking": "Pociąga nosem przed mówieniem",
+      "tilts_head_when_thinking": "Przechyla głowę gdy myśli",
+      "bounces_one_leg": "Podskakuje jedną nogą",
+      "leans_too_close": "Podchodzi za blisko",
+      "one_stiff_shoulder": "Jedno sztywne ramię",
+      "taps_three_for_luck": "Stuka trzy razy dla szczęścia",
+      "adjusts_nonexistent_watch": "Poprawia nieistniejący zegarek",
+      "one_raised_eyebrow": "Jedna uniesiona brew",
+      "purses_lips_before_agreeing": "Zaciska usta przed zgodą",
+      "counts_quietly": "Liczy coś po cichu",
+      "always_checks_exits": "Zawsze sprawdza wyjścia",
+      "mirrors_others_posture": "Naśladuje postawę innych",
+      "straightens_objects": "Prostuje przedmioty",
+      "traces_patterns_in_air": "Rysuje wzory w powietrzu",
+      "polishes_glasses": "Poleruje okulary nawet bez potrzeby",
+      "hums_when_nervous": "Mruczy melodię, gdy się denerwuje",
+      "narrates_actions": "Opowiada na głos, co robi",
+      "freezes_before_answering": "Zastyga przed odpowiedzią",
+      "laughs_one_second_late": "Śmieje się sekundę za późno",
+      "folds_invisible_paper": "Składa niewidzialną kartkę",
+      "checks_pockets": "Ciągle sprawdza kieszenie",
+      "speaks_to_objects": "Mówi do przedmiotów",
+      "uses_tiny_steps": "Stawia bardzo małe kroki",
+      "salutes_accidentally": "Przypadkiem salutuje",
+      "practices_smile": "Ćwiczy uśmiech w trakcie rozmowy",
+      "blinks_slowly_when_angry": "Mruga powoli, gdy się złości",
+      "grips_chair_back": "Chwyta oparcie krzesła jak ster",
+      "smooths_hair_after_lie": "Wygładza włosy po kłamstwie",
+      "points_with_elbow": "Wskazuje łokciem",
+      "marks_floor_with_foot": "Zaznacza stopą miejsce na podłodze",
+      "holds_breath_when_listening": "Wstrzymuje oddech podczas słuchania",
+      "makes_tiny_bows": "Kłania się bardzo drobno",
+      "chews_invisible_gum": "Żuje niewidzialną gumę",
+      "keeps_score_on_fingers": "Liczy punkty na palcach",
+      "warms_hands_before_news": "Rozgrzewa dłonie przed ważną wiadomością",
+      "measures_distance_with_palms": "Mierzy odległość dłońmi",
+      "stares_at_ceiling_for_answers": "Szuka odpowiedzi na suficie",
+      "whispers_to_self_before_choices": "Szepcze do siebie przed decyzją",
+      "sits_like_waiting_room": "Siada jak w poczekalni"
+    },
+    "speech": {
+      "starts_with_technically": "Zaczyna zdania od 'technicznie rzecz biorąc'",
+      "ends_with_right": "Kończy zdania pytaniem 'prawda?'",
+      "calls_everyone_friend": "Mówi do wszystkich 'przyjacielu'",
+      "whispers_key_words": "Szepcze kluczowe słowa",
+      "sports_metaphors": "Mówi metaforami sportowymi",
+      "lists_of_three": "Zawsze wymienia trzy rzeczy",
+      "quotes_others": "Cytuje innych przez cały czas",
+      "adds_disclaimers": "Dodaje zastrzeżenia do wszystkiego",
+      "never_uses_names": "Nigdy nie używa imion",
+      "keeps_adding_also": "Ciągle dodaje 'a poza tym...'",
+      "only_questions": "Mówi wyłącznie pytaniami",
+      "outdated_slang": "Używa przestarzałego slangu",
+      "trails_off_mid_sentence": "Urywa w połowie zdania...",
+      "stories_from_too_far_back": "Zaczyna historię od zbyt dawnych wydarzeń",
+      "weather_references": "Zawsze nawiązuje do pogody",
+      "double_negatives": "Używa podwójnych zaprzeczeń",
+      "in_conclusion_ramble": "Mówi 'podsumowując' ale nigdy nie podsumowuje",
+      "everything_rhetorical": "Zadaje pytania retoryczne bez przerwy",
+      "repeats_last_word": "Powtarza ostatnie słowo rozmówcy",
+      "overexplains_simple_things": "Nadmiernie tłumaczy proste rzeczy",
+      "speaks_in_announcements": "Mówi jak przez megafon z ogłoszeniami",
+      "uses_legal_language": "Używa prawniczego języka",
+      "gives_everyone_titles": "Nadaje wszystkim oficjalne tytuły",
+      "says_exactly_the_time": "Podaje dokładną godzinę bez powodu",
+      "turns_statements_into_mottos": "Zamienia zdania w życiowe maksymy",
+      "apologizes_before_points": "Przeprasza przed każdym argumentem",
+      "names_emotions_aloud": "Nazywa emocje na głos",
+      "quotes_imaginary_experts": "Cytuje wymyślonych ekspertów",
+      "customer_service_voice": "Mówi głosem obsługi klienta",
+      "narrates_subtext": "Wypowiada podtekst zamiast go ukrywać",
+      "replaces_yes_with_absolutely": "Zamiast 'tak' mówi wyłącznie 'absolutnie'",
+      "never_finishes_lists": "Nigdy nie kończy wyliczeń",
+      "speaks_like_recipe": "Mówi jak przepis kulinarny",
+      "compares_everything_to_travel": "Porównuje wszystko do podróży",
+      "starts_with_listen": "Zaczyna wypowiedzi od 'słuchaj'",
+      "too_formal_register": "Używa przesadnie oficjalnego tonu",
+      "asks_permission_to_speak": "Prosi o pozwolenie, zanim coś powie",
+      "makes_sound_effects": "Dodaje efekty dźwiękowe",
+      "repeats_important_words_twice": "Powtarza ważne słowa dwa razy",
+      "ends_with_tiny_laugh": "Kończy zdania krótkim śmiechem"
+    },
+    "emotions": {
+      "quietly_anxious": "Cicho niespokojny/a",
+      "resigned_but_pleasant": "Pogodzony/a z losem, ale miły/a",
+      "barely_concealed_delight": "Ledwo skrywana radość",
+      "suppressed_fury": "Stłumiona furia",
+      "terminally_optimistic": "Nieuleczalny/a optymista/ka",
+      "world_weary": "Zmęczony/a światem",
+      "secretly_impressed": "Potajemnie pod wrażeniem",
+      "desperately_romantic": "Desperacko romantyczny/a",
+      "fundamentally_disappointed": "Fundamentalnie rozczarowany/a",
+      "suspiciously_cheerful": "Podejrzanie wesoły/a",
+      "slightly_confused": "Lekko zdezorientowany/a",
+      "deeply_nostalgic": "Głęboko nostalgiczny/a",
+      "professionally_detached": "Zawodowo zdystansowany/a",
+      "overwhelmed_hiding_it": "Przytłoczony/a, ale to ukrywa",
+      "genuinely_fascinated": "Naprawdę zafascynowany/a",
+      "trying_to_look_relaxed": "Udaje zrelaksowanego/ą",
+      "bitter_but_polite": "Gorzki/a, ale uprzejmy/a",
+      "radiantly_naive": "Promieniście naiwny/a",
+      "cautiously_hopeful": "Ostrożnie pełen/pełna nadziei",
+      "exhausted_but_persistent": "Wyczerpany/a, ale wytrwały/a",
+      "bravely_terrified": "Odważnie przerażony/a",
+      "warmly_judgmental": "Ciepło oceniający/a",
+      "quietly_triumphant": "Cicho triumfujący/a",
+      "theatrically_wounded": "Teatralnie zraniony/a",
+      "tenderly_annoyed": "Czule zirytowany/a",
+      "politely_panicked": "Uprzejmie spanikowany/a",
+      "jealous_but_helpful": "Zazdrosny/a, ale pomocny/a",
+      "delighted_by_disaster": "Zachwycony/a katastrofą",
+      "lonely_in_a_crowd": "Samotny/a w tłumie",
+      "proud_and_ashamed": "Dumny/a i zawstydzony/a",
+      "hopeful_against_evidence": "Pełen/pełna nadziei wbrew faktom",
+      "calmly_devastated": "Spokojnie zdruzgotany/a",
+      "overprepared_and_afraid": "Nadprzygotowany/a i przestraszony/a",
+      "grateful_but_suspicious": "Wdzięczny/a, ale podejrzliwy/a",
+      "offended_yet_curious": "Urażony/a, ale ciekawy/a",
+      "childishly_excited": "Dziecinnie podekscytowany/a",
+      "morally_conflicted": "Moralnie rozdarty/a",
+      "newly_confident": "Świeżo pewny/a siebie",
+      "permanently_startled": "Permanentnie zaskoczony/a",
+      "relieved_too_soon": "Za wcześnie pełen/pełna ulgi",
+      "frightened_of_success": "Przestraszony/a sukcesem",
+      "serene_under_pressure": "Spokojny/a pod presją",
+      "secretly_heartbroken": "Potajemnie ze złamanym sercem",
+      "competitive_but_kind": "Rywalizujący/a, ale życzliwy/a",
+      "dramatic_for_no_reason": "Dramatyczny/a bez powodu"
+    }
+  },
+  "prompts": {
+    "title": "Karty podpowiedzi",
+    "subtitle": "Podpowiedzi do impro",
+    "next": "Następna karta",
+    "categories": {
+      "all": "Wszystkie",
+      "first_line": "Pierwsza kwestia",
+      "occupation": "Zawód",
+      "location": "Miejsce",
+      "what_not_to_say": "Czego nie mówić",
+      "title": "Tytuł"
+    },
+    "items": {
+      "fl_1": "Nie miałem/am pojęcia, że to ty jesteś w tym biznesie.",
+      "fl_2": "Myślałem/am, że jesteś na urlopie.",
+      "fl_3": "Widziałem/am cię wczoraj z kimś obcym.",
+      "fl_4": "Muszę ci coś wyznać.",
+      "fl_5": "Wiem, co zrobiłeś/aś zeszłego lata.",
+      "fl_6": "Znasz moją siostrę?",
+      "fl_7": "To jest bardziej skomplikowane niż myślisz.",
+      "fl_8": "Nikt nie może o tym wiedzieć.",
+      "fl_9": "Wróciłem/am wcześniej.",
+      "fl_10": "Masz coś na twarzy.",
+      "fl_11": "To nie jest moje.",
+      "fl_12": "Czekałem/am na ten moment od lat.",
+      "oc_1": "Ekspert od płetw do nurkowania",
+      "oc_2": "Tester materacy",
+      "oc_3": "Zawodowy świadek weselny",
+      "oc_4": "Inspektor ciasteczek fortuny",
+      "oc_5": "Specjalista od obwąchiwania serów",
+      "oc_6": "Przewodnik po katakumbach",
+      "oc_7": "Trener kotów",
+      "oc_8": "Specjalista od dekoracji tortów",
+      "oc_9": "Tłumacz mowy niemowląt",
+      "oc_10": "Degustator drewna",
+      "oc_11": "Specjalista od mgły scenicznej",
+      "oc_12": "Doradca do spraw fobii",
+      "loc_1": "W kolejce do... czegoś",
+      "loc_2": "Na kursie tańca dla seniorów",
+      "loc_3": "W gabinecie psychologa",
+      "loc_4": "Na dachu apartamentowca",
+      "loc_5": "W centrum odnowy biologicznej",
+      "loc_6": "W muzeum figur woskowych",
+      "loc_7": "Na warsztacie ceramicznym",
+      "loc_8": "W kiosku z pasztetami",
+      "loc_9": "Na nocnej zmianie",
+      "loc_10": "W gabinecie dentystycznym",
+      "loc_11": "Na stacji kosmicznej",
+      "loc_12": "W winiarni",
+      "wn_1": "Na pierwszej randce",
+      "wn_2": "Na rozmowie kwalifikacyjnej",
+      "wn_3": "Na pogrzebie",
+      "wn_4": "Na ślubie",
+      "wn_5": "W pierwszy dzień pracy",
+      "wn_6": "Do swojego dentysty",
+      "wn_7": "Do teściowej",
+      "wn_8": "Na komisariacie policji",
+      "wn_9": "Na próbie chóru",
+      "wn_10": "Do swojego szefa",
+      "wn_11": "Podczas wizyty u lekarza",
+      "wn_12": "Na turnieju szachowym",
+      "ti_1": "Zemsta kucharza weselnego",
+      "ti_2": "Człowiek, który bał się luster",
+      "ti_3": "Ostatni tramwaj do Nowej Huty",
+      "ti_4": "Tajemnica szafy babci",
+      "ti_5": "Miłość w czasach lockdownu",
+      "ti_6": "Pięć godzin z moim ojcem",
+      "ti_7": "Kot, który wiedział za dużo",
+      "ti_8": "Przypadkowe wesele",
+      "ti_9": "Powrót do Gdańska",
+      "ti_10": "Wszystko, co zostawiłam",
+      "ti_11": "Człowiek z walizką",
+      "ti_12": "Niebiańska poczekalnia",
+      "fl_13": "Odłóż tę nagrodę i posłuchaj.",
+      "fl_14": "Nie możemy wejść tam jako my sami.",
+      "fl_15": "Przysięgam, że ta walizka przed chwilą mówiła.",
+      "fl_16": "Zaprosiłem/am cię tu, bo tylko ty umiesz kłamać spokojnie.",
+      "fl_17": "To miał być zwykły toast.",
+      "fl_18": "Ktoś podpisał się za mnie.",
+      "fl_19": "Nie pamiętam, żebyśmy mieli trzecią osobę w zespole.",
+      "fl_20": "Jeśli zapytają, jesteśmy kuzynostwem.",
+      "fl_21": "Ten plan działa tylko, jeśli nikt nie będzie szczery.",
+      "fl_22": "Widziałem/am twoje nazwisko w testamencie.",
+      "fl_23": "Nie otwieraj tej koperty przy dzieciach.",
+      "fl_24": "Powiedz mi tylko, czy publiczność już wie.",
+      "oc_13": "Zawodowy przepraszacz w kolejkach",
+      "oc_14": "Przewodnik po muzeum ciszy",
+      "oc_15": "Konsultant od dramatycznych wejść",
+      "oc_16": "Inspektor wind z lękiem wysokości",
+      "oc_17": "Specjalista od zgubionych przemówień",
+      "oc_18": "Trener przemówień ślubnych",
+      "oc_19": "Rzeczoznawca starych lalek",
+      "oc_20": "Doradca do spraw sekretów rodzinnych",
+      "oc_21": "Koordynator ewakuacji bankietów",
+      "oc_22": "Ekspert od fałszywych alarmów",
+      "oc_23": "Opiekun teatralnych rekwizytów",
+      "oc_24": "Mediator dla zwaśnionych bliźniąt",
+      "loc_13": "Na cichej dyskotece w trakcie rozstania",
+      "loc_14": "W zepsutej fotobudce",
+      "loc_15": "Za kulisami szkolnego musicalu",
+      "loc_16": "W salonie sukien ślubnych podczas burzy",
+      "loc_17": "Na promie, który zawrócił",
+      "loc_18": "W pokoju hotelowym z podwójną rezerwacją",
+      "loc_19": "W archiwum, gdzie wszystko jest opisane źle",
+      "loc_20": "W kuchni pałacowej przed ucztą",
+      "loc_21": "Na dachu podczas fałszywego alarmu",
+      "loc_22": "W poczekalni u jasnowidza",
+      "loc_23": "Na peronie po ostatnim pociągu",
+      "loc_24": "W garderobie, której nikt nie powinien znaleźć",
+      "wn_13": "Na przesłuchaniu warunkowym",
+      "wn_14": "Do konsultanta ślubnego",
+      "wn_15": "Podczas minuty ciszy",
+      "wn_16": "Do osoby, która właśnie wygrała nagrodę",
+      "wn_17": "Na spotkaniu wspólnoty mieszkaniowej",
+      "wn_18": "Do pilota przed startem",
+      "wn_19": "W trakcie tajnej misji",
+      "wn_20": "Na terapii dla par",
+      "wn_21": "Przy odbiorze spadku",
+      "wn_22": "Podczas występu dla dzieci",
+      "wn_23": "Do ochroniarza muzeum",
+      "wn_24": "Na żywo w radiu",
+      "ti_13": "Zapasowy pan młody",
+      "ti_14": "Próba generalna końca świata",
+      "ti_15": "Kobieta z drugim biletem",
+      "ti_16": "Burmistrz, który bał się mikrofonów",
+      "ti_17": "Sekret windy numer siedem",
+      "ti_18": "Kiedy archiwum kłamie",
+      "ti_19": "Toast, którego nikt nie zamówił",
+      "ti_20": "Człowiek od cudzych przeprosin",
+      "ti_21": "Ostatnia próba przed ciszą",
+      "ti_22": "Klon na weselu",
+      "ti_23": "Nocny dyżur w ratuszu",
+      "ti_24": "Miłość, mapa i zła walizka"
+    }
+  },
+  "suggestions": {
+    "title": "Sugestie publiczności",
+    "subtitle": "Losowe podpowiedzi od 'widowni'",
+    "next": "Losuj",
+    "grabBag": "Zestaw",
+    "grabBagHint": "Naciśnij 'Losuj', aby wylosować zestaw sugestii",
+    "categories": {
+      "location": "Miejsce",
+      "occupation": "Zawód",
+      "relationship": "Relacja",
+      "emotion": "Emocja",
+      "movie_title": "Tytuł filmu",
+      "word": "Słowo"
+    },
+    "items": {
+      "loc_1": "Supermarket",
+      "loc_2": "Gabinet dentystyczny",
+      "loc_3": "Lotnisko",
+      "loc_4": "Siłownia",
+      "loc_5": "Biblioteka",
+      "loc_6": "Posterunek policji",
+      "loc_7": "Szpital",
+      "loc_8": "Wesele",
+      "loc_9": "Plaża",
+      "loc_10": "Muzeum",
+      "loc_11": "Centrum handlowe",
+      "loc_12": "Lodziarnia",
+      "loc_13": "Gabinet psychologa",
+      "loc_14": "Szkoła",
+      "loc_15": "Kolejka do kasy",
+      "occ_1": "Strażak",
+      "occ_2": "Chirurg",
+      "occ_3": "Nauczyciel/ka",
+      "occ_4": "Kierowca autobusu",
+      "occ_5": "Astronauta",
+      "occ_6": "Kucharz/kucharka",
+      "occ_7": "Detektyw",
+      "occ_8": "Pilot",
+      "occ_9": "Ogrodnik",
+      "occ_10": "Bibliotekarz/ka",
+      "occ_11": "Osoba grająca",
+      "occ_12": "Weterynarz",
+      "occ_13": "Prawnik/prawniczka",
+      "occ_14": "Muzyk",
+      "occ_15": "Budowniczy",
+      "rel_1": "Rodzeństwo",
+      "rel_2": "Szef i pracownik",
+      "rel_3": "Sąsiedzi",
+      "rel_4": "Dawni przyjaciele",
+      "rel_5": "Rywale",
+      "rel_6": "Para romantyczna",
+      "rel_7": "Rodzic i dziecko",
+      "rel_8": "Nauczyciel i uczeń",
+      "rel_9": "Nieznajomi w windzie",
+      "rel_10": "Współpracownicy",
+      "rel_11": "Właściciel i lokator",
+      "rel_12": "Byli partnerzy",
+      "emo_1": "Nostalgia",
+      "emo_2": "Zazdrość",
+      "emo_3": "Podekscytowanie",
+      "emo_4": "Przerażenie",
+      "emo_5": "Zakłopotanie",
+      "emo_6": "Smutek",
+      "emo_7": "Zadowolenie",
+      "emo_8": "Zdenerwowanie",
+      "emo_9": "Duma",
+      "emo_10": "Frustracja",
+      "emo_11": "Zakochanie",
+      "emo_12": "Zaciekawienie",
+      "mt_1": "Zemsta wędkarza",
+      "mt_2": "Przypadkowe wesele",
+      "mt_3": "Ostatni tramwaj",
+      "mt_4": "Tajemnica sąsiada",
+      "mt_5": "Wielka ucieczka",
+      "mt_6": "Misja niemożliwa: Ferie",
+      "mt_7": "Powrót z wakacji",
+      "mt_8": "Miłość na zlecenie",
+      "mt_9": "Człowiek bez celu",
+      "mt_10": "Noc w muzeum",
+      "mt_11": "Szef z przypadku",
+      "mt_12": "Kuzynka z Krakowa",
+      "w_1": "Parasol",
+      "w_2": "Makaron",
+      "w_3": "Zegar",
+      "w_4": "Kaktus",
+      "w_5": "Most",
+      "w_6": "Latarnia",
+      "w_7": "Kompas",
+      "w_8": "Klucz",
+      "w_9": "Mapa",
+      "w_10": "Lustro",
+      "w_11": "Dzwonek",
+      "w_12": "Filiżanka",
+      "loc_16": "Próba teatralna",
+      "loc_17": "Winda w luksusowym hotelu",
+      "loc_18": "Prom podczas sztormu",
+      "loc_19": "Kuchnia restauracji",
+      "loc_20": "Zaplecze sklepu z antykami",
+      "loc_21": "Stacja benzynowa nocą",
+      "loc_22": "Kulisy konkursu talentów",
+      "loc_23": "Poczekalnia weterynarza",
+      "loc_24": "Ratusz w dniu ślubu",
+      "loc_25": "Taras na dachu",
+      "loc_26": "Warsztat zegarmistrza",
+      "loc_27": "Biuro rzeczy znalezionych",
+      "loc_28": "Terminal promowy",
+      "loc_29": "Sala konferencyjna bez okien",
+      "loc_30": "Przebieralnia przed występem",
+      "occ_16": "Inspicjent",
+      "occ_17": "Meteorolog",
+      "occ_18": "Rekwizytor",
+      "occ_19": "Tłumacz symultaniczny",
+      "occ_20": "Animator rejsu",
+      "occ_21": "Urbanista",
+      "occ_22": "Grafolog",
+      "occ_23": "Autor nekrologów",
+      "occ_24": "Konserwator antyków",
+      "occ_25": "Rysownik sądowy",
+      "occ_26": "Trener głosu",
+      "occ_27": "Strażnik parku",
+      "occ_28": "Hotelowy concierge",
+      "occ_29": "Lalkarz",
+      "occ_30": "Fałszywy jasnowidz",
+      "rel_13": "Reżyser i osoba grająca",
+      "rel_14": "Mentor i protegowany",
+      "rel_15": "Dawni członkowie zespołu",
+      "rel_16": "Ochroniarz i złodziej",
+      "rel_17": "Taksówkarz i pasażer",
+      "rel_18": "Para młoda i konsultant ślubny",
+      "rel_19": "Burmistrz i protestujący",
+      "rel_20": "Archiwista i poszukiwacz skarbów",
+      "rel_21": "Dwie osoby udające rodzinę",
+      "rel_22": "Klon i oryginał",
+      "rel_23": "Tłumacz i dyplomata",
+      "rel_24": "Dwóch dublerów",
+      "emo_13": "Panika podszyta ulgą",
+      "emo_14": "Czuła zazdrość",
+      "emo_15": "Fałszywy spokój",
+      "emo_16": "Niechętna duma",
+      "emo_17": "Ciekawość mimo strachu",
+      "emo_18": "Nadmierna uprzejmość",
+      "emo_19": "Wstydliwa radość",
+      "emo_20": "Spóźnione poczucie winy",
+      "emo_21": "Gniew ukryty pod uśmiechem",
+      "emo_22": "Romantyczna desperacja",
+      "emo_23": "Zachwyt katastrofą",
+      "emo_24": "Podejrzana wdzięczność",
+      "mt_13": "Człowiek, który przyszedł za wcześnie",
+      "mt_14": "Sekret z pokoju prób",
+      "mt_15": "Nie ten bagaż",
+      "mt_16": "Ostatni toast",
+      "mt_17": "Miłość w windzie technicznej",
+      "mt_18": "Mapa, która kłamała",
+      "mt_19": "Królowa zgubionych parasoli",
+      "mt_20": "Gala bez zwycięzcy",
+      "mt_21": "Klon z drugiego piętra",
+      "mt_22": "Nocny prom do domu",
+      "mt_23": "Dzień, w którym zgasły światła",
+      "mt_24": "Pomyłka w testamencie",
+      "w_13": "Bilet",
+      "w_14": "Rekwizyt",
+      "w_15": "Walizka",
+      "w_16": "Pieczęć",
+      "w_17": "Mikrofon",
+      "w_18": "Paragon",
+      "w_19": "Peruka",
+      "w_20": "Telegram",
+      "w_21": "Maska",
+      "w_22": "Koperta",
+      "w_23": "Latarka",
+      "w_24": "Gwóźdź"
+    }
+  },
+  "formats": {
+    "title": "Biblioteka form",
+    "subtitle": "Poznaj formy improwizacji",
+    "allDifficulties": "Wszystkie poziomy",
+    "backToList": "Wróć do listy",
+    "players_min": "{{min}}+ os.",
+    "players_range": "{{min}}–{{max}} os.",
+    "difficulty": {
+      "beginner": "Początkujący",
+      "intermediate": "Średniozaawansowany",
+      "advanced": "Zaawansowany"
+    },
+    "harold": {
+      "name": "Harold",
+      "description": "Długa forma improwizacji podzielona na trzy rundy, z otwarciem, scenami i powracającymi wzorcami. Zaczyna się od jednej sugestii słownej i eksploruje ją przez ok. 40 minut w trzech rundach, w których sceny i wzorce powracają i się ze sobą łączą.",
+      "rules": "Poproś publiczność o jedno słowo\nOtwarcie: grupa eksploruje słowo przez swobodne skojarzenia, ruch lub abstrakcyjne obrazy, bez pełnych historii\nRunda 1: trzy krótkie sceny dwuosobowe, budujemy nowe postacie, miejsca i relacje\nGry grupowe (wzorce zespołowe) rozgrywamy między rundami\nRunda 2: wracamy do postaci z Rundy 1 w nowych lub kontynuowanych sytuacjach\nRunda 3: sceny zaczynają się łączyć i nawiązywać do wcześniejszego materiału, Harold zmierza ku spójnemu zakończeniu"
+    },
+    "armando": {
+      "name": "Armando",
+      "description": "Format z narratorem (Armando). Narrator opowiada prawdziwą historię z życia, po której następują sceny inspirowane tą historią. Format na przemian wraca do narratora.",
+      "rules": "Jedna osoba (Armando) otwiera format prawdziwym monologiem z życia, bez fikcji\nOsoby grają sceny zainspirowane tematami, obrazami lub emocjami z monologu, nie odtwarzają go dosłownie\nArmando wraca między scenami, by kontynuować lub zacząć nowy monolog\nNa przemian: monologi i sceny przez cały czas trwania\nSceny szukają tego, co uniwersalne w osobistej historii"
+    },
+    "montage": {
+      "name": "Montaż",
+      "description": "Seria luźno powiązanych scen inspirowanych jednym tematem lub słowem. Nie ma ciągłości fabularnej – każda scena jest niezależna. Ważne jest szybkie przechodzenie między scenami i różnorodność.",
+      "rules": "Poproś publiczność o temat lub słowo\nGraj serię krótkich, niezależnych scen, ciągłość fabularna nie jest wymagana\nCel to różnorodność: mieszaj gatunki, style i długości scen\nOsoby mogą nawiązywać do wcześniejszych obrazów lub tematów\nPrzejścia powinny być szybkie, utrzymuj energię przez cały występ"
+    },
+    "deconstruction": {
+      "name": "Dekonstrukcja",
+      "description": "Forma zaawansowana, gdzie pierwsza scena jest wielokrotnie przerabiana z różnych perspektyw – czasowych, emocjonalnych, narracyjnych. Wymaga doskonałej komunikacji w grupie.",
+      "rules": "Zagraj jedną scenę otwarcia zainspirowaną sugestią publiczności\nDekonstruuj i odtwarzaj scenę z różnych kątów: przed/po w czasie, inny rejestr emocjonalny, zmiana gatunku, perspektywa innej postaci\nKażda dekonstrukcja powinna odsłaniać coś nowego ukrytego w oryginalnym materiale\nŻadne dwa odtworzenia nie powinny być identyczne, szukaj tego, co niewidoczne\nGrupa może zmierzać ku scaleniu lub pozwolić materiałowi ewoluować swobodnie"
+    },
+    "maestro": {
+      "name": "Maestro",
+      "description": "Jedna osoba pełni rolę dyrygenta (maestro), który wskazuje kolejne osoby i może zmieniać sceny, emocje lub style w czasie rzeczywistym. Dynamiczny format widowiskowy.",
+      "rules": "Jedna osoba jest Maestro i stoi z boku sceny\nMaestro wskazuje osoby, żeby zaczęły sceny, i może je zakończyć w dowolnym momencie\nMaestro może wydawać komendy w trakcie sceny: zmień emocję, zmień gatunek, zamień się miejscami, zatrzymaj się\nOsoby muszą natychmiast reagować na komendy Maestro bez wahania\nMaestro kontroluje tempo i różnorodność, a występ musi płynąć"
+    },
+    "movie": {
+      "name": "Film",
+      "description": "Grupa odgrywa improwizowany film fabularny w danym gatunku. Można imitować konwencje gatunkowe, używać muzyki, zwolnionego tempa. Ma narrację, punkty zwrotne i zakończenie.",
+      "rules": "Poproś publiczność o gatunek filmowy (np. horror, komedia romantyczna, western)\nUstal wyraźnego bohatera z celem i przeszkodą w pierwszych scenach\nPrzejdź przez pełny łuk narracyjny: zawiązanie → wzrost napięcia → kryzys → kulminacja → rozwiązanie\nWykorzystuj konwencje gatunku: muzyczne akcenty, montaże, zwolnione tempo, dramatyczne ujawnienia\nDąż do satysfakcjonującego zakończenia, które honoruje gatunek"
+    },
+    "living_room": {
+      "name": "Salon",
+      "description": "Prosta, dostępna forma: osoby siedzą w salonie i improwizują sceny codzienności. Nacisk na relacje i subtelne momenty. Dobry punkt startowy dla grup początkujących.",
+      "rules": "Sugestia nieobowiązkowa, lub użyj prostego słowa\nOsoby siedzą lub stoją w scenografii salonu\nGraj ciche, realistyczne, codzienne sceny, skupiaj się na słuchaniu i subtelności\nUnikaj dużej fizycznej komedii; priorytety to prawda emocjonalna i dynamika relacji\nIdealne dla grup początkujących lub jako format rozgrzewkowy"
+    },
+    "revolver": {
+      "name": "Rewolwer",
+      "description": "Każda osoba dostaje konkretną postać i rotuje przez sceny z różnymi partnerami. Format eksploruje, jak ta sama postać zachowuje się w różnych kontekstach i relacjach.",
+      "rules": "Poproś publiczność o typ postaci lub relację\nKażda osoba wybiera lub dostaje konkretną postać przed pokazem\nOsoby rotują przez sceny w parach z różnymi partnerami\nTa sama postać musi być spójna we wszystkich scenach, te same pragnienia, dziwactwa i głos\nProwadzący lub reżyser sygnalizuje rotację; format pokazuje, jak jedna postać jest kształtowana przez różne relacje"
+    },
+    "micetro": {
+      "name": "Micetro",
+      "description": "Konkurencyjny format, w którym publiczność ocenia sceny, a osoby stopniowo odpadają. Ostatnia osoba staje się Micetro. Widowiskowy, z dużą dawką humoru i presji.",
+      "rules": "Wszystkie osoby startują na scenie; publiczność jest sędzią\nDowolna osoba (lub kilka osób) może wyjść do przodu i zacząć scenę; inni mogą dołączyć\nPo każdej scenie publiczność głosuje, a osoba (lub osoby) z najniższym wynikiem odpada\nKonferansjer zarządza głosowaniem i utrzymuje tempo gry\nOstatnia osoba na scenie zostaje Micetro"
+    },
+    "hot_spot": {
+      "name": "Gorące miejsce",
+      "description": "Jedna osoba stoi w centrum sceny i śpiewa improwizowaną piosenkę. Gdy skończy jej się wena, inna osoba ją zastępuje. Ćwiczenie muzyczności i odwagi. Nie wymaga sugestii.",
+      "rules": "Sugestia nieobowiązkowa\nJedna osoba wychodzi na środek sceny i zaczyna śpiewać piosenkę na dowolny temat\nKiedy inną osobę zainspiruje słowo lub obraz z piosenki, wchodzi i zaczyna własną\nZastępowana osoba natychmiast się cofa; między piosenkami nie powinno być przerw\nUtrzymuj stałą energię i przepływ, cisza jest wrogiem"
+    },
+    "narrative": {
+      "name": "Narracja",
+      "description": "Osoby razem budują opowieść z wyraźną strukturą fabularną: bohater, cel, przeszkoda, przemiana. Nacisk na dramaturgię i tworzenie postaci.",
+      "rules": "Poproś publiczność o miejsce\nUstal wyraźnego bohatera z konkretnym celem w pierwszej scenie\nPrzejdź przez klasyczny łuk narracyjny: zawiązanie → przeszkoda → rosnące stawki → kulminacja → rozwiązanie\nWprowadź przynajmniej jedną wyraźną siłę antagonistyczną lub konflikt\nKażda scena powinna posuwać historię do przodu, bez scen-wypełniaczy"
+    },
+    "time_dash": {
+      "name": "Skok w czasie",
+      "description": "Scena wielokrotnie przeskakuje w czasie – do przeszłości lub przyszłości. Osoby eksplorują, jak ta sama relacja wyglądała 10 lat temu albo będzie wyglądać za 10 lat.",
+      "rules": "Poproś publiczność o relację\nZacznij w teraźniejszości: zagraj scenę ustanawiającą relację\nSkocz w czasie do przodu lub wstecz na sygnał reżysera lub grupy\nKażdy okres czasowy powinien ujawniać coś nowego o relacji\nEksploruj: jak się poznali? Gdzie będą za 20 lat? Jaki był ich punkt zwrotny?"
+    },
+    "perspective": {
+      "name": "Perspektywa",
+      "description": "To samo wydarzenie jest odgrywane wielokrotnie, za każdym razem z punktu widzenia innej postaci. Format pokazuje, jak perspektywa zmienia znaczenie tych samych słów i działań.",
+      "rules": "Poproś publiczność o wydarzenie lub sytuację\nZagraj wydarzenie raz z punktu widzenia jednej postaci\nPowtórz to samo wydarzenie z perspektywy innej postaci, te same fakty, inne doświadczenie\nPowtarzaj dla każdego kąta widzenia\nOstatnia scena lub podsumowanie może pokazać, jak różne perspektywy mogą współistnieć"
+    },
+    "soap_opera": {
+      "name": "Opera mydlana",
+      "description": "Melodramatyczny format z przesadzonymi emocjami, zwrotami akcji i tajemnicami. Osoby improwizują odcinek serialu pełen dramatycznych wyznań i zaskakujących odkryć.",
+      "rules": "Poproś publiczność o temat\nGraj wiele połączonych postaci w toczącym się dramatycznym serialu\nKażda scena powinna kończyć się ujawnieniem, cliffhangerem lub emocjonalnym szczytem\nPostaw wszystko na melodramat: trójkąty miłosne, zdrady, tajemnice, dramatyczne wejścia\nNawiązania do wcześniejszych scen są niezbędne, wszystko musi być połączone"
+    },
+    "bat": {
+      "name": "BAT",
+      "description": "Bohater, Akcja, Temat, mała forma dla 2-4 osób. Jedno zdanie sugestii generuje scenę z wyraźną postacią (B), działaniem (A) i tematem (T).",
+      "rules": "Poproś publiczność o krótkie zdanie-sugestię (np. 'dwoje przyjaciół na dworcu')\nZidentyfikuj kluczowego Bohatera (B), Akcję (A) i Temat (T) z sugestii\nZagraj scenę: ucieleśnij postać, dąż do akcji i pozwól tematowi wyłonić się organicznie\nSceny powinny być krótkie (3–7 min) i skupione na sugestii\nNajlepiej działa z 2 osobami; 3–4 możliwe przy wyraźnym podziale ról"
+    },
+    "movie_pitch": {
+      "name": "Pitch filmowy",
+      "description": "Osoby prezentują i odgrywają pomysły na filmy w zadanym gatunku. Każdy 'producent' może interweniować. Format bardzo dynamiczny i humorystyczny.",
+      "rules": "Poproś publiczność o gatunek filmowy\nOsoby kolejno przedstawiają pomysły na filmy w tym gatunku (10–30 sekund każdy)\nPozostałe osoby to producenci studia, którzy mogą zatrzymać pomysł, skierować go w inną stronę lub przerwać\nKiedy pomysł zostaje zatwierdzony, grupa odgrywa krótką scenę z tego filmu\nProducenci mogą w dowolnej chwili krzyknąć 'cięcie' albo 'obsadźcie inaczej'"
+    },
+    "dream": {
+      "name": "Sen",
+      "description": "Forma surrealistyczna inspirowana marzeniami sennymi. Logika nie obowiązuje – sceny mogą być fragmentaryczne, symboliczne, poetyckie. Wymaga odwagi i zaufania.",
+      "rules": "Poproś publiczność o emocję\nWejdź w logikę snu: normalna przyczyna i skutek nie obowiązują\nSceny mogą się rozpływać, powtarzać lub transformować bez wyjaśnienia\nOsoby mogą zmieniać postacie, osie czasu lub miejsca w środku sceny\nPodążaj za obrazami i impulsami, nie za logiką historii, niech emocja prowadzi cały występ"
+    },
+    "organic_narrative": {
+      "name": "Organiczna narracja",
+      "description": "Forma, w której narracja wyłania się organicznie z grupy, bez wcześniej ustalonej struktury. Osoby słuchają się nawzajem i budują historię wspólnie, podążając za impulsami.",
+      "rules": "Poproś publiczność o temat\nBrak wcześniej ustalonej struktury, grupa buduje występ w czasie rzeczywistym\nSłuchaj głęboko: wspieraj narrację, która chce wyłonić się z zespołu\nDowolna osoba może zainicjować scenę, powtórzyć scenę lub wzmocnić moment\nWystęp kończy się, gdy grupa czuje, że historia jest kompletna, nikt tego nie wywołuje z zewnątrz"
+    }
+  },
+  "reflection": {
+    "title": "Pytania refleksyjne",
+    "subtitle": "Pytania po scenie dla trenera",
+    "next": "Następne pytanie",
+    "available": "dostępne",
+    "categories": {
+      "all": "Wszystkie",
+      "game": "Gra",
+      "crow": "CROW",
+      "ensemble": "Zespół",
+      "edit": "Edycja",
+      "character": "Postać"
+    },
+    "items": {
+      "g1": "Gdzie był pierwszy niezwykły moment w tej scenie?",
+      "g2": "Jaka była gra tej sceny – co się w niej powtarzało?",
+      "g3": "Jak osoby rozpoznały grę sceny i jak do niej zagrały?",
+      "g4": "Kiedy scena 'odleciała', w dobrym lub złym sensie?",
+      "g5": "Jaki wzorzec się wyłonił i jak go eskalowano?",
+      "c1": "Kto grał jaką postać (Character) w tej scenie?",
+      "c2": "Jaka była relacja (Relationship) między postaciami?",
+      "c3": "Jaki był cel (Objective) każdej postaci?",
+      "c4": "Gdzie toczyła się scena (Where) i jak to wpłynęło na grę?",
+      "c5": "Czy CROW był wyraźnie zagrany od początku?",
+      "e1": "Jak dobrze drużyna słuchała się nawzajem?",
+      "e2": "Kto wspierał, a kto blokował energię na scenie?",
+      "e3": "Czy decyzje były podejmowane wspólnie czy solo?",
+      "e4": "Czy ktoś dominował scenę kosztem innych?",
+      "ed1": "Kiedy scena powinna była się skończyć?",
+      "ed2": "Jakie sygnały wskazywały, że czas na cięcie?",
+      "ed3": "Jak edycja wpłynęła na tempo całego setu?",
+      "ch1": "Czy postać zmieniła się w trakcie sceny i dlaczego?",
+      "ch2": "Jak osoba zagrała punkt widzenia swojej postaci?",
+      "ch3": "Czy postać miała wyraźną potrzebę lub chęć?"
+    }
+  },
+  "soundscape": {
+    "title": "Soundscape",
+    "subtitle": "Dźwięki tła do scen i ćwiczeń",
+    "volume": "Głośność",
+    "play": "Odtwarzaj",
+    "pause": "Pauza",
+    "stop": "Zatrzymaj",
+    "sounds": {
+      "rain": "Deszcz",
+      "city": "Miasto",
+      "forest": "Las",
+      "cafe": "Kawiarnia",
+      "storm": "Burza",
+      "fireplace": "Kominek",
+      "ocean": "Ocean",
+      "elevator": "Winda"
+    },
+    "loop": "Pętla"
+  },
+  "status": {
+    "title": "Losowanie statusu",
+    "subtitle": "Sekretne przypisanie liczb statusu uczestnikom",
+    "players": "Osób",
+    "player": "Os.",
+    "shuffle": "Losuj",
+    "revealAll": "Odkryj wszystkich",
+    "hideAll": "Ukryj wszystkich",
+    "hint": "Ustaw liczbę osób i kliknij Losuj"
+  },
+  "spine": {
+    "title": "Kręgosłup historii",
+    "subtitle": "Losowe ziarna dla każdego etapu historii",
+    "regenerateAll": "Nowa historia",
+    "reroll": "Losuj",
+    "labels": {
+      "once_upon": "Pewnego razu...",
+      "every_day": "Każdego dnia...",
+      "until_one_day": "Aż pewnego dnia...",
+      "because_of_that": "Z tego powodu...",
+      "until_finally": "Aż w końcu...",
+      "ever_since": "I od tamtej chwili..."
+    },
+    "seeds": {
+      "once_upon": {
+        "s0": "emerytowany klaun w górskiej wiosce",
+        "s1": "latarnik bojący się morza",
+        "s2": "dwoje sąsiadów, którzy nie rozmawiali ze sobą od dwudziestu lat",
+        "s3": "chirurg rozmawiający z roślinami",
+        "s4": "duch, który nie wiedział, że nie żyje",
+        "s5": "dziewięciolatka przekonana, że dorośli mylą się we wszystkim",
+        "s6": "detektyw słynący z tego, że mylił się dokładnie we właściwym momencie",
+        "s7": "podróżnik w czasie utknięty o trzy dekady za daleko",
+        "s8": "czarownik, który zapomniał większości zaklęć",
+        "s9": "biblioteka, do której nikt nie zaglądał od pięciu lat",
+        "s10": "małe miasteczko z jednym sekretem, który wszyscy znali, ale nikt nie mówił na głos",
+        "s11": "młody archiwista, który wiedział, gdzie zakopano wszystkie szkielety, dosłownie",
+        "s12": "przepracowany naukowiec, który miał zaraz dokonać bardzo niewygodnego odkrycia",
+        "s13": "bliźniacy, którzy dzielili twarz, ale nic więcej",
+        "s14": "robot powoli uczący się, co znaczy czegoś pragnąć"
+      },
+      "every_day": {
+        "s0": "udawali, że wszystko jest w porządku",
+        "s1": "unikali jedynego pytania, które miało znaczenie",
+        "s2": "nosili uśmiech, za którym chowali wszystko",
+        "s3": "powtarzali sobie, że jutro będzie inaczej",
+        "s4": "pomagali wszystkim poza sobą",
+        "s5": "strzegli tajemnicy, która powoli ich niszczyła",
+        "s6": "odmawiali proszenia o pomoc, cokolwiek by to kosztowało",
+        "s7": "patrzyli, jak inni żyją życiem, którego pragnęli",
+        "s8": "opowiadali to samo kłamstwo każdemu, kto pytał",
+        "s9": "prawie mówili prawdę, po czym znów jej nie mówili",
+        "s10": "co noc śnili o innym życiu",
+        "s11": "unikali pewnych drzwi na końcu korytarza",
+        "s12": "naprawiali cudze problemy, ale nie własne",
+        "s13": "liczyli dni, nie wiedząc, na co czekają",
+        "s14": "budzili się, robili te same rzeczy i szli spać"
+      },
+      "until_one_day": {
+        "s0": "pojawił się nieznajomy z listem zaadresowanym do kogoś, kto umarł trzydzieści lat temu",
+        "s1": "znaleźli fotografię, która zmieniła wszystko, w co wierzyli o sobie",
+        "s2": "to, przed czym uciekali, znalazło ich jako pierwsze",
+        "s3": "powiedzieli tak, gdy każda ich cząstka chciała powiedzieć nie",
+        "s4": "wszystko, co miało pozostać ukryte, wyszło na jaw naraz",
+        "s5": "jeden mały błąd zapoczątkował łańcuch ogromnych konsekwencji",
+        "s6": "dostali wiadomość od kogoś, kto nie powinien jej móc wysłać",
+        "s7": "przypadkowo usłyszeli coś, czego słyszeć nie powinni",
+        "s8": "prawda dotarła dwadzieścia lat za późno, i zarazem dokładnie na czas",
+        "s9": "wręczono im przedmiot, którego nie rozumieli i którego nie mogli się pozbyć",
+        "s10": "dwie osoby, które nigdy nie powinny się spotkać, znalazły się w tym samym pokoju",
+        "s11": "burza uwięziła ich z jedyną osobą, z którą musieli się zmierzyć",
+        "s12": "ktoś inny wziął zasługę za ich największy błąd, i był za to świętowany",
+        "s13": "w ścianie pojawiły się drzwi, których wczoraj tam nie było",
+        "s14": "poszli w złym kierunku i znaleźli jedyną właściwą odpowiedź"
+      },
+      "because_of_that": {
+        "s0": "musieli podjąć decyzję w mniej niż godzinę",
+        "s1": "wszystko, co starannie zbudowali, zaczęło się sypać",
+        "s2": "zwrócili się do jedynej osoby, z którą lata temu zerwali kontakt",
+        "s3": "kłamstwo, które powiedzieli dla ochrony kogoś, zaczęło rosnąć",
+        "s4": "przekroczyli granicę, którą obiecali sobie, że nigdy nie przekroczą",
+        "s5": "po raz pierwszy od lat musieli poprosić o pomoc",
+        "s6": "ludzie, którym ufali najbardziej, zaczęli ich podejrzewać",
+        "s7": "odkryli, że są zdolni do czegoś, czego się po sobie nie spodziewali",
+        "s8": "musieli powiedzieć prawdę albo stracić wszystko",
+        "s9": "nie mieli wyboru, musieli wrócić do samego początku",
+        "s10": "zrobili wroga z kogoś, kto kiedyś był przyjacielem",
+        "s11": "najprostsze rozwiązanie wymagało największej ofiary",
+        "s12": "oddali coś, co kochali, żeby ochronić coś ważniejszego",
+        "s13": "dowiedzieli się, kto naprawdę był po ich stronie, a kto nie",
+        "s14": "ich plan zadziałał perfekcyjnie i mimo to pogorszył sytuację"
+      },
+      "until_finally": {
+        "s0": "stanęli twarzą w twarz z tym, czego zawsze najbardziej się bali",
+        "s1": "musieli wybierać między dwiema rzeczami, które kochali jednakowo",
+        "s2": "prawda wyszła na jaw przy wszystkich",
+        "s3": "zrobili to, co sobie obiecali, że nigdy nie zrobią",
+        "s4": "wszystkie kłamstwa runęły dokładnie w tym samym momencie",
+        "s5": "powiedzieli to, czego nie można było cofnąć",
+        "s6": "sekret trzymający wszystko razem w końcu wyszedł na jaw",
+        "s7": "osoba, którą wszyscy lekceważyli, okazała się kluczem",
+        "s8": "wszystko zbiegło się w jednym niemożliwym momencie",
+        "s9": "dotarli za późno, albo dokładnie na czas, zależy kogo się pyta",
+        "s10": "musieli wybrać: prawdę czy osobę, którą kochali najbardziej",
+        "s11": "w największym momencie wybrali najdrobniejszą, najbardziej uczciwą rzecz",
+        "s12": "przestali udawać i po raz pierwszy po prostu żyli",
+        "s13": "stali się dokładnie tym, kim zawsze bali się zostać",
+        "s14": "wszystkie wątki się połączyły i cała historia nareszcie miała sens"
+      },
+      "ever_since": {
+        "s0": "w końcu zaczęli naprawdę słuchać",
+        "s1": "zatrzymali list i nigdy nie odpisali",
+        "s2": "było trudniej, ale bardziej uczciwie",
+        "s3": "przestali naprawiać to, czego naprawiać nie było ich rolą",
+        "s4": "śmiali się z rzeczy, które kiedyś ich przerażały",
+        "s5": "nic nie wróciło do normy, i okazało się, że to jest w porządku",
+        "s6": "zachowali jeden mały zwyczaj jako dowód, że to wszystko się zdarzyło",
+        "s7": "w końcu pozwolili komuś sobie pomóc",
+        "s8": "opowiadali tę historię inaczej za każdym razem, ale zawsze ją opowiadali",
+        "s9": "nie dostali tego, czego chcieli, i byli za to wdzięczni",
+        "s10": "zrozumieli, że niektóre drzwi, gdy już się otworzą, nie zamykają się ponownie",
+        "s11": "nadal się bali, ale rzadziej",
+        "s12": "stali się kimś, kogo ich młodsze ja potrzebowało",
+        "s13": "ten błąd stał się tym, z czego byli najbardziej dumni",
+        "s14": "za każdym razem, gdy padał deszcz, myśleli o tamtym dniu"
+      }
+    }
+  },
+  "jam": {
+    "title": "Tablica jamu",
+    "subtitle": "Zbuduj kolejkę gier i poprowadź jam",
+    "addPlaceholder": "Dodaj grę...",
+    "add": "Dodaj",
+    "quickAdd": "Szybkie dodawanie",
+    "emptyQueue": "Kolejka jest pusta. Dodaj gry, żeby zacząć.",
+    "startShow": "Zacznij pokaz",
+    "exitShow": "Wyjdź",
+    "prev": "Wstecz",
+    "next": "Dalej",
+    "tapToAdvance": "użyj przycisków, żeby nawigować",
+    "done": "Koniec pokazu!",
+    "backToQueue": "Wróć do kolejki",
+    "ask": "Poproś o",
+    "players": "osób",
+    "suggest": {
+      "word": "słowo",
+      "story": "prawdziwą historię",
+      "theme": "temat",
+      "scene": "sytuację",
+      "character": "typ postaci",
+      "genre": "gatunek filmowy",
+      "location": "miejsce",
+      "event": "wydarzenie",
+      "emotion": "emocję",
+      "relationship": "relację"
+    }
+  },
+  "principles": {
+    "title": "Zasady impro",
+    "subtitle": "Karty pamięci z podstawowymi zasadami improwizacji",
+    "allCategories": "Wszystkie",
+    "exampleLabel": "Przykład",
+    "prev": "← Poprzednia",
+    "next": "Następna →",
+    "categories": {
+      "foundation": "Fundament",
+      "character": "Postać",
+      "status": "Status",
+      "editing": "Edycja",
+      "ensemble": "Zespół",
+      "stagecraft": "Scena"
+    },
+    "items": {
+      "yes_and": {
+        "name": "Tak, i...",
+        "text": "Przyjmij to, co oferuje partner i dodaj do tego coś od siebie. Nie zaprzeczaj ani nie blokuj tego, co zostało ustalone. Scena rośnie z wzajemnej zgody.",
+        "example": "Jeśli partner mówi 'Ładny pies!', nie mów 'Nie mam psa', odpowiedz 'Tak, dziwnie się zachowuje od tamtego wypadku.'"
+      },
+      "make_partner_look_good": {
+        "name": "Niech partner błyszczy",
+        "text": "Twoim jedynym zadaniem jest sprawienie, żeby partner wyglądał genialnie. Gdy oboje tak działają, cała scena się wznosi. Ego niszczy sceny, hojność je buduje."
+      },
+      "listen": {
+        "name": "Słuchaj aktywnie",
+        "text": "Słuchaj całym ciałem, nie tylko uszami. Większość błędów w impro wynika z niesłuchania tego, co partner właśnie dał.",
+        "example": "Nie planuj kolejnej kwestii, gdy partner mówi, pozwól, żeby jego słowa dotarły do ciebie najpierw."
+      },
+      "trust": {
+        "name": "Ufaj partnerowi",
+        "text": "Zakładaj, że wybory partnera są celowe i genialne. Graj z wiarą, nie z kontrolą. W chwili, gdy próbujesz sterować, przestajesz słuchać."
+      },
+      "commit": {
+        "name": "Zaangażuj się w pełni",
+        "text": "Połowiczne wybory zabijają sceny. Cokolwiek robisz, rób to w 100%. Zły pomysł w pełni zagrany jest lepszy niż dobry pomysł zagrany bojaźliwie.",
+        "example": "Grasz lekarza, który boi się krwi? Bądź PRZERAŻONY, nie lekko nieswojo."
+      },
+      "dont_try_funny": {
+        "name": "Nie staraj się być śmieszny",
+        "text": "Śmiech pochodzi z prawdy i zaangażowania, nie z żartów. Gdy gonisz śmiech, tracisz scenę. Graj uczciwie, a komizm zadba o siebie sam."
+      },
+      "be_present": {
+        "name": "Bądź tu i teraz",
+        "text": "Puść to, co się właśnie wydarzyło i przestań planować to, co będzie. Scena istnieje tylko w tej chwili, a najlepsze oferty pochodzą z pełnej obecności."
+      },
+      "mistakes_gifts": {
+        "name": "Błędy to prezenty",
+        "text": "Jeśli coś pójdzie nie tak, graj tak, jakby to było zamierzone. W impro nie ma błędów, są tylko nieoczekiwane oferty czekające na przyjęcie.",
+        "example": "Zapomniałeś imienia postaci w środku sceny? Twoja postać właśnie miała zanik pamięci, zagraj to."
+      },
+      "be_obvious": {
+        "name": "Bądź oczywisty",
+        "text": "Twój pierwszy odruch jest zazwyczaj właściwy. Nie kombinuj i nie sil się na spryt. Najbardziej oczywisty wybór bywa najbardziej szczery.",
+        "example": "Scena rozgrywa się w szpitalu, graj lekarza albo pacjenta, a nie sekretnie kosmicznego dozorcę."
+      },
+      "support_team": {
+        "name": "Wspieraj zespół",
+        "text": "Zespół ponad ego. Dokonuj wyborów, które służą historii grupy, nie twojemu własnemu popisowi. Najlepsze osoby to często te, których prawie nie zauważasz."
+      },
+      "point_of_view": {
+        "name": "Punkt widzenia",
+        "text": "Każda postać ma określone podejście do świata. Zaangażuj się w jeden jasny punkt widzenia i pozwól mu zabarwić wszystko, co mówi i robi twoja postać.",
+        "example": "Postać, która wierzy, że 'nikomu nie można ufać', będzie interpretować każdą życzliwość jako manipulację."
+      },
+      "pursue_want": {
+        "name": "Dąż do celu",
+        "text": "Twoja postać musi czegoś chcieć w każdej scenie. Bez pragnienia nie ma sceny, tylko miła pogawędka. Napędzaj scenę pożądaniem.",
+        "example": "Nawet prosta scena o kawie staje się interesująca, gdy jedna postać desperacko jej potrzebuje, a druga ciągle zwleka."
+      },
+      "react_specifically": {
+        "name": "Reaguj konkretnie",
+        "text": "Niejasne reakcje zabijają sceny. Gdy coś się dzieje, odpowiedz precyzyjną emocją, myślą lub działaniem fizycznym. Ogólnikowe reakcje sygnalizują, że nie słuchasz.",
+        "example": "Nie 'Wow, to zaskakujące' ale 'Nie mogę uwierzyć, że użyłeś tych dobrych nożyczek do kartonu.'"
+      },
+      "use_body": {
+        "name": "Używaj ciała",
+        "text": "Postać żyje w ciele zanim żyje w słowach. Fizyczność mówi widowni, kim jesteś, zanim się odezwiesz. Nie zaniedbuj swojego instrumentu."
+      },
+      "status_everything": {
+        "name": "Status jest wszystkim",
+        "text": "Każda relacja ma dynamikę statusu. Wiedz, gdzie stoisz względem partnera, i pozwól, żeby wpływało to na każdy twój wybór."
+      },
+      "play_emotions": {
+        "name": "Graj prawdziwe emocje",
+        "text": "Nie wskazuj emocji, czuj je. Prawdziwa emocja w ciele tworzy szczery, wartościowy teatr. Odgrywana emocja wygląda pusto."
+      },
+      "relationships_define": {
+        "name": "Relacje definiują postaci",
+        "text": "Jesteśmy tym, kim jesteśmy, dzięki relacjom, w których jesteśmy. Ustal relację wcześnie i pozwól jej prowadzić scenę.",
+        "example": "Dwoje obcych ludzi nie ma wspólnej historii. Skłócone rodzeństwo ma jej nieskończenie wiele. Korzystaj z tego."
+      },
+      "status_relative": {
+        "name": "Status jest względny",
+        "text": "Nie możesz mieć wysokiego statusu bez kogoś o niskim statusie. Status istnieje tylko w relacji z innymi, i zmienia się nieustannie w trakcie sceny."
+      },
+      "status_shifts": {
+        "name": "Status się zmienia",
+        "text": "Status nie jest stały. Obserwuj momenty, gdy status przechodzi z rąk do rąk, to często najbardziej dramatyczne chwile w impro.",
+        "example": "Uczeń poprawia profesora. Dziecko odmawia posłuszeństwa. Ogrodnik zna sekret, którego król nie zna."
+      },
+      "low_status_fun": {
+        "name": "Niski status to frajda",
+        "text": "Granie niskiego statusu jest często ciekawsze niż granie wysokiego. Słabeusz, oferma, sługa, te postaci głęboko łączą się z widownią."
+      },
+      "status_in_body": {
+        "name": "Status żyje w ciele",
+        "text": "Wysoki status: spokój, zajmuje przestrzeń, bezpośredni kontakt wzrokowy. Niski status: nerwowy, unika wzroku, kurczy się. Ciało komunikuje status zanim padnie słowo."
+      },
+      "edit_at_height": {
+        "name": "Tnij na szczycie",
+        "text": "Kończ scenę, gdy jest najlepsza, nie gdy umiera. Zostaw widownię z niedosytem. Najtrudniejsza umiejętność w impro to wiedzieć, kiedy skończyć.",
+        "example": "Jeśli scena właśnie trafiła w swój najlepszy śmiech lub najbardziej emocjonalny moment, to twój sygnał do cięcia."
+      },
+      "sweep_momentum": {
+        "name": "Rozpęd cięcia",
+        "text": "Odcięcie sceny przenosi energię bieżącej sceny do następnej. Zakończenie nadaje ton początkowi. Pozwól, by emocja przeszła przez cięcie."
+      },
+      "callbacks_reward": {
+        "name": "Callbacki nagradzają uwagę",
+        "text": "Przywrócenie wcześniejszego momentu nagradza uważnych widzów i tworzy satysfakcjonującą strukturę. Callbacki mówią: cały czas coś budowaliśmy.",
+        "example": "Muffin z pierwszej sceny staje się narzędziem zbrodni w trzeciej."
+      },
+      "end_scenes": {
+        "name": "Wiedz, kiedy skończyć",
+        "text": "Scena, która za długo gości na scenie, szkodzi całemu występowi. Tnij zdecydowanie. Lepiej skończyć chwilę za wcześnie niż minutę za późno."
+      },
+      "dont_over_edit": {
+        "name": "Nie przesadzaj z cięciami",
+        "text": "Ciągłe cięcia przerywają rytm i męczą widownię. Daj scenom przestrzeń, żeby oddychały i się rozwijały. Powolna, rozbudowana scena bywa najmocniejszym punktem całego występu."
+      },
+      "follow_follower": {
+        "name": "Podążaj za tym, kto podąża",
+        "text": "Przywództwo w zespole jest wspólne i płynne. Podążaj za tym, kto teraz prowadzi, i wkraczaj, gdy grupa cię potrzebuje.",
+        "example": "Jeśli ktoś zaczyna poruszać się powoli, cały zespół zwalnia. Jeśli ktoś zaczyna skandować, inni dołączają."
+      },
+      "give_take": {
+        "name": "Dawaj i bierz",
+        "text": "Wiedz, kiedy wychodzić na przód i kiedy się cofać. Zespół w równowadze działa bez wysiłku. Parcie do przodu, gdy powinieneś się cofnąć, tworzy korek."
+      },
+      "group_mind": {
+        "name": "Umysł grupy",
+        "text": "Zespół, gdy działa dobrze, funkcjonuje jak jeden twórczy organizm. Najlepsze zespoły myślą razem bez słów. Zaufaj wspólnemu instynktowi."
+      },
+      "take_care": {
+        "name": "Dbaj o siebie nawzajem",
+        "text": "Na scenie i poza nią. Pilnuj swoich partnerów. Zespół zbudowany na prawdziwym zaufaniu podejmuje większe ryzyko i szybciej podnosi się po błędach."
+      },
+      "agree_loud": {
+        "name": "Zgadzaj się głośno",
+        "text": "Gdy przyjmujesz ofertę, zrób to fizycznie i głosowo. Partner musi wiedzieć, że przyjąłeś to, co dał. Cisza może wyglądać jak odrzucenie.",
+        "example": "Powtórz słowo, odzwierciedl ruch lub po prostu powiedz 'Tak.' Uczyń swoje przyjęcie widocznym."
+      },
+      "support_initiations": {
+        "name": "Wspieraj mocne inicjatywy",
+        "text": "Gdy ktoś składa śmiałą ofertę, stań za nią natychmiast. Zadaniem zespołu jest sprawić, by inicjator wyglądał jak geniusz, a nie konkurować z nim."
+      },
+      "use_whole_stage": {
+        "name": "Używaj całej sceny",
+        "text": "Nie grupuj się w centrum. Używaj głębi, rogów i różnych wysokości. Obrazy sceniczne są tak samo ważne jak dialogi. Pusta przestrzeń to wybór."
+      },
+      "share_scene": {
+        "name": "Dziel scenę",
+        "text": "Dziel uwagę po równo. Nie zasłaniaj partnera ani nie chowaj się w tle. Oboje powinniście być widoczni i połączeni przez cały czas."
+      },
+      "second_beats": {
+        "name": "Drugie beaty idą głębiej",
+        "text": "Druga scena między tymi samymi postaciami idzie głębiej niż pierwsza. Oprzyj się pokusie resetowania. Eksploruj relację dalej.",
+        "example": "Rodzeństwo kłóciło się w rundzie pierwszej. W rundzie drugiej dowiadujemy się, o co naprawdę chodziło."
+      },
+      "silence_funny": {
+        "name": "Cisza jest śmieszna",
+        "text": "Nie spiesz się z wypełnianiem ciszy słowami. Długa pauza po świetnej kwestii pozwala śmiechowi odetchnąć i często wywołuje więcej śmiechu niż kolejna kwestia."
+      },
+      "simple_agreements": {
+        "name": "Proste zgody budują światy",
+        "text": "Dwie osoby zgadzające się co do małych, konkretnych detali budują bogatszy świat niż rozbudowana ekspozycja. 'W tej kuchni śmierdzi czosnkiem', to wystarczy.",
+        "example": "'Tu jest zimno.' / 'Tu zawsze jest zimno.', dwie kwestie budujące całą wspólną historię."
+      },
+      "strong_offers": {
+        "name": "Rób mocne oferty",
+        "text": "Daj partnerowi coś konkretnego, na co może reagować. Niejasne oferty zmuszają partnera do całej pracy twórczej. Konkretność jest hojnością.",
+        "example": "Nie 'Mam coś dla ciebie' ale 'Zachowałem list, który napisałeś i nigdy nie wysłałeś.'"
+      },
+      "label_relationship": {
+        "name": "Nazywaj relacje wcześnie",
+        "text": "Powiedz widowni, kim jesteście dla siebie w pierwszych 30 sekundach. Nazwanie relacji natychmiast odblokowuje całą scenę.",
+        "example": "'Nie mogę uwierzyć, że zadzwoniłeś do mamy', jedna kwestia, która ustanawia rodzeństwo, konflikt rodzinny i nieobecną trzecią postać."
+      },
+      "justify": {
+        "name": "Uzasadniaj wszystko",
+        "text": "Cokolwiek dzieje się na scenie, znajdź powód, żeby to było prawdą w tym świecie. Nie zaprzeczaj nieoczekiwanemu, uzasadnij i idź dalej."
+      },
+      "heighten_explore": {
+        "name": "Eskaluj i eksploruj",
+        "text": "Znajdź niezwykłą rzecz w scenie i uczyń ją bardziej niezwykłą. Zidentyfikuj, co jest dziwne i stale kręć gałką. Eksploruj, zanim zaczniesz eskalować.",
+        "example": "Postać wzdryga się za każdym razem, gdy ktoś mówi słowo 'wtorek', eksploruj dlaczego, a potem eskaluj."
+      },
+      "find_game": {
+        "name": "Znajdź grę sceny",
+        "text": "Każda scena ma grę, niezwykłe zachowanie lub dynamikę, którą widownia chce zobaczyć eksplorowaną. Znalezienie i nazwanie jej (wewnętrznie) odblokowuje całą scenę."
+      }
+    }
+  },
+  "monologue": {
+    "title": "Ziarna monologu",
+    "subtitle": "Dotknij, aby dostać impuls do osobistego monologu",
+    "allCategories": "Wszystkie",
+    "prompt": "Opowiedz o chwili, gdy...",
+    "prev": "← Poprzedni",
+    "next": "Następny →",
+    "categories": {
+      "embarrassment": "Żenada",
+      "surprise": "Zaskoczenie",
+      "pride": "Duma",
+      "fear": "Strach",
+      "childhood": "Dzieciństwo",
+      "work": "Praca",
+      "relationships": "Relacje"
+    },
+    "items": {
+      "e1": "powiedziałeś/aś kompletnie coś nie tak w najgorszym możliwym momencie",
+      "e2": "próbowałeś/aś zaimponować komuś i skończyło się spektakularną kompromitacją",
+      "e3": "śmiałeś/aś się tak bardzo, że stało się coś żenującego",
+      "e4": "wszedłeś/weszłaś do złego pokoju z pełnym przekonaniem",
+      "e5": "myślałeś/aś, że ktoś macha do ciebie, a nie machał",
+      "e6": "wszyscy pamiętali coś, o czym desperacko chciałeś/aś, żeby zapomnieli",
+      "e7": "dałeś/aś radę, która okazała się kompletnie błędna",
+      "e8": "przyłapano cię na czymś, czego absolutnie nie powinieneś/aś robić",
+      "e9": "twój plan, żeby wypaść świetnie, rozsypał się na żywo, i to przed zupełnie nieodpowiednimi ludźmi",
+      "s1": "coś nieoczekiwanego okazało się dokładnie tym, czego potrzebowałeś/aś",
+      "s2": "zupełnie obcy człowiek zrobił coś, co zmieniło twój dzień",
+      "s3": "odkryłeś/aś talent, o którym nie wiedziałeś/aś, że go masz",
+      "s4": "plan poszedł w bok, ale wynik był lepszy od oryginału",
+      "s5": "ktoś, kogo nie doceniałeś/aś, zupełnie cię zaskoczył",
+      "s6": "dostałeś/aś wiadomość, przy której nie wiedziałeś/aś, czy się cieszyć, czy płakać",
+      "s7": "życie dało ci coś, czego zdecydowanie nie zamawiałeś/aś",
+      "s8": "rzeczywistość okazała się dziwniejsza niż cokolwiek, co sobie wyobraziłeś/aś",
+      "p1": "zrobiłeś/aś coś, o czym nie myślałeś/aś, że jesteś w stanie",
+      "p2": "pomogłeś/aś komuś i naprawdę zrobiło to różnicę",
+      "p3": "stanąłeś/stanęłaś w swojej obronie, gdy łatwiej byłoby tego nie robić",
+      "p4": "skończyłeś/aś coś, co wydawało się niemożliwe, gdy zaczynałeś/aś",
+      "p5": "ktoś powiedział ci, że jest z ciebie dumny",
+      "p6": "podjąłeś/podjęłaś decyzję, którą twoje młodsze ja by podziwiało",
+      "f1": "byłeś/aś absolutnie przerażony/a, ale i tak to zrobiłeś/aś",
+      "f2": "zupełnie irracjonalny strach prawie zniszczył zwykły dzień",
+      "f3": "musiałeś/aś zrobić coś przed ludźmi i ciało cię zdradziło",
+      "f4": "zostałeś/aś w jakiejś sytuacji dłużej niż powinieneś/aś ze strachu",
+      "f5": "rzecz, której się bałeś/aś, okazała się kompletnie w porządku",
+      "f6": "zdałeś/aś sobie sprawę, że całkowicie bałeś/aś się nie tej rzeczy",
+      "c1": "wierzyłeś/aś w coś zupełnie nieprawdziwego przez żenująco długi czas",
+      "c2": "zasada, której musiałeś/aś przestrzegać, nie miała dla ciebie żadnego sensu",
+      "c3": "dostałeś/aś karę za coś, co w tamtym czasie wydawało się zupełnie uzasadnione",
+      "c4": "dorosły powiedział coś, co utkwiło w tobie na lata",
+      "c5": "miałeś/aś rytuał, który traktowałeś/aś śmiertelnie poważnie, a teraz wygląda śmiesznie",
+      "c6": "chciałeś/aś czegoś bardziej niż czegokolwiek na świecie",
+      "c7": "zaprzyjaźniłeś/aś się z kimś w najdziwniejszych okolicznościach",
+      "c8": "odkryłeś/aś, że dorośli nie wiedzieli, co robią",
+      "c9": "lato wydawało się trwać wiecznie",
+      "c10": "miałeś/aś kryjówkę, która była tylko twoja",
+      "w1": "projekt nie poszedł tak, jak planowano, i musiałeś/aś improwizować",
+      "w2": "musiałeś/aś pracować z kimś, kto doprowadzał cię do szału",
+      "w3": "byłeś/aś kompletnie nie na swoim miejscu i musiałeś/aś udawać",
+      "w4": "mały błąd miał o wiele poważniejsze konsekwencje niż powinien",
+      "w5": "musiałeś/aś wytłumaczyć coś skomplikowanego komuś, kto nie chciał rozumieć",
+      "w6": "współpracownik zrobił coś nieoczekiwanego, co poprawiło ci cały tydzień",
+      "w7": "osiągnąłeś/aś coś w pracy i nikt tego nie zauważył",
+      "w8": "musiałeś/aś przekazać złe wiadomości i nie było dobrego sposobu na to",
+      "r1": "powiedziałeś/aś 'kocham cię' jako pierwszy/pierwsza i nie byłeś/aś pewien/pewna, jak to zostanie odebrane",
+      "r2": "przyjaźń się skończyła i nadal do końca nie rozumiesz dlaczego",
+      "r3": "zdałeś/aś sobie sprawę, że zupełnie źle oceniałeś/aś kogoś",
+      "r4": "musiałeś/aś przeprosić za coś, co było naprawdę twoją winą",
+      "r5": "ktoś z rodziny zaskoczył cię w sposób, którego się nie spodziewałeś/aś",
+      "r6": "trzymałeś/aś się urazy dłużej niż miało to jakikolwiek sens",
+      "r7": "wybrałeś/aś zły moment na szczerość",
+      "r8": "ktoś potrzebował cię bardziej, niż zdawałeś/aś sobie sprawę",
+      "r9": "musiałeś/aś kogoś puścić, choć nie chciałeś/aś",
+      "r10": "mała kłótnia ujawniła coś o wiele większego pod spodem",
+      "r11": "otrzymałeś/aś życzliwość od kogoś, od kogo spodziewałeś/aś się przeszkody",
+      "e10": "Opowiedz o chwili, gdy wszyscy patrzyli, a ty udawałeś/aś, że to część planu.",
+      "e11": "Opowiedz o gafie, którą zrozumiałeś/aś dopiero kilka godzin później.",
+      "e12": "Opowiedz o momencie, gdy próbowałeś/aś brzmieć profesjonalnie, ale wyszło odwrotnie.",
+      "s9": "Opowiedz o wiadomości, która zmieniła zwykły dzień w przygodę.",
+      "s10": "Opowiedz o prezencie, który okazał się zupełnie czymś innym.",
+      "s11": "Opowiedz o chwili, gdy ktoś pojawił się w najmniej spodziewanym momencie.",
+      "p7": "Opowiedz o czymś małym, z czego byłeś/aś absurdalnie dumny/a.",
+      "p8": "Opowiedz o sytuacji, gdy ktoś w końcu zauważył twoją pracę.",
+      "p9": "Opowiedz o zwycięstwie, które wyglądało głupio z boku.",
+      "f7": "Opowiedz o miejscu, które wydawało się bezpieczne, dopóki nie zapadła cisza.",
+      "f8": "Opowiedz o strachu, którego nie chciałeś/aś nikomu przyznać.",
+      "f9": "Opowiedz o chwili, gdy wyobraźnia była gorsza niż rzeczywistość.",
+      "c11": "Opowiedz o zasadzie z domu, której nikt inny nie rozumiał.",
+      "c12": "Opowiedz o dziecięcej obietnicy, której długo się trzymałeś/aś.",
+      "c13": "Opowiedz o pierwszym razie, gdy poczułeś/aś się dorosły/a.",
+      "w9": "Opowiedz o pracy, która wymagała więcej udawania niż umiejętności.",
+      "w10": "Opowiedz o szefie, który miał dziwną obsesję.",
+      "w11": "Opowiedz o dniu, gdy wszyscy w pracy wiedzieli coś oprócz ciebie.",
+      "r12": "Opowiedz o przyjaźni, która zaczęła się od nieporozumienia.",
+      "r13": "Opowiedz o rozmowie, której unikałeś/aś zbyt długo.",
+      "r14": "Opowiedz o osobie, która zna twoją wersję sprzed lat."
+    }
+  },
+  "genres": {
+    "title": "Karty gatunków",
+    "subtitle": "Wskazówki do grania dowolnego gatunku na scenie",
+    "tips": "Wskazówki stylistyczne",
+    "horror": {
+      "name": "Horror",
+      "tip1": "Poruszaj się powoli i z namysłem, nigdy nie spiesz się. Groza buduje się w pauzach, nie w tempie.",
+      "tip2": "Reaguj na dźwięk i cień zanim na samo zagrożenie. Strach to antycypacja.",
+      "tip3": "Mów krótko, urywanymi zdaniami. Twoja postać przetwarza świat we fragmentach.",
+      "tip4": "Znajdź jedną konkretną rzecz, której się boisz i pozostań jej wiernie przerażony/a.",
+      "tip5": "Nie puszczaj oka do widowni. Pozwól absurdowi wynikać naturalnie z pełnego zaangażowania."
+    },
+    "western": {
+      "name": "Western",
+      "tip1": "Szeroka postawa, powolna mowa, rozmyślne ruchy. Nikt w westernie się nie spieszy (dopóki nie musi).",
+      "tip2": "Szacunek się zdobywa, nie dostaje. Status ustala się przez czyny i reputację, nie słowa.",
+      "tip3": "Krajobraz jest zawsze postacią, odnoś się do niego, cierp w nim, czerp z niego siłę.",
+      "tip4": "Kodeksy moralne są czarno-białe na powierzchni i skomplikowane pod spodem.",
+      "tip5": "Cisza mówi głośniej niż dialog. Najlepsze chwile w westernie żyją w pauzie przed wyciągnięciem pistoletu."
+    },
+    "film_noir": {
+      "name": "Film noir",
+      "tip1": "Twoja postać zawsze jest obserwowana i o tym wie. Paranoja kryje się pod każdą interakcją.",
+      "tip2": "Prowadź narrację w myślach, nawet jeśli jej nie wypowiadasz. Wszystko ma podtekst.",
+      "tip3": "Nikt nie jest czysto dobry ani zły, moralne szarości są naturalnym terenem gatunku.",
+      "tip4": "Opisuj otoczenie: cienie, lampowe światło, zalane deszczem ulice, zakurzone pokoje.",
+      "tip5": "Przeszłość zawsze cię dogania. Każda postać ma historię, która chce ją zniszczyć."
+    },
+    "musical": {
+      "name": "Musical",
+      "tip1": "Emocja napędza impuls do śpiewu. Gdy uczucie jest za duże na słowa, to jest sygnał do piosenki.",
+      "tip2": "Zaangażuj się w melodię i rytm, nawet jeśli nie są idealne, pewność siebie sprzedaje numer muzyczny.",
+      "tip3": "Każda piosenka ma jasne pragnienie: co twoja postać próbuje wyrazić albo osiągnąć?",
+      "tip4": "Nawiązuj kontakt wzrokowy z partnerami i widownią podczas numerów, to wspólne doświadczenie.",
+      "tip5": "Świat jest przerysowany, ale wewnętrznie spójny. Miłość, strata, radość i tęsknota są zawsze prawdziwe."
+    },
+    "documentary": {
+      "name": "Dokument",
+      "tip1": "Każda postać ma tezę, przekonanie o sobie lub świecie, które dokument 'rejestruje'.",
+      "tip2": "Patrz bezpośrednio w kamerę (lub na widownię) podczas segmentów wywiadów, to celowe przełamanie czwartej ściany.",
+      "tip3": "Sprzeczaj się ze sobą. Mów jedno, a rób drugie. Dokument łapie cię, gdy jesteś sobą.",
+      "tip4": "Żargon i ekspertyza sygnalizują autentyczność, bądź ekspertem w czymś bardzo konkretnym.",
+      "tip5": "Sceny 'na żywo' powinny wyglądać na niewyreżyserowane, nieuporządkowane i żywe – jak przeciwieństwo dopracowania."
+    },
+    "sci_fi": {
+      "name": "Science fiction",
+      "tip1": "Zwykłe rzeczy są tu niezwykłe, reaguj na technologię z rzeczową akceptacją. Tylko widownia jest tym zdumiona.",
+      "tip2": "Każda postać ma relację z władzą: korporacyjną, rządową lub technologiczną.",
+      "tip3": "Pytanie etyczne zawsze czai się w tle: czy powinniśmy byli to zbudować? Jaki ma to koszt?",
+      "tip4": "Fizyczność się zmienia, grawitacja może być inna, ciała mogą działać inaczej, czas może wyglądać inaczej.",
+      "tip5": "Znajdź ludzką historię wewnątrz spekulatywnej przesłanki. Sci-fi jest zawsze o nas, teraz."
+    },
+    "romance": {
+      "name": "Romans",
+      "tip1": "Przeszkody tworzą pragnienie. Im trudniej być razem, tym bardziej widownia tego chce.",
+      "tip2": "Podtekst jest wszystkim. To, czego postaci nie mówią, ma takie samo znaczenie jak to, co mówią.",
+      "tip3": "Konkretność jest romantyczna: nie 'lubię cię', ale 'lubię to, jak robisz tę konkretną rzecz'.",
+      "tip4": "Ciało prowadzi uczucia. Fizyczna świadomość między postaciami powinna być wyczuwalna.",
+      "tip5": "Zasługuj na rozwiązanie, ustal konflikt wcześnie, pozwól powoli budować się połączeniu, nie spiesz się z finałem."
+    },
+    "action": {
+      "name": "Akcja",
+      "tip1": "Stawka musi być życie albo śmierć (lub tak się czuć). Wszystko jest pilne, wszystko ma znaczenie.",
+      "tip2": "Poruszaj się z celem, żadnego błądzenia. Każdy wybór fizyczny powinien wyglądać jak decyzja.",
+      "tip3": "Żarty przychodzą po niebezpieczeństwie, nie w jego trakcie. Timing jest wszystkim.",
+      "tip4": "Relacje kują się w kryzysie. Partner, któremu ufasz życiem, to ten, z którym ciągle się kłócisz.",
+      "tip5": "Pozwól odpocząć po dużym momencie. Spadek adrenaliny po kulminacji opowiada prawdziwą historię."
+    }
+  },
+  "deconstruction": {
+    "title": "Dekonstrukcja",
+    "subtitle": "Śledź przebieg i zapisuj wszystko",
+    "suggestion": "Sugestia widowni",
+    "suggestionPlaceholder": "Słowo lub temat, od którego się zaczęło...",
+    "reset": "Resetuj",
+    "done": "To koniec! Co za Dekonstrukcja.",
+    "characters": {
+      "label": "Postacie ze sceny otwierającej",
+      "placeholder": "Postać {{number}}",
+      "hint": "Nazwij dwójkę protagonistów, pojawią się jako szybkie przyciski w notatkach"
+    },
+    "setup": {
+      "noteTypes": "Co będziesz zapisywać",
+      "startShow": "Start pokazu",
+      "resume": "Wróć do pokazu",
+      "newSession": "Nowa sesja",
+      "configure": "Konfiguruj"
+    },
+    "sessions": {
+      "title": "Twoje sesje",
+      "untitled": "Bez tytułu",
+      "noteCount": "{{count}} notatek",
+      "open": "Otwórz pokaz",
+      "delete": "Usuń",
+      "deleteConfirm": "Usunąć tę sesję i wszystkie notatki?"
+    },
+    "show": {
+      "markDone": "Oznacz",
+      "done": "Gotowe"
+    },
+    "stepper": {
+      "prev": "Wstecz",
+      "next": "Dalej"
+    },
+    "groups": {
+      "1": "Scena otwierająca",
+      "2": "Sceny tematyczne",
+      "3": "Powrót do otwarcia",
+      "4": "Sceny komentarza",
+      "5": "Seria scen",
+      "6": "Finał"
+    },
+    "phases": {
+      "opening": "Scena otwierająca · 6–8 min",
+      "thematic1": "Scena tematyczna A · 2–3 min",
+      "thematic2": "Scena tematyczna B · 2–3 min",
+      "return1": "Powrót do otwarcia · 1,5–2 min",
+      "commentary1": "Komentarz 1 · 1,5–2 min",
+      "commentary2": "Komentarz 2 · 1,5–2 min",
+      "commentary3": "Komentarz 3 · 1,5–2 min",
+      "commentary4": "Komentarz 4 · 1,5–2 min",
+      "commentary5": "Komentarz 5 · 1,5–2 min",
+      "theRun": "Seria scen · coraz szybciej",
+      "finale": "Finał · 1,5–2 min"
+    },
+    "tips": {
+      "opening": "Dwie osoby, jedna wyrazista relacja. Postaw problem, ale go nie rozwiązuj. Ta scena ma dać materiał, z którego reszta pokazu będzie korzystać.",
+      "thematic": "Zupełnie nowe postacie i świat. Pytanie do odpowiedzenia: o czym naprawdę było otwarcie? Zaatakuj ten temat z nowej strony.",
+      "return1": "Para z otwarcia wraca. Wyostrz temat. Pod koniec tego powrotu widownia powinna czuć, co pokaz naprawdę eksploruje.",
+      "commentary": "Sceny oparte na grze, komentujące to, co postacie z otwarcia powiedziały lub zrobiły. Jedna postać na poważnie, druga w absurd. Za każdym razem dalej.",
+      "theRun": "Kaskada coraz krótszych scen. Callbacki, dygresje, cokolwiek, co wcześniej iskrzyło. Przyspieszaj do zawrotnego tempa.",
+      "finale": "Postacie z otwarcia wracają po raz ostatni. Rozwiąż, przeformułuj lub przekształć pierwotny problem. Spleć wątki w lądowanie."
+    },
+    "noteCategories": {
+      "character": "Dowolna postać",
+      "scene": "Scena",
+      "theme": "Temat",
+      "callback": "Callback",
+      "gamemove": "Ruch w grze",
+      "misc": "Inne"
+    },
+    "notes": {
+      "placeholder": "Co się wydarzyło? Co zwróciło uwagę?",
+      "add": "Dodaj",
+      "general": "Notatki ogólne",
+      "generalHint": "Obserwacje niezwiązane z konkretną fazą, ogólne tematy, callbacki, refleksje po pokazie.",
+      "empty": "Jeszcze nic tu nie ma. Zapisz pierwszą myśl!",
+      "clearAll": "Wyczyść notatki i postacie",
+      "clearConfirm": "To trwale usunie wszystkie notatki i nazwy postaci.",
+      "confirmYes": "Usuń wszystko",
+      "confirmNo": "Zachowaj"
+    },
+    "summary": {
+      "title": "Notatki z pokazu",
+      "open": "Podsumowanie",
+      "close": "Zamknij",
+      "empty": "Brak zapisanych notatek."
+    }
+  },
+  "harold": {
+    "title": "Prowadzenie Harolda",
+    "subtitle": "Śledź strukturę swojego Harolda",
+    "suggestion": "Sugestia widowni",
+    "suggestionPlaceholder": "np. dentysta, studniówka...",
+    "reset": "Resetuj",
+    "opening": "Otwarcie",
+    "round": "Runda",
+    "scene": "Scena",
+    "groupGame": "Gra grupowa",
+    "progress": "Postęp",
+    "done": "Harold ukończony. Dobra robota!"
+  },
+  "emotion": {
+    "title": "Koło emocji",
+    "subtitle": "Wylosuj konkretną emocję dla swojej postaci",
+    "allFamilies": "Wszystkie",
+    "spin": "Losuj",
+    "available": "emocji dostępnych",
+    "families": {
+      "joy": "Radość",
+      "sadness": "Smutek",
+      "anger": "Złość",
+      "fear": "Strach",
+      "surprise": "Zaskoczenie",
+      "disgust": "Wstręt"
+    },
+    "items": {
+      "j1": "Wstydliwa duma",
+      "j2": "Niespokojna niecierpliwość",
+      "j3": "Gorzka nostalgia",
+      "j4": "Radosna ulga",
+      "j5": "Spokojne zadowolenie",
+      "j6": "Butna satysfakcja",
+      "j7": "Przytłaczająca wdzięczność",
+      "j8": "Dziecięcy zachwyt",
+      "j9": "Nerwowe podniecenie",
+      "j10": "Ciepła czułość",
+      "s1": "Wewnętrzna pustka",
+      "s2": "Ciche pogodzenie z losem",
+      "s3": "Poczucie winy i żal",
+      "s4": "Bezsilna tęsknota",
+      "s5": "Gorzkie rozczarowanie",
+      "s6": "Niechętny smutek",
+      "s7": "Bolesna nostalgia za domem",
+      "s8": "Otępiałe wyczerpanie",
+      "a1": "Zimna pogarda",
+      "a2": "Sprawiedliwe oburzenie",
+      "a3": "Małostkowa zazdrość",
+      "a4": "Tląca się uraza",
+      "a5": "Zraniona duma",
+      "a6": "Drażliwa niecierpliwość",
+      "a7": "Zaciekła opiekuńczość",
+      "a8": "Zacięty upór",
+      "f1": "Pełzające przerażenie",
+      "f2": "Ślepa panika",
+      "f3": "Nerwowe wyczekiwanie",
+      "f4": "Ostrożna podejrzliwość",
+      "f5": "Paraliżująca niepewność",
+      "f6": "Lęk społeczny",
+      "f7": "Przesądny niepokój",
+      "u1": "Radosne niedowierzanie",
+      "u2": "Osłupiałe zmieszanie",
+      "u3": "Podejrzliwy zachwyt",
+      "u4": "Zaskoczona ciekawość",
+      "u5": "Przyjemne przytłoczenie",
+      "u6": "Wstrząśnięte rozpoznanie",
+      "u7": "Nabożna cześć",
+      "d1": "Zmęczony cynizm",
+      "d2": "Uprzejme obrzydzenie",
+      "d3": "Moralne oburzenie",
+      "d4": "Odruchowe obrzydzenie",
+      "d5": "Pogardliwe współczucie",
+      "d6": "Znudzona pogarda",
+      "d7": "Hipokrytyczne obrzydzenie",
+      "d8": "Samozadowolona krytyka",
+      "j11": "Psotność",
+      "j12": "Ulga",
+      "j13": "Wdzięczna ekscytacja",
+      "s9": "Tęsknota",
+      "s10": "Bezradność",
+      "s11": "Cicha rezygnacja",
+      "a9": "Uraza",
+      "a10": "Zniecierpliwienie",
+      "a11": "Moralne oburzenie",
+      "f8": "Niepewność",
+      "f9": "Podejrzliwość",
+      "f10": "Lęk przed sukcesem",
+      "u8": "Osłupienie",
+      "u9": "Zachwyt",
+      "u10": "Nagłe olśnienie",
+      "d9": "Zażenowanie",
+      "d10": "Niechęć",
+      "d11": "Rozczarowany niesmak"
+    }
+  },
+  "constraints": {
+    "title": "Karty ograniczeń sceny",
+    "subtitle": "Nałóż ograniczenie, żeby przełamać nawyki i znaleźć nowe wybory",
+    "allCategories": "Wszystkie",
+    "prev": "Poprzednia",
+    "next": "Następna",
+    "categories": {
+      "speech": "Mowa",
+      "physical": "Fizyczne",
+      "structural": "Strukturalne",
+      "relational": "Relacyjne"
+    },
+    "items": {
+      "sp1": "Zakaz pytań",
+      "sp2": "Każde zdanie musi zaczynać się od 'Tak, i...'",
+      "sp3": "Mów tylko rymami",
+      "sp4": "Wszyscy muszą szeptać",
+      "sp5": "Mów pełnymi słowami, bardzo formalnie / Bez mowy potocznej",
+      "sp6": "Mów tylko w pytaniach",
+      "sp7": "Każda kwestia musi zaczynać się od innej litery alfabetu",
+      "sp8": "Mów, jakbyś ogłaszał coś ważnego",
+      "sp9": "Nie wolno powtórzyć słowa już wypowiedzianego w scenie",
+      "sp10": "Cały dialog po jednym słowie naraz (zespołowo)",
+      "sp11": "Każde zdanie musi mieć dokładnie pięć słów",
+      "sp12": "Mów w połowie swojego normalnego tempa",
+      "ph1": "Nikt nie może dotykać żadnych przedmiotów",
+      "ph2": "Przez cały czas pozostań poniżej wysokości pasa",
+      "ph3": "Możesz się poruszać tylko gdy mówisz",
+      "ph4": "Przez cały czas utrzymuj kontakt fizyczny z partnerem scenicznym",
+      "ph5": "Nigdy nie stój zwrócony w tę samą stronę co inna osoba",
+      "ph6": "Poruszaj się, jakbyś był pod wodą: wszystko jest wolne i wymaga wysiłku",
+      "ph7": "Jedna ręka zawsze musi być w kieszeni lub za plecami",
+      "ph8": "Możesz poruszać się tylko po liniach prostych",
+      "ph9": "Zatrzymaj się na trzy sekundy po każdej kwestii",
+      "ph10": "Cała fizyczność musi być odbijana przez partnera scenicznego",
+      "ph11": "Nigdy nie nawiązuj kontaktu wzrokowego z inną osobą na scenie",
+      "ph12": "Wszystkie przedmioty ważą dwa razy tyle, co normalnie",
+      "st1": "Scena musi zacząć się już w środku akcji",
+      "st2": "Zakończ każdą scenę, nawiązując do pierwszej kwestii",
+      "st3": "Edycja musi nastąpić co 30 sekund",
+      "st4": "Scena toczy się całkowicie w zwolnionym tempie",
+      "st5": "Co trzecia kwestia musi być nie na temat",
+      "st6": "Scena musi się zapętlać: ostatnia kwestia staje się pierwszą w kolejnym bicie",
+      "st7": "Czas przesuwa się o 5 lat do przodu co 2 minuty",
+      "st8": "Scena musi opowiedzieć tę samą historię z dwóch różnych perspektyw",
+      "st9": "Wszystkie dzisiejsze sceny muszą rozgrywać się w tym samym miejscu",
+      "st10": "Scena ma narratora, który może w każdej chwili zatrzymać akcję",
+      "re1": "Postacie nigdy nie mogą się bezpośrednio zgadzać",
+      "re2": "Jedna osoba jest niewidoczna dla wszystkich pozostałych",
+      "re3": "Każda postać potajemnie kocha postać po swojej lewej stronie",
+      "re4": "Postacie nigdy nie mogą bezpośrednio przyznać, że jest problem",
+      "re5": "Jedna osoba może komunikować się tylko fizycznie, bez słów",
+      "re6": "Postacie co minutę zamieniają się, kto ma wyższy status",
+      "re7": "Wszystkie postacie udają, że wszystko jest w porządku, cokolwiek się dzieje",
+      "re8": "Postacie muszą prosić o pozwolenie przed zrobieniem czegokolwiek",
+      "re9": "Jedna postać jest w pośpiechu; wszyscy inni są całkowicie zrelaksowani",
+      "re10": "Żadna postać nie może zaczynać zdania od 'ja'",
+      "re11": "Każda postać potajemnie stara się opuścić scenę",
+      "sp13": "Każda kwestia zaczyna się od słów 'pamiętam, że'",
+      "sp14": "Wolno mówić tylko komplementami",
+      "sp15": "Jedna osoba odpowiada wyłącznie liczbami",
+      "sp16": "Co trzecia kwestia musi ujawniać sekret",
+      "ph13": "Nikt nie może stać nieruchomo dłużej niż dwie sekundy",
+      "ph14": "Każda postać chroni niewidzialny przedmiot",
+      "ph15": "Scena odbywa się bez patrzenia sobie w oczy",
+      "ph16": "Każde wejście i wyjście musi być ceremonialne",
+      "st11": "Scena zaczyna się od emocjonalnego finału",
+      "st12": "Po każdym śmiechu publiczności przeskakujecie w czasie",
+      "st13": "Każda nowa informacja musi wyjaśniać poprzednią",
+      "st14": "Ostatnia kwestia sceny musi powtórzyć pierwszą",
+      "re12": "Status zmienia się za każdym razem, gdy pada imię",
+      "re13": "Jedna osoba musi chronić drugą przed prawdą",
+      "re14": "Relacja zaczyna się jako oficjalna i robi się osobista",
+      "re15": "Każda zgoda pogarsza ich relację"
+    }
+  },
+  "metronome": {
+    "title": "Metronom BPM",
+    "subtitle": "Rytm i tempo dla improwizacji muzycznej",
+    "iosHint": "iPhone: wyłącz tryb cichy, żeby usłyszeć klik",
+    "start": "Start",
+    "stop": "Stop",
+    "tap": "Nabij tempo",
+    "timeSignature": "Metrum",
+    "presets": {
+      "label": "Ustawienia",
+      "slow": "Wolna scena",
+      "speech": "Mowa",
+      "fast": "Szybka scena",
+      "musical": "Muzyczne",
+      "patter": "Szybka piosenka"
+    }
+  },
+  "variants": {
+    "title": "Generator wariantów gry",
+    "subtitle": "Dodaj zwrot do dowolnej gry, żeby zaskoczyć uczestników",
+    "gameName": "Nazwa gry (opcjonalnie)",
+    "gameNamePlaceholder": "np. Zip Zap Zop, Historia prowadzona...",
+    "twist": "Zwrot",
+    "available": "dostępnych modyfikatorów",
+    "newTwist": "Nowy zwrot",
+    "allCategories": "Wszystkie",
+    "categories": {
+      "restriction": "Ograniczenie",
+      "role": "Rola",
+      "format": "Format",
+      "constraint": "Warunek"
+    },
+    "items": {
+      "r1": "Nikt nie może używać rąk",
+      "r2": "Oczy zamknięte",
+      "r3": "Zupełna cisza, bez słów",
+      "r4": "Zostań w jednym miejscu na scenie",
+      "r5": "Graj całą grę w zwolnionym tempie",
+      "r6": "Nikt nie może się uśmiechać ani śmiać",
+      "r7": "Dozwolone tylko samogłoski",
+      "r8": "Nie wolno powtórzyć czegoś już zrobionego",
+      "r9": "Wszyscy poruszają się przez cały czas",
+      "r10": "Wszystkie ruchy muszą być na wysokości kolan lub poniżej",
+      "r11": "Nikt nie jest zwrócony do widowni",
+      "r12": "Każde działanie musi być odzwierciedlone przez przynajmniej jedną osobę",
+      "r13": "Graj w odwrotnej kolejności",
+      "r14": "Podwój normalne tempo",
+      "o1": "Dodaj narratora, który może zatrzymać i przewinąć akcję",
+      "o2": "Zamieniaj, kto inicjuje każdą rundę",
+      "o3": "Dodaj prowokatora, który może wykrzykiwać zmiany w dowolnym momencie",
+      "o4": "Jedna osoba jest reżyserem, nie gra, ale wydaje polecenia",
+      "o5": "Dodaj drugą osobę-cień, która naśladuje protagonistę",
+      "o6": "Rotuj jedną nową osobę co 30 sekund",
+      "o7": "Widownia głosuje na wyrzucenie kogoś w każdej rundzie",
+      "o8": "Każda osoba musi grać inny archetyp z Koła",
+      "o9": "Ostatnia wyeliminowana osoba zostaje sędzią następnej rundy",
+      "o10": "Jedna osoba jest w trybie eksperta, musi doradzać przy każdej turze",
+      "o11": "Dodaj tłumacza, który interpretuje każdy ruch dla widowni",
+      "o12": "Osoby zamieniają role w połowie gry",
+      "fm1": "Graj grę od tyłu, zacznij od końca",
+      "fm2": "Połącz dwie gry jednocześnie",
+      "fm3": "Dodaj drugą, sekretną grę toczącą się w tle",
+      "fm4": "Zagraj grę w gatunku (western, horror, musical)",
+      "fm5": "Zwiększaj stawki w każdej rundzie, zacznij mało, skończ ogromnie",
+      "fm6": "Rozegraj całą grę jako jedno ciągłe ujęcie, bez zatrzymań",
+      "fm7": "Każda runda musi być krótsza od poprzedniej",
+      "fm8": "Rozegraj grę w zupełnej ciszy",
+      "fm9": "Graj, jakby obserwowała was ekipa filmująca dokument",
+      "fm10": "Gra kończy się, gdy ktoś nie wytrzyma i się roześmieje. Ta osoba wygrywa",
+      "fm11": "Rozegraj jako zawody z punktacją widowni",
+      "fm12": "Powtórz grę z każdym elementem podkręconym x10",
+      "c1": "W każdej turze trzeba użyć konkretnego przedmiotu",
+      "c2": "Każdy ruch musi kończyć się efektem dźwiękowym",
+      "c3": "Trzeba nawiązać do sugestii co 30 sekund",
+      "c4": "Każda osoba musi powiedzieć liczbę odliczającą od 10",
+      "c5": "W pierwszych pięciu sekundach trzeba ustalić miejsce akcji",
+      "c6": "Każde działanie musi mieć podane uzasadnienie",
+      "c7": "Każda tura musi zawierać gdzieś słowo 'ale'",
+      "c8": "Co trzeci ruch musi nawiązywać do pierwszego",
+      "c9": "Osoby muszą nazywać każdy przedmiot, którego dotykają",
+      "c10": "Przed każdym ruchem trzeba nawiązać kontakt wzrokowy",
+      "c11": "Każdy ruch musi być fizycznie większy od poprzedniego",
+      "c12": "W każdej turze musi padać szczery komplement",
+      "r15": "Bez używania słowa ja",
+      "r16": "Każda decyzja musi zostać podjęta wspólnie",
+      "r17": "Nie wolno nazywać oczywistych emocji",
+      "r18": "Każda postać coś ukrywa w dłoniach",
+      "o13": "Jedna osoba gra narratora, który nie ufa scenie",
+      "o14": "Jedna osoba jest ekspertem od tematu, którego nie rozumie",
+      "o15": "Jedna osoba gra publiczność w świecie sceny",
+      "o16": "Jedna osoba wchodzi tylko po to, żeby przynieść złe wieści",
+      "fm13": "Scena jako konferencja prasowa",
+      "fm14": "Scena jako próba przed właściwą sceną",
+      "fm15": "Scena cofa się od końca do początku",
+      "fm16": "Scena jako seria coraz krótszych powtórek",
+      "c13": "Co minutę zmienia się gatunek",
+      "c14": "Każde kłamstwo musi zostać natychmiast usprawiedliwione",
+      "c15": "Najważniejszy przedmiot nigdy nie jest widoczny",
+      "c16": "Publiczność decyduje, kto ma najwyższy status"
+    }
+  },
+  "replay": {
+    "title": "Karty powtórki sceny",
+    "subtitle": "Zagraj scenę jeszcze raz z nowym zwrotem: wywołaj kartę i startujcie!",
+    "allCategories": "Wszystkie",
+    "prev": "Poprz.",
+    "next": "Nast.",
+    "random": "Losowa karta",
+    "categories": {
+      "physicality": "Fizyczność",
+      "genre": "Gatunek",
+      "emotional": "Emocje",
+      "structural": "Struktura",
+      "character": "Postać"
+    },
+    "items": {
+      "ph1": "Zagrajcie całą scenę w zwolnionym tempie",
+      "ph2": "Wszyscy poruszają się jak pod wodą",
+      "ph3": "Podwójne tempo, mowa i ruch",
+      "ph4": "Wszyscy poruszają się w zerowej grawitacji",
+      "ph5": "Wszystkie ruchy poniżej pasa",
+      "ph6": "Podłoga to lawa, żadnych nieruchomych stóp",
+      "ph7": "Każdy ma przez całą scenę jedną kontuzjowaną część ciała",
+      "ph8": "Poruszajcie się jak w ekstremalnym mrozie",
+      "gn1": "Powtórka jako film niemy, wielkie miny, zero słów",
+      "gn2": "Powtórka jako telenowela, dramatyczne pauzy i westchnienia",
+      "gn3": "Powtórka jako dokument, jedna osoba prowadzi narrację, reszta zastyga",
+      "gn4": "Powtórka jako musical, wszystko musi być śpiewane",
+      "gn5": "Powtórka jako western",
+      "gn6": "Powtórka jako horror",
+      "gn7": "Powtórka jako program kulinarny",
+      "gn8": "Powtórka jako przyrodnicy BBC, szeptem i z powagą",
+      "gn9": "Powtórka jako słuchowisko radiowe z lat 40.",
+      "gn10": "Powtórka jako dramat sądowy",
+      "em1": "Wszyscy są w skrytości ducha przerażeni",
+      "em2": "To najszczęśliwszy moment w życiu każdego z was",
+      "em3": "Każda postać desperacko powstrzymuje łzy",
+      "em4": "Każda postać zakochuje się w kimś innym na scenie",
+      "em5": "Wszyscy są nieznośnie znudzeni",
+      "em6": "Każda postać jest o krok od przełomowego odkrycia",
+      "em7": "Każda postać w duchu nienawidzi tej sceny",
+      "em8": "Dla każdej postaci to kwestia życia i śmierci",
+      "st1": "Powtórka w odwrotnej kolejności chronologicznej",
+      "st2": "Zacznijcie od końca i cofajcie się do początku",
+      "st3": "Jedna osoba jest reżyserem, może w każdej chwili krzyknąć 'Cięcie!' i pokierować sceną",
+      "st4": "Dodajcie narratora, który może zatrzymać akcję i mówić myśli postaci",
+      "st5": "Co minutę jedna nowa osoba dołącza do sceny",
+      "st6": "Najpierw środek, potem początek, potem koniec",
+      "st7": "Każdy może krzyknąć 'Cofnij!', scena cofa się o 10 sekund",
+      "ch1": "Zamieńcie się postaciami, każdy gra kogoś innego",
+      "ch2": "Wszyscy grają tę samą scenę, ale jako nowe postaci, które właśnie przybyły",
+      "ch3": "Jedna osoba ma sekret, który ukrywa przed pozostałymi",
+      "ch4": "Każda postać jest przekonana, że to ona jest bohaterem tej historii",
+      "ch5": "Wszyscy są o 10 lat starsi niż w oryginalnej scenie",
+      "ch6": "Wszyscy są o 10 lat młodsi niż w oryginalnej scenie",
+      "ch7": "Każda postać ma teraz odwrotne pragnienie niż poprzednio",
+      "ch8": "Jedna postać słyszy myśli wszystkich pozostałych na głos"
+    }
+  },
+  "splash": {
+    "title": "Skrzynka Improwizatora",
+    "subtitle": "Kompletny zestaw narzędzi: gry, podpowiedzi, przewodniki i więcej.",
+    "cta": "Zakręć kołem",
+    "tagline": "Twój kieszonkowy pomocnik",
+    "search": "Znajdź narzędzie…",
+    "toolCount": "{{count}} narzędzi",
+    "allTools": "Wszystkie narzędzia",
+    "otherTools": "Pozostałe",
+    "noResults": "Brak pasujących narzędzi.",
+    "alpha": "Alfa",
+    "section": {
+      "core": "Podstawowe narzędzia",
+      "more": "Więcej narzędzi"
+    },
+    "credit": "Zrobione przez Przemka K.",
+    "features": {
+      "wheel": {
+        "title": "Koło archetypów",
+        "desc": "Zakręć, aby przypisać losowy archetyp każdej osobie przed sceną."
+      },
+      "scene": {
+        "title": "Generator scen",
+        "desc": "Jednym dotknięciem losujesz pełną scenę: kto, gdzie, co i zwrot akcji."
+      },
+      "warmup": {
+        "title": "Gry rozgrzewkowe",
+        "desc": "60+ ćwiczeń rozgrzewkowych z filtrami według celu, liczby osób i czasu."
+      },
+      "facts": {
+        "title": "Ciekawostki",
+        "desc": "Historia, teoria i ciekawostki o improwizacji."
+      },
+      "timer": {
+        "title": "Timer sceny",
+        "desc": "Timer do scen z regulowanym czasem i opcjonalnym sygnałem dźwiękowym."
+      },
+      "character": {
+        "title": "Kreator postaci",
+        "desc": "Błyskawicznie generuje pełną postać: cechę, głos, fizyczność i cel."
+      },
+      "prompts": {
+        "title": "Karty podpowiedzi",
+        "desc": "Losuj karty z obiektami, emocjami, miejscami i relacjami."
+      },
+      "suggestions": {
+        "title": "Sugestie publiczności",
+        "desc": "Losowe sugestie w stylu publiczności do rozpoczęcia dowolnej sceny."
+      },
+      "formats": {
+        "title": "Przewodnik po formatach",
+        "desc": "Zasady i wskazówki dla popularnych formatów improwizacji."
+      },
+      "reflection": {
+        "title": "Pytania refleksyjne",
+        "desc": "Pytania po scenie do omówienia z grupą. Wyostrzają świadomość i obserwację."
+      },
+      "soundscape": {
+        "title": "Soundscape",
+        "desc": "Pętle dźwiękowe: deszcz, kawiarnia, las, winda i inne tła do atmosfery."
+      },
+      "status": {
+        "title": "Losowanie statusu",
+        "desc": "Sekretnie przypisz status każdej osobie do scen z hierarchią."
+      },
+      "spine": {
+        "title": "Kręgosłup historii",
+        "desc": "Losowe impulsy na każdy krok kręgosłupa historii."
+      },
+      "principles": {
+        "title": "Zasady improwizacji",
+        "desc": "Kluczowe zasady jak 'Tak, i...', słuchanie i obecność z wyjaśnieniami."
+      },
+      "monologue": {
+        "title": "Ziarna monologu",
+        "desc": "Impuls na otwarcie osobistego monologu w stylu Harolda."
+      },
+      "genres": {
+        "title": "Style gatunkowe",
+        "desc": "Karty referencyjne do grania konwencji gatunkowych: noir, western i więcej."
+      },
+      "harold": {
+        "title": "Przewodnik po Haroldzie",
+        "desc": "Struktura krok po kroku i wskazówki do przeprowadzenia pełnego Harolda."
+      },
+      "deconstruction": {
+        "title": "Dekonstrukcja",
+        "desc": "Śledź Dekonstrukcję z notatkami o postaciach, scenach i tematach."
+      },
+      "emotion": {
+        "title": "Koło emocji",
+        "desc": "Wylosuj jedną z 48 emocji, by zainspirować swoją postać."
+      },
+      "constraints": {
+        "title": "Ograniczenia sceny",
+        "desc": "Losowe ograniczenia do gry: mniej słów, ruch lub fizyczność."
+      },
+      "metronome": {
+        "title": "Metronom rytmu",
+        "desc": "Metronom z wybijaniem tempa do scen muzycznych i ćwiczeń impro."
+      },
+      "variants": {
+        "title": "Warianty gier",
+        "desc": "Modyfikacje i warianty klasycznych gier i ćwiczeń improwizatorskich."
+      },
+      "replay": {
+        "title": "Karty powtórki sceny",
+        "desc": "Zagraj tę samą scenę w nowym stylu, gatunku albo z nowym wyborem postaci."
+      },
+      "jam": {
+        "title": "Sesja jamowa",
+        "desc": "Swobodna gra z timerami i inspiracjami do scen. Prowadź własny jam."
+      }
+    }
+  },
+  "common": {
+    "tapHint": "Dotknij sceny, aby losować ponownie"
+  }
+}

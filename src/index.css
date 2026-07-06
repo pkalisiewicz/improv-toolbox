@@ -1,0 +1,880 @@
+@import "tailwindcss";
+
+/* Self-hosted variable fonts. `block` avoids a visible fallback-to-webfont
+   repaint on refresh; root.tsx preloads these same Latin/Latin-ext files. */
+@font-face {
+  font-family: "Big Shoulders Display Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 100 900;
+  src: url("@fontsource-variable/big-shoulders-display/files/big-shoulders-display-latin-ext-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Big Shoulders Display Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 100 900;
+  src: url("@fontsource-variable/big-shoulders-display/files/big-shoulders-display-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 200 800;
+  src: url("@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-ext-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 200 800;
+  src: url("@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 100 900;
+  src: url("@fontsource-variable/hanken-grotesk/files/hanken-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk Variable";
+  font-style: normal;
+  font-display: block;
+  font-weight: 100 900;
+  src: url("@fontsource-variable/hanken-grotesk/files/hanken-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* ───────────────────────────────────────────────────────────────────────────
+   Improv Toolbox — Design Tokens (Tailwind v4 @theme)
+   Identity: "Greenroom" · soft stage-light green, fresh paper, deep forest ink.
+   The backstage green room is where players warm up — light, calm, alive. The
+   delicacy lives in the canvas (green-tinted near-whites); the accent stays one
+   confident fresh green. Personality from heavy display type + stagecraft
+   motifs, not from chrome.
+   ─────────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* Type — Big Shoulders (poster display) + Bricolage (labels/tool names) + Hanken (UI/body) */
+  --font-sans:    "Hanken Grotesk Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Big Shoulders Display Variable", "Arial Narrow", system-ui, sans-serif;
+  --font-label:   "Bricolage Grotesque Variable", system-ui, sans-serif;
+
+  /* Accent — ONE fresh spring-green "spot color", hue ~150. Used as a FILL with
+     ink text (light green-as-text fails AA), so the text steps darken to a deep
+     forest green. Contrast verified: ink-on-500 8.1:1, brand-700-on-light 6.9:1. */
+  --color-brand-50:  oklch(0.972 0.022 152);  /* whisper of green — soft chip/icon fills */
+  --color-brand-100: oklch(0.945 0.040 152);  /* light mint tint */
+  --color-brand-200: oklch(0.900 0.062 151);  /* tint borders */
+  --color-brand-300: oklch(0.850 0.090 150);
+  --color-brand-400: oklch(0.810 0.110 150);
+  --color-brand-500: oklch(0.760 0.130 149);  /* THE green — graphic fills (ink rides on top) */
+  --color-brand-600: oklch(0.545 0.112 150);  /* green-deep — press shadow, large/UI glyphs (≥3:1) */
+  --color-brand-700: oklch(0.440 0.092 152);  /* forest — accent text on light (AA ✓) */
+
+  /* Ink — deep green-charcoal, the workhorse for type + bold rules. Tinted toward
+     the brand hue so the whole system reads green, not "gold app, green buttons". */
+  --color-ink:        oklch(0.235 0.020 158);  /* near-black green-charcoal — primary text, ink surfaces */
+  --color-ink-muted:  oklch(0.400 0.022 158);  /* secondary (AA on light: 8.5:1) */
+  --color-ink-faint:  oklch(0.560 0.018 158);  /* tertiary/meta, eyebrows (≥3:1, never body) */
+  --color-ink-fill:   var(--color-ink);        /* dark stage fills that stay dark in both themes */
+  --color-on-ink:     var(--color-surface);    /* text/icons on ink-fill */
+  --color-on-ink-muted: oklch(0.760 0.012 115);
+
+  /* Surfaces — fresh light-green paper (never pure #fff), the delicate canvas */
+  --color-surface-2: oklch(0.975 0.012 155);  /* palest green-white — app canvas (page bg) */
+  --color-surface:   oklch(0.990 0.007 155);  /* near-white, whisper of green — raised tiles/sheets */
+  --color-surface-3: oklch(0.958 0.014 155);  /* sunken: inputs, inset wells */
+  --color-line:      oklch(0.890 0.016 152);  /* soft green-tinted hairline borders */
+  --color-line-bold: var(--color-ink);        /* bold editorial rules */
+
+  /* Text that rides on the green accent fill (ink on green, AA ✓) */
+  --color-on-brand:  var(--color-ink);        /* ink on green (8.1:1) */
+
+  /* Radii — gentle, not bubbly */
+  --radius-sm:   0.4rem;
+  --radius-md:   0.625rem;
+  --radius-lg:   0.875rem;
+  --radius-xl:   1.25rem;
+
+  /* Elevation — soft print shadows + ONE signature hard offset (CTA only).
+     Tinted deep green-charcoal to match the ink, so shadows read green-cool. */
+  --shadow-card:  0 1px 2px rgba(16,34,26,0.05), 0 6px 18px -8px rgba(16,34,26,0.12);
+  --shadow-pop:   0 2px 6px rgba(16,34,26,0.07), 0 16px 34px -12px rgba(16,34,26,0.17);
+  --shadow-float: 0 24px 50px -18px rgba(16,34,26,0.26);
+  --shadow-hard:  3px 3px 0 0 var(--color-ink);          /* poster press shadow */
+  --shadow-hard-brand: 3px 3px 0 0 var(--color-brand-600);
+
+  /* Motion — exponential ease-out only (no bounce, no elastic) */
+  --ease-out:        cubic-bezier(0.22, 1, 0.36, 1);   /* ease-out-quint */
+  --ease-out-strong: cubic-bezier(0.16, 1, 0.3, 1);    /* ease-out-expo  */
+  --ease-out-soft:   cubic-bezier(0.22, 1, 0.36, 1);   /* alias, back-compat */
+
+  /* Named animations */
+  --animate-pop-in:        pop-in 0.4s var(--ease-out-strong) both;
+  --animate-fade-slide-up: fade-slide-up 0.3s var(--ease-out) both;
+  --animate-fade-in:       fade-in 0.25s var(--ease-out) both;
+  --animate-shimmer:       shimmer 1.4s linear infinite;
+  --animate-draw-in:       draw-in 0.5s var(--ease-out-strong) both;
+
+  @keyframes pop-in {
+    0%   { transform: scale(0.96) translateY(6px); opacity: 0; }
+    100% { transform: scale(1) translateY(0); opacity: 1; }
+  }
+  @keyframes fade-slide-up {
+    from { transform: translateY(12px); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes favorite-pop {
+    0%   { transform: scale(0.78) rotate(-8deg); }
+    70%  { transform: scale(1.08) rotate(3deg); }
+    100% { transform: scale(1) rotate(0); }
+  }
+  /* Signature "pull a card under the light" reveal */
+  @keyframes draw-in {
+    0%   { transform: translateY(18px) rotate(-1.5deg) scale(0.97); opacity: 0; }
+    60%  { opacity: 1; }
+    100% { transform: translateY(0) rotate(0) scale(1); opacity: 1; }
+  }
+  @keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Dark mode is composed, not inverted: deep greenroom canvas, quiet rules,
+     and readable off-white text that does not become pure white chrome. */
+  --color-brand-50:  oklch(0.215 0.036 152);
+  --color-brand-100: oklch(0.270 0.052 152);
+  --color-brand-200: oklch(0.340 0.066 152);
+  --color-brand-300: oklch(0.390 0.078 151);
+  --color-brand-400: oklch(0.435 0.088 150);
+  --color-brand-500: oklch(0.465 0.096 150);
+  --color-brand-600: oklch(0.680 0.112 150);
+  --color-brand-700: oklch(0.790 0.104 150);
+
+  --color-ink:        oklch(0.900 0.012 154);
+  --color-ink-muted:  oklch(0.720 0.016 154);
+  --color-ink-faint:  oklch(0.600 0.018 154);
+  --color-ink-fill:   oklch(0.075 0.015 155);
+  --color-on-ink:     var(--color-ink);
+  --color-on-ink-muted: oklch(0.700 0.014 155);
+
+  --color-surface-2: oklch(0.145 0.014 155);
+  --color-surface:   oklch(0.190 0.018 155);
+  --color-surface-3: oklch(0.245 0.022 155);
+  --color-line:      oklch(0.315 0.024 154);
+  --color-line-bold: oklch(0.520 0.030 154);
+  --color-on-brand:  var(--color-ink);
+
+  /* Depth comes from surface steps; outlines stay quiet and deliberate. */
+  --shadow-card:  0 10px 24px -20px rgba(0, 0, 0, 0.88);
+  --shadow-pop:   0 0 0 1px color-mix(in oklch, var(--color-line-bold) 50%, transparent), 0 18px 34px -22px rgba(0, 0, 0, 0.82);
+  --shadow-float: 0 24px 50px -20px rgba(0, 0, 0, 0.82);
+  --shadow-hard:  3px 3px 0 0 var(--color-ink-fill);
+  --shadow-hard-brand: 3px 3px 0 0 var(--color-brand-200);
+}
+
+:root[data-theme="dark"] .border-ink {
+  border-color: var(--color-line-bold);
+}
+
+:root[data-theme="dark"] :where(.divide-ink > :not(:last-child)) {
+  border-color: var(--color-line-bold);
+}
+
+@media (hover: hover) {
+  :root[data-theme="dark"] .hover\:border-ink:hover {
+    border-color: var(--color-line-bold);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-ink);
+  background-color: var(--color-surface-2);
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+:root[data-theme="dark"] body::before {
+  opacity: 0.14;
+}
+
+/* Printed-paper grain — carries "paper" character without a cream tint */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Display font — Big Shoulders Display, condensed poster caps, the brand voice */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0.005em;
+  line-height: 1.06;
+  text-wrap: balance;
+}
+
+/* Icon two-tone accent — the single gold pip per feature glyph (overridable locally) */
+:root { --icon-accent: var(--color-brand-500); }
+
+/* ── Marquee bulbs — a dashed ring of "lights" for hero framing ── */
+.marquee-bulbs {
+  background-image: radial-gradient(circle, var(--color-ink) 1.6px, transparent 2px);
+  background-size: 14px 14px;
+  background-repeat: repeat-x;
+}
+
+/* ── Signature spotlight wash behind a hero subject (light version) ── */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: "";
+  position: absolute;
+  inset: -30% -10% auto -10%;
+  height: 130%;
+  z-index: -1;
+  background: radial-gradient(closest-side,
+    color-mix(in oklch, var(--color-brand-500) 18%, transparent),
+    transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Legacy wheel spin keyframes (referenced by WheelPage) ── */
+@keyframes spin-wheel {
+  from { transform: rotate(var(--spin-from)); }
+  to   { transform: rotate(var(--spin-to)); }
+}
+
+/* ── Wheel of fortune: tactile stage + controlled spin mechanics ── */
+.wheel-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: min(82vw, 21.5rem);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  isolation: isolate;
+}
+
+.wheel-stage::before {
+  content: "";
+  position: absolute;
+  inset: 5%;
+  z-index: -1;
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--color-brand-500) 24%, transparent);
+  filter: blur(26px);
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 180ms var(--ease-out), transform 260ms var(--ease-out);
+}
+
+.wheel-stage.is-spinning::before {
+  opacity: 0.42;
+  transform: scale(1.02);
+  animation: wheel-stage-breathe 950ms ease-in-out infinite alternate;
+}
+
+@keyframes wheel-stage-breathe {
+  from { opacity: 0.24; }
+  to { opacity: 0.48; }
+}
+
+.wheel-track {
+  position: absolute;
+  inset: 0.2rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 50% 50%, var(--color-surface) 0 58%, transparent 59%),
+    repeating-conic-gradient(
+      from -2deg,
+      color-mix(in oklch, var(--color-ink) 22%, transparent) 0deg 1deg,
+      transparent 1deg 15deg
+    ),
+    var(--color-brand-100);
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-hard), 0 18px 34px -22px rgba(16, 34, 26, 0.32);
+  pointer-events: none;
+}
+
+.wheel-disc {
+  position: absolute;
+  inset: 1.08rem;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 3px solid var(--color-ink);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.28),
+    inset 0 -18px 30px rgba(16, 34, 26, 0.18),
+    0 10px 20px -16px rgba(16, 34, 26, 0.5);
+  transform: rotate(var(--wheel-rotation, 0deg));
+  transition:
+    transform var(--wheel-spin-duration, 0ms) cubic-bezier(0.1, 0.78, 0.16, 1),
+    filter 180ms var(--ease-out);
+  contain: layout paint;
+}
+
+.wheel-disc.is-spinning {
+  filter: saturate(1.08) contrast(1.03);
+  will-change: transform;
+}
+
+.wheel-disc::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 34% 22%, rgba(255, 255, 255, 0.28), transparent 34%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.12), transparent 38%, rgba(16, 34, 26, 0.14));
+  pointer-events: none;
+  transition: opacity 180ms var(--ease-out);
+}
+
+.wheel-disc.is-spinning::after {
+  opacity: 0.72;
+}
+
+.wheel-pointer {
+  position: absolute;
+  top: -0.05rem;
+  left: 50%;
+  z-index: 5;
+  width: 2.2rem;
+  height: 2.85rem;
+  transform: translateX(-50%);
+  transform-origin: 50% 0;
+  filter: drop-shadow(2px 3px 0 rgba(16, 34, 26, 0.28));
+}
+
+.wheel-pointer::before {
+  content: "";
+  position: absolute;
+  inset: 0.4rem 0.28rem 0;
+  background: var(--color-ink);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.wheel-pointer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  background: var(--color-brand-500);
+  border: 2px solid var(--color-ink);
+  transform: translateX(-50%);
+}
+
+.wheel-pointer.is-spinning {
+  animation: wheel-pointer-tick 120ms linear infinite;
+}
+
+@keyframes wheel-pointer-tick {
+  0%, 100% { transform: translateX(-50%) rotate(0deg); }
+  50% { transform: translateX(-50%) rotate(-2deg); }
+}
+
+.wheel-segment-label {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: clamp(3.1rem, 17vw, 4.3rem);
+  flex-direction: column;
+  align-items: center;
+  gap: 0.18rem;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+}
+
+.wheel-segment-icon {
+  display: grid;
+  width: 1.85rem;
+  height: 1.85rem;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(16, 34, 26, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+  filter: drop-shadow(0 1px 1px rgba(16, 34, 26, 0.55));
+}
+
+.wheel-disc.is-spinning .wheel-segment-icon {
+  background: rgba(16, 34, 26, 0.1);
+}
+
+.wheel-segment-name {
+  max-width: 100%;
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1.04;
+  text-wrap: balance;
+  text-shadow: 0 1px 2px rgba(16, 34, 26, 0.68);
+}
+
+@media (min-width: 1024px) {
+  .wheel-stage {
+    width: min(56vw, 30rem);
+  }
+
+  .wheel-segment-label {
+    width: clamp(4rem, 10vw, 5.4rem);
+  }
+
+  .wheel-segment-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .wheel-segment-name {
+    font-size: 0.78rem;
+    line-height: 1.08;
+  }
+}
+
+.wheel-hub {
+  position: absolute;
+  z-index: 4;
+  display: grid;
+  width: clamp(3.35rem, 15vw, 4.15rem);
+  height: clamp(3.35rem, 15vw, 4.15rem);
+  place-items: center;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 38% 28%, rgba(255, 255, 255, 0.86), transparent 32%),
+    var(--color-surface);
+  border: 3px solid var(--color-ink);
+  box-shadow: var(--shadow-hard);
+}
+
+/* ── Reusable animation utilities ── */
+.animate-fade-slide-up { animation: fade-slide-up 0.3s var(--ease-out-soft) both; }
+.animate-draw-in       { animation: draw-in 0.5s var(--ease-out-strong) both; }
+.animate-favorite-pop  { animation: favorite-pop 0.24s var(--ease-out-strong) both; }
+
+/* Favorites are bootstrapped before React hydrates, like theme. The DOM stays
+   stable; the root data attributes decide what is visible on the first paint. */
+[data-favorite-shelf],
+[data-favorite-card] {
+  display: none;
+}
+
+[data-favorite-shelf] {
+  position: relative;
+  z-index: 2;
+  background: var(--color-surface-2);
+}
+
+[data-favorite-reflow] {
+  position: relative;
+  z-index: 1;
+}
+
+:root[data-has-favorite-tools="true"] [data-favorite-shelf] {
+  display: block;
+}
+
+:root[data-favorite-tools~="wheel"] [data-favorite-card="wheel"],
+:root[data-favorite-tools~="scene"] [data-favorite-card="scene"],
+:root[data-favorite-tools~="warmup"] [data-favorite-card="warmup"],
+:root[data-favorite-tools~="facts"] [data-favorite-card="facts"],
+:root[data-favorite-tools~="timer"] [data-favorite-card="timer"],
+:root[data-favorite-tools~="character"] [data-favorite-card="character"],
+:root[data-favorite-tools~="prompts"] [data-favorite-card="prompts"],
+:root[data-favorite-tools~="suggestions"] [data-favorite-card="suggestions"],
+:root[data-favorite-tools~="formats"] [data-favorite-card="formats"],
+:root[data-favorite-tools~="reflection"] [data-favorite-card="reflection"],
+:root[data-favorite-tools~="soundscape"] [data-favorite-card="soundscape"],
+:root[data-favorite-tools~="status"] [data-favorite-card="status"],
+:root[data-favorite-tools~="spine"] [data-favorite-card="spine"],
+:root[data-favorite-tools~="jam"] [data-favorite-card="jam"],
+:root[data-favorite-tools~="principles"] [data-favorite-card="principles"],
+:root[data-favorite-tools~="monologue"] [data-favorite-card="monologue"],
+:root[data-favorite-tools~="genres"] [data-favorite-card="genres"],
+:root[data-favorite-tools~="harold"] [data-favorite-card="harold"],
+:root[data-favorite-tools~="emotion"] [data-favorite-card="emotion"],
+:root[data-favorite-tools~="constraints"] [data-favorite-card="constraints"],
+:root[data-favorite-tools~="metronome"] [data-favorite-card="metronome"],
+:root[data-favorite-tools~="variants"] [data-favorite-card="variants"],
+:root[data-favorite-tools~="replay"] [data-favorite-card="replay"],
+:root[data-favorite-tools~="deconstruction"] [data-favorite-card="deconstruction"] {
+  display: block;
+}
+
+:root[data-favorite-tools~="wheel"] [data-favorite-control="wheel"] [data-favorite-button-shell],
+:root[data-favorite-tools~="scene"] [data-favorite-control="scene"] [data-favorite-button-shell],
+:root[data-favorite-tools~="warmup"] [data-favorite-control="warmup"] [data-favorite-button-shell],
+:root[data-favorite-tools~="facts"] [data-favorite-control="facts"] [data-favorite-button-shell],
+:root[data-favorite-tools~="timer"] [data-favorite-control="timer"] [data-favorite-button-shell],
+:root[data-favorite-tools~="character"] [data-favorite-control="character"] [data-favorite-button-shell],
+:root[data-favorite-tools~="prompts"] [data-favorite-control="prompts"] [data-favorite-button-shell],
+:root[data-favorite-tools~="suggestions"] [data-favorite-control="suggestions"] [data-favorite-button-shell],
+:root[data-favorite-tools~="formats"] [data-favorite-control="formats"] [data-favorite-button-shell],
+:root[data-favorite-tools~="reflection"] [data-favorite-control="reflection"] [data-favorite-button-shell],
+:root[data-favorite-tools~="soundscape"] [data-favorite-control="soundscape"] [data-favorite-button-shell],
+:root[data-favorite-tools~="status"] [data-favorite-control="status"] [data-favorite-button-shell],
+:root[data-favorite-tools~="spine"] [data-favorite-control="spine"] [data-favorite-button-shell],
+:root[data-favorite-tools~="jam"] [data-favorite-control="jam"] [data-favorite-button-shell],
+:root[data-favorite-tools~="principles"] [data-favorite-control="principles"] [data-favorite-button-shell],
+:root[data-favorite-tools~="monologue"] [data-favorite-control="monologue"] [data-favorite-button-shell],
+:root[data-favorite-tools~="genres"] [data-favorite-control="genres"] [data-favorite-button-shell],
+:root[data-favorite-tools~="harold"] [data-favorite-control="harold"] [data-favorite-button-shell],
+:root[data-favorite-tools~="emotion"] [data-favorite-control="emotion"] [data-favorite-button-shell],
+:root[data-favorite-tools~="constraints"] [data-favorite-control="constraints"] [data-favorite-button-shell],
+:root[data-favorite-tools~="metronome"] [data-favorite-control="metronome"] [data-favorite-button-shell],
+:root[data-favorite-tools~="variants"] [data-favorite-control="variants"] [data-favorite-button-shell],
+:root[data-favorite-tools~="replay"] [data-favorite-control="replay"] [data-favorite-button-shell],
+:root[data-favorite-tools~="deconstruction"] [data-favorite-control="deconstruction"] [data-favorite-button-shell] {
+  background: var(--color-brand-500);
+  color: var(--color-ink);
+  border-color: var(--color-ink);
+  box-shadow: 2px 2px 0 0 var(--color-brand-600);
+}
+
+:root[data-favorite-tools~="wheel"] [data-favorite-control="wheel"] [data-favorite-icon-active],
+:root[data-favorite-tools~="scene"] [data-favorite-control="scene"] [data-favorite-icon-active],
+:root[data-favorite-tools~="warmup"] [data-favorite-control="warmup"] [data-favorite-icon-active],
+:root[data-favorite-tools~="facts"] [data-favorite-control="facts"] [data-favorite-icon-active],
+:root[data-favorite-tools~="timer"] [data-favorite-control="timer"] [data-favorite-icon-active],
+:root[data-favorite-tools~="character"] [data-favorite-control="character"] [data-favorite-icon-active],
+:root[data-favorite-tools~="prompts"] [data-favorite-control="prompts"] [data-favorite-icon-active],
+:root[data-favorite-tools~="suggestions"] [data-favorite-control="suggestions"] [data-favorite-icon-active],
+:root[data-favorite-tools~="formats"] [data-favorite-control="formats"] [data-favorite-icon-active],
+:root[data-favorite-tools~="reflection"] [data-favorite-control="reflection"] [data-favorite-icon-active],
+:root[data-favorite-tools~="soundscape"] [data-favorite-control="soundscape"] [data-favorite-icon-active],
+:root[data-favorite-tools~="status"] [data-favorite-control="status"] [data-favorite-icon-active],
+:root[data-favorite-tools~="spine"] [data-favorite-control="spine"] [data-favorite-icon-active],
+:root[data-favorite-tools~="jam"] [data-favorite-control="jam"] [data-favorite-icon-active],
+:root[data-favorite-tools~="principles"] [data-favorite-control="principles"] [data-favorite-icon-active],
+:root[data-favorite-tools~="monologue"] [data-favorite-control="monologue"] [data-favorite-icon-active],
+:root[data-favorite-tools~="genres"] [data-favorite-control="genres"] [data-favorite-icon-active],
+:root[data-favorite-tools~="harold"] [data-favorite-control="harold"] [data-favorite-icon-active],
+:root[data-favorite-tools~="emotion"] [data-favorite-control="emotion"] [data-favorite-icon-active],
+:root[data-favorite-tools~="constraints"] [data-favorite-control="constraints"] [data-favorite-icon-active],
+:root[data-favorite-tools~="metronome"] [data-favorite-control="metronome"] [data-favorite-icon-active],
+:root[data-favorite-tools~="variants"] [data-favorite-control="variants"] [data-favorite-icon-active],
+:root[data-favorite-tools~="replay"] [data-favorite-control="replay"] [data-favorite-icon-active],
+:root[data-favorite-tools~="deconstruction"] [data-favorite-control="deconstruction"] [data-favorite-icon-active] {
+  display: block;
+}
+
+:root[data-favorite-tools~="wheel"] [data-favorite-control="wheel"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="scene"] [data-favorite-control="scene"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="warmup"] [data-favorite-control="warmup"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="facts"] [data-favorite-control="facts"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="timer"] [data-favorite-control="timer"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="character"] [data-favorite-control="character"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="prompts"] [data-favorite-control="prompts"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="suggestions"] [data-favorite-control="suggestions"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="formats"] [data-favorite-control="formats"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="reflection"] [data-favorite-control="reflection"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="soundscape"] [data-favorite-control="soundscape"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="status"] [data-favorite-control="status"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="spine"] [data-favorite-control="spine"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="jam"] [data-favorite-control="jam"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="principles"] [data-favorite-control="principles"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="monologue"] [data-favorite-control="monologue"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="genres"] [data-favorite-control="genres"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="harold"] [data-favorite-control="harold"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="emotion"] [data-favorite-control="emotion"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="constraints"] [data-favorite-control="constraints"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="metronome"] [data-favorite-control="metronome"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="variants"] [data-favorite-control="variants"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="replay"] [data-favorite-control="replay"] [data-favorite-icon-inactive],
+:root[data-favorite-tools~="deconstruction"] [data-favorite-control="deconstruction"] [data-favorite-icon-inactive] {
+  display: none;
+}
+
+.error-stage {
+  position: relative;
+  isolation: isolate;
+  min-height: 18.5rem;
+  aspect-ratio: 1.08;
+  overflow: hidden;
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(ellipse at 50% 12%, color-mix(in oklch, var(--color-brand-500) 45%, transparent), transparent 32%),
+    radial-gradient(ellipse at 50% 118%, color-mix(in oklch, var(--color-brand-500) 34%, transparent), transparent 48%),
+    linear-gradient(180deg, color-mix(in oklch, var(--color-ink-fill) 90%, var(--color-brand-500)), var(--color-ink-fill));
+  box-shadow: var(--shadow-hard);
+}
+
+.error-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0.75rem;
+  z-index: -1;
+  border: 1px solid color-mix(in oklch, var(--color-on-ink) 18%, transparent);
+  border-radius: var(--radius-md);
+  background-image: radial-gradient(circle, color-mix(in oklch, var(--color-brand-500) 82%, white) 1.6px, transparent 2px);
+  background-repeat: repeat-x;
+  background-size: 17px 17px;
+  opacity: 0.78;
+}
+
+.error-stage::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -18%;
+  z-index: -1;
+  width: 70%;
+  height: 58%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, color-mix(in oklch, var(--color-brand-500) 48%, transparent), transparent 70%);
+  filter: blur(20px);
+  transform: translateX(-50%);
+}
+
+.error-stage-code {
+  position: absolute;
+  top: 1.9rem;
+  left: 50%;
+  color: color-mix(in oklch, var(--color-on-ink) 92%, var(--color-brand-500));
+  font-family: var(--font-display);
+  font-size: 5.5rem;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 0.82;
+  opacity: 0.9;
+  transform: translateX(-50%);
+  text-shadow: 0 3px 0 color-mix(in oklch, var(--color-brand-500) 50%, transparent);
+}
+
+.error-cue-card {
+  position: absolute;
+  display: grid;
+  min-height: 3.4rem;
+  place-items: center;
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  box-shadow: 2px 2px 0 0 color-mix(in oklch, var(--color-brand-500) 72%, var(--color-ink));
+  padding: 0.55rem 0.72rem;
+  transform: rotate(var(--cue-rotate));
+  animation: error-cue-drift 5.4s var(--ease-out-soft) infinite alternate;
+}
+
+.error-cue-card > span {
+  display: block;
+  width: 68%;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--color-brand-500) 78%, var(--color-ink));
+  box-shadow:
+    0 0.8rem 0 color-mix(in oklch, var(--color-line) 72%, transparent),
+    0 1.6rem 0 color-mix(in oklch, var(--color-line) 58%, transparent);
+}
+
+.error-cue-card-a {
+  --cue-rotate: -8deg;
+  left: 1.35rem;
+  top: 5.2rem;
+  width: 5.25rem;
+}
+
+.error-cue-card-b {
+  --cue-rotate: 6deg;
+  right: 1.2rem;
+  top: 4.45rem;
+  width: 5rem;
+  animation-delay: -1.6s;
+}
+
+.error-cue-card-c {
+  --cue-rotate: -3deg;
+  bottom: 2.2rem;
+  right: 1.55rem;
+  width: 6rem;
+  animation-delay: -2.8s;
+}
+
+.error-mascot-light {
+  position: absolute;
+  left: 50%;
+  bottom: 1.05rem;
+  display: grid;
+  width: 8rem;
+  height: 8rem;
+  place-items: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 38%, color-mix(in oklch, var(--color-surface) 84%, var(--color-brand-500)), transparent 58%),
+    color-mix(in oklch, var(--color-brand-500) 30%, transparent);
+  transform: translateX(-50%);
+}
+
+.error-mascot {
+  animation: error-mascot-peek 4.6s var(--ease-out-soft) infinite alternate;
+  transform-origin: 50% 85%;
+}
+
+@keyframes error-cue-drift {
+  from { transform: translate3d(0, 0, 0) rotate(var(--cue-rotate)); }
+  to { transform: translate3d(0, -0.35rem, 0) rotate(calc(var(--cue-rotate) * -0.45)); }
+}
+
+@keyframes error-mascot-peek {
+  from { transform: translateY(0) rotate(-3deg); }
+  to { transform: translateY(-0.45rem) rotate(3deg); }
+}
+
+@media (min-width: 1024px) {
+  .error-stage {
+    min-height: 27.5rem;
+  }
+
+  .error-stage-code {
+    top: 2.6rem;
+    font-size: 6rem;
+  }
+
+  .error-cue-card {
+    min-height: 4rem;
+    font-size: 1.05rem;
+  }
+
+  .error-cue-card-a {
+    left: 2.1rem;
+    top: 7.5rem;
+    width: 5.9rem;
+  }
+
+  .error-cue-card-b {
+    right: 2.1rem;
+    top: 6.7rem;
+    width: 5.6rem;
+  }
+
+  .error-cue-card-c {
+    right: 2.3rem;
+    bottom: 3.35rem;
+    width: 6.7rem;
+  }
+
+  .error-mascot-light {
+    bottom: 2rem;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.text-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+/* Desktop app scale — mobile-first page content should not stay tiny inside
+   the wider desktop cards/rows. Explicit lg:text-* choices still win. */
+@media (min-width: 1024px) {
+  .desktop-type-scale :where(.text-xs):not([class*="lg:text"]) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .desktop-type-scale :where(.text-sm):not([class*="lg:text"]) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .desktop-type-scale :where(.text-base):not([class*="lg:text"]) {
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+
+  .desktop-type-scale :where(.text-lg):not([class*="lg:text"]) {
+    font-size: 1.25rem;
+    line-height: 1.7;
+  }
+
+  .desktop-type-scale :where(.text-xl):not([class*="lg:text"]) {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  .desktop-type-scale :where(.text-2xl):not([class*="lg:text"]) {
+    font-size: 2rem;
+    line-height: 1.12;
+  }
+}
+
+/* ── Launcher masthead: mascot sways gently (bulbs are static — a pulse reads as "loading") ── */
+@keyframes snake-sway { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+.animate-snake-sway { transform-origin: bottom center; animation: snake-sway 4.8s ease-in-out infinite; }
+
+/* Staggered list/grid entrances: add .stagger to a parent */
+.stagger > * { animation: fade-slide-up 0.34s var(--ease-out-soft) both; }
+.stagger > *:nth-child(1) { animation-delay: 0.02s; }
+.stagger > *:nth-child(2) { animation-delay: 0.06s; }
+.stagger > *:nth-child(3) { animation-delay: 0.10s; }
+.stagger > *:nth-child(4) { animation-delay: 0.14s; }
+.stagger > *:nth-child(5) { animation-delay: 0.18s; }
+.stagger > *:nth-child(6) { animation-delay: 0.22s; }
+.stagger > *:nth-child(7) { animation-delay: 0.26s; }
+.stagger > *:nth-child(8) { animation-delay: 0.30s; }
+.stagger > *:nth-child(n+9) { animation-delay: 0.34s; }
+
+.scrollbar-none { scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
+/* ── Accessibility: honor reduced-motion globally ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
