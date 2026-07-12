@@ -119,7 +119,7 @@ export function AppErrorPage({ variant, statusCode }: AppErrorPageProps) {
               <span aria-hidden className="h-0.5 flex-1 rounded-full bg-ink/20" />
             </div>
 
-            <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+            <div className="grid gap-2 grid-cols-[repeat(auto-fit,minmax(min(100%,13rem),1fr))]">
               {quickMoves.map(({ to, labelKey, fallback, Icon }) => (
                 <Link
                   key={to}

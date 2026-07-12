@@ -30,5 +30,6 @@ export default [
   route("replay", "routes/replay.tsx"),
   route("deconstruction", "routes/deconstruction.tsx"),
   route("privacy", "routes/privacy.tsx"),
+  route("privacy-policy", "routes/privacy-policy.tsx"),
   route("*", "routes/not-found.tsx"),
 ] satisfies RouteConfig;
