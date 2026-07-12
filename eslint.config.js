@@ -23,6 +23,7 @@ export default defineConfig([
     'ios/App/App/public/**',
     'ios/App/Pods/**',
     'ios/App/DerivedData/**',
+    'ios/App/output/**',
     'ios/DerivedData/**',
     'android/app/src/main/assets/public/**',
     'android/.gradle/**',

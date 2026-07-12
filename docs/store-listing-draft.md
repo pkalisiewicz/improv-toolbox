@@ -17,7 +17,8 @@ Category:
 Education first; Entertainment is the fallback if the store review/category fit feels more natural.
 
 Support URL:
-TBD - must point to contact/support information.
+https://www.improv-toolbox.com/privacy
+(verified 2026-07-12: page live, shows contact email privacy@improv-toolbox.com, domain has MX records)
 
 Marketing URL:
 https://improv-toolbox.com
@@ -52,7 +53,7 @@ What is inside:
 
 The app works offline, requires no account and keeps your settings on your device. It includes English and Polish in one app, with an in-app language switch.
 
-Optional in-app tips support continued development.
+(Re-add when the tip jar ships with 1.x: "Optional in-app tips support continued development." — omitted from 1.0, which has no live IAP.)
 
 ### Google Play
 
@@ -75,10 +76,10 @@ What is inside:
 
 The app works offline, requires no account and keeps your settings on your device. It includes English and Polish in one app, with an in-app language switch.
 
-Optional in-app tips support continued development.
+(Re-add when the tip jar ships with 1.x: "Optional in-app tips support continued development." — omitted from 1.0, which has no live IAP.)
 
 Release notes:
-Initial mobile release of Improv Toolbox, with offline tools, English and Polish language support, haptics, timer notification and optional in-app tips.
+Initial mobile release of Improv Toolbox, with offline tools, English and Polish language support, haptics and timer notification.
 
 ## Polish
 
@@ -91,7 +92,8 @@ Category:
 Education first; Entertainment is the fallback if the store review/category fit feels more natural.
 
 Support URL:
-TBD - must point to contact/support information.
+https://www.skrzynka-improwizatora.pl/privacy
+(verified 2026-07-12: page live, shows contact email, domain has MX records)
 
 Marketing URL:
 https://skrzynka-improwizatora.pl
@@ -126,7 +128,7 @@ W środku:
 
 Aplikacja działa offline, nie wymaga konta i zapisuje ustawienia na Twoim urządzeniu. Zawiera język polski i angielski w jednej aplikacji, z przełącznikiem języka w środku.
 
-Opcjonalne napiwki w aplikacji wspierają dalszy rozwój.
+(Przywróć, gdy napiwki wejdą w 1.x: "Opcjonalne napiwki w aplikacji wspierają dalszy rozwój." — pominięte w 1.0, brak aktywnych IAP.)
 
 ### Google Play
 
@@ -149,7 +151,7 @@ W środku:
 
 Aplikacja działa offline, nie wymaga konta i zapisuje ustawienia na Twoim urządzeniu. Zawiera język polski i angielski w jednej aplikacji, z przełącznikiem języka w środku.
 
-Opcjonalne napiwki w aplikacji wspierają dalszy rozwój.
+(Przywróć, gdy napiwki wejdą w 1.x: "Opcjonalne napiwki w aplikacji wspierają dalszy rozwój." — pominięte w 1.0, brak aktywnych IAP.)
 
 Release notes:
-Pierwsze wydanie mobilne Skrzynki Improwizatora: narzędzia offline, język polski i angielski, haptyka, powiadomienie timera i opcjonalne napiwki w aplikacji.
+Pierwsze wydanie mobilne Skrzynki Improwizatora: narzędzia offline, język polski i angielski, haptyka i powiadomienie timera.

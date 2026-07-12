@@ -26,7 +26,8 @@ See `docs/adr/0002` / `0003` for the architecture decisions behind this.
 - ⏸ **Aptabase** account → app key → add `VITE_APTABASE_KEY` to `.env.local` + prod env; never commit real `.env*` files 🤝 — DEFERRED (2026-07-06): ship 1.0 without analytics
 - ⏸ **RevenueCat**: production iOS (`appl_…`) + Android (`goog_…`) public keys
   → wire `VITE_RC_IOS_KEY` / `VITE_RC_ANDROID_KEY` from local/prod env 🤝 — DEFERRED (2026-07-06): tip jar stays dormant without keys (code no-ops)
-- ☐ Confirm prod builds do **not** set `VITE_RC_TEST_KEY` (test-only) 🤖
+- ✅ Confirm prod builds do **not** set `VITE_RC_TEST_KEY` (test-only) 🤖 — verified 2026-07-12:
+  `.env.local` holds only non-`VITE_` Tolgee keys; RC keys exist only (empty) in `.env.example`
 
 ---
 
@@ -45,9 +46,10 @@ Revisit post-launch.
 ---
 
 ## 3. Android toolchain 👤
-- ☐ Install **Android Studio** + SDK + **JDK 21**
+- ✅ Install **Android Studio** + SDK + **JDK 21** — verified: signed release AAB built 2026-07-06
 - ✅ `npx cap add android` — `android/` project generated + icons/splash 🤖
-- ☐ Signing: enroll in **Play App Signing** (recommended) or generate an upload keystore
+- ✅ Signing: upload keystore at `~/keystores/improv-toolbox-upload.jks`, wired via
+  gitignored `android/key.properties` (enroll in Play App Signing when creating the app in Play Console)
 
 ---
 
@@ -88,29 +90,31 @@ Revisit post-launch.
 - ☐ Tip purchase completes (sandbox) → "Thank you!"
 - ☐ Language defaults to device locale; toggle persists across relaunch
 - ☐ Fully offline (airplane mode)
-- ☐ Rotate to landscape on iPhone — Info.plist allows it; either verify the UI
-  holds up or restrict to portrait before review
+- ✅ Rotate to landscape on iPhone — RESOLVED 2026-07-12: restricted to **portrait-only**
+  in Info.plist (landscape UI was never verified). Also set `TARGETED_DEVICE_FAMILY = 1`
+  (**iPhone-only**) — formally targeting iPad would make iPad screenshots mandatory in
+  App Store Connect and we only have iPhone 6.9" ones. Both are one-line reverts if
+  iPad/landscape support is wanted later
 
 ---
 
 ## 7. iOS submission 🤝
 - ✅ Release **archive builds and signs** (verified 2026-07-06):
   `xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Release -destination 'generic/platform=iOS' -archivePath ios/App/output/App.xcarchive archive DEVELOPMENT_TEAM=<team> -allowProvisioningUpdates` 🤖
-- ☐ **⛔ BLOCKER: accept the updated Program License Agreement** at
-  developer.apple.com / App Store Connect — export fails with "PLA Update
-  available" until you do 👤
-- ☐ After PLA: distribution cert + profile (Xcode creates them on first
-  Distribute; make sure your Apple ID is signed into Xcode → Settings → Accounts)
-- ☐ Create the app record in App Store Connect (bundle `com.improvtoolbox.app`)
-- ☐ Export + upload: Xcode Organizer → Distribute App, or
-  `xcodebuild -exportArchive -archivePath ios/App/output/App.xcarchive -exportPath ios/App/output/export -exportOptionsPlist ios/App/output/exportOptions.plist -allowProvisioningUpdates`
+- ✅ **Accept the updated Program License Agreement** — done 2026-07-12 (propagation took a few minutes)
+- ✅ Distribution cert + profile — created automatically (cloud-managed signing) during export 2026-07-12
+- ✅ Export: `App.ipa` at `ios/App/output/export/` (52 MB, signed, iPhone-only/portrait) 2026-07-12
+- ✅ Create the app record in App Store Connect — done 2026-07-12 (app ID 6790120737)
+- ✅ Upload: 1.0 (1) uploaded 2026-07-12 via `xcodebuild -exportArchive` with
+  `destination: upload` (`ios/App/output/exportOptions-upload.plist`) — processing
 - ☐ **TestFlight** smoke test → submit for review (~1–3 days)
 - Version 1.0 (build 1) already set; 1.0 ships without RevenueCat/Aptabase keys (deferred)
 
 ---
 
 ## 8. Google Play submission ⏰
-- ☐ Build signed **AAB**
+- ✅ Build signed **AAB** — verified 2026-07-06 (`android/app/build/outputs/bundle/release/app-release.aab`);
+  rebuild before upload — translation work has landed on `main` since
 - ☐ Internal testing track (quick smoke)
 - ☐ **⏰ Closed testing: ≥12 testers opted-in for 14 consecutive days** — REQUIRED before
   production for personal accounts. **Start this ASAP; it gates the launch by ≥2 weeks.**
