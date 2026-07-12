@@ -1,6 +1,7 @@
 import i18n from '../i18n';
 import { persistLang, readDurableLang } from './lang';
 import { configureTipJar } from './tipJar';
+import { DEFAULT_APP_LANG, resolveSupportedLang } from '../languages';
 
 const NATIVE_BOOT_TIMEOUT_MS = 1_500;
 const SPLASH_HIDE_TIMEOUT_MS = 1_000;
@@ -26,7 +27,7 @@ async function runNativeSetup(): Promise<void> {
       await i18n.changeLanguage(durable);
     } else if (!durable) {
       // First launch — capture whatever i18n resolved to.
-      await persistLang(i18n.language === 'pl' ? 'pl' : 'en');
+      await persistLang(resolveSupportedLang(i18n.language, DEFAULT_APP_LANG));
     }
   } catch {
     /* ignore */

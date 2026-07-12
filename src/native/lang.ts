@@ -1,11 +1,17 @@
 import { IS_NATIVE_BUILD } from './platform';
+import {
+  DEFAULT_APP_LANG,
+  isSupportedLang,
+  resolveSupportedLanguageTag,
+  type Lang,
+} from '../languages';
 
 /**
  * Language handling for the native App. Unlike the Site (one language baked per
- * build, switched by domain — see docs/adr/0001), the App carries both locales
+ * build, switched by domain — see docs/adr/0001), the App carries every locale
  * and chooses at runtime (docs/adr/0003).
  */
-export type AppLang = 'en' | 'pl';
+export type AppLang = Lang;
 
 // Reuse i18next's conventional key so a value written by either path is read by
 // the other. Synchronous storage (localStorage) is what lets i18n.ts seed the
@@ -22,18 +28,17 @@ const LS_KEY = 'i18nextLng';
 export function resolveInitialLang(): AppLang {
   try {
     const stored = localStorage.getItem(LS_KEY);
-    if (stored === 'en' || stored === 'pl') return stored;
+    if (isSupportedLang(stored)) return stored;
   } catch {
     /* no localStorage (prerender) */
   }
   try {
-    if (typeof navigator !== 'undefined' && navigator.language?.toLowerCase().startsWith('pl')) {
-      return 'pl';
-    }
+    const deviceLang = resolveSupportedLanguageTag(typeof navigator === 'undefined' ? undefined : navigator.language);
+    if (deviceLang) return deviceLang;
   } catch {
     /* no navigator (prerender) */
   }
-  return 'en';
+  return DEFAULT_APP_LANG;
 }
 
 /** Persist the user's choice to both synchronous (localStorage) and durable
@@ -60,7 +65,7 @@ export async function readDurableLang(): Promise<AppLang | null> {
   try {
     const { Preferences } = await import('@capacitor/preferences');
     const { value } = await Preferences.get({ key: LS_KEY });
-    return value === 'en' || value === 'pl' ? value : null;
+    return isSupportedLang(value) ? value : null;
   } catch {
     return null;
   }

@@ -6,24 +6,26 @@ import en from './locales/en/translation.json';
 import { BUILD_LANG } from './seo/config';
 import { IS_NATIVE_BUILD } from './native/platform';
 import { resolveInitialLang } from './native/lang';
+import { DEFAULT_APP_LANG, type Lang } from './languages';
+
+const RESOURCES = {
+  en: { translation: en },
+  pl: { translation: pl },
+} satisfies Record<Lang, { translation: object }>;
 
 if (IS_NATIVE_BUILD) {
-  // App: one bilingual binary. Bundle BOTH locales and choose at runtime from
+  // App: one multilingual binary. Bundle every supported locale and choose at runtime from
   // the device locale / a remembered choice (docs/adr/0003).
   i18n.use(initReactI18next).init({
-    resources: {
-      en: { translation: en },
-      pl: { translation: pl },
-    },
+    resources: RESOURCES,
     lng: resolveInitialLang(),
-    fallbackLng: 'en',
+    fallbackLng: DEFAULT_APP_LANG,
     interpolation: { escapeValue: false },
   });
 } else {
   // Site: one language baked at build time, one build per domain (docs/adr/0001).
-  // The unused locale is tree-shaken because BUILD_LANG folds to a literal.
   i18n.use(initReactI18next).init({
-    resources: BUILD_LANG === 'en' ? { en: { translation: en } } : { pl: { translation: pl } },
+    resources: { [BUILD_LANG]: RESOURCES[BUILD_LANG] },
     lng: BUILD_LANG,
     fallbackLng: BUILD_LANG,
     interpolation: { escapeValue: false },

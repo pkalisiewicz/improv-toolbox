@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useParams, type MetaFunction } from 'react-router';
 import { warmupBySlug } from '../seo/warmupEntries';
-import { BUILD_LANG, canonicalUrl, hreflangLinks } from '../seo/config';
+import { BUILD_LANG, canonicalUrl, hreflangLinksForPath } from '../seo/config';
+import type { Lang } from '../languages';
 import pl from '../locales/pl/translation.json';
 import en from '../locales/en/translation.json';
 import { AppErrorPage } from '../pages/ErrorPage';
@@ -9,7 +10,11 @@ import { AppErrorPage } from '../pages/ErrorPage';
 type WarmupCopy = { name?: string; description?: string; tips?: string };
 const PL_WARMUPS = (pl as { warmups: Record<string, WarmupCopy> }).warmups;
 const EN_WARMUPS = (en as { warmups: Record<string, WarmupCopy> }).warmups;
-const WARMUP_COPY = BUILD_LANG === 'en' ? EN_WARMUPS : PL_WARMUPS;
+const WARMUP_COPY_BY_LANG = {
+  en: EN_WARMUPS,
+  pl: PL_WARMUPS,
+} satisfies Record<Lang, Record<string, WarmupCopy>>;
+const WARMUP_COPY = WARMUP_COPY_BY_LANG[BUILD_LANG];
 const ENTRY_COPY = {
   en: {
     backToWarmups: 'Back to warmups',
@@ -29,7 +34,18 @@ const ENTRY_COPY = {
     level: 'Poziom',
     coachTip: 'Wskazówka trenera:',
   },
-} as const;
+} satisfies Record<
+  Lang,
+  {
+    backToWarmups: string;
+    titleSuffix: string;
+    ogSuffix: string;
+    players: string;
+    time: string;
+    level: string;
+    coachTip: string;
+  }
+>;
 
 export const meta: MetaFunction = ({ params }) => {
   const game = warmupBySlug(params.slug);
@@ -44,7 +60,7 @@ export const meta: MetaFunction = ({ params }) => {
     { title: `${name} - ${entry.titleSuffix}` },
     { name: 'description', content: desc },
     { tagName: 'link', rel: 'canonical', href: canonicalUrl(path) },
-    ...hreflangLinks({ en: path, pl: path }),
+    ...hreflangLinksForPath(path),
     { property: 'og:title', content: `${name} - ${entry.ogSuffix}` },
     { property: 'og:description', content: desc },
   ];

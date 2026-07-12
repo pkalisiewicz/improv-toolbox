@@ -2,7 +2,7 @@
 
 interface ImportMetaEnv {
   /** Site builds: the single baked language (per domain). See seo/config.ts. */
-  readonly VITE_BUILD_LANG?: 'en' | 'pl';
+  readonly VITE_BUILD_LANG?: string;
   /** Set to 'native' only by the build:native script (Capacitor App build). */
   readonly VITE_BUILD_TARGET?: 'native';
   /** Aptabase app key for the native App's anonymous analytics. */

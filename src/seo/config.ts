@@ -1,10 +1,19 @@
+import {
+  DEFAULT_APP_LANG,
+  DEFAULT_SITE_LANG,
+  LANG_META,
+  SUPPORTED_LANGS,
+  isSupportedLang,
+  type Lang,
+} from '../languages';
+
+export type { Lang } from '../languages';
+
 // Each language is a monolingual build deployed to its own domain.
-export const SITE_ORIGINS = {
+export const SITE_ORIGINS: Record<Lang, string> = {
   en: 'https://www.improv-toolbox.com',
   pl: 'https://www.skrzynka-improwizatora.pl',
-} as const;
-
-export type Lang = keyof typeof SITE_ORIGINS;
+};
 
 const BUILD_LANG_VALUE = import.meta.env.VITE_BUILD_LANG;
 
@@ -12,7 +21,7 @@ const BUILD_LANG_VALUE = import.meta.env.VITE_BUILD_LANG;
 // build time (one build per domain); defaults to Polish. Vite statically
 // replaces import.meta.env.VITE_BUILD_LANG, so this is a compile-time constant.
 export const BUILD_LANG: Lang =
-  BUILD_LANG_VALUE === 'en' || BUILD_LANG_VALUE === 'pl' ? BUILD_LANG_VALUE : 'pl';
+  isSupportedLang(BUILD_LANG_VALUE) ? BUILD_LANG_VALUE : DEFAULT_SITE_LANG;
 
 export const SEO = {
   en: {
@@ -31,8 +40,6 @@ export const SEO = {
     twitterDescription:
       'Free improv toolkit: archetype wheel, scene generator, 60+ warmup games, character builder, improv glossary & more. Works offline on mobile.',
     twitterImageAlt: 'Improv Toolbox - free improv app screenshot',
-    locale: 'en_US',
-    alternateLocale: 'pl_PL',
   },
   pl: {
     siteName: 'Skrzynka Improwizatora',
@@ -51,12 +58,29 @@ export const SEO = {
     twitterDescription:
       'Bezpłatna aplikacja dla improwizatorów: koło archetypów, generator scen, 60+ rozgrzewek, kreator postaci i słownik impro. Działa offline.',
     twitterImageAlt: 'Skrzynka Improwizatora - zrzut ekranu bezpłatnej aplikacji dla improwizatorów',
-    locale: 'pl_PL',
-    alternateLocale: 'en_US',
   },
-} as const;
+} satisfies Record<
+  Lang,
+  {
+    siteName: string;
+    appTitle: string;
+    appleTitle: string;
+    title: string;
+    description: string;
+    ogTitle: string;
+    ogDescription: string;
+    ogImage: string;
+    ogImageAlt: string;
+    twitterDescription: string;
+    twitterImageAlt: string;
+  }
+>;
 
-export const CURRENT_SEO = SEO[BUILD_LANG];
+export const CURRENT_SEO = {
+  ...SEO[BUILD_LANG],
+  locale: LANG_META[BUILD_LANG].locale,
+  alternateLocales: SUPPORTED_LANGS.filter((lang) => lang !== BUILD_LANG).map((lang) => LANG_META[lang].locale),
+};
 
 export function origin(lang: Lang): string {
   return SITE_ORIGINS[lang];
@@ -70,12 +94,26 @@ export function canonicalUrl(path = '/', lang: Lang = BUILD_LANG): string {
 /**
  * hreflang alternate links for a page that exists in both languages.
  * `paths` holds the per-language absolute path (they can differ once PL slugs
- * are localized). x-default points at the English page.
+ * are localized). x-default points at the default app language page.
  */
 export function hreflangLinks(paths: Record<Lang, string>) {
   return [
-    { tagName: 'link' as const, rel: 'alternate', hrefLang: 'en', href: SITE_ORIGINS.en + paths.en },
-    { tagName: 'link' as const, rel: 'alternate', hrefLang: 'pl', href: SITE_ORIGINS.pl + paths.pl },
-    { tagName: 'link' as const, rel: 'alternate', hrefLang: 'x-default', href: SITE_ORIGINS.en + paths.en },
+    ...SUPPORTED_LANGS.map((lang) => ({
+      tagName: 'link' as const,
+      rel: 'alternate',
+      hrefLang: lang,
+      href: SITE_ORIGINS[lang] + paths[lang],
+    })),
+    {
+      tagName: 'link' as const,
+      rel: 'alternate',
+      hrefLang: 'x-default',
+      href: SITE_ORIGINS[DEFAULT_APP_LANG] + paths[DEFAULT_APP_LANG],
+    },
   ];
+}
+
+export function hreflangLinksForPath(path: string) {
+  const paths = Object.fromEntries(SUPPORTED_LANGS.map((lang) => [lang, path])) as Record<Lang, string>;
+  return hreflangLinks(paths);
 }

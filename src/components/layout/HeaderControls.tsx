@@ -2,22 +2,17 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { usePWAInstall } from '../../hooks/usePWAInstall';
 import { useTheme } from '../../hooks/useTheme';
-import { IconChevronDown, IconDownload, IconMoon, IconSun } from '../icons';
+import { IconChevronDown, IconDownload, IconGlobe, IconMoon, IconSun } from '../icons';
 import { PWAInstallModal } from '../ui/PWAInstallBanner';
 import { BUILD_LANG, origin, type Lang } from '../../seo/config';
 import { IS_NATIVE_BUILD } from '../../native/platform';
 import { persistLang } from '../../native/lang';
+import { LANG_META, SUPPORTED_LANGS, nextSupportedLang, resolveSupportedLang } from '../../languages';
 
 interface HeaderControlsProps {
   /** `ink` = controls on app surfaces; `paper` = controls on the dark masthead. */
   tone?: 'ink' | 'paper';
 }
-
-const LANGS = ['pl', 'en'] as const;
-const LANG_META: Record<Lang, { flag: string; name: string; short: string }> = {
-  pl: { flag: '🇵🇱', name: 'Polski', short: 'PL' },
-  en: { flag: '🇬🇧', name: 'English', short: 'EN' },
-};
 
 /**
  * The always-reachable app controls: language selector + theme + (when
@@ -51,9 +46,12 @@ export function HeaderControls({ tone = 'ink' }: HeaderControlsProps) {
   // Which segment reads as active: the live i18n language in the App, the baked
   // language on the Site.
   const activeLang: string = IS_NATIVE_BUILD ? i18n.language : BUILD_LANG;
+  const currentLang = resolveSupportedLang(activeLang, BUILD_LANG);
+  const nextLang = nextSupportedLang(currentLang);
 
   const showInstallButton = !isInstalled && (isIOS || !!installPrompt);
   const handleInstallClick = () => (isIOS ? setShowIOSModal(true) : install());
+  const useOneTapLanguage = SUPPORTED_LANGS.length === 2 && (IS_NATIVE_BUILD || isIOS);
   const ThemeIcon = resolvedTheme === 'dark' ? IconSun : IconMoon;
   const themeLabel = t(resolvedTheme === 'dark' ? 'theme.switchToLight' : 'theme.switchToDark');
 
@@ -94,26 +92,39 @@ export function HeaderControls({ tone = 'ink' }: HeaderControlsProps) {
           <ThemeIcon size={19} />
         </button>
 
-        <label className="relative block shrink-0">
-          <span className="sr-only">{t('app.chooseLanguage')}</span>
-          <select
-            value={activeLang}
-            onChange={(event) => setLang(event.target.value as Lang)}
-            aria-label={t('app.chooseLanguage')}
-            className={`h-11 min-w-[88px] appearance-none rounded-[var(--radius-md)] border-2 py-0 pl-3 pr-8 text-sm font-bold cursor-pointer transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${selectCtrl} ${ring} ${ringOffset}`}
+        {useOneTapLanguage ? (
+          <button
+            type="button"
+            onClick={() => setLang(nextLang)}
+            aria-label={`${t('app.chooseLanguage')}: ${LANG_META[nextLang].name}`}
+            title={`${t('app.chooseLanguage')}: ${LANG_META[nextLang].name}`}
+            className={`inline-flex h-11 min-w-[76px] touch-manipulation items-center justify-center gap-1.5 rounded-[var(--radius-md)] border-2 px-3 text-sm font-bold cursor-pointer transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${selectCtrl} ${ring} ${ringOffset}`}
           >
-            {LANGS.map((lng) => (
-              <option key={lng} value={lng}>
-                {LANG_META[lng].flag} {LANG_META[lng].short} · {LANG_META[lng].name}
-              </option>
-            ))}
-          </select>
-          <IconChevronDown
-            size={16}
-            aria-hidden="true"
-            className={`pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 ${chevron}`}
-          />
-        </label>
+            <IconGlobe size={16} />
+            <span>{LANG_META[nextLang].short}</span>
+          </button>
+        ) : (
+          <label className="relative block shrink-0">
+            <span className="sr-only">{t('app.chooseLanguage')}</span>
+            <select
+              value={currentLang}
+              onChange={(event) => setLang(event.target.value as Lang)}
+              aria-label={t('app.chooseLanguage')}
+              className={`h-11 min-w-[88px] appearance-none rounded-[var(--radius-md)] border-2 py-0 pl-3 pr-8 text-sm font-bold cursor-pointer transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${selectCtrl} ${ring} ${ringOffset}`}
+            >
+              {SUPPORTED_LANGS.map((lng) => (
+                <option key={lng} value={lng}>
+                  {LANG_META[lng].flag} {LANG_META[lng].short} · {LANG_META[lng].name}
+                </option>
+              ))}
+            </select>
+            <IconChevronDown
+              size={16}
+              aria-hidden="true"
+              className={`pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 ${chevron}`}
+            />
+          </label>
+        )}
       </div>
       {showIOSModal && <PWAInstallModal onClose={() => setShowIOSModal(false)} />}
     </>

@@ -33,7 +33,7 @@ import { TipSheet } from './components/support/TipSheet';
 import { THEME_COLORS, THEME_INIT_SCRIPT } from './theme/colorMode';
 import { FAVORITE_TOOLS_INIT_SCRIPT } from './theme/favoriteTools';
 import { AppErrorPage } from './pages/ErrorPage';
-import { BUILD_LANG, CURRENT_SEO, canonicalUrl, hreflangLinks } from './seo/config';
+import { BUILD_LANG, CURRENT_SEO, canonicalUrl, hreflangLinksForPath } from './seo/config';
 
 const APP_ICON_VERSION = '2026-06-18';
 const VIEWPORT_CONTENT = IS_NATIVE_BUILD
@@ -54,7 +54,7 @@ export const meta: MetaFunction = () => [
   { title: CURRENT_SEO.title },
   { name: 'description', content: CURRENT_SEO.description },
   { tagName: 'link', rel: 'canonical', href: canonicalUrl('/') },
-  ...hreflangLinks({ en: '/', pl: '/' }),
+  ...hreflangLinksForPath('/'),
   { property: 'og:title', content: CURRENT_SEO.ogTitle },
   { property: 'og:url', content: canonicalUrl('/') },
   { property: 'og:description', content: CURRENT_SEO.ogDescription },
@@ -94,7 +94,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content={CURRENT_SEO.ogImageAlt} />
         <meta property="og:locale" content={CURRENT_SEO.locale} />
-        <meta property="og:locale:alternate" content={CURRENT_SEO.alternateLocale} />
+        {CURRENT_SEO.alternateLocales.map((locale) => (
+          <meta key={locale} property="og:locale:alternate" content={locale} />
+        ))}
 
         {/* Twitter / X Card (global) */}
         <meta name="twitter:card" content="summary_large_image" />
