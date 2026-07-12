@@ -1,0 +1,49 @@
+name: Crowdin translations
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - src/locales/en/translation.json
+      - crowdin.yml
+  workflow_dispatch:
+
+concurrency:
+  group: crowdin-translations
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  synchronize:
+    name: Synchronize translations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Upload source and download translations
+        uses: crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706 # v2.16.2
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: true
+          push_translations: true
+          localization_branch_name: crowdin/translations
+          create_pull_request: true
+          pull_request_base_branch_name: main
+          pull_request_title: "Update translations from Crowdin"
+          pull_request_body: |
+            Automated translation update from [Improv Toolbox on Crowdin](https://crowdin.com/project/improv-toolbox).
+
+            Review the locale changes and wait for the standard test suite before merging.
+          commit_message: "Update translations from Crowdin"
+        env:
+          GITHUB_TOKEN: ${{ secrets.CROWDIN_GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
