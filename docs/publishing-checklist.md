@@ -113,8 +113,12 @@ Revisit post-launch.
 ---
 
 ## 8. Google Play submission ⏰
-- ✅ Build signed **AAB** — verified 2026-07-06 (`android/app/build/outputs/bundle/release/app-release.aab`);
-  rebuild before upload — translation work has landed on `main` since
+- ✅ Build signed **AAB** — rebuilt fresh 2026-07-15 with current code
+  (`android/app/build/outputs/bundle/release/app-release.aab`, 50 MB, upload-key signed,
+  versionCode 1 / versionName 1.0, JDK 21 + Gradle 8.14.3 `clean bundleRelease`)
+- ✅ **Portrait-locked** on Android to match iOS 1.0 — added `android:screenOrientation="portrait"`
+  to `MainActivity` (landscape UI was never verified); confirmed compiled into the AAB manifest.
+  One-line revert if landscape support is wanted later
 - ☐ Internal testing track (quick smoke)
 - ☐ **⏰ Closed testing: ≥12 testers opted-in for 14 consecutive days** — REQUIRED before
   production for personal accounts. **Start this ASAP; it gates the launch by ≥2 weeks.**
