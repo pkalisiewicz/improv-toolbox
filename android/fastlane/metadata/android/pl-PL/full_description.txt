@@ -1,0 +1,14 @@
+Skrzynka Improwizatora to praktyczny zestaw narzędzi dla osób grających, uczących i prowadzących warsztaty impro, gdy potrzebny jest szybki impuls do sceny.
+
+Otwórz aplikację na próbie, zajęciach, jamie albo występie i szybko losuj materiał do kolejnego wejścia: założenia scen, sugestie w stylu publiczności, szczegóły postaci, emocje, status, ograniczenia, rozgrzewki, struktury historii i przypomnienia formatów.
+
+W środku:
+- Koło archetypów do przypisywania ról w scenie
+- Generator scen z miejscem, relacją, sytuacją, nastrojem i epoką
+- 60+ gier rozgrzewkowych z filtrami
+- Karty podpowiedzi, sugestie publiczności i ziarna monologu
+- Narzędzia do postaci, emocji, statusu, powtórek i ograniczeń sceny
+- Timer sceny, soundscape i narzędzia rytmiczne
+- Przewodniki po formatach, zasadach, gatunkach, Haroldzie i Dekonstrukcji
+
+Aplikacja działa offline, nie wymaga konta i zapisuje ustawienia na Twoim urządzeniu. Zawiera język polski i angielski w jednej aplikacji, z przełącznikiem języka w środku.

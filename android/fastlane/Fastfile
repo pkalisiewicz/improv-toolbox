@@ -1,0 +1,68 @@
+# fastlane Fastfile — Google Play uploads for Improv Toolbox.
+#
+# Run from the android/ directory (fastlane finds this file automatically):
+#   cd android && fastlane internal
+#
+# Prerequisites (one-time, see docs/publishing-checklist.md §8):
+#   1. The app record exists in Play Console (the FIRST app creation is manual —
+#      the API cannot create a new listing).
+#   2. A service-account JSON key with "Release to testing tracks" — path set via
+#      PLAY_JSON_KEY (see Appfile).
+#   3. A fresh signed AAB at the path below (npm run sync:native, then
+#      JAVA_HOME=~/.jdks/jdk-21.0.11+10/Contents/Home ./gradlew bundleRelease).
+
+default_platform(:android)
+
+# Signed release bundle produced by `./gradlew bundleRelease`.
+AAB = File.expand_path("../app/build/outputs/bundle/release/app-release.aab", __dir__)
+
+platform :android do
+  desc "Validate the whole upload against Play WITHOUT publishing anything (dry run)"
+  lane :validate do
+    upload_to_play_store(
+      aab: AAB,
+      track: "internal",
+      validate_only: true,
+      release_status: "draft"
+    )
+  end
+
+  desc "Upload the signed AAB + listing to the INTERNAL testing track (fast smoke test)"
+  lane :internal do
+    upload_to_play_store(
+      aab: AAB,
+      track: "internal",
+      # 'draft' lets you review in the console before releasing to testers;
+      # switch to 'completed' to release immediately.
+      release_status: "draft"
+    )
+  end
+
+  desc "Upload to a CLOSED testing track (the 12-tester / 14-day gate). Override with track:alpha_custom"
+  lane :closed do |options|
+    upload_to_play_store(
+      aab: AAB,
+      track: options[:track] || "alpha",
+      release_status: "completed"
+    )
+  end
+
+  desc "Upload to PRODUCTION (only after closed testing clears). Staged rollout via rollout:0.1"
+  lane :production do |options|
+    upload_to_play_store(
+      aab: AAB,
+      track: "production",
+      release_status: "completed",
+      rollout: options[:rollout] # e.g. "0.1" for a 10% staged rollout; nil = 100%
+    )
+  end
+
+  desc "Push listing text + graphics ONLY (no binary) — e.g. after editing metadata/"
+  lane :metadata do
+    upload_to_play_store(
+      skip_upload_aab: true,
+      skip_upload_apk: true,
+      skip_upload_changelogs: false
+    )
+  end
+end

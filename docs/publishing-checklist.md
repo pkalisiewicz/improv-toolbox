@@ -119,7 +119,11 @@ Revisit post-launch.
 - ✅ **Portrait-locked** on Android to match iOS 1.0 — added `android:screenOrientation="portrait"`
   to `MainActivity` (landscape UI was never verified); confirmed compiled into the AAB manifest.
   One-line revert if landscape support is wanted later
-- ☐ Internal testing track (quick smoke)
+- ✅ Internal testing track — AAB + bilingual listing uploaded 2026-07-15 via
+  `cd android && fastlane internal` (draft release). Publish path is **fastlane supply**;
+  scaffold in `android/fastlane/` (Appfile, Fastfile, EN+PL metadata). Service-account key
+  at `~/keystores/play-service-account.json` (gitignored, `PLAY_JSON_KEY`); project
+  `woven-diorama-332711`, SA `service@woven-diorama-332711.iam.gserviceaccount.com`
 - ☐ **⏰ Closed testing: ≥12 testers opted-in for 14 consecutive days** — REQUIRED before
   production for personal accounts. **Start this ASAP; it gates the launch by ≥2 weeks.**
 - ☐ Apply for production access → submit

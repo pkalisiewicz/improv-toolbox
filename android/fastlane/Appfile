@@ -1,0 +1,13 @@
+# fastlane Appfile — Google Play publishing for Improv Toolbox
+#
+# The service-account JSON is a SECRET and must never be committed. Point at it
+# via the PLAY_JSON_KEY env var, or drop it at the default path below (which is
+# outside the repo, next to the upload keystore).
+#
+#   export PLAY_JSON_KEY="$HOME/keystores/play-service-account.json"
+#
+# Create it in Play Console → Setup → API access → link a Google Cloud project →
+# create a service account → grant it "Release to testing tracks" → download key.
+
+json_key_file(ENV["PLAY_JSON_KEY"] || File.expand_path("~/keystores/play-service-account.json"))
+package_name("com.improvtoolbox.app")
