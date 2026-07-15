@@ -38,12 +38,15 @@ platform :android do
     )
   end
 
-  desc "Upload to a CLOSED testing track (the 12-tester / 14-day gate). Override with track:alpha_custom"
+  desc "Upload to a CLOSED testing track (the 12-tester / 14-day gate). Override: track:alpha_custom status:draft"
   lane :closed do |options|
     upload_to_play_store(
       aab: AAB,
       track: options[:track] || "alpha",
-      release_status: "completed"
+      # 'completed' rolls out to testers (starts the 14-day clock) but requires the
+      # app to be OUT of draft status (finish app-content declarations first).
+      # While the app is still a draft in Play Console, only 'draft' is accepted.
+      release_status: options[:status] || "completed"
     )
   end
 
