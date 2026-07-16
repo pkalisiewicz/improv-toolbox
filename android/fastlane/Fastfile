@@ -60,6 +60,25 @@ platform :android do
     )
   end
 
+  desc "Roll out / promote an ALREADY-uploaded versionCode on a track — no new binary.
+Use this to flip a staged draft to a live rollout, or to promote the exact bytes
+testers validated. e.g. fastlane rollout version_code:3 track:alpha"
+  lane :rollout do |options|
+    upload_to_play_store(
+      track: options[:track] || "alpha",
+      version_code: Integer(options[:version_code] || 3),
+      release_status: options[:status] || "completed",
+      # Mutate only the track's release status; re-uploading would trip Play's
+      # "version code has already been used" uniqueness check.
+      skip_upload_aab: true,
+      skip_upload_apk: true,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      skip_upload_changelogs: true
+    )
+  end
+
   desc "Push listing text + graphics ONLY (no binary) — e.g. after editing metadata/"
   lane :metadata do
     upload_to_play_store(
