@@ -306,6 +306,14 @@ export const IconCheck = createIcon('IconCheck', (
   <path d="M5 13l4 4 10-11" />
 ));
 
+export const IconMail = createIcon('IconMail', (
+  <>
+    <rect x="3" y="5" width="18" height="14" rx="2.5" />
+    <path d="m4.5 7 7.5 6 7.5-6" />
+    <circle cx="12" cy="13" r="1.1" fill="var(--icon-accent)" stroke="none" />
+  </>
+));
+
 export const IconPlay = createIcon('IconPlay', (
   <path d="M7 5.2c0-.8.9-1.3 1.6-.9l10 6.8c.6.4.6 1.4 0 1.8l-10 6.8c-.7.4-1.6-.1-1.6-.9z" />
 ));

@@ -9,7 +9,7 @@ export const MORE_PATHS = [
   '/more', '/timer', '/character', '/prompts', '/suggestions', '/formats',
   '/reflection', '/soundscape', '/status', '/spine', '/jam', '/principles',
   '/monologue', '/genres', '/harold', '/emotion', '/constraints', '/metronome',
-  '/variants', '/replay', '/deconstruction', '/privacy',
+  '/variants', '/replay', '/deconstruction', '/privacy', '/contact',
 ] as const;
 
 /** True when `pathname` is a More sub-page (everything under the hub except /more itself). */

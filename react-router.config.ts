@@ -10,6 +10,6 @@ export default {
   // Static landing + one indexable Entry page per warmup game. Other content
   // types (formats, principles) and aggregate Entries follow the same pattern.
   async prerender() {
-    return ['/', '/privacy', ...warmupEntryPaths()];
+    return ['/', '/privacy', '/contact', ...warmupEntryPaths()];
   },
 } satisfies Config;

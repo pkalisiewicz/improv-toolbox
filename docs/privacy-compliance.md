@@ -76,6 +76,26 @@ Rationale:
 - The App uses RevenueCat anonymous app user IDs and has no account/email identity to link purchases to.
 - There is no ad tracking, IDFA use, data broker sharing, or cross-app tracking.
 
+### Contact Info and User Content
+
+Select:
+
+- Contact Info > Name
+- Contact Info > Email Address
+- User Content > Other User Content
+
+Because:
+
+- A user may voluntarily send their name, reply email, topic, and message through the in-app contact form.
+- Formspree processes the submission and delivers it to the support inbox.
+
+Answers for all three data types:
+
+- Purpose: App Functionality
+- Linked to user identity: Yes
+- Used for tracking: No
+- Collection is optional: the app works without using the contact form
+
 Update this if:
 
 - We later set a custom RevenueCat app user ID tied to an email/account.
@@ -135,11 +155,38 @@ Answers:
 - Required or optional: Required for users who choose to make an in-app tip purchase
 - Purposes: App functionality, Analytics
 
+### Personal Info
+
+Select:
+
+- Personal info > Name
+- Personal info > Email address
+
+Answers for both:
+
+- Collected: Yes
+- Shared: No, treating Formspree as a service provider that processes submissions for the app
+- Processed ephemerally: No
+- Required or optional: Optional
+- Purposes: App functionality
+
+### Messages
+
+Select:
+
+- Messages > Other in-app messages
+
+Answers:
+
+- Collected: Yes
+- Shared: No, under the same service-provider assumption
+- Processed ephemerally: No
+- Required or optional: Optional
+- Purposes: App functionality
+
 Do not select:
 
 - Location
-- Personal info
-- Messages
 - Photos and videos
 - Audio files
 - Files and docs

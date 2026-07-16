@@ -8,9 +8,11 @@ const IOS_USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)';
 async function renderHeaderControls({
   native,
   userAgent = DESKTOP_USER_AGENT,
+  contactShortcut = false,
 }: {
   native: boolean;
   userAgent?: string;
+  contactShortcut?: boolean;
 }) {
   vi.resetModules();
 
@@ -24,7 +26,7 @@ async function renderHeaderControls({
   vi.doMock('../../native/lang', () => ({ persistLang }));
 
   const { HeaderControls } = await import('../../components/layout/HeaderControls');
-  render(<HeaderControls tone="ink" />);
+  render(<HeaderControls tone="ink" contactShortcut={contactShortcut} />);
 
   return { persistLang };
 }
@@ -62,5 +64,11 @@ describe('HeaderControls', () => {
 
     expect(screen.queryByRole('combobox', { name: 'app.chooseLanguage' })).not.toBeInTheDocument();
     expect(screen.getByRole('button', { name: /app\.chooseLanguage/ })).toHaveTextContent(/^(PL|EN)$/);
+  });
+
+  it('offers contact as an optional quick action', async () => {
+    await renderHeaderControls({ native: true, contactShortcut: true });
+
+    expect(screen.getByRole('link', { name: 'contact.quickAction' })).toHaveAttribute('href', '/contact');
   });
 });

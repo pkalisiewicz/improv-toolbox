@@ -32,6 +32,7 @@ import { MetronomePage } from '../../pages/MetronomePage';
 import { VariantsPage } from '../../pages/VariantsPage';
 import { ReplayPage } from '../../pages/ReplayPage';
 import { DeconstructionPage } from '../../pages/DeconstructionPage';
+import { ContactPage } from '../../pages/ContactPage';
 
 function smoke(name: string, element: React.ReactElement) {
   it(`${name} renders without crashing`, () => {
@@ -67,4 +68,5 @@ describe('Page smoke tests', () => {
   smoke('VariantsPage', <VariantsPage />);
   smoke('ReplayPage', <ReplayPage />);
   smoke('DeconstructionPage', <DeconstructionPage />);
+  smoke('ContactPage', <ContactPage />);
 });

@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router-dom';
 import { usePWAInstall } from '../../hooks/usePWAInstall';
 import { useTheme } from '../../hooks/useTheme';
-import { IconChevronDown, IconDownload, IconGlobe, IconMoon, IconSun } from '../icons';
+import { IconChevronDown, IconDownload, IconGlobe, IconMail, IconMoon, IconSun } from '../icons';
 import { PWAInstallModal } from '../ui/PWAInstallBanner';
 import { BUILD_LANG, origin, type Lang } from '../../seo/config';
 import { IS_NATIVE_BUILD } from '../../native/platform';
@@ -12,6 +13,8 @@ import { LANG_META, SUPPORTED_LANGS, nextSupportedLang, resolveSupportedLang } f
 interface HeaderControlsProps {
   /** `ink` = controls on app surfaces; `paper` = controls on the dark masthead. */
   tone?: 'ink' | 'paper';
+  /** Mobile app header only: one-tap access to the contact screen. */
+  contactShortcut?: boolean;
 }
 
 /**
@@ -19,7 +22,7 @@ interface HeaderControlsProps {
  * available) install. Shared by the global header and the launcher's ink
  * masthead so the install / iOS-instructions logic lives in exactly one place.
  */
-export function HeaderControls({ tone = 'ink' }: HeaderControlsProps) {
+export function HeaderControls({ tone = 'ink', contactShortcut = false }: HeaderControlsProps) {
   const { t, i18n } = useTranslation();
   const { installPrompt, isInstalled, isIOS, install } = usePWAInstall();
   const { resolvedTheme, toggleTheme } = useTheme();
@@ -72,6 +75,19 @@ export function HeaderControls({ tone = 'ink' }: HeaderControlsProps) {
   return (
     <>
       <div className="flex items-center gap-2 shrink-0">
+        {contactShortcut && (
+          <NavLink
+            to="/contact"
+            aria-label={t('contact.quickAction')}
+            title={t('contact.quickAction')}
+            className={({ isActive }) => `grid h-11 w-11 place-items-center rounded-[var(--radius-md)] border-2 active:scale-95 transition-[background-color,color,transform] duration-150 ease-[var(--ease-out)] cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${ring} ${ringOffset} ${
+              isActive ? 'border-ink bg-brand-500 text-ink' : iconCtrl
+            }`}
+          >
+            <IconMail size={19} />
+          </NavLink>
+        )}
+
         {showInstallButton && (
           <button
             onClick={handleInstallClick}

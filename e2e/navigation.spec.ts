@@ -84,6 +84,7 @@ test.describe('Deep link routing', () => {
     { path: '/metronome',  heading: 'BPM Metronome' },
     { path: '/variants',   heading: 'Game Variant Generator' },
     { path: '/replay',     heading: 'Scene Replay Cards' },
+    { path: '/contact',    heading: 'Contact' },
   ];
 
   for (const { path, heading } of routes) {

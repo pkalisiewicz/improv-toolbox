@@ -18,11 +18,11 @@
   "privacy": {
     "title": "Polityka prywatności",
     "subtitle": "Co Skrzynka Improwizatora zbiera, a czego nie.",
-    "lastUpdated": "Ostatnia aktualizacja: 20 czerwca 2026",
+    "lastUpdated": "Ostatnia aktualizacja: 14 lipca 2026",
     "short": {
       "title": "W skrócie",
       "items": [
-        "Brak konta i logowania. Aplikacja nigdy nie pyta, kim jesteś.",
+        "Brak konta i logowania. Podajesz swoje dane tylko wtedy, gdy chcesz wysłać wiadomość.",
         "Twoje ustawienia i zapisane elementy zostają na Twoim urządzeniu.",
         "Statystyki użycia są anonimowe i nie służą do reklam ani śledzenia.",
         "Opcjonalne napiwki przechodzą przez Apple lub Google. Nigdy nie widzimy Twojej karty.",
@@ -30,8 +30,12 @@
       ]
     },
     "noServer": {
-      "title": "Bez kont i bez serwerów",
-      "body": "Skrzynka Improwizatora działa na Twoim urządzeniu. Nie ma rejestracji, profilu ani serwera zapisującego to, co robisz. Każde narzędzie działa offline."
+      "title": "Bez kont",
+      "body": "Skrzynka Improwizatora działa na Twoim urządzeniu. Nie ma rejestracji, profilu ani serwera zapisującego to, co robisz w narzędziach. Każde narzędzie działa offline. Tylko opcjonalny formularz kontaktowy wysyła napisaną przez Ciebie wiadomość do zewnętrznej usługi."
+    },
+    "messages": {
+      "title": "Wiadomości wysyłane do nas",
+      "body": "Formularz kontaktowy jest opcjonalny. Na stronie oraz w aplikacjach na iOS i Androida podane imię, adres e-mail, wybrany temat i treść wiadomości trafiają do Formspree, aby usługa mogła dostarczyć wiadomość i chronić formularz przed spamem. Formspree otrzymuje również techniczne dane żądania, takie jak adres IP oraz informacje o przeglądarce lub aplikacji. Zgłoszenia na planie darmowym pozostają dostępne w naszym panelu Formspree przez 30 dni. Używamy tych informacji wyłącznie do przeczytania wiadomości i udzielenia odpowiedzi."
     },
     "local": {
       "title": "Co zostaje na Twoim urządzeniu",
@@ -52,12 +56,13 @@
         "Vercel: hosting strony, anonimowe statystyki ruchu i pomiar szybkości ładowania.",
         "Aptabase: anonimowe statystyki użycia aplikacji mobilnej.",
         "RevenueCat: historia zakupów i weryfikacja paragonów dla napiwków w aplikacji mobilnej.",
+        "Formspree: dostarczanie, ochrona przed spamem i tymczasowe przechowywanie wiadomości wysłanych przez formularz kontaktowy.",
         "App Store firmy Apple i Google Play: obsługa płatności w aplikacji na własnych zasadach."
       ]
     },
     "store": {
       "title": "Deklaracje dla sklepów z aplikacjami",
-      "body": "W formularzach prywatności App Store i Google Play aplikacja mobilna deklaruje dwa typy zbieranych danych: Usage Data / Product Interaction dla statystyk Aptabase oraz Purchases / Purchase History dla napiwków obsługiwanych przez RevenueCat. Nie używamy tych danych do reklam, śledzenia między aplikacjami ani handlu danymi i nie łączymy ich z Twoją tożsamością."
+      "body": "W formularzach prywatności App Store i Google Play aplikacja mobilna deklaruje Usage Data / Product Interaction dla statystyk Aptabase oraz Purchases / Purchase History dla napiwków obsługiwanych przez RevenueCat. Jeśli skorzystasz z formularza kontaktowego, deklaruje też Twoje imię, adres e-mail i wiadomość jako dane powiązane z Tobą i używane wyłącznie do działania aplikacji oraz obsługi zgłoszenia. Nie używamy tych danych do reklam, śledzenia między aplikacjami ani handlu danymi."
     },
     "never": {
       "title": "Czego nigdy nie robimy",
@@ -65,11 +70,11 @@
     },
     "rights": {
       "title": "Twoje prawa",
-      "body": "Większość danych aplikacji zostaje na Twoim urządzeniu. Aby usunąć dane lokalne, wyczyść pamięć przeglądarki lub odinstaluj aplikację. Anonimowych statystyk Aptabase nie da się powiązać z Tobą, więc nie mamy indywidualnego profilu analitycznego do eksportu lub usunięcia. W sprawie danych zakupowych RevenueCat napisz do nas z paragonem sklepowym, numerem zamówienia albo informacjami pozwalającymi odnaleźć zakup, a obsłużymy usunięcie tam, gdzie to możliwe. Apple i Google mogą zachować dane płatności zgodnie z własnymi zasadami. Jeśli masz prośbę na podstawie RODO lub podobnego prawa, napisz do nas."
+      "body": "Większość danych aplikacji zostaje na Twoim urządzeniu. Aby usunąć dane lokalne, wyczyść pamięć przeglądarki lub odinstaluj aplikację. Anonimowych statystyk Aptabase nie da się powiązać z Tobą, więc nie mamy indywidualnego profilu analitycznego do eksportu lub usunięcia. W sprawie wiadomości kontaktowych lub danych zakupowych RevenueCat napisz do nas z informacjami pozwalającymi odnaleźć zapis, a obsłużymy dostęp lub usunięcie tam, gdzie to możliwe. Formspree, Apple i Google mogą zachować dane zgodnie z własnymi zasadami. Jeśli masz prośbę na podstawie RODO lub podobnego prawa, napisz do nas."
     },
     "children": {
       "title": "Dzieci",
-      "body": "Skrzynka Improwizatora powstała dla szerokiego grona odbiorców. Nie wymaga kont, nie prosi dzieci o podawanie danych osobowych i nie zbieramy świadomie danych osobowych dzieci. Niektóre oceny wiekowe w sklepach mogą wynikać z łagodnych podpowiedzi tekstowych, takich jak gatunek horroru albo tematy dramatyczne."
+      "body": "Skrzynka Improwizatora powstała dla szerokiego grona odbiorców i nie wymaga kont. Opcjonalny formularz kontaktowy nie jest przeznaczony do przesyłania danych osobowych przez dzieci. Nie zbieramy świadomie danych osobowych dzieci. Niektóre oceny wiekowe w sklepach mogą wynikać z łagodnych podpowiedzi tekstowych, takich jak gatunek horroru albo tematy dramatyczne."
     },
     "changes": {
       "title": "Zmiany",
@@ -1078,6 +1083,7 @@
   "more": {
     "title": "Więcej narzędzi",
     "subtitle": "Dodatkowe narzędzia dla improwizatorów",
+    "secondaryNav": "Pomoc i informacje prawne",
     "allTools": "Wszystkie narzędzia",
     "otherTools": "Pozostałe",
     "timer": {
@@ -1166,8 +1172,65 @@
       "cta": "Wesprzyj twórcę"
     },
     "legal": {
+      "contact": "Kontakt",
       "privacy": "Polityka prywatności"
     }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Prześlij opinię, zgłoś problem albo zaproponuj kolejne przydatne narzędzie.",
+    "quickAction": "Kontakt",
+    "intro": {
+      "title": "Co chodzi Ci po głowie?",
+      "body": "Wystarczy luźny pomysł. Jeśli coś nie działa, napisz, co zostało kliknięte i co się wydarzyło. Jeśli jakieś narzędzie pomogłoby Twojej grupie albo na warsztacie, opisz moment, w którym byłoby przydatne.",
+      "replyTime": "Zwykle odpowiadam w ciągu kilku dni."
+    },
+    "form": {
+      "optional": "Opcjonalnie",
+      "name": {
+        "label": "Imię",
+        "placeholder": "Jak mam się do Ciebie zwracać?"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "ty@example.com"
+      },
+      "topic": {
+        "label": "Czego dotyczy wiadomość?",
+        "feedback": "Ogólna opinia",
+        "bug": "Coś nie działa",
+        "idea": "Nowe narzędzie lub funkcja",
+        "other": "Inna sprawa"
+      },
+      "message": {
+        "label": "Wiadomość",
+        "placeholder": "Napisz, co uczyniłoby aplikację bardziej przydatną..."
+      },
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "privacy": {
+        "before": "Formspree bezpiecznie dostarcza tę wiadomość. Szczegóły znajdziesz w",
+        "link": "Polityce prywatności",
+        "after": "."
+      }
+    },
+    "success": {
+      "title": "Wiadomość wysłana",
+      "body": "Dziękuję za poświęcony czas. Wiadomość jest już w drodze. Odpowiem na podany adres e-mail.",
+      "again": "Wyślij kolejną wiadomość"
+    },
+    "rateLimited": "W krótkim czasie dotarło kilka wiadomości. Poczekaj minutę i spróbuj ponownie.",
+    "configurationError": "Formularz kontaktowy jest tymczasowo niedostępny. Możesz napisać bezpośrednio na privacy@improv-toolbox.com.",
+    "validation": {
+      "nameTooLong": "Imię może mieć maksymalnie 120 znaków.",
+      "emailRequired": "Podaj adres e-mail, abym mógł odpowiedzieć.",
+      "emailInvalid": "Podaj poprawny adres e-mail, na przykład ty@example.com.",
+      "topicInvalid": "Wybierz jeden z dostępnych tematów.",
+      "messageRequired": "Napisz krótką wiadomość przed wysłaniem.",
+      "messageTooShort": "Dodaj trochę więcej szczegółów, co najmniej 10 znaków.",
+      "messageTooLong": "Wiadomość może mieć maksymalnie 3000 znaków."
+    },
+    "error": "Nie udało się wysłać wiadomości. Sprawdź połączenie i spróbuj ponownie."
   },
   "timer": {
     "title": "Timer warsztatowy",

@@ -24,6 +24,10 @@ See `docs/adr/0002` / `0003` for the architecture decisions behind this.
 - ✅ **Apple Developer Program** enrollment ($99/yr, Individual, ~1–3 days)
 - ☐ **Google Play Console** account ($25 one-time, Individual)
 - ⏸ **Aptabase** account → app key → add `VITE_APTABASE_KEY` to `.env.local` + prod env; never commit real `.env*` files 🤝 — DEFERRED (2026-07-06): ship 1.0 without analytics
+- ✅ **Formspree** free account → contact form created 2026-07-16, public form ID `xdaqeoqa`
+  set as `VITE_FORMSPREE_FORM_ID` in `.env.local` (and needed in every production build env —
+  Vite inlines `VITE_*` at build time, so a missing ID means the form degrades to
+  "temporarily unavailable" with an email fallback). Free tier is 50 submissions/month
 - ⏸ **RevenueCat**: production iOS (`appl_…`) + Android (`goog_…`) public keys
   → wire `VITE_RC_IOS_KEY` / `VITE_RC_ANDROID_KEY` from local/prod env 🤝 — DEFERRED (2026-07-06): tip jar stays dormant without keys (code no-ops)
 - ✅ Confirm prod builds do **not** set `VITE_RC_TEST_KEY` (test-only) 🤖 — verified 2026-07-12:

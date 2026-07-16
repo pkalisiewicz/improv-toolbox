@@ -190,7 +190,13 @@ export function MorePage() {
           </span>
         </SupportCreatorButton>
 
-        <nav className="mt-8 flex justify-center lg:mt-10">
+        <nav className="mt-8 flex items-center justify-center gap-5 lg:mt-10" aria-label={t('more.secondaryNav')}>
+          <Link
+            to="/contact"
+            className="text-xs font-semibold text-ink-faint underline decoration-ink/20 underline-offset-4 transition-colors hover:text-ink-muted hover:decoration-ink/40 lg:text-sm"
+          >
+            {t('more.legal.contact')}
+          </Link>
           <Link
             to="/privacy"
             className="text-xs font-semibold text-ink-faint underline decoration-ink/20 underline-offset-4 transition-colors hover:text-ink-muted hover:decoration-ink/40 lg:text-sm"

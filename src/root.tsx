@@ -149,7 +149,7 @@ function Header() {
           </span>
         </span>
       </Link>
-      <HeaderControls tone="ink" />
+      <HeaderControls tone="ink" contactShortcut />
     </header>
   );
 }

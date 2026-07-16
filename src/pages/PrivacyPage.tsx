@@ -54,6 +54,10 @@ export function PrivacyPage() {
             <P>{t('privacy.purchases.body')}</P>
           </Section>
 
+          <Section title={t('privacy.messages.title')}>
+            <P>{t('privacy.messages.body')}</P>
+          </Section>
+
           <Section title={t('privacy.providers.title')}>
             <ul className="space-y-2">
               {providerItems.map((item) => (

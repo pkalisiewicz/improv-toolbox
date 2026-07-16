@@ -7,6 +7,8 @@ interface ImportMetaEnv {
   readonly VITE_BUILD_TARGET?: 'native';
   /** Aptabase app key for the native App's anonymous analytics. */
   readonly VITE_APTABASE_KEY?: string;
+  /** Public Formspree form ID used by the contact page on web and native. */
+  readonly VITE_FORMSPREE_FORM_ID?: string;
   /** RevenueCat public SDK keys for the in-app tip jar (per platform). */
   readonly VITE_RC_IOS_KEY?: string;
   readonly VITE_RC_ANDROID_KEY?: string;
