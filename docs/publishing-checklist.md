@@ -42,15 +42,25 @@ Revisit post-launch.
   — required even for a free app *because it has IAP* (easy to miss)
 - ⏸ App Store Connect: create 3 **consumable** IAP products (e.g. coffee / round / jam) + prices
 - ⏸ Play Console: create matching consumables (after Android is set up)
-- ⏸ RevenueCat: add the products → create an **Offering** → mark it **current**
-- ⏸ Enable the **In-App Purchase capability** on the App ID (Xcode → Signing &
-  Capabilities, or developer.apple.com → Identifiers) — required for the tip jar
+- 🔄 RevenueCat: add the products → create an **Offering** → mark it **current**
+  — automated 2026-07-13 🤖: `npm run setup:revenuecat` (needs `REVENUECAT_SECRET_KEY`
+  in `.env.local`) creates the App Store app, 3 consumable products
+  (`com.improvtoolbox.app.tip.{coffee,round,jam}`), the `default` offering with 3
+  packages, attaches products, and marks it current. Re-runnable; picks up the
+  Play/Test Store apps automatically once they exist. Still manual in the dashboard:
+  upload the ASC In-App Purchase Key (.p8) + copy the `appl_…` public key
+- ✅ Enable the **In-App Purchase capability** on the App ID — added `SystemCapabilities`
+  (com.apple.InAppPurchase) to the Xcode target 2026-07-13 🤖; IAP is on by default for
+  explicit App IDs, so no portal action needed
 - ⏸ Verify a live (sandbox/Test Store) purchase reaches the "Thank you!" state 🤖
 
 ---
 
 ## 3. Android toolchain 👤
 - ✅ Install **Android Studio** + SDK + **JDK 21** — verified: signed release AAB built 2026-07-06
+  — NOTE 2026-07-13: JDK 21 is now a user-space Temurin at `~/.jdks/jdk-21.0.11+10` (Android
+  Studio's bundled JDK is gone); build with
+  `JAVA_HOME="$HOME/.jdks/jdk-21.0.11+10/Contents/Home" ./gradlew bundleRelease`
 - ✅ `npx cap add android` — `android/` project generated + icons/splash 🤖
 - ✅ Signing: upload keystore at `~/keystores/improv-toolbox-upload.jks`, wired via
   gitignored `android/key.properties` (enroll in Play App Signing when creating the app in Play Console)
@@ -111,8 +121,20 @@ Revisit post-launch.
 - ✅ Create the app record in App Store Connect — done 2026-07-12 (app ID 6790120737)
 - ✅ Upload: 1.0 (1) uploaded 2026-07-12 via `xcodebuild -exportArchive` with
   `destination: upload` (`ios/App/output/exportOptions-upload.plist`) — processing
-- ☐ **TestFlight** smoke test → submit for review (~1–3 days)
-- Version 1.0 (build 1) already set; 1.0 ships without RevenueCat/Aptabase keys (deferred)
+- ✅ **TestFlight** smoke test → submitted → **APPROVED 2026-07-13** — eligible for distribution
+- ☐ Release: if "Manually release this version" was selected, press **Release This Version**
+  in App Store Connect; then allow up to ~24h for App Store propagation
+- ☐ **Availability**: ASC banner "This app was removed from sale" appeared 2026-07-13 right
+  after approval. Root cause: **"Trader Status Not Provided"** — the EU Digital Services Act
+  declaration was never made, and Apple removes undeclared apps from all EU storefronts.
+  Fix: **App Store Connect → Business → (your legal entity) → provide trader information**
+  (Account Holder only). Non-trader = instant, nothing published; trader = address + phone +
+  email, each verified by code, then shown publicly on EU product pages. 1.0 has no live IAP,
+  so **non-trader is defensible for now — MUST switch to trader before the tip jar goes live**.
+  After declaring, re-check **Pricing and Availability → App Availability** and re-add
+  territories if needed; allow ~24h propagation
+- Version 1.0 (build 1) shipped without RevenueCat/Aptabase keys (deferred); remember to
+  update App Privacy labels when either key ships in 1.x
 
 ---
 

@@ -16,6 +16,7 @@
     "ios:dev": "node scripts/dev-ios.mjs",
     "ios:standalone": "node scripts/dev-ios.mjs --standalone",
     "ios:devices": "npx cap run ios --list",
+    "setup:revenuecat": "node scripts/setup-revenuecat.mjs",
     "assets:native": "node scripts/generate-native-assets.mjs && npx @capacitor/assets generate --ios --iconBackgroundColor '#0B0E0B' --splashBackgroundColor '#0B0E0B' --splashBackgroundColorDark '#0B0E0B'",
     "lint": "eslint .",
     "preview": "vite preview",
