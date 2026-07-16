@@ -130,6 +130,14 @@ Revisit post-launch.
   rollout is blocked until app-content declarations are finished in the console (Data Safety,
   content rating, target audience, privacy policy) — console-only, not scriptable. After that:
   `fastlane closed` (completed) rolls out to testers and **starts the 14-consecutive-day clock**
+- 🔄 versionCode 3 (2026-07-16): Formspree form ID `xdaqeoqa` wired via `VITE_FORMSPREE_FORM_ID`
+  in `.env.local` (gitignored; public endpoint id, not a secret) — Vite inlines `VITE_*` at BUILD
+  time, so the contact form needed a rebuild, not a config flip. Verified baked into the shipped
+  assets. Existing hand-rolled `fetch` integration kept (do NOT add `@formspree/react` — it would
+  drop the i18n validation codes, `_subject`, language/source tagging and the 429 branch).
+  vc3 staged as a draft on the closed (`alpha`) track. **⚠️ Data Safety must now declare
+  Personal info → Name + Email address, and Messages → Other in-app messages (all Optional,
+  App functionality, not shared, encrypted in transit)** — "No data collected" is NO LONGER true
 - ☐ **⏰ Closed testing: ≥12 testers opted-in for 14 consecutive days** — REQUIRED before
   production for personal accounts. **Start this ASAP; it gates the launch by ≥2 weeks.**
 - ☐ Apply for production access → submit
