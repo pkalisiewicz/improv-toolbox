@@ -79,12 +79,19 @@ testers validated. e.g. fastlane rollout version_code:3 track:alpha"
     )
   end
 
-  desc "Push listing text + graphics ONLY (no binary) — e.g. after editing metadata/"
-  lane :metadata do
+  desc "Push listing text + graphics ONLY (no binary): title, short/full descriptions, icon,
+feature graphic, screenshots for every locale. Override the release context with
+track:/version_code: — default alpha:3 (the current closed release)."
+  lane :metadata do |options|
     upload_to_play_store(
       skip_upload_aab: true,
       skip_upload_apk: true,
-      skip_upload_changelogs: false
+      # supply always reconciles a track's release; without a resolvable version code
+      # it errors "no release for version code '' ". Point it at the current release
+      # and skip release notes (those are release-scoped and ship with the binary lanes).
+      track: options[:track] || "alpha",
+      version_code: Integer(options[:version_code] || 3),
+      skip_upload_changelogs: true
     )
   end
 end
