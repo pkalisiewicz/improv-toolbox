@@ -1,0 +1,42 @@
+name: Bug report
+description: Report something that is broken or behaving unexpectedly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to file a bug. Please fill in the fields below.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Tap '...'
+        3. See the error
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where did it happen?
+      options:
+        - Web / PWA
+        - iOS
+        - Android
+        - Self-hosted
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device / browser / OS
+      placeholder: e.g. iPhone 15, Safari 17, iOS 17.5
+    validations:
+      required: false

@@ -107,6 +107,13 @@ Apple team ID from `IOS_DEVELOPMENT_TEAM`; analytics and the tip jar stay
 disabled unless you provide keys. Android additionally needs Android Studio
 and JDK 21.
 
+## Contributing
+
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for how to
+get started, the project conventions, and the review process. All changes land
+on `main` through a pull request that the maintainer reviews and merges. Please
+also read the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 
 The source code is available under the [MIT license](LICENSE).

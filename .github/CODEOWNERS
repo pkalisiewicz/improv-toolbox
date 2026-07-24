@@ -1,0 +1,7 @@
+# Code owners for Improv Toolbox.
+#
+# The owner listed here is a required reviewer on every pull request that
+# touches a matching path. Branch protection on `main` requires Code Owner
+# review, so no change reaches `main` without the maintainer's approval.
+
+* @pkalisiewicz
