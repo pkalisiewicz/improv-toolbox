@@ -1221,6 +1221,7 @@
     },
     "rateLimited": "A few messages arrived at once. Wait a minute, then try again.",
     "configurationError": "The contact form is temporarily unavailable. You can email privacy@improv-toolbox.com directly.",
+    "timeout": "Sending took too long. Your message is still here, so you can try again.",
     "validation": {
       "nameTooLong": "Keep the name under 120 characters.",
       "emailRequired": "Enter an email address so I can reply.",

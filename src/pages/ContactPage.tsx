@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { PageContainer } from '../components/layout/PageContainer';
@@ -15,18 +15,31 @@ import {
   type ContactFormErrors,
 } from '../utils/contactForm';
 
-type SubmitStatus = 'idle' | 'submitting' | 'success' | 'rate-limited' | 'configuration-error' | 'error';
+type SubmitStatus =
+  | 'idle'
+  | 'submitting'
+  | 'success'
+  | 'rate-limited'
+  | 'configuration-error'
+  | 'timeout'
+  | 'error';
 
 const CONTROL_CLASS =
   'min-h-12 w-full rounded-[var(--radius-md)] border-2 border-line bg-surface px-3.5 py-2.5 text-base text-ink outline-none transition-[border-color,background-color] duration-150 ease-[var(--ease-out)] placeholder:text-ink-faint hover:border-ink/40 focus:border-brand-600 focus:ring-2 focus:ring-brand-300/40 disabled:cursor-not-allowed disabled:opacity-60';
 const INVALID_CONTROL_CLASS =
   'border-red-700 focus:border-red-700 focus:ring-red-300/40 dark:border-red-400 dark:focus:border-red-400';
 const FIELD_ORDER: ContactField[] = ['name', 'email', 'topic', 'message'];
+const CONTACT_REQUEST_TIMEOUT_MS = 15_000;
 
 export function ContactPage() {
   const { t, i18n } = useTranslation();
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [fieldErrors, setFieldErrors] = useState<ContactFormErrors>({});
+  const activeRequestRef = useRef<AbortController | null>(null);
+
+  useEffect(() => () => {
+    activeRequestRef.current?.abort();
+  }, []);
 
   const errorMessage = (field: ContactField) => {
     const code = fieldErrors[field];
@@ -56,12 +69,8 @@ export function ContactPage() {
     event.preventDefault();
     const form = event.currentTarget;
 
-    if (!navigator.onLine) {
-      setStatus('error');
-      return;
-    }
+    if (activeRequestRef.current) return;
 
-    setStatus('submitting');
     const data = new FormData(form);
     const honey = String(data.get('_gotcha') ?? '');
 
@@ -91,11 +100,26 @@ export function ContactPage() {
       return;
     }
 
+    if (!navigator.onLine) {
+      setStatus('error');
+      return;
+    }
+
     const endpoint = getContactFormEndpoint();
     if (!endpoint) {
       setStatus('configuration-error');
       return;
     }
+
+    const controller = new AbortController();
+    activeRequestRef.current = controller;
+    let didTimeOut = false;
+    const timeoutId = window.setTimeout(() => {
+      didTimeOut = true;
+      controller.abort();
+    }, CONTACT_REQUEST_TIMEOUT_MS);
+
+    setStatus('submitting');
 
     try {
       const topic = values.topic;
@@ -114,6 +138,7 @@ export function ContactPage() {
           language: i18n.language,
           source: IS_NATIVE_BUILD ? 'native-app' : 'website',
         }),
+        signal: controller.signal,
       });
 
       if (response.status === 429) {
@@ -129,7 +154,16 @@ export function ContactPage() {
       setFieldErrors({});
       setStatus('success');
     } catch {
-      setStatus('error');
+      if (didTimeOut) {
+        setStatus('timeout');
+      } else if (!controller.signal.aborted) {
+        setStatus('error');
+      }
+    } finally {
+      window.clearTimeout(timeoutId);
+      if (activeRequestRef.current === controller) {
+        activeRequestRef.current = null;
+      }
     }
   }
 
@@ -172,7 +206,7 @@ export function ContactPage() {
               </Button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} noValidate>
+            <form onSubmit={handleSubmit} noValidate aria-busy={submitting}>
               <div className="space-y-5">
                 <Field
                   label={t('contact.form.name.label')}
@@ -293,7 +327,20 @@ export function ContactPage() {
                 </div>
               )}
 
-              <Button type="submit" size="lg" fullWidth disabled={submitting} className="mt-6">
+              {status === 'timeout' && (
+                <div role="alert" className="mt-5 rounded-[var(--radius-md)] bg-red-50 px-3.5 py-3 text-sm font-semibold leading-relaxed text-red-800 dark:bg-red-950/40 dark:text-red-200">
+                  {t('contact.timeout')}
+                </div>
+              )}
+
+              <Button
+                type="submit"
+                size="lg"
+                fullWidth
+                disabled={submitting}
+                aria-disabled={submitting}
+                className="mt-6"
+              >
                 {t(submitting ? 'contact.form.sending' : 'contact.form.submit')}
               </Button>
 

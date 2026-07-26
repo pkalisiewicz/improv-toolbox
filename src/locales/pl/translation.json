@@ -1221,6 +1221,7 @@
     },
     "rateLimited": "W krótkim czasie dotarło kilka wiadomości. Poczekaj minutę i spróbuj ponownie.",
     "configurationError": "Formularz kontaktowy jest tymczasowo niedostępny. Możesz napisać bezpośrednio na privacy@improv-toolbox.com.",
+    "timeout": "Wysyłanie trwało zbyt długo. Wiadomość nadal jest w formularzu, więc możesz spróbować ponownie.",
     "validation": {
       "nameTooLong": "Imię może mieć maksymalnie 120 znaków.",
       "emailRequired": "Podaj adres e-mail, abym mógł odpowiedzieć.",
