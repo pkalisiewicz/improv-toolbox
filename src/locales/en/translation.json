@@ -18,11 +18,11 @@
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "What Improv Toolbox collects, and what it doesn't.",
-    "lastUpdated": "Last updated: 20 June 2026",
+    "lastUpdated": "Last updated: 14 July 2026",
     "short": {
       "title": "The short version",
       "items": [
-        "No account, no login. The app never asks who you are.",
+        "No account or login. You identify yourself only if you choose to send a message.",
         "Your settings and saved items stay on your device.",
         "Usage analytics are anonymous and not used for ads or tracking.",
         "Optional tips go through Apple or Google. We never see your card.",
@@ -30,8 +30,8 @@
       ]
     },
     "noServer": {
-      "title": "No accounts, no servers",
-      "body": "Improv Toolbox runs on your device. There is no sign-up, no profile, and no server keeping a record of what you do. Every tool works offline."
+      "title": "No accounts",
+      "body": "Improv Toolbox runs on your device. There is no sign-up, no profile, and no server keeping a record of what you do in the tools. Every tool works offline. Only the optional contact form sends the message you write to an external service."
     },
     "local": {
       "title": "What stays on your device",
@@ -46,18 +46,23 @@
       "title": "Purchases and tips",
       "body": "The mobile app includes an optional tip jar. Apple's App Store or Google Play take the payment, and RevenueCat validates and records the purchase. RevenueCat receives purchase history, store transaction details, product and price information, an anonymous app user ID for your install, and coarse store/device details such as country, locale, currency, and platform. We do not send RevenueCat your name, email, or any custom customer attributes. RevenueCat never receives your card number from us, and we never see your card. The website links to Buy Me a Coffee instead, which keeps its own privacy policy."
     },
+    "messages": {
+      "title": "Messages you send us",
+      "body": "The contact form is optional. On the website and in the iOS and Android apps, the name you provide, your email address, the selected topic, and your message are sent to Formspree so it can deliver the message to us and protect the form from spam. Formspree also receives technical request data such as your IP address and browser or app information. Free-plan submissions remain available in our Formspree dashboard for 30 days. We use this information only to read and reply to your message."
+    },
     "providers": {
       "title": "Service providers",
       "items": [
         "Vercel: website hosting, anonymous traffic analytics, and page-speed measurement.",
         "Aptabase: anonymous usage analytics in the mobile app.",
         "RevenueCat: purchase history and receipt validation for in-app tips on mobile.",
+        "Formspree: delivery, spam protection, and temporary storage of messages sent through the contact form.",
         "Apple App Store and Google Play: app payment processing under their own policies."
       ]
     },
     "store": {
       "title": "Mobile app store disclosures",
-      "body": "For App Store and Google Play privacy forms, the mobile app declares two collected data types: Usage Data / Product Interaction for Aptabase analytics, and Purchases / Purchase History for RevenueCat in-app tips. We do not use this data for advertising, cross-app tracking, or data brokerage, and we do not link it to your identity."
+      "body": "For App Store and Google Play privacy forms, the mobile app declares Usage Data / Product Interaction for Aptabase analytics and Purchases / Purchase History for RevenueCat in-app tips. If you choose to use the contact form, it also declares your name, email address, and message as data linked to you and used only for app functionality and support. We do not use this data for advertising, cross-app tracking, or data brokerage."
     },
     "never": {
       "title": "What we never do",
@@ -65,11 +70,11 @@
     },
     "rights": {
       "title": "Your rights",
-      "body": "Most app data stays on your device. To remove local data, clear your browser storage or uninstall the app. Anonymous Aptabase analytics cannot be tied back to you, so there is no individual analytics profile for us to export or delete. For RevenueCat tip-purchase data, email us with your store receipt, order ID, or enough detail to identify the purchase, and we will handle deletion where possible. Apple and Google may retain payment records under their own policies. If you have a request under the GDPR or a similar law, email us."
+      "body": "Most app data stays on your device. To remove local data, clear your browser storage or uninstall the app. Anonymous Aptabase analytics cannot be tied back to you, so there is no individual analytics profile to export or delete. For contact messages or RevenueCat tip-purchase data, email us with enough detail to identify the record, and we will handle access or deletion where possible. Formspree, Apple, and Google may retain records under their own policies. If you have a request under the GDPR or a similar law, email us."
     },
     "children": {
       "title": "Children",
-      "body": "Improv Toolbox is built for a general audience. It does not require accounts, does not ask children to submit personal information, and we do not knowingly collect personal data from children. Some store age ratings may reflect mild text prompts such as horror genre or dramatic themes."
+      "body": "Improv Toolbox is built for a general audience and does not require accounts. The optional contact form is not intended for children to submit personal information, and we do not knowingly collect personal data from children. Some store age ratings may reflect mild text prompts such as horror genre or dramatic themes."
     },
     "changes": {
       "title": "Changes",
@@ -1165,9 +1170,68 @@
       "desc": "If this app helps your improv practice, you can support its development.",
       "cta": "Support the creator"
     },
+    "secondaryNav": "Help and legal",
     "legal": {
+      "contact": "Contact",
       "privacy": "Privacy Policy"
     }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Share feedback, flag a problem, or pitch the next useful tool.",
+    "quickAction": "Contact",
+    "intro": {
+      "title": "What is on your mind?",
+      "body": "A rough idea is enough. If something broke, tell me what you tapped and what happened. If a tool would help your troupe or workshop, describe the moment you would use it.",
+      "replyTime": "I usually reply within a few days."
+    },
+    "form": {
+      "optional": "Optional",
+      "name": {
+        "label": "Name",
+        "placeholder": "How should I address you?"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@example.com"
+      },
+      "topic": {
+        "label": "What is this about?",
+        "feedback": "General feedback",
+        "bug": "Something is not working",
+        "idea": "A new tool or feature",
+        "other": "Something else"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me what would make the app more useful..."
+      },
+      "submit": "Send message",
+      "sending": "Sending...",
+      "privacy": {
+        "before": "Formspree securely delivers this message to us. See the",
+        "link": "Privacy Policy",
+        "after": " for details."
+      }
+    },
+    "success": {
+      "title": "Message sent",
+      "body": "Thanks for taking the time. Your note is on its way, and I will reply to the email you provided.",
+      "again": "Send another message"
+    },
+    "rateLimited": "A few messages arrived at once. Wait a minute, then try again.",
+    "configurationError": "The contact form is temporarily unavailable. You can email privacy@improv-toolbox.com directly.",
+    "timeout": "Sending took too long. Your message is still here, so you can try again.",
+    "validation": {
+      "nameTooLong": "Keep the name under 120 characters.",
+      "emailRequired": "Enter an email address so I can reply.",
+      "emailInvalid": "Enter a valid email address, such as you@example.com.",
+      "topicInvalid": "Choose one of the available topics.",
+      "messageRequired": "Write a short message before sending.",
+      "messageTooShort": "Add a little more detail, at least 10 characters.",
+      "messageTooLong": "Keep the message under 3,000 characters."
+    },
+    "error": "The message could not be sent. Check your connection and try again."
   },
   "timer": {
     "title": "Workshop Timer",
