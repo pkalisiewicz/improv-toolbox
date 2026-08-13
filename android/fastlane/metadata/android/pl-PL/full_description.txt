@@ -11,4 +11,4 @@ W środku:
 - Timer sceny, soundscape i narzędzia rytmiczne
 - Przewodniki po formatach, zasadach, gatunkach, Haroldzie i Dekonstrukcji
 
-Aplikacja działa offline, nie wymaga konta i zapisuje ustawienia na Twoim urządzeniu. Zawiera język polski i angielski w jednej aplikacji, z przełącznikiem języka w środku.
+Aplikacja działa offline, nie wymaga konta i zapisuje ustawienia na Twoim urządzeniu. Zawiera język polski, angielski i czeski w jednej aplikacji, z wyborem języka w środku.

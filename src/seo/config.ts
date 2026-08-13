@@ -2,15 +2,15 @@ import {
   DEFAULT_APP_LANG,
   DEFAULT_SITE_LANG,
   LANG_META,
-  SUPPORTED_LANGS,
-  isSupportedLang,
-  type Lang,
+  SITE_LANGS,
+  isSiteLang,
+  type SiteLang,
 } from '../languages';
 
-export type { Lang } from '../languages';
+export type { SiteLang } from '../languages';
 
 // Each language is a monolingual build deployed to its own domain.
-export const SITE_ORIGINS: Record<Lang, string> = {
+export const SITE_ORIGINS: Record<SiteLang, string> = {
   en: 'https://www.improv-toolbox.com',
   pl: 'https://www.skrzynka-improwizatora.pl',
 };
@@ -20,8 +20,8 @@ const BUILD_LANG_VALUE = import.meta.env.VITE_BUILD_LANG;
 // The language this build is prerendered/baked for. Set via VITE_BUILD_LANG at
 // build time (one build per domain); defaults to Polish. Vite statically
 // replaces import.meta.env.VITE_BUILD_LANG, so this is a compile-time constant.
-export const BUILD_LANG: Lang =
-  isSupportedLang(BUILD_LANG_VALUE) ? BUILD_LANG_VALUE : DEFAULT_SITE_LANG;
+export const BUILD_LANG: SiteLang =
+  isSiteLang(BUILD_LANG_VALUE) ? BUILD_LANG_VALUE : DEFAULT_SITE_LANG;
 
 export const SEO = {
   en: {
@@ -60,7 +60,7 @@ export const SEO = {
     twitterImageAlt: 'Skrzynka Improwizatora - zrzut ekranu bezpłatnej aplikacji dla improwizatorów',
   },
 } satisfies Record<
-  Lang,
+  SiteLang,
   {
     siteName: string;
     appTitle: string;
@@ -79,14 +79,14 @@ export const SEO = {
 export const CURRENT_SEO = {
   ...SEO[BUILD_LANG],
   locale: LANG_META[BUILD_LANG].locale,
-  alternateLocales: SUPPORTED_LANGS.filter((lang) => lang !== BUILD_LANG).map((lang) => LANG_META[lang].locale),
+  alternateLocales: SITE_LANGS.filter((lang) => lang !== BUILD_LANG).map((lang) => LANG_META[lang].locale),
 };
 
-export function origin(lang: Lang): string {
+export function origin(lang: SiteLang): string {
   return SITE_ORIGINS[lang];
 }
 
-export function canonicalUrl(path = '/', lang: Lang = BUILD_LANG): string {
+export function canonicalUrl(path = '/', lang: SiteLang = BUILD_LANG): string {
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;
   return SITE_ORIGINS[lang] + normalizedPath;
 }
@@ -96,9 +96,9 @@ export function canonicalUrl(path = '/', lang: Lang = BUILD_LANG): string {
  * `paths` holds the per-language absolute path (they can differ once PL slugs
  * are localized). x-default points at the default app language page.
  */
-export function hreflangLinks(paths: Record<Lang, string>) {
+export function hreflangLinks(paths: Record<SiteLang, string>) {
   return [
-    ...SUPPORTED_LANGS.map((lang) => ({
+    ...SITE_LANGS.map((lang) => ({
       tagName: 'link' as const,
       rel: 'alternate',
       hrefLang: lang,
@@ -114,6 +114,6 @@ export function hreflangLinks(paths: Record<Lang, string>) {
 }
 
 export function hreflangLinksForPath(path: string) {
-  const paths = Object.fromEntries(SUPPORTED_LANGS.map((lang) => [lang, path])) as Record<Lang, string>;
+  const paths = Object.fromEntries(SITE_LANGS.map((lang) => [lang, path])) as Record<SiteLang, string>;
   return hreflangLinks(paths);
 }

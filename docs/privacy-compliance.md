@@ -21,6 +21,7 @@ Use the deployed public privacy page:
 - Polish: `https://www.skrzynka-improwizatora.pl/privacy`
 
 If a store console allows localized privacy policy URLs, use the matching language URL. If it only allows one app-level URL, use the English URL and keep the Polish URL in the localized listing/support notes where available.
+The Czech store listing uses the English privacy URL because there is no Czech public website.
 
 ## Apple App Privacy
 

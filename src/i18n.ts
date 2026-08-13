@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 import pl from './locales/pl/translation.json';
 import en from './locales/en/translation.json';
+import cs from './locales/cs/translation.json';
 import { BUILD_LANG } from './seo/config';
 import { IS_NATIVE_BUILD } from './native/platform';
 import { resolveInitialLang } from './native/lang';
@@ -11,6 +12,7 @@ import { DEFAULT_APP_LANG, type Lang } from './languages';
 const RESOURCES = {
   en: { translation: en },
   pl: { translation: pl },
+  cs: { translation: cs },
 } satisfies Record<Lang, { translation: object }>;
 
 if (IS_NATIVE_BUILD) {

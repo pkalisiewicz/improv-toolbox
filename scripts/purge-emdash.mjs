@@ -6,6 +6,7 @@ import fs from 'node:fs';
 const files = [
   'src/locales/en/translation.json',
   'src/locales/pl/translation.json',
+  'src/locales/cs/translation.json',
 ];
 
 function fix(s) {

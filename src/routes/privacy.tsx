@@ -1,6 +1,6 @@
 import type { MetaFunction } from 'react-router';
 import { BUILD_LANG, canonicalUrl, hreflangLinksForPath } from '../seo/config';
-import type { Lang } from '../languages';
+import type { SiteLang } from '../languages';
 
 // Per-language meta — one build per domain, so BUILD_LANG picks the copy.
 const COPY = {
@@ -14,7 +14,7 @@ const COPY = {
     description:
       'Jak Skrzynka Improwizatora obchodzi się z Twoimi danymi: bez kont, anonimowe statystyki i napiwki obsługiwane przez Apple i Google. Nie sprzedajemy danych ani nie wyświetlamy reklam.',
   },
-} satisfies Record<Lang, { title: string; description: string }>;
+} satisfies Record<SiteLang, { title: string; description: string }>;
 
 export const meta: MetaFunction = () => {
   const copy = COPY[BUILD_LANG];

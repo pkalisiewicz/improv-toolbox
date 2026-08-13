@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link, useParams, type MetaFunction } from 'react-router';
 import { warmupBySlug } from '../seo/warmupEntries';
 import { BUILD_LANG, canonicalUrl, hreflangLinksForPath } from '../seo/config';
-import type { Lang } from '../languages';
+import type { SiteLang } from '../languages';
 import pl from '../locales/pl/translation.json';
 import en from '../locales/en/translation.json';
 import { AppErrorPage } from '../pages/ErrorPage';
@@ -13,7 +13,7 @@ const EN_WARMUPS = (en as { warmups: Record<string, WarmupCopy> }).warmups;
 const WARMUP_COPY_BY_LANG = {
   en: EN_WARMUPS,
   pl: PL_WARMUPS,
-} satisfies Record<Lang, Record<string, WarmupCopy>>;
+} satisfies Record<SiteLang, Record<string, WarmupCopy>>;
 const WARMUP_COPY = WARMUP_COPY_BY_LANG[BUILD_LANG];
 const ENTRY_COPY = {
   en: {
@@ -35,7 +35,7 @@ const ENTRY_COPY = {
     coachTip: 'Wskazówka trenera:',
   },
 } satisfies Record<
-  Lang,
+  SiteLang,
   {
     backToWarmups: string;
     titleSuffix: string;

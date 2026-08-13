@@ -1,0 +1,1 @@
+První mobilní vydání Improv Toolbox s offline nástroji, podporou angličtiny, polštiny a češtiny, haptickou odezvou a upozorněním časovače.

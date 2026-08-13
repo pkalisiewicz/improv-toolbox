@@ -1,7 +1,10 @@
 {
   "app": {
     "title": "Improv Toolbox",
-    "chooseLanguage": "Language"
+    "chooseLanguage": "Language",
+    "home": "Home",
+    "bylineShort": "by Przemek K.",
+    "bylineLong": "created by Przemek K."
   },
   "theme": {
     "switchToDark": "Switch to dark mode",
@@ -1837,6 +1840,18 @@
   "formats": {
     "title": "Format Library",
     "subtitle": "Learn improv formats",
+    "suggestionType": {
+      "word": "Word",
+      "story": "Story",
+      "theme": "Theme",
+      "scene": "Scene",
+      "genre": "Genre",
+      "character": "Character",
+      "location": "Location",
+      "relationship": "Relationship",
+      "event": "Event",
+      "emotion": "Emotion"
+    },
     "allDifficulties": "All levels",
     "backToList": "Back to list",
     "players_min": "{{min}}+ players",

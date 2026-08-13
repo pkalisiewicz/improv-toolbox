@@ -1,7 +1,10 @@
 {
   "app": {
     "title": "Skrzynka Improwizatora",
-    "chooseLanguage": "Język"
+    "chooseLanguage": "Język",
+    "home": "Strona główna",
+    "bylineShort": "od Przemka K.",
+    "bylineLong": "stworzona przez Przemka K."
   },
   "theme": {
     "switchToDark": "Włącz tryb ciemny",
@@ -1837,6 +1840,18 @@
   "formats": {
     "title": "Biblioteka form",
     "subtitle": "Poznaj formy improwizacji",
+    "suggestionType": {
+      "word": "Słowo",
+      "story": "Historia",
+      "theme": "Temat",
+      "scene": "Scena",
+      "genre": "Gatunek",
+      "character": "Postać",
+      "location": "Miejsce",
+      "relationship": "Relacja",
+      "event": "Wydarzenie",
+      "emotion": "Emocja"
+    },
     "allDifficulties": "Wszystkie poziomy",
     "backToList": "Wróć do listy",
     "players_min": "{{min}}+ os.",

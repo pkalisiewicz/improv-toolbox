@@ -1,4 +1,4 @@
-// Store screenshots for the native App, captured from the bilingual native build
+// Store screenshots for the native App, captured from the multilingual native build
 // via Chromium (the App is this same web UI in a WebView). Run against a dev
 // server started with VITE_BUILD_TARGET=native:
 //   VITE_BUILD_TARGET=native npm run dev   (in another shell)
@@ -17,7 +17,7 @@ const SIZES = [
   { id: 'ios-6.9', width: 440, height: 956, dsf: 3 }, // 1320 x 2868
   { id: 'android-phone', width: 360, height: 640, dsf: 3 }, // 1080 x 1920
 ];
-const LANGS = ['en', 'pl'];
+const LANGS = ['en', 'pl', 'cs'];
 const SCREENS = [
   { name: '01-home', path: '/' },
   { name: '02-wheel', path: '/wheel' },

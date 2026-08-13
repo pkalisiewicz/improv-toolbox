@@ -1,6 +1,6 @@
 import type { MetaFunction } from 'react-router';
 import { BUILD_LANG, canonicalUrl, hreflangLinksForPath } from '../seo/config';
-import type { Lang } from '../languages';
+import type { SiteLang } from '../languages';
 
 const COPY = {
   en: {
@@ -11,7 +11,7 @@ const COPY = {
     title: 'Kontakt | Skrzynka Improwizatora',
     description: 'Prześlij opinię, zgłoś problem lub zaproponuj nowe narzędzie do Skrzynki Improwizatora.',
   },
-} satisfies Record<Lang, { title: string; description: string }>;
+} satisfies Record<SiteLang, { title: string; description: string }>;
 
 export const meta: MetaFunction = () => {
   const copy = COPY[BUILD_LANG];
