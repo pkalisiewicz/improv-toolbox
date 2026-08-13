@@ -11,4 +11,4 @@ What is inside:
 - Scene timer, soundscape and rhythm tools
 - Guides for formats, principles, genres, Harold and Deconstruction
 
-The app works offline, requires no account and keeps your settings on your device. It includes English and Polish in one app, with an in-app language switch.
+The app works offline, requires no account and keeps your settings on your device. It includes English, Polish and Czech in one app, with an in-app language selector.

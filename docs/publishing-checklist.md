@@ -10,7 +10,7 @@ See `docs/adr/0002` / `0003` for the architecture decisions behind this.
 
 ## 0. Done (code + assets) ✅
 - ✅ Capacitor 8 foundation, iOS project, bundle id `com.improvtoolbox.app`
-- ✅ One bilingual binary (device-locale default, in-app toggle, persisted)
+- ✅ One multilingual binary (EN + PL + CS; device-locale default, in-app selector, persisted)
 - ✅ Native layer: haptics, Timer local notification, status bar / safe-area, splash
 - ✅ RevenueCat tip jar wiring (dynamic tiers) + Aptabase analytics hooks
 - ✅ Service worker + PWA-install UI disabled on native

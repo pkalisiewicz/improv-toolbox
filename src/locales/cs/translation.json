@@ -1,0 +1,3078 @@
+{
+  "app": {
+    "title": "Improv Toolbox",
+    "chooseLanguage": "Jazyk",
+    "home": "Domů",
+    "bylineShort": "od Przemka K.",
+    "bylineLong": "vytvořil Przemek K."
+  },
+  "theme": {
+    "switchToDark": "Přepnout do tmavého režimu",
+    "switchToLight": "Přepnout do světlého režimu"
+  },
+  "install": {
+    "button": "Používat offline?",
+    "modalTitle": "Nainstalovat aplikaci",
+    "close": "Zavřít",
+    "iosStep1": "Klepněte ve spodní části Safari na tlačítko <strong>Sdílet</strong> (⬆️).",
+    "iosStep2": "Přejděte dolů a klepněte na <strong>„Přidat na domovskou obrazovku“</strong>.",
+    "iosStep3": "Klepněte na <strong>„Přidat“</strong> v pravém horním rohu."
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobních údajů",
+    "subtitle": "Jaké údaje Improv Toolbox shromažďuje – a jaké ne.",
+    "lastUpdated": "Poslední aktualizace: 14. července 2026",
+    "short": {
+      "title": "Krátká verze",
+      "items": [
+        "Bez účtu a přihlašování. Identifikujete se pouze tehdy, pokud nám sami pošlete zprávu.",
+        "Nastavení a uložené položky zůstávají ve vašem zařízení.",
+        "Anonymní statistiky používání neslouží k reklamě ani ke sledování.",
+        "Dobrovolné příspěvky zpracovává Apple nebo Google. Údaje o vaší kartě nikdy nevidíme.",
+        "Data neprodáváme, reklamy nezobrazujeme a napříč aplikacemi vás nesledujeme."
+      ]
+    },
+    "noServer": {
+      "title": "Bez účtů",
+      "body": "Improv Toolbox běží ve vašem zařízení. Není potřeba registrace ani profil a žádný server nezaznamenává, co v nástrojích děláte. Všechny nástroje fungují offline. Jen volitelný kontaktní formulář odešle napsanou zprávu externí službě."
+    },
+    "local": {
+      "title": "Co zůstane ve vašem zařízení",
+      "body": "Volba jazyka, světlý či tmavý režim, oblíbené nástroje i jejich vygenerovaný obsah se ukládají jen do místního úložiště prohlížeče nebo mobilní aplikace. Tato data vaše zařízení neopouštějí. Vymazáním úložiště prohlížeče nebo odinstalováním aplikace je odstraníte."
+    },
+    "analytics": {
+      "title": "Anonymní analýzy využití",
+      "web": "Na webu používáme Vercel Analytics a Speed Insights k měření návštěvnosti a rychlosti stránek. Nepoužívají cookies ani neukládají osobní údaje. Vidíme pouze souhrnné statistiky, nikdy jednotlivé uživatele.",
+      "app": "V mobilní aplikaci používáme Aptabase, analytickou službu zaměřenou na ochranu soukromí. Odesílá anonymní události, například spuštění aplikace, bez identifikátoru zařízení či reklamy, cookies, otisku zařízení nebo dlouhodobé identifikace uživatele. Poskytuje nám jen přibližný přehled o používání aplikace."
+    },
+    "purchases": {
+      "title": "Nákupy a příspěvky",
+      "body": "Mobilní aplikace nabízí možnost dobrovolně přispět. Platbu zpracuje Apple App Store nebo Google Play a RevenueCat ověří a zaznamená nákup. RevenueCat obdrží historii nákupů, údaje o transakci, produktu a ceně, anonymní uživatelské ID dané instalace a obecné údaje o obchodě či zařízení, například zemi, jazykové nastavení, měnu a platformu. RevenueCat neposíláme vaše jméno, e-mail ani žádné vlastní zákaznické údaje. Číslo vaší platební karty se k RevenueCat od nás nikdy nedostane a ani my je nikdy nevidíme. Web místo toho odkazuje na Buy Me a Coffee, které má vlastní zásady ochrany soukromí."
+    },
+    "messages": {
+      "title": "Zprávy, které nám posíláte",
+      "body": "Kontaktní formulář je nepovinný. Na webu i v aplikacích pro iOS a Android se zadané jméno, e-mailová adresa, vybrané téma a zpráva odešlou službě Formspree, aby nám zprávu doručila a chránila formulář před spamem. Formspree obdrží také technické údaje požadavku, například IP adresu a informace o prohlížeči či aplikaci. V bezplatném tarifu zůstávají odeslané zprávy na našem panelu Formspree dostupné 30 dní. Tyto údaje používáme výhradně k přečtení zprávy a odpovědi."
+    },
+    "providers": {
+      "title": "Poskytovatelé služeb",
+      "items": [
+        "Vercel: hosting webových stránek, anonymní analýzy návštěvnosti a měření rychlosti stránek.",
+        "Aptabase: anonymní analytika využití v mobilní aplikaci.",
+        "RevenueCat: historie nákupů a ověřování účtenek u příspěvků v mobilní aplikaci.",
+        "Formspree: doručování, ochrana proti spamu a dočasné ukládání zpráv odeslaných prostřednictvím kontaktního formuláře.",
+        "Apple App Store a Google Play: zpracování plateb aplikací podle vlastních zásad."
+      ]
+    },
+    "store": {
+      "title": "Údaje uváděné v obchodech s aplikacemi",
+      "body": "Ve formulářích ochrany soukromí pro App Store a Google Play mobilní aplikace uvádí Usage Data / Product Interaction pro analytiku Aptabase a Purchases / Purchase History pro příspěvky zpracované službou RevenueCat. Pokud použijete kontaktní formulář, uvádí také vaše jméno, e-mailovou adresu a zprávu jako údaje propojené s vámi a používané pouze pro fungování a podporu aplikace. Tyto údaje nepoužíváme k reklamě, sledování napříč aplikacemi ani obchodování s daty."
+    },
+    "never": {
+      "title": "Co nikdy neděláme",
+      "body": "Vaše data neprodáváme ani nepronajímáme. Nezobrazujeme reklamy. Nesledujeme vás v jiných aplikacích nebo webech a nevytváříme si váš profil."
+    },
+    "rights": {
+      "title": "Vaše práva",
+      "body": "Většina dat aplikace zůstává ve vašem zařízení. Místní data odstraníte vymazáním úložiště prohlížeče nebo odinstalováním aplikace. Anonymní analytiku Aptabase s vámi nelze zpětně spojit, proto u nás neexistuje osobní analytický profil, který bychom mohli exportovat nebo smazat. Ohledně kontaktních zpráv nebo údajů o příspěvcích zpracovaných službou RevenueCat nám napište a uveďte dostatek informací k nalezení záznamu; tam, kde je to možné, zajistíme přístup nebo smazání. Formspree, Apple a Google mohou záznamy uchovávat podle vlastních zásad. S žádostí podle GDPR nebo obdobného zákona se na nás obraťte e-mailem."
+    },
+    "children": {
+      "title": "Děti",
+      "body": "Improv Toolbox je určen širokému publiku a nevyžaduje účet. Volitelný kontaktní formulář není určen k tomu, aby jeho prostřednictvím děti posílaly osobní údaje, a osobní údaje dětí vědomě neshromažďujeme. Některá věková hodnocení v obchodech mohou zohledňovat mírně znepokojivé textové náměty, například hororový žánr nebo dramatická témata."
+    },
+    "changes": {
+      "title": "Změny",
+      "body": "Pokud se tyto zásady změní, aktualizujeme datum v horní části této stránky. Zaznamenáme velké změny v aplikaci nebo na webu."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Máte otázky týkající se soukromí? Napište nám na adresu",
+      "email": "privacy@improv-toolbox.com"
+    }
+  },
+  "error": {
+    "notFound": {
+      "kicker": "404",
+      "title": "JEJDA, zabloudili jste!",
+      "body": "Mělo to být „Ano, a“. Vzniklo z toho „Ne, ne“. Nic se neděje, pomůžeme vám zpátky do kufříku."
+    },
+    "crash": {
+      "kicker": "500",
+      "title": "JEJDA, něco se pokazilo!",
+      "body": "Mělo to být „Ano, a“. Vzniklo z toho „Ne, ne“. Nic se neděje. Načtěte stránku znovu nebo se vraťte do kufříku."
+    },
+    "actions": {
+      "home": "Zpět",
+      "retry": "Znovu načíst",
+      "scene": "Scéna",
+      "warmup": "Rozcvičky",
+      "prompts": "Náměty"
+    },
+    "quickMoves": "Nebo si vyberte nástroj"
+  },
+  "nav": {
+    "main": "Domů",
+    "wheel": "Kolo",
+    "scene": "Scéna",
+    "warmup": "Rozcvičky",
+    "facts": "Fakta",
+    "more": "Více"
+  },
+  "favorites": {
+    "title": "Oblíbené",
+    "add": "Přidat {{tool}} do oblíbených",
+    "remove": "Odebrat {{tool}} z oblíbených"
+  },
+  "wheel": {
+    "title": "Kolo archetypů",
+    "subtitle": "Roztočte kolo a přiřaďte každému archetyp",
+    "setupTitle": "Kolik lidí hraje ve scéně?",
+    "setupHint": "Vyberte počet lidí hrajících ve scéně",
+    "spinButton": "Roztočit!",
+    "nextButton": "Další osoba →",
+    "resetButton": "Začít znovu",
+    "resultLabel": "Osoba {{number}}",
+    "gets": "získá:",
+    "allDoneTitle": "Všechny archetypy přiřazeny!",
+    "allDoneSubtitle": "Čas na scénu!",
+    "player": "Hráč {{number}}",
+    "remainingLabel": "Zbývající archetypy: {{count}}",
+    "assignedTitle": "Přiřazené archetypy",
+    "spinning": "Točí se...",
+    "viewResults": "Zobrazit výsledky",
+    "allDoneButton": "Zobrazit výsledky",
+    "backToSpin": "Zpět k losování",
+    "rerollButton": "Losovat pro tohoto hráče znovu",
+    "archetypePool": "Výběr archetypů",
+    "wheelPool": "Obsah kola",
+    "poolModeLabel": "Výběr archetypů v kole",
+    "useAllPool": "Všechny archetypy",
+    "useCustomPool": "Vlastní výběr",
+    "allPoolCount": "Všech {{count}}",
+    "customPoolCount": "{{selected}}/{{total}}",
+    "allPoolSummary": "Všechny archetypy {{count}} jsou v kole",
+    "selectAll": "Vybrat vše",
+    "clearAll": "Zrušit výběr",
+    "allowDuplicates": "Povolit duplicitní archetypy",
+    "allowDuplicatesHint": "Stejný archetyp lze přiřadit více hráčům",
+    "notEnoughWarning": "Není vybrán dostatek archetypů pro zvolený počet hráčů",
+    "startSession": "Začněte točit!"
+  },
+  "archetypes": {
+    "hero": {
+      "name": "Hrdina",
+      "desc": "Odvážný a odhodlaný – připravený obětovat se pro ostatní."
+    },
+    "fool": {
+      "name": "Blázen",
+      "desc": "Naivní a spontánní – mluví pravdu prostřednictvím vtipů a absurdity."
+    },
+    "villain": {
+      "name": "Darebák",
+      "desc": "Bezohledný a cynický – přesvědčený, že právě jeho cesta je správná."
+    },
+    "mentor": {
+      "name": "Mentor",
+      "desc": "Moudrý a zkušený – vede ostatní k objevu."
+    },
+    "trickster": {
+      "name": "Podvodník",
+      "desc": "Chytrý a nepředvídatelný – narušuje plány a ohýbá pravidla."
+    },
+    "lover": {
+      "name": "Milenec",
+      "desc": "Vášnivý a empatický – následuje srdce nade vše."
+    },
+    "sage": {
+      "name": "Mudrc",
+      "desc": "Hloubavý a hledající pravdu – neustále pátrá po smyslu."
+    },
+    "shadow": {
+      "name": "Stín",
+      "desc": "Temná strana – potlačené strachy, touhy a posedlosti."
+    },
+    "rebel": {
+      "name": "Rebel",
+      "desc": "Zpochybňuje pravidla – chce zrušit starý pořádek."
+    },
+    "caregiver": {
+      "name": "Pečovatel",
+      "desc": "Pečující a obětavý – vždy staví ostatní na první místo."
+    },
+    "creator": {
+      "name": "Tvůrce",
+      "desc": "Vášnivý vizionář – staví nové světy z ničeho."
+    },
+    "explorer": {
+      "name": "Průzkumník",
+      "desc": "Neklidný duch – stále hledá něco za horizontem."
+    }
+  },
+  "scenes": {
+    "title": "Náhodná scéna",
+    "subtitle": "Roztočte prvky pro vaši scénu",
+    "regenerateAll": "Obnovit vše",
+    "regenerateThis": "Přerolovat",
+    "location": "Místo",
+    "relationship": "Vztah",
+    "situation": "Situace",
+    "mood": "Nálada",
+    "timePeriod": "Éra",
+    "showExtras": "Zobrazit éru a náladu",
+    "hideExtras": "Skrýt podrobnosti",
+    "filterByGenre": "Žánr",
+    "genres": {
+      "all": "Vše",
+      "comedy": "Komedie",
+      "drama": "Drama",
+      "romantic": "Romantika",
+      "thriller": "Thriller",
+      "absurd": "Absurdní",
+      "historical": "Historická"
+    },
+    "locations": {
+      "hospital": "Urgentní příjem",
+      "laundromat": "24hodinová prádelna",
+      "spaceship": "Paluba vesmírné lodi",
+      "royal_court": "Královský dvůr",
+      "aquarium": "Mořské akvárium",
+      "job_interview": "Pracovní pohovor",
+      "haunted_house": "Strašidelný dům",
+      "wedding": "Svatební hostina",
+      "subway": "Metro při poruše",
+      "volcano": "Okraj aktivní sopky",
+      "bakery": "Pekárna za svítání",
+      "courtroom": "Soudní síň",
+      "airport": "Letištní odletová hala",
+      "library": "Knihovna na noc zamčená",
+      "submarine": "Paluba ponorky",
+      "dentist": "Ordinace zubaře",
+      "therapist": "Kancelář terapeuta",
+      "grocery_store": "Supermarket těsně před uzavřením",
+      "park_bench": "Parková lavička v dešti",
+      "radio_station": "Živé rozhlasové studio",
+      "prison": "Vězeňská cela",
+      "casino": "Podlaží kasina ve 3:00",
+      "museum_night": "Muzeum po uzavření",
+      "rooftop": "Střecha mrakodrapu",
+      "diner": "Noční bistro",
+      "fire_station": "Hasičská stanice",
+      "zoo": "Zoo mimo pracovní dobu",
+      "lighthouse": "Maják během bouřky",
+      "elevator": "Zaseknutý výtah",
+      "boxing_ring": "Boxerský ring",
+      "retirement_home": "Domov důchodců",
+      "kindergarten": "Učebna mateřské školy",
+      "tv_studio": "Živé televizní studio",
+      "hot_air_balloon": "Horkovzdušná balónová gondola nad městem",
+      "cemetery": "Hřbitov na Halloween",
+      "pirate_ship": "Paluba pirátské lodi",
+      "escape_room": "Úniková místnost – posledních 5 minut",
+      "moon_base": "Výzkumná stanice na Měsíci",
+      "barber_shop": "Holičství",
+      "circus": "Cirkus těsně před představením",
+      "community_theater": "Komunitní divadlo před premiérou",
+      "backstage_corridor": "Zákulisní chodba",
+      "train_station_platform": "Nástupiště vlakového nádraží v noci",
+      "hotel_lobby": "Hotelová hala během výpadku systému",
+      "city_hall_counter": "Obslužný pult radnice",
+      "antique_shop": "Starožitnictví plné tajemství",
+      "rooftop_garden": "Střešní zahrada",
+      "ferry_terminal": "Trajektový terminál v mlze",
+      "ski_lift": "Zastavená lyžařská lanovka",
+      "courtroom_hallway": "Chodba před soudní síní",
+      "school_reunion": "Školní sraz",
+      "hospital_waiting_room": "Nemocniční čekárna",
+      "recording_booth": "Nahrávací kabina",
+      "funeral_home": "Pohřební ústav před bohoslužbou",
+      "village_square": "Maloměstské náměstí",
+      "tailor_shop": "Krejčovství před plesem",
+      "night_bus": "Noční autobus na své konečné trase",
+      "observatory": "Observatoř během zatmění",
+      "backstage_award_show": "V zákulisí předávání cen",
+      "city_archive": "Městský archiv po pracovní době",
+      "canoe_on_lake": "Kanoe uprostřed jezera",
+      "broken_photo_booth": "Rozbitá fotobudka",
+      "palace_kitchen": "Palácová kuchyně před hostinou",
+      "weather_station": "Meteorologická stanice během výstrahy",
+      "pawn_shop": "Zastavárna s podezřelým zákazníkem",
+      "rehearsal_room": "Zkušebna těsně před představením",
+      "conference_center": "Konferenční centrum po evakuaci",
+      "border_checkpoint": "Hraniční přechod uprostřed noci",
+      "alien_embassy": "Mimozemské velvyslanectví na Zemi",
+      "underwater_hotel": "Podvodní hotel, do kterého zatéká"
+    },
+    "relationships": {
+      "exes": "Bývalí milenci",
+      "coworkers": "Spolupracovníci z konkurenčních oddělení",
+      "siblings": "Sourozenci po letech od sebe",
+      "strangers_on_train": "Cizinci v nočním vlaku",
+      "detective_suspect": "Detektiv a hlavní podezřelý",
+      "teacher_student": "Učitel a student",
+      "rivals": "Soupeři soutěžící o stejnou věc",
+      "long_lost_friends": "Nejlepší přátelé po dvaceti letech",
+      "parent_child": "Rodič a dospělé dítě",
+      "superhero_sidekick": "Superhrdina a jeho pomocník",
+      "boss_employee": "Šéf a zaměstnanec v krizi",
+      "therapist_patient": "Terapeut a pacient",
+      "neighbors": "Sousedé po letech konfliktů",
+      "doctor_patient": "Doktor a pacient s překvapením",
+      "coach_athlete": "Trenér a sportovec před finále",
+      "ghost_living": "Duch a živý člověk",
+      "celebrity_fan": "Celebrita a posedlý fanoušek",
+      "first_date": "První rande z online zápasu",
+      "pen_pals": "Dlouholetí dopisoví přátelé se konečně setkávají",
+      "cellmates": "Spoluvězni",
+      "twins": "Dvojčata od sebe roky",
+      "bartender_regular": "Barman a štamgast s problémy",
+      "magician_assistant": "Kouzelník a jejich asistent",
+      "captain_crew": "Kapitán a vzbouřená posádka",
+      "landlord_tenant": "Pronajímatel a nájemce",
+      "enemies_cooperating": "Nepřátelé nuceni spolupracovat",
+      "interviewer_applicant": "Novinář a zpovídaný člověk s tajemstvím",
+      "janitor_ceo": "Domovník a generální ředitel",
+      "chef_food_critic": "Šéfkuchař a gastronomický kritik",
+      "time_traveler_native": "Cestovatel časem a obyvatel dané doby",
+      "director_actor": "Režisér a herec po katastrofální zkoušce",
+      "stage_manager_star": "Inspicient a hvězda show",
+      "wedding_planner_couple": "Organizátor svatby a snoubenci",
+      "mentor_protege": "Mentor a chráněnec po zradě",
+      "former_bandmates": "Bývalí spoluhráči z kapely",
+      "rival_podcasters": "Konkurenční podcasteři",
+      "landlord_ghost": "Pronajímatel a nájemník, který je duchem",
+      "nurse_hypochondriac": "Zdravotní sestra a hypochondr",
+      "mayor_protester": "Starosta a vůdce protestů",
+      "heir_butler": "Dědic jmění a komorník",
+      "oracle_skeptic": "Věštec a skeptik",
+      "cab_driver_passenger": "Taxikář a spěchající cestující",
+      "translator_diplomat": "Překladatel a diplomat",
+      "archivist_treasure_hunter": "Archivář a hledač pokladů",
+      "two_understudies": "Dva alternující herci ve stejné roli",
+      "coach_parent": "Trenér a přehnaně angažovaný rodič",
+      "inventor_investor": "Vynálezce a investor",
+      "best_man_bride": "Svědek a nevěsta před obřadem",
+      "funeral_director_widow": "Pracovník pohřební služby a vdova",
+      "security_guard_thief": "Člen ostrahy a zloděj po zavírací době",
+      "cruise_director_guest": "Programový vedoucí plavby a náročný host",
+      "escaped_clone_original": "Uniklý klon a originál",
+      "royal_bodyguard_prince": "Královský ochránce a princ",
+      "weather_reporter_mayor": "Reportér počasí a starosta před katastrofou"
+    },
+    "situations": {
+      "hiding_secret": "Jeden z nich skrývá důležité tajemství",
+      "asking_favor": "Někdo žádá o nesplnitelnou laskavost",
+      "first_meeting": "První setkání po dlouhém odloučení",
+      "last_chance": "Toto může být poslední šance věci změnit",
+      "wrong_identity": "Vyskytl se případ chybné identity",
+      "power_cuts_out": "Najednou světla zhasnou a všechno se zastaví",
+      "confession": "Čas na těžkou zpověď",
+      "grand_plan_fails": "Velký plán se právě rozpadl",
+      "wrong_place": "Tady je někdo úplně mimo",
+      "time_running_out": "Zbývají už jen tři minuty",
+      "same_job_interview": "Oba se ucházejí o stejnou pozici",
+      "discovered_lying": "Jeden zjistí, že druhý léta lhal",
+      "surprise_party_wrong": "Večírek s překvapením se úplně pokazil",
+      "unexpected_heir": "Jeden z nich nečekaně zdědil jmění",
+      "doppelganger": "Potkají někoho, kdo vypadá stejně jako jeden z nich",
+      "stuck_elevator": "Uvízli spolu ve výtahu mezi patry",
+      "wrong_number": "Špatný hovor se stal začátkem něčeho skutečného",
+      "overheard_secret": "Jeden zaslechl něco, co neměl slyšet",
+      "superpowers": "Jeden z nich zjistí, že má superschopnosti",
+      "ancient_prophecy": "O jednom z nich je starověké proroctví",
+      "time_loop": "Tentýž den se stále opakuje",
+      "bad_news": "Někdo musí přinést velmi špatné zprávy",
+      "forgotten_anniversary": "Někdo zapomněl na velmi důležité datum",
+      "mistaken_for_famous": "Člověk je stále zaměňován za slavnou osobnost",
+      "swap_bodies": "Vyměnili si těla a musí se přizpůsobit",
+      "last_day_on_earth": "Toto je jejich poslední den na Zemi",
+      "competition_for_prize": "Soutěží o stejnou cenu",
+      "alien_visitor": "Jeden z nich je ve skutečnosti mimozemšťan",
+      "caught_in_the_act": "Někdo toho druhého přistihne v trapné situaci",
+      "one_knows_the_ending": "Jeden z nich ví, jak to všechno skončí",
+      "secret_rehearsal_discovered": "Je objevena tajná zkouška",
+      "someone_is_late": "Někdo má obrovské zpoždění",
+      "prop_goes_missing": "Nejdůležitější rekvizita zmizela",
+      "inheritance_condition": "Dědictví má absurdní podmínku",
+      "locked_in_after_hours": "Po zavírací době zůstali zamčení uvnitř",
+      "fake_relationship": "Musí předstírat, že jsou pár",
+      "surprise_inspection": "Začíná překvapivá kontrola",
+      "ceremony_interrupted": "Obřad je přerušen",
+      "message_arrives_too_late": "Zpráva dorazí o chvíli později",
+      "suitcase_swapped": "Kufry byly vyměněny",
+      "rehearsal_becomes_real": "Zkouška se náhle stává skutečnou",
+      "bet_must_be_won": "Sázku je třeba za každou cenu vyhrát",
+      "apology_required": "Někdo se musí omluvit, ale neví proč",
+      "camera_is_live": "Ukáže se, že kamera vysílá živě",
+      "guest_refuses_to_leave": "Host odmítá odejít",
+      "someone_hears_future": "Někdo náhodou slyší budoucnost",
+      "map_is_wrong": "Mapa vede na špatné místo",
+      "both_need_same_ticket": "Oba potřebují stejný lístek",
+      "promise_from_childhood": "Dětský slib se vrací",
+      "stranger_claims_family": "Cizí člověk tvrdí, že je jejich příbuzný",
+      "contract_has_clause": "Smlouva obsahuje skrytou klauzuli",
+      "award_must_be_returned": "Ocenění musí být vráceno",
+      "escape_plan_too_polite": "Plán útěku je příliš zdvořilý",
+      "quiet_place_gets_loud": "Místo, kde má být ticho, začne být hlučné"
+    },
+    "moods": {
+      "melancholic": "Melancholická",
+      "hysterical": "Hysterická",
+      "tense": "Napjatá",
+      "nostalgic": "Nostalgická",
+      "euphoric": "Euforická",
+      "paranoid": "Paranoidní",
+      "suspicious": "Podezřívavá",
+      "exhausted": "Vyčerpaná",
+      "whimsical": "Rozmarná",
+      "desperate": "Zoufalá",
+      "gleeful": "Radostně chaotická",
+      "bittersweet": "Hořkosladká",
+      "pompous": "Nabubřelá",
+      "dreamy": "Zasněná",
+      "frantic": "Zběsilá",
+      "stoic": "Stoická",
+      "sardonic": "Sardonická",
+      "giddy": "Rozjařená",
+      "tender": "Něžná",
+      "ceremonious": "Obřadná",
+      "awkward": "Rozpačitá",
+      "triumphant": "Triumfální",
+      "haunted": "Tísnivá",
+      "playful": "Hravá",
+      "solemn": "Vážná",
+      "conspiratorial": "Spiklenecká",
+      "romantic_comedy": "Romantická komedie",
+      "bitterly_funny": "Hořce vtipná",
+      "claustrophobic": "Klaustrofobická",
+      "falsely_cheerful": "Falešně veselá",
+      "relieved": "Uvolněná",
+      "dangerously_calm": "Nebezpečně klidná"
+    },
+    "timePeriods": {
+      "medieval": "Středověk",
+      "wild_west": "Divoký západ",
+      "future_2400": "Rok 2400",
+      "roaring_20s": "Bouřlivá dvacátá léta",
+      "now": "Současnost",
+      "ancient_egypt": "Starověký Egypt",
+      "victorian": "Viktoriánské období",
+      "renaissance": "Renesance",
+      "sixties": "60. léta – kulturní revoluce",
+      "cold_war": "Studená válka",
+      "stone_age": "Doba kamenná",
+      "prohibition": "Období prohibice (USA, 20. léta)",
+      "eighties": "80. léta – neon a diskotéka",
+      "ancient_greece": "Starověké Řecko",
+      "wwii": "Druhá světová válka",
+      "far_future": "Daleká budoucnost – rok 3000+",
+      "ancient_rome": "Starověký Řím",
+      "age_of_sail": "Věk plachetnic",
+      "jazz_age_paris": "Paříž v jazzovém věku",
+      "wartime_home_front": "Zázemí za války",
+      "nineties": "Devadesátá léta",
+      "early_internet": "Počátky internetu",
+      "near_future": "Blízká budoucnost",
+      "post_apocalyptic": "Po pádu civilizace",
+      "golden_age_hollywood": "Zlatý věk Hollywoodu",
+      "feudal_japan": "Feudální Japonsko",
+      "interwar_warsaw": "Meziválečná Varšava",
+      "climate_future": "Budoucnost klimatické krize"
+    }
+  },
+  "warmups": {
+    "title": "Generátor rozcviček",
+    "subtitle": "Najděte ideální rozcvičku pro svou skupinu",
+    "filterByPlayers": "Počet hráčů",
+    "filterByCategory": "Kategorie",
+    "filterByLevel": "Úroveň",
+    "allPlayers": "Libovolný",
+    "allCategories": "Vše",
+    "allLevels": "Vše",
+    "randomPick": "Náhodně!",
+    "players_range": "{{min}}–{{max}} hráčů",
+    "players_min": "{{min}}+ hráčů",
+    "minutes": "{{count}} min",
+    "tips": "Tip",
+    "levels": {
+      "beginner": "Pro začátečníky",
+      "intermediate": "Středně pokročilé",
+      "advanced": "Pro pokročilé"
+    },
+    "categories": {
+      "physical": "Pohyb",
+      "vocal": "Hlas",
+      "focus": "Soustředění",
+      "ensemble": "Souhra",
+      "storytelling": "Vyprávění",
+      "character": "Postava"
+    },
+    "zip_zap_zop": {
+      "name": "Zip Zap Zop",
+      "description": "Postavte se do těsného kruhu tak, abyste mohli ukázat na kohokoli naproti. První hráč naváže s někým oční kontakt, prudce k němu vyšle ruku a řekne „Zip“. Vybraný hráč stejným způsobem předá „Zap“ komukoli dalšímu, ten vyšle „Zop“ a cyklus znovu pokračuje slovem „Zip“. Tři slova jdou vždy v tomto pořadí; mění se jen směr a adresát. Udržujte jasný oční kontakt a energii pošlete přímo zvolené osobě. Kdo řekne špatné slovo, poruší pořadí nebo příliš dlouho váhá, vypadne z kruhu nebo splní drobný úkol, například rychlý dřep.",
+      "tips": "Začněte tak pomalu, aby si všichni osvojili pořadí Zip–Zap–Zop, a pak zrychlujte, dokud se rytmus nerozpadne. Nakonec přidejte ke každému slovu výrazné gesto, aby se spolu s hlasem probudilo i celé tělo."
+    },
+    "yes_and": {
+      "name": "Ano a...",
+      "description": "Dva lidé společně rozehrávají scénu, každá replika ale MUSÍ začínat slovy „Ano, a…“. Cílem je přijmout partnerovu nabídku a bez blokování na ní stavět společnou realitu.",
+      "tips": "Dbejte na to, aby „ano“ bylo upřímné – žádné „ano, ale“."
+    },
+    "sound_ball": {
+      "name": "Zvuková koule",
+      "description": "Představte si míč. Hoďte ho přes kruh s výrazným zvukem a gestem. Chytající zopakuje váš zvuk, potom při dalším hodu vytvoří úplně nový zvuk a gesto.",
+      "tips": "Gesta zveličujte; současně tím rozehřejete tělo i hlas."
+    },
+    "freeze_tag": {
+      "name": "Freeze!",
+      "description": "Dva lidé hrají scénu. Kdokoli z publika může zvolat „Freeze!“. Oba hráči znehybní. Volající vstoupí, dotykem vystřídá jednoho z nich, převezme jeho polohu těla a rozehraje úplně novou scénu.",
+      "tips": "Vstupte rychle – nečekejte na „dokonalý“ okamžik. Výchozím bodem je zajímavá poloha těla."
+    },
+    "mirror": {
+      "name": "Zrcadlo",
+      "description": "Utvořte dvojice a postavte se proti sobě na délku paže jako dvě poloviny odrazu. Jeden vede pomalými, plynulými pohyby: zvedne ruku, nakloní hlavu nebo přenese váhu. Partner vše ve stejném okamžiku kopíruje, jako by byl jeho obrazem v zrcadle. Pohybujte se dostatečně pomalu a bez náhlých změn, aby partner dokázal přesně následovat. Asi po minutě si role vyměňte. V posledním kole vedoucího zrušte a nechte pohyb přecházet mezi vámi tak, aby nikdo vědomě nerozhodoval, kdo začíná.",
+      "tips": "Dívejte se navzájem do očí místo na ruce a pohyb sledujte periferním viděním. Cílem je, aby divák nedokázal poznat, kdo vede a kdo následuje."
+    },
+    "one_word_story": {
+      "name": "Příběh jednoho slova",
+      "description": "Účastníci postupně přidávají po jednom slově a společně vytvářejí souvislý příběh. Je zakázané příběh blokovat slovem „Konec“ nebo záměrně nesouvisejícími slovy. Všechny spojky jsou povolené.",
+      "tips": "Neplánujte dopředu – reagujte na slovo svého předchůdce. Přijměte každý směr."
+    },
+    "status_walk": {
+      "name": "Chůze se statusem",
+      "description": "Každý dostane kartu s číslem od 1 do 10, které představuje jeho status. Kartu neukazujte, procházejte se po prostoru a podle svých statusů vytvořte společenství. Potom najděte své místo v hierarchii.",
+      "tips": "Rozhodují detaily: držení těla, tempo, oční kontakt a tón hlasu. Právě ty vytvářejí status."
+    },
+    "kitty_wants_a_corner": {
+      "name": "Kočička hledá koutek",
+      "description": "Jedna osoba stojí uprostřed jako „kočička“, ostatní mají každý své místo. Kočička se někoho zeptá: „Kočičko, dáš mi svůj koutek?“ Pokud ji odmítne, hledá dál. Ostatní si mezitím mohou místa vyměňovat. Když kočička obsadí volné místo, člověk, který o něj přišel, se stává novou kočičkou.",
+      "tips": "Rozhoduje rychlost výměny. Domlouvejte se s ostatními očním kontaktem."
+    },
+    "emotional_replay": {
+      "name": "Scéna v jiné emoci",
+      "description": "Zahrajte jednoduchou každodenní scénu, například nákup potravin. Potom facilitátor vyvolá emoci a hráči celou scénu zopakují v jejím duchu. Emoce několikrát vystřídejte.",
+      "tips": "Čím obyčejnější je téma scény, tím výrazněji vynikne kontrast s emocí. Nebojte se nadsázky."
+    },
+    "conducted_story": {
+      "name": "Dirigovaný příběh",
+      "description": "Hráči stojí v řadě a po jednom vyprávějí společný příběh. Dirigent ukazuje, kdo právě mluví. Při vystřídání nový vypravěč pokračuje přesně tam, kde předchozí skončil – třeba i uprostřed slova.",
+      "tips": "Mluvte pomalu a zřetelně. Nechávejte slova a věty otevřené, aby je ostatní mohli dokončit nečekaným způsobem."
+    },
+    "name_ball": {
+      "name": "Míček se jmény",
+      "description": "Postavte se do kruhu. Hoďte pomyslný míček přes kruh a ještě před hodem řekněte jméno člověka, kterému házíte. Začněte pomalu a postupně zrychlujte. Až všichni znají jména, přidejte druhý míček.",
+      "tips": "Oční kontakt navažte PŘED hodem, ať nikoho nepřekvapíte. Hra se skvěle hodí na první setkání, protože přirozeně učí jména."
+    },
+    "superhero_poses": {
+      "name": "Pózy superhrdinů",
+      "description": "Všichni chodí po prostoru. Na signál facilitátora všichni ztuhnou v superhrdinské póze a křičí svou superschopnost. Pak prozkoumejte varianty: smutný superhrdina, vyčerpaný superhrdina, zmatený superhrdina.",
+      "tips": "Podporujte přehnané pózy a silné hlasy. Skvělé pro zahřátí těla a odbourání zábran na začátku workshopu."
+    },
+    "presents": {
+      "name": "Dárky",
+      "description": "Ve dvojici jeden hráč podá partnerovi pomyslný dárek se slovy „Něco pro tebe mám!“ a začne jej rozbalovat. Partner musí ještě před převzetím poznat předmět PODLE TVARU A HMOTNOSTI. Potom si role vyměňte.",
+      "tips": "Dávající: vyjádřete předmět přesným gestem, ale neříkejte, co to je. Přijímající: pojmenujte, co vidíte, ještě než druhý skončí; trénujete tak čtení fyzických nabídek."
+    },
+    "space_object": {
+      "name": "Vesmírný objekt",
+      "description": "Jeden hráč vstoupí a začne pracovat s pomyslným předmětem, například pilou. Další hráč tentýž předmět převezme a pokračuje v činnosti; změnou pohybu ho pak postupně promění v něco jiného.",
+      "tips": "Buďte konkrétní: ukažte velikost, hmotnost i povrch. Proměna má být postupná a plynulá, ne náhlá."
+    },
+    "what_are_you_doing": {
+      "name": "Co děláš?",
+      "description": "Osoba A začne vykonávat nějakou činnost, například mýt nádobí. Osoba B se zeptá: „Co děláš?“ A odpoví JINOU činností, například „Lezu na Everest“. B ji musí okamžitě začít předvádět. Další člověk se zeptá B a hra pokračuje.",
+      "tips": "Odpověď musí být okamžitá a absurdní. Je zakázáno jmenovat akci, kterou skutečně provádíte."
+    },
+    "gibberish": {
+      "name": "Hatmatilka",
+      "description": "Dvojice nebo skupiny hrají scény ve vymyšleném jazyce; skutečná slova nejsou povolená. Dorozumívají se jen tónem, rytmem, gesty a mimikou. Varianta: jeden člověk mluví normálně a druhý překládá do hatmatilky.",
+      "tips": "Soustřeďte se na emoci a záměr, ne na samotný zvuk. Hatmatilka ukazuje, kolik významu nesou tělo a hlas i beze slov."
+    },
+    "worlds_worst": {
+      "name": "Nejhorší na světě",
+      "description": "Facilitátor zadá profesi, například zubaře, pilota či terapeuta. Hráči se střídají v krátkých výstupech jako „nejhorší [profese] na světě“. Cílem je co nejkonkrétnější postava, ne jen obecně špatný výkon.",
+      "tips": "Nejlepší verze není chaotická, ale nabízí soudržnou absurdní postavu s vlastní logikou. Ptejte se: proč tohohle člověka vůbec zaměstnali?"
+    },
+    "abc_scene": {
+      "name": "ABC scéna",
+      "description": "Dva lidé hrají scénu, v níž musí každá replika začít následujícím písmenem abecedy. První začne větou na A, druhý odpoví větou na B, první pokračuje větou na C a tak dále až do Z.",
+      "tips": "Soustřeďte se na scénu, ne na písmeno. Jakmile se omezení zautomatizuje, může vzniknout opravdu dobrá scéna."
+    },
+    "new_choice": {
+      "name": "Jiná volba!",
+      "description": "Dva hráči rozehrají scénu. Facilitátor může kdykoli zvolat „Jiná volba!“. Hráč, který právě promluvil nebo něco udělal, musí poslední volbu okamžitě nahradit jinou. Pokyn může zaznít i několikrát za sebou a vynutit si stále podivnější možnosti.",
+      "tips": "Cvičení učí nelpět na prvním nápadu. V pokročilé verzi může „Jiná volba“ změnit i celý vztah nebo prostředí."
+    },
+    "emotional_orchestra": {
+      "name": "Emocionální orchestr",
+      "description": "Hráči stojí v řadě jako orchestr. Dirigent ukazuje na jednotlivce či skupiny a zadává jim emoce, které vyjadřují hlasem i tělem. Může jejich intenzitu zvyšovat, ztišovat je nebo jednotlivé sekce kombinovat.",
+      "tips": "Dirigent má vytvářet dramatický oblouk, ne jen náhodně vybírat. Hráči: poslouchejte celý orchestr, nejen sebe."
+    },
+    "harold_opening": {
+      "name": "Úvod Harolda",
+      "description": "Jako skupina vytvořte z jednoho slova od publika „síť asociací“. Každý přidá obraz, vzpomínku nebo myšlenku, která nemusí navazovat přímo na předchozí příspěvek, ale souvisí s původním slovem nebo kterýmkoli dřívějším obrazem. Cílem je získat bohatý tematický materiál.",
+      "tips": "Nepřemýšlejte příliš dlouho. Věřte prvnímu obrazu, který vás napadne. Cvičíte společné myšlení skupiny, které je pro dlouhou formu zásadní."
+    },
+    "mapping": {
+      "name": "Mapa statusů (Johnstone)",
+      "description": "Celá skupina chodí po prostoru. Facilitátor každému tajně přidělí status od 1 do 10. Úkol: najít své místo v hierarchii POUZE pozorováním a reakcemi, bez přímého sdělení statusu. Nakonec se seřaďte od nejnižšího po nejvyšší.",
+      "tips": "Jde o náročné cvičení s bohatou historií. Při reflexi se ptejte: „Jak jste to poznali?“ Závěrečný rozhovor je stejně důležitý jako samotné cvičení."
+    },
+    "clap_circle": {
+      "name": "Tleskací kruh",
+      "description": "Postavte se do kruhu. Tlesknutí putuje kolem: jeden hráč tleskne a jeho soused okamžitě naváže. Postupně zrychlujte až k nejvyššímu tempu. Varianta: na povel změňte směr.",
+      "tips": "Klíčem je oční kontakt a připravenost – stále očekávejte, že tlesknutí dorazí k vám."
+    },
+    "splat": {
+      "name": "Splat!",
+      "description": "Jedna osoba stojí uprostřed s pomyslnou pistolí, na někoho ukáže a zvolá „Splat!“. Vybraný člověk se skrčí a jeho dva sousedé na sebe musí rychle zamířit a zvolat „Splat!“. Kdo zareaguje poslední, vypadává.",
+      "tips": "Toto trénuje rychlou reakci a pozorování. Chyby jsou součástí zábavy – skvělé pro dobití energie ve skupině."
+    },
+    "count_to_twenty": {
+      "name": "Počítejte do dvaceti",
+      "description": "Celá skupina počítá do dvaceti bez pevného pořadí a bez signálů. V jeden okamžik smí číslo říct jen jeden člověk. Promluví-li dva současně, začněte znovu od jedničky. Neverbální domlouvání je zakázáno.",
+      "tips": "Toto cvičení je o skupinovém povědomí a důvěře. Ticho a pozornost jsou důležitější než rychlost."
+    },
+    "three_things": {
+      "name": "Tři věci",
+      "description": "Facilitátor na někoho ukáže a zadá kategorii, například „Vyjmenuj tři značky aut“. Hráč musí co nejrychleji říct tři odpovědi a skupina každou z nich rytmicky odtleská. Na rozmýšlení není čas.",
+      "tips": "Cílem je obejít vnitřního cenzora. Chybné i absurdní odpovědi platí; důležitá je bezprostřednost."
+    },
+    "energy_circle": {
+      "name": "Energetický kruh",
+      "description": "Postavte se do kruhu. Jeden člověk pošle pohybem a zvukem energii přes střed kruhu konkrétní osobě. Ta ji přijme, promění a pošle někomu dalšímu.",
+      "tips": "Před předáním navažte oční kontakt. Cvičení rozvíjí vnímavost k nabídkám spoluhráčů."
+    },
+    "trust_walk": {
+      "name": "Chůze důvěry",
+      "description": "Utvořte dvojice. Jeden zavře oči a druhý ho vede prostorem pouze jemnými doteky nebo blízkostí dlaně. Potom si role vyměňte. Varianta: průvodce používá jen hlas.",
+      "tips": "Důvěra vzniká po malých krocích. Průvodce přebírá plnou odpovědnost za bezpečí partnera."
+    },
+    "walking_speed": {
+      "name": "Rychlosti chůze",
+      "description": "Všichni chodí po prostoru. Facilitátor volá rychlost od 1 (pomalá jako melasa) přes 5 (normální) až po 10 (sprint). Účastníci se přizpůsobí, aniž by se srazili.",
+      "tips": "Všímejte si, jak změna rychlosti ovlivňuje váš emoční stav. Pomalá chůze buduje napětí, rychlá vytváří energii a chaos."
+    },
+    "blob_tag": {
+      "name": "Honěná v chumlu",
+      "description": "Jedna osoba představuje „chumel“. Koho chytí, ten se přidá a drží se s ostatními za ruce. Chumel roste a loví společně. Vyhrává poslední volný člověk.",
+      "tips": "Chuchvalec musí fungovat jako jeden celek, natahovat se a obkličovat. Skvělý zdroj energie a smíchu na začátku workshopu."
+    },
+    "impulse_pass": {
+      "name": "Předávání impulzu",
+      "description": "Postavte se do kruhu a chyťte se za ruce. Jeden hráč stiskne dlaň souseda a impuls putuje kolem kruhu. Jakmile se vrátí, obraťte směr. Varianta: pošlete několik impulsů současně.",
+      "tips": "Cílem je skupinová synchronizace. Zakončete tím, že otevřete oči a uvidíte, jak rychle se impuls může šířit."
+    },
+    "bus_stop": {
+      "name": "Autobusová zastávka",
+      "description": "Jedna osoba sedí na „autobusové zastávce“ jako výrazná postava s jasným věkem, povoláním či emocí. Přisedne si další člověk v jiné postavě a kontakt je nevyhnutelný. Po chvíli facilitátor zvolá „Autobus!“, první člověk nastoupí a odejde a na jeho místo si sedne někdo nový.",
+      "tips": "Po každé interakci změňte na své postavě alespoň jednu věc. Prozkoumejte, jak na sebe různé postavy reagují."
+    },
+    "emotion_walk": {
+      "name": "Chůze s emocemi",
+      "description": "Všichni neutrálně procházejí prostorem. Facilitátor vyvolá emoci a každý ji začne vyjadřovat celým tělem: držením, tempem i pohledem. Emoce měňte každých 30 sekund. Varianta: v dané emoci někoho potkejte a sledujte, jak ovlivní vzájemnou interakci.",
+      "tips": "Začněte tělem, ne přemýšlením o emoci. Tělesný projev bývá rychlejší a pravdivější."
+    },
+    "machines": {
+      "name": "Lidské stroje",
+      "description": "Jeden hráč začne opakovat pohyb doprovázený zvukem. Další se přidá jako součást „stroje“ a svůj pohyb propojí s předchozím. Postupně vznikne synchronizovaný živý mechanismus.",
+      "tips": "Hledejte propojení: váš pohyb může spouštět pohyb souseda. Cvičení rozvíjí vnímání skupiny jako jednoho systému."
+    },
+    "dubbing": {
+      "name": "Dabing",
+      "description": "Páry nebo skupiny po čtyřech. Dva lidé hrají scénu fyzicky (bez slov). Dva další sedí otočení zády a poskytují dialog. Tělo a hlas musí společně tvořit postavu. Pak vyměňte.",
+      "tips": "Dabéři: poslouchejte dech a rytmus pohybů herců. Synchronizace je důležitější než „rozumný“ dialog."
+    },
+    "party_quirks": {
+      "name": "Podivní hosté",
+      "description": "Jeden hráč pořádá večírek a odejde stranou. Skupina nebo publikum mezitím každému hostu tajně zadá zvláštnost, například „myslíš si, že jsi pes“, „zamiloval ses do všech v místnosti“ nebo „pomalu se měníš ve svou matku“. Hostitel se vrátí a vítá návštěvy v pomyslném obýváku. Hosté přicházejí postupně a svou zvláštnost ukazují při rozhovoru, nalévání pití či zdravení ostatních. Hostitel vede konverzaci a nahlas hádá, co je na každém hostu neobvyklé. Když odhalí všechny zvláštnosti, večírek končí.",
+      "tips": "Zvláštnost nechte nejprve prosakovat do drobných činností, aby měl hostitel stopu. Začněte nenápadně a přidávejte, jak se hostitel blíží správné odpovědi; právě hádání vytváří komické napětí."
+    },
+    "questions_only": {
+      "name": "Pouze otázky",
+      "description": "Dva hráči hrají scénu, ve které smějí mluvit POUZE v otázkách. Jakékoli tvrzení, zaváhání či zopakování partnerovy otázky znamená vyřazení a hráče vystřídá někdo další.",
+      "tips": "Otázky mohou být řečnické i emotivní. Cvičení učí aktivně naslouchat a neblokovat scénu tvrzeními."
+    },
+    "sit_stand_lie": {
+      "name": "Sedni, stůj, lež",
+      "description": "Tři hráči rozehrají scénu. Po celou dobu musí PŘESNĚ jeden sedět, jeden stát a jeden ležet. Kdykoli někdo změní polohu, ostatní se musí přizpůsobit, aniž by scéna ztratila souvislost.",
+      "tips": "Scénu nezastavujte. Změny polohy jsou součástí hry, ne překážkou. Cvičení rozvíjí tvořivé zdůvodňování pohybu."
+    },
+    "last_letter": {
+      "name": "Poslední písmeno",
+      "description": "Dvojice nebo skupina hraje scénu, v níž musí každá replika začít posledním písmenem předchozí repliky. Například A: „Miluji kočky.“ B: „Yetti je má také rád.“ A: „Dneska se mu ani nedivím.“",
+      "tips": "Těžší varianta: neopakujte žádná slova. Soustřeďte se na scénu; práce s písmeny se má postupně stát podvědomou."
+    },
+    "two_line_vocabulary": {
+      "name": "Dvě věty",
+      "description": "Každá postava smí ve scéně pronést jen dvě předem zvolené věty. Celý dialog vzniká opakováním těchto dvou replik; veškerý význam proto musí nést kontext a emoce.",
+      "tips": "Zvolte věty použitelné v MNOHA situacích. Zjistíte, kolik toho dokáže sdělit tón místo slov."
+    },
+    "sound_effect_scene": {
+      "name": "Scéna se zvukovými efekty",
+      "description": "Hráči rozehrají scénu a sami vytvářejí všechny její zvukové efekty: ruchy prostředí, zvuky činností i atmosféru. Jeden hráč může fungovat jako „zvukové centrum“, nebo si každý ozvučuje vlastní akce.",
+      "tips": "Začněte nejjednoduššími zvuky, jako jsou kroky, dveře či vítr. Důležitější než realističnost je přesné načasování s akcí."
+    },
+    "word_association": {
+      "name": "Řetězec slovních asociací",
+      "description": "Kruh: jeden člověk řekne slovo, druhý řekne první asociaci, která ho napadne. Žádné pauzy, žádné přemýšlení. Tempo: jedno slovo za sekundu.",
+      "tips": "Kdo váhá déle než sekundu, uslyší „bzz“ a řetězec začne znovu. Cvičení odemyká spontánnost a vypíná vnitřního cenzora."
+    },
+    "four_things": {
+      "name": "Čtyři věci",
+      "description": "Facilitátor určí kategorii. Člověk, na kterého ukáže, musí co nejrychleji vyjmenovat čtyři konkrétní věci z této kategorie. Skupina každou odpověď odpočítá tlesknutím: jedna, dvě, tři, čtyři.",
+      "tips": "Kategorie mohou být stále absurdnější, například „Čtyři věci, které říká superhrdina v autobuse“. Smích je více než vítaný."
+    },
+    "gibberish_translation": {
+      "name": "Tlumočník hatmatilky",
+      "description": "Ve dvojici pronáší jeden člověk procítěný projev ve vymyšleném jazyce a doprovází ho gesty. Druhý stojí vedle něj a repliku po replice tlumočí do češtiny. Musí vycházet z toho, co vidí a slyší, ne si nezávisle vymýšlet vlastní obsah.",
+      "tips": "Překladatel by se měl řídit emocí a rytmem, nikoli zvuky. Čím dramatičtější projev, tím lepší scéna."
+    },
+    "typewriter": {
+      "name": "Psací stroj",
+      "description": "Jeden či dva hráči jsou „autoři“, ostatní „herci“. Autor diktuje vyprávění i dialog a herci je okamžitě rozehrávají. Autor může děj zastavit, vrátit nebo změnit.",
+      "tips": "Autor má stavět na tom, co herci skutečně udělají, ne to přehlížet. Cvičení učí společně vytvářet příběh."
+    },
+    "columns": {
+      "name": "Sloupce",
+      "description": "Tři lidé stojí v řadě. Každý představuje jiné téma nebo hlas, například vědu, lásku či politiku. Facilitátor ukazuje, který sloupec právě mluví. Každý pokračuje ve vlastním vyprávění. Vznikají tak tři paralelní světy v jedné scéně.",
+      "tips": "Jednotlivé sloupce spolu mohou komunikovat, nebo zůstat zcela oddělené. Pokročilé cvičení vyžaduje udržet souvislost i při neustálém střídání."
+    },
+    "space_jump": {
+      "name": "Skok mezi scénami",
+      "description": "První hráč začne monologem nebo sólovou scénou. Druhý vstoupí, zvolá pokyn k zastavení a společně rozehrají novou scénu. Třetí hráč jejich dění opět zastaví a vytvoří další kontext. Nakonec se vracejte vrstvu po vrstvě zpět.",
+      "tips": "Při každé nové vrstvě si zapamatujte, kde předchozí skončila. Skutečnou dovedností je plynulý návrat ke starším scénám; cvičte trpělivost a paměť."
+    },
+    "pattern_game": {
+      "name": "Hra se vzorem",
+      "description": "Skupina stojí v kruhu a dostane jedno slovo jako námět. Každý přidá asociaci k původnímu slovu, ne k předchozí odpovědi. Až se všichni vystřídají, zopakujte přesně tatáž slova ve stejném pořadí. Vzniklý vzorec stále zrychlujte.",
+      "tips": "Cílem je zapamatovat si vzorec a opakovat ho stále rychleji. Jde o základní stavební kámen Harolda a dlouhé formy ve stylu UCB."
+    },
+    "organic_groove": {
+      "name": "Organický rytmus",
+      "description": "Celá skupina stojí v kruhu. Jeden člověk začne opakovat pohyb se zvukem. Další přidá vlastní rytmicky sladěný motiv. Postupně celá skupina vytvoří živý, synchronizovaný rytmus. Facilitátor může zadávat změny.",
+      "tips": "Před připojením si poslechněte skupinu. Váš pohyb by měl celek obohacovat, ne dominovat. Toto cvičení buduje „skupinovou mysl“."
+    },
+    "armando": {
+      "name": "Armando",
+      "description": "Jedna osoba (Armando) vypráví skutečný příběh ze svého života. Po chvíli herci začnou hrát scény inspirované prvky tohoto příběhu – nikoli doslovně, ale tematicky. Armando se pravidelně vrací s dalším fragmentem.",
+      "tips": "Scény nemusí zrcadlit příběh – hledejte tematické spojení. Formát učí pracovat s materiálem „obdarovaným“ jinou osobou."
+    },
+    "pan_left_pan_right": {
+      "name": "Otočka doleva / doprava",
+      "description": "Tři nebo více skupin hrají na jevišti současně různé scény. Facilitátor zvolá „Otočit doleva!“ nebo „Otočit doprava!“ a pozornost i energie se přesunou k další skupině, která pokračuje ve své scéně. Každá skupina si musí pamatovat, kde přestala.",
+      "tips": "Skupiny: zůstaňte ve své scéně, i když na vás není „kamera“. Obnovení by mělo být bezproblémové."
+    },
+    "slow_motion_replay": {
+      "name": "Zpomalená repríza",
+      "description": "Zahrajte energickou scénu a potom ji celou zopakujte zpomaleně: každý pohyb, každé slovo i každou emoci. Facilitátor může dění zastavit a v klíčových okamžicích požádat o „živý obraz“.",
+      "tips": "Zpomalení odhalí impulsy, které normálně zůstávají neviditelné. Toto cvičení buduje tělesné vědomí a záměrnost."
+    },
+    "deconstruction": {
+      "name": "Dekonstrukce",
+      "description": "Zahrajte krátkou scénu na 3–5 minut. Potom ji „dekonstruujte“: každá ze tří či čtyř skupin si vezme JEDEN prvek, například postavu, emoci, obraz či téma, a vytvoří z něj novou krátkou scénu. Nakonec celá skupina všechna témata spojí.",
+      "tips": "Formát vyžaduje analytické a abstraktní myšlení, proto jej používejte s pokročilými skupinami. Následná reflexe bývá obzvlášť cenná."
+    },
+    "soundscape": {
+      "name": "Zvuková krajina",
+      "description": "Skupina vytvoří „zvukovou krajinu“ určitého místa, například lesa, přístavu nebo nočního města. Každý přidá jeden opakující se zvuk tvořený hlasem. Facilitátor diriguje a ukazuje, koho ztišit nebo zesílit. Varianta: do zvukové krajiny vstoupí postava.",
+      "tips": "Začněte zticha a pomalu budujte. Zvuky by měly být specifické a opakovatelné. Z vrstev by mělo vyjít závěrečné „sólo“."
+    },
+    "mind_meld": {
+      "name": "Splynutí myslí",
+      "description": "Ve dvojicích společně napočítejte „jedna, dvě, tři“ a na tři oba nahlas současně řekněte první slovo, které vás napadne. Tato dvě slova použijte jako odrazový můstek, znovu napočítejte a oba řekněte nové slovo ve snaze trefit se do stejného. Opakujte, dokud nevyslovíte totéž.",
+      "tips": "Volně asociujte a nedomlouvejte se nahlas. Když se konečně shodnete, oslavte to – právě tento společný instinkt je podstatou „skupinové mysli“ v improvizaci."
+    },
+    "big_booty": {
+      "name": "Big Booty",
+      "description": "Postavte se do kruhu. Jeden člověk je „Big Booty“ a ostatní dostanou čísla: jedna, dva, tři… Skupina drží rytmus popěvkem „Big Booty, Big Booty, Big Booty, oh yeah!“. Big Booty pak zvolá například „Big Booty, číslo tři“, trojka okamžitě zavolá další číslo a hra pokračuje bez přerušení rytmu. Kdo zaváhá nebo se splete, přesune se na konec a ostatní postoupí.",
+      "tips": "Postupně zrychlujte. Cílem není vyhrát, ale chybovat se smíchem a udržet uvolněnou, radostnou energii."
+    },
+    "bibbity_bop": {
+      "name": "Bibbity Bibbity Bop",
+      "description": "Postavte se do kruhu, jeden hráč je uprostřed. Ukáže na někoho a řekne buď „Bibbity Bibbity Bop“ (označený musí říct „Bop“ dřív, než volající domluví), nebo pouze „Bop“ (označený musí mlčet). Kdo se splete, jde doprostřed. Přidejte skupinové figury, například „slona“ či „toustovač“, které musí označený hráč se dvěma sousedy vytvořit do tří sekund.",
+      "tips": "Udržujte vysoké tempo a průběžně přidávejte nové skupinové figury. Hra trénuje okamžitou reakci a radostné přijímání chyb pod tlakem."
+    },
+    "yes_lets": {
+      "name": "Ano, pojďme!",
+      "description": "Všichni se volně pohybují po prostoru. Kdokoli může navrhnout činnost, například „Pojďme všichni pádlovat na kánoi!“. Celá skupina odpoví „Ano, pojďme!“ a okamžitě ji začne společně dělat. Po několika sekundách někdo navrhne další činnost a skupina ji opět přijme.",
+      "tips": "Každou nabídku přijměte s plným nadšením, ať je sebešílenější. Jde o nejčistší nácvik reflexu „ano a“ a společné dohody."
+    },
+    "whoosh_bang": {
+      "name": "Whoosh Bang",
+      "description": "Postavte se do kruhu. Gestem a zvoláním „Whoosh“ pošlete sousedovi energetickou kouli. Kdokoli může směr změnit: „Bang“ (ruce vzhůru) ji odrazí zpět a „Groan“ ji pošle někomu přes kruh. Postupně vytvořte malý slovník pokynů a udržujte energii i rytmus bez zaváhání.",
+      "tips": "Spolehněte se na zvuk a gesto. Začněte dvěma povely a další přidávejte, až když je skupina dobře sladěná."
+    },
+    "bunny_bunny": {
+      "name": "Bunny Bunny",
+      "description": "Postavte se do kruhu. Jeden hráč si u obličeje udělá králičí ouška a zpívá „Bunny bunny“, potom se obrátí k sousedovi a stejným zpěvem mu předá vedení. Ostatní po stranách mávají „tlapkami“ a zpívají „Toki toki toki“. Příjemce musí okamžitě navázat a poslat vedení dál. Rytmus nesmí polevit.",
+      "tips": "Jde o společný rytmus a energii, ne o „správnost“. Pokud se hra rozpadne ve smích, děláte ji dobře."
+    },
+    "honey_i_love_you": {
+      "name": "Zlato, miluji tě",
+      "description": "Sedněte si nebo se postavte do kruhu. Jeden člověk je uprostřed. Přistoupí ke komukoli, podívá se mu do očí a řekne: „Zlato, miluji tě. Usměješ se na mě?“ Vybraný musí s kamennou tváří odpovědět: „Zlato, miluji tě, ale usmát se nemůžu,“ aniž se usměje nebo zasměje. Pokud to nevydrží, jde doprostřed.",
+      "tips": "Dotýkání je zakázáno, jinak je dovoleno vše: grimasy, hlasy i práce s načasováním. Výborná lekce plného nasazení a schopnosti zachovat vážnou tvář pod tlakem."
+    },
+    "alien_tiger_cow": {
+      "name": "Mimozemšťan, tygr, kráva",
+      "description": "Skupinová obdoba hry kámen–nůžky–papír. Na tři všichni zaujmou jednu ze tří póz a přidají její zvuk: mimozemšťan (pípání a tykadla), tygr (řev a drápy) nebo kráva (bučení a dojení). Cílem není někoho porazit, ale sladit celou skupinu do stejné pózy. Opakujte, dokud se všichni neshodnou.",
+      "tips": "Nikdo se nedomlouvá nahlas; vnímejte celou skupinu. Když všichni zaujmou tutéž pózu, skupinová mysl se stane viditelnou."
+    },
+    "space_walk": {
+      "name": "Chůze prostorem",
+      "description": "Všichni neutrálně procházejí prostorem. Facilitátor vyvolává prostředí či látky – hluboký sníh, horký písek, hustý med, beztíži nebo přeplněný vlak – a hráči jim přizpůsobují pohyb. Svět měňte zhruba každých 30 sekund. Klasické cvičení Violy Spolin rozvíjí konkrétnost fyzického projevu.",
+      "tips": "Plně se zapojte celým tělem, nejen chodidly. Všimněte si, jak představované prostředí mění vaši váhu, tempo a dokonce i vaši náladu."
+    },
+    "i_am_a_tree": {
+      "name": "Jsem strom",
+      "description": "Jeden člověk vstoupí do prostoru, zaujme pózu a řekne „Jsem strom“. Druhý se přidá souvisejícím obrazem: „Jsem pták na stromě.“ Třetí obraz dokončí: „Jsem červ, kterého pták jí.“ Potom první hráč jeden prvek „odvede“ s sebou a zbývající prvek zahájí další obraz. Cvičení rozvíjí skupinové asociace a živé obrazy.",
+      "tips": "Řiďte se svým prvním instinktem a ne nejchytřejší myšlenkou. Každá nová nabídka by se měla propojit s tím, co už je na scéně."
+    },
+    "who_started_motion": {
+      "name": "Kdo zahájil pohyb",
+      "description": "Jeden hráč v roli detektiva odejde z místnosti. Kruh si potají zvolí vedoucího, který začne opakovat pohyb, například tleskání či pohupování, a ostatní ho napodobují. Vedoucí pohyb občas změní a skupina okamžitě naváže. Detektiv se vrátí doprostřed a má tři pokusy vedoucího odhalit.",
+      "tips": "Následující hráči: nedívejte se přímo na vedoucího, sledujte ho periferním viděním, abyste ho neprozradili. Jde o čistý trénink soustředění a vnímání celé skupiny."
+    },
+    "three_headed_expert": {
+      "name": "Tříhlavý expert",
+      "description": "Tři hráči stojí bok po boku jako jediný „expert“ na téma zadané publikem. Moderátor klade otázky a expert odpovídá po jednom slově; každá hlava postupně přidá další slovo a společně vznikají neplánované věty. Zábava spočívá v tom, že si hráči smysluplně dokončují myšlenky.",
+      "tips": "Nesnažte se větu řídit. Přijměte slovo, které zaznělo před vámi, a přidejte nejpřirozenější pokračování. Poslední slovo zřetelně uzavřete, aby tazatel poznal, že je odpověď hotová."
+    },
+    "one_eighty_five": {
+      "name": "185",
+      "description": "Hra se slovními hříčkami. Skupina zvolí podstatné jméno, například „tučňáci“. Hráči postupně doplňují vtip: „185 tučňáků vejde do baru. Barman říká: ‚Tučňáky tu neobsluhujeme.‘ Tučňáci odpovědí…“ Každý závěr musí obsahovat slovní hříčku se zadaným slovem. Pokračujte, dokud nápady nedojdou.",
+      "tips": "Sténání je stejně cenné jako smích; čím horší slovní hříčka, tím lépe. Hra trénuje rychlé slovní asociace a odhodlání dotáhnout i vtip, který možná nevyjde."
+    },
+    "string_of_pearls": {
+      "name": "Šňůra perel",
+      "description": "Řada hráčů sestavuje příběh mimo pořadí. První řekne úvodní větu a poslední závěrečnou. Ostatní pak po jednom vstupují kamkoli mezi ně a přidávají jedinou větu, která propojí to, co leží před ní a za ní – jako když se mezi dva uzly navlékají perly – dokud není příběh úplný.",
+      "tips": "Každá nová věta musí respektovat obě části, které propojuje. Skvělý most mezi krátkými hrami a uvažováním o dlouhé vyprávěcí formě."
+    },
+    "invocation": {
+      "name": "Invokace",
+      "description": "Skupinový úvod pro dlouhou formu pracuje ve čtyřech průchodech s jediným slovem od publika. Celý soubor se rozprostře po jevišti a v každém průchodu zkoumá slovo z jiného úhlu. Nejprve zaznívají doslovné popisy začínající „Ty jsi…“, například „Ty jsi klíč, jsi studený kov, jsi věc, kterou pořád ztrácím.“ Ve druhém průchodu se přejde k pocitům a každá replika začíná „Kvůli tobě se cítím…“. Ve třetím se skupina vrací k „Ty jsi…“, tentokrát v metaforách a obrazech. Ve čtvrtém mluví každý v první osobě a stává se danou věcí: „Já jsem…“. Hlasy se překrývají a reagují na sebe, až vznikne společná mluvená báseň.",
+      "tips": "Zapomeňte na scénu a příběh; vaším jediným úkolem je rozvíjet obrazy a pocity kolem slova. Věřte všemu, co vás napadne. Asociace z úvodu se stanou materiálem pro zbytek představení."
+    }
+  },
+  "facts": {
+    "title": "Fakta o improvizaci",
+    "subtitle": "Objevte historii a techniky improvizace",
+    "tabFacts": "Fakta",
+    "tabGlossary": "Slovník",
+    "nextFact": "Další fakt",
+    "prevFact": "Předchozí fakt",
+    "allCategories": "Vše",
+    "filterLabel": "Kategorie",
+    "categories": {
+      "history": "Historie",
+      "technique": "Technika",
+      "tips": "Tipy",
+      "famous": "Lidé"
+    },
+    "sources": {
+      "improvisation_for_theater": "Viola Spolin, \"Improvizace pro divadlo\" (1963)",
+      "truth_in_comedy": "Charna Halpern, Del Close, Kim Johnson - \"Pravda v komedii\" (1994)",
+      "impro": "Keith Johnstone - \"Impro\" (1979)",
+      "bossypants": "Tina Fey - \"Bossypants\" (2011)",
+      "del_close": "Del Close, Harold – Annex Theatre, Chicago"
+    },
+    "history": {
+      "viola_spolin": "Viola Spolin je považována za matku moderní divadelní improvizace. V roce 1963 vydala knihu „Improvisation for the Theater“, bibli improvizačního tréninku, která dodnes určuje standard skupinové práce.",
+      "second_city": "The Second City v Chicagu založili roku 1959 studenti Violy Spolin. Stalo se líhní hvězd: začínali tam mimo jiné Tina Fey, Stephen Colbert, Steve Carell, Bill Murray a Gilda Radner.",
+      "keith_johnstone": "Keith Johnstone rozvinul práci se statusem, maskami a narativním divadlem. Jeho kniha „Impro“ (1979) patří k nejvýznamnějším publikacím o improvizaci. Vytvořil také Theatresports, soutěžní improvizační formát.",
+      "del_close": "Del Close vytvořil formát Harold, dlouhou improvizační formu založenou na tématech místo jednotlivých skečů. Působil v Second City a ImprovOlympic, dnešním iO. Říká se, že svou výukou doslova změnil tvář komedie.",
+      "commedia_dellarte": "Commedia dell’arte, italská forma pouličního divadla 16. století, patří k nejstarším předchůdcům moderní improvizace. Herci hráli ustálené typy postav, například Arlecchina či Pantalona, a improvizovali dialog podle hrubé osnovy.",
+      "io_chicago": "ImprovOlympic (dnes iO Chicago) založili v roce 1981 Charna Halpern a Del Close. Právě zde se Harold ustálil jako dlouhá improvizační forma a začínaly tu hvězdy jako Mike Myers či Amy Poehler.",
+      "ucb_founding": "Upright Citizens Brigade Theatre (UCB) založili v roce 1999 v New Yorku Amy Poehler, Matt Walsh, Matt Besser a Ian Roberts – všichni absolventi iO Chicago. UCB zpopularizovala krátký přístup k improvizaci založený na „hře scény“.",
+      "theatresports": "Soutěžní improvizační formát Theatresports vytvořil Keith Johnstone v 70. letech v Calgary. Dnes se jako strukturovaná improvizační soutěž hraje ve více než 30 zemích.",
+      "second_city_toronto": "The Second City Toronto bylo otevřeno v roce 1973 a vyšli z něj Mike Myers, Dan Aykroyd, Jim Carrey i Martin Short. Kanada se stala stejně důležitým centrem improvizace jako Chicago.",
+      "groundlings": "Soubor The Groundlings v Los Angeles, který roku 1974 založil Gary Austin, vychoval hvězdy SNL Kristen Wiig, Willa Forteho, Mayu Rudolph a Darrella Hammonda.",
+      "whose_line": "Televizní pořad „Whose Line Is It Anyway?“ (1988 ve Velké Británii, 1998 v USA) přiblížil krátkou improvizaci masovému publiku a zásadně přispěl k její popularitě mimo divadla.",
+      "harold_origin": "Harold (dlouhý formát) vytvořil Del Close v polovině 60. let v San Franciscu. Jeho název pochází z vtipu: když se improvizátoři zeptali, jak se ten formát jmenuje, Del odpověděl „Harold“ – a zůstalo to.",
+      "chicago_vs_ny": "Chicagská improvizace (iO, Second City) klade důraz na dlouhou formu, vztahy a „hraní z reality“. Newyorský styl UCB stojí na konceptu „game of the scene“: hledání a stupňování opakujícího se vzorce chování.",
+      "annoyance_theatre": "The Annoyance Theatre v Chicagu, které roku 1987 založil Mick Napier, přispělo k narativní improvizaci i estetice „punkového improva“: syrovější, nekonvenční a tematicky odvážnější."
+    },
+    "technique": {
+      "yes_and": "„Ano, a…“ je základní princip improvizace: přijměte partnerovu nabídku („ano“) a dále na ní stavte („a…“). Blokování, tedy popření toho, co partner řekl, ničí scénu i vztah.",
+      "offer": "Každý čin i každé slovo na jevišti je nabídka – pozvání, aby spoluhráč společně s vámi budoval realitu scény. Dobrý improvizátor nabídky rozpozná a odpovídá na ně, místo aby prosazoval vlastní plán.",
+      "status": "Status vyjadřuje, jak postava vnímá své postavení vůči ostatním. Vysoký status: klid, pomalé pohyby, ovládání prostoru. Nízký status: neklid, uhýbání, rychlé pohyby. Střety statusů pohánějí scény.",
+      "endowment": "Přisouzení znamená dát partnerovi nebo předmětu určitou vlastnost či historii. Místo „pěkný svetr“ řekněte „To je ten svetr, který ti babička pletla dva roky?“ a scéna ožije.",
+      "game_of_scene": "„Hra scény“ je opakující se neobvyklý vzorec chování nebo absurdní logika. Jakmile ji objevíte, vědomě ji rozvíjejte a stupňujte, místo abyste utíkali k novým nápadům.",
+      "crow": "CROW znamená Character, Relationship, Objective a Where, tedy Postava, Vztah, Cíl a Místo. Když všechny čtyři prvky stanovíte hned na začátku, získají improvizátoři pevný základ pro příběh.",
+      "base_reality": "Základní realita – termín UCB – znamená normální svět scény předtím, než se objeví „hra“. Čím přirozenější a přesvědčivější je základní realita, tím lépe absurdita působí, když přijde.",
+      "callbacks": "Callback je návrat ke slovu, gestu či myšlence z dřívější scény nebo části představení, která v novém kontextu získá nový význam. Callbacky propojují celek a odměňují pozorné publikum.",
+      "patterns": "V Haroldovi je dění rozdělené do tří kol. V každém z nich se začnou nečekaně propojovat témata a postavy z různých scén. Práce se vzorci dává představení pocit promyšleného, mistrně vystavěného celku.",
+      "first_unusual_thing": "Princip UCB: „první neobvyklá věc“ ve scéně je výchozím bodem hry. Pokud váš partner řekne „Můj šéf je kočka“ – v tom je ta hra. Neignorujte to. Prozkoumejte to.",
+      "emotional_truth": "Emoční pravdivost je princip Violy Spolin: herec nemusí vědět, jak emoci předvést – musí ji prožít. Proto její cvičení dávají přednost soustředění na konkrétní úkol před technikou; přirozenost vzniká ze zapojení, ne z napodobování.",
+      "physicality": "Viola Spolin věřila, že tělo je primárním nástrojem improvizátora. Práce s imaginárními objekty a prostorem – takzvaná „práce s prostorem“ – buduje konkrétnost scény, na které mohou ostatní stavět.",
+      "avoidance_of_questions": "Otázky na jevišti bývají „pastí lenosti“: místo vlastní nabídky přesunou tvořivou práci na spoluhráče. Místo „Kde jsme?“ raději řekněte: „Z vrcholu Kilimandžára je nádherný výhled.“",
+      "specificity": "Konkrétnost zachraňuje scény. Ne „nějaké auto“, ale „hořčicově žlutý Fiat z roku 1987“. Ne „před mnoha lety“, ale „v roce 1974“. Konkrétnost vytváří svět a svět vtahuje.",
+      "sweep_edit": "Sweep je technika střihu: hráč vstoupí na scénu a mávne paží jako koštětem, čímž ostatní pošle ze scény. Okamžitě začíná nová scéna. Dobré načasování střihů určuje tempo celého představení.",
+      "tag_out": "Tag-out je střih, kdy herec vstoupí a poklepe na rameno druhého, čímž zaujme jeho místo ve scéně. Nová osoba může hrát stejnou postavu v novém kontextu nebo zcela novou postavu.",
+      "support_and_explore": "Princip „podpoř a prozkoumej“: před navržením nového směru se ujistěte, že jste reagovali na to, co váš partner právě nabídl. Improvizace je nejprve o pozornosti, pak o kreativitě.",
+      "naming_partner": "Oslovte spoluhráče jménem už na začátku scény. Dáte mu tím identitu, vytvoříte vztah a publiku napovíte, jak ho vnímat. „Marku, zase jdeš pozdě“ – a scéna je na světě."
+    },
+    "tips": {
+      "listen_first": "Poslouchejte, než promluvíte. Většina problémů v improvizaci pochází z hraní vlastního nápadu místo toho, abyste reagovali na to, co se skutečně děje na pódiu.",
+      "make_partner_look_good": "Vaším jediným úkolem je, aby váš partner vypadal skvěle. Pokud takto uvažuje každý, kouzlo se objeví samo.",
+      "commit_fully": "Nenaznačujte, prohlašujte. Do každého nápadu vstupte naplno. Polovičatá absurdita není ani vtipná, ani dojemná; scénu tvoří plné nasazení.",
+      "slow_down": "Zpomalte. Když cítíte, že scéna utíká, zpomalte a zůstaňte s tím, co máte. Spěch je často únikem od opravdových emocí.",
+      "avoid_denial": "Popírání ničí scény. Když partner řekne „Vidíš toho dinosaura?“ a vy odpovíte „To není dinosaurus, ale kráva“, právě jste zároveň zabili impulz, důvěru i příběh.",
+      "play_to_intelligence": "Hrajte s důvěrou v inteligenci publika. Vyhněte se prvoplánovým vtipům a mdlým řešením. Publikum ocení překvapení a přesnost.",
+      "dont_plan": "Neplánujte, co řeknete. Plánování vás odpojí od přítomného okamžiku. Důvěřujte svým impulzům – to, co říkáte bez přemýšlení, je často nejautentičtější a nejpřekvapivější.",
+      "be_changed": "Nechte scénu, aby vás změnila. Pokud váš partner právě řekl něco důležitého, nechte to na vás působit. Emocionální změna je zajímavější než vytrvalost.",
+      "trust_the_ensemble": "Důvěřujte skupině. Představení nemá zachraňovat jediný člověk. Čekejte na impulzy, následujte je a buďte součástí celku, ne sólovou hvězdou.",
+      "object_work": "S předměty pracujte přesně: pamatujte si jejich velikost, hmotnost i způsob držení. Důsledná práce s pomyslnými předměty vyjadřuje respekt k partnerovi i publiku.",
+      "follow_your_gut": "První „ano“ bývá správné. Druhý nápad, který se „zdá bezpečnější“, bývá horší. Intuice improvizátora vzniká léty práce. Důvěřujte jí.",
+      "begin_in_middle": "Začněte scénu uprostřed dění, ne pozdravem „Ahoj, jak se máš?“. Vstupte rovnou do konfliktu, emoce či rozhodujícího okamžiku. Pomalý rozjezd plýtvá drahocenným časem.",
+      "name_the_relationship": "Pojmenujte vztah co nejdříve. „Mami, tomu nemůžu uvěřit,“ říká více než tři minuty dialogu. Vztah je mapa – bez ní jste vy i publikum ztraceni.",
+      "sweat_the_small_stuff": "Detail je král. Když partner něco vybuduje, zapamatujte si to a později se k tomu vraťte. I malý callback na dřívější detail vytváří pocit soudržného světa.",
+      "drop_the_joke": "Lepší vtip pochází z pravdy než ze snahy být vtipný. Když honíte vtip, ztratíte scénu. Když jste opravdoví – humor se objeví jako bonus."
+    },
+    "famous": {
+      "tina_fey": "Tina Fey v knize „Bossypants“ popisuje čtyři pravidla improvizace: 1. Řekni ano. 2. Řekni ano, a… 3. Nezačínej tvrzení záporem. 4. Neexistují chyby, jen příležitosti.",
+      "del_longform": "Del Close říkával: „Důvěřujte svým impulzům. V improvizaci nejde o to být vtipný, ale opravdový.“ Harold se stal základem dlouhé improvizace po celém světě.",
+      "tina_fey2": "Tina Fey strávila roky jako scenáristka Saturday Night Live, než se postavila před kameru. V knize Bossypants píše, že ji improvizace naučila zásadnímu pravidlu týmové práce: vaším úkolem je nechat vyniknout spoluhráče. Tato filozofie se stala základem její kariéry.",
+      "amy_poehler": "Amy Poehler začínala v ImprovOlympic Chicago a později spoluzaložila UCB Theatre v New Yorku. Ve své autobiografii Yes Please (2014) věnuje velký prostor tomu, co ji improvizace naučila.",
+      "bill_murray": "Bill Murray nikdy nestudoval hereckou školu. Trénovat začal v 70. letech v Second City Chicago. Podle něj ho improvizace naučila jediné: „Buď přítomný. Ne v minulosti ani v budoucnosti – tady a teď.“",
+      "stephen_colbert": "Stephen Colbert dlouho tvrdil, že improvizace mu zachránila život. Poté, co při letecké havárii ztratil otce a bratry, našel komunitu a účel v Second City Chicago. „Ano, a...“ se stalo jeho životní filozofií, nejen technikou.",
+      "adam_mckay": "Adam McKay – režisér 'The Big Short' a 'Vice' – spolupsal revue Second City a vystupoval v dlouhé formě na iO, než se stal hlavním spisovatelem SNL. Říká, že improvizace ho naučila naslouchání a týmové práci.",
+      "mike_myers": "Mike Myers se učil improvizovat v Second City Toronto a později v Second City Chicago. Postavy Austina Powerse a Dr. Evila vznikly při improvizovaných konkurzech – Myers je zahrál „z legrace“, ale publikum si je zamilovalo.",
+      "charna_halpern": "Charna Halpern spoluzaložila s Delem Closem iO Chicago a po desetiletí střežila tradici Harolda. Closeovo učení zachovala tím, že je zaznamenala v knize „Truth in Comedy“ (1994).",
+      "johnstone_quote": "Keith Johnstone: \"Vidím, že se moji studenti bojí vypadat hloupě. Říkám jim: celé vaše vzdělání vás naučilo, že hloupost je selhání. V improvizaci je hloupost nástrojem. Používejte ho bez ostychu.\"",
+      "gilda_radner": "Gilda Radner, jedna z prvních hvězd SNL, byla absolventkou Second City Toronto. Její postavy – Emily Litella, Roseanne Roseannadanna – se zrodily z improvizace a pozorování skutečných lidí.",
+      "ryan_stiles": "Ryan Stiles z pořadu „Whose Line Is It Anyway?“ byl léta považován za jednoho z nejrychlejších improvizátorů světa. Jeho pravidlo: „Nikdy neříkej NE. I když nevíš, co říct, vstup a udělej něco, cokoli.“"
+    }
+  },
+  "glossary": {
+    "title": "Improv Glosář",
+    "searchPlaceholder": "Hledané výrazy...",
+    "allCategories": "Vše",
+    "categories": {
+      "foundation": "Nadace",
+      "longform": "Dlouhý tvar",
+      "editing": "Editace",
+      "stagecraft": "Stagecraft"
+    },
+    "terms": {
+      "yes_and": {
+        "term": "Ano, a…",
+        "def": "Základní princip improvizace: přijmout partnerovu nabídku („ano“) a přidat k ní novou informaci („a“). Motor společného vyprávění."
+      },
+      "offer": {
+        "term": "Nabídka",
+        "def": "Jakákoli akce, replika nebo volba, která ve scéně stanoví novou informaci. Silná nabídka dává partnerovi něco konkrétního, na co může reagovat."
+      },
+      "block": {
+        "term": "Blokování",
+        "def": "Odmítnutí nebo popření partnerovy nabídky. Blokování scénu zastaví, nutí partnera začít znovu a vysává energii."
+      },
+      "crow": {
+        "term": "CROW",
+        "def": "Character, Relationship, Objective, Where, tedy Postava, Vztah, Cíl a Místo: čtyři prvky, které ukotví scénu. Jejich rychlé stanovení dává publiku i hráčům společnou realitu."
+      },
+      "status": {
+        "term": "Status",
+        "def": "Relativní moc nebo společenské postavení mezi postavami. Status je proměnlivý a může se měnit očním kontaktem, držením těla, řečí i tichem."
+      },
+      "justification": {
+        "term": "Ospravedlnění",
+        "def": "Přijetí nečekané nabídky či chyby a její smysluplné začlenění do světa scény. Ospravedlnění mění nehody v dary."
+      },
+      "endowment": {
+        "term": "Přisouzení",
+        "def": "Přidání konkrétní vlastnosti, minulosti nebo emoce jinému hráči pomocí slov či chování. Otázka „Jak dlouho už jsi veterinářem?“ okamžitě vytváří postavu."
+      },
+      "pimping": {
+        "term": "Pimping",
+        "def": "Záměrné uvedení spoluhráče do nepříjemné nebo obtížné situace na jevišti. Ve hrách se používá střídmě; nadužívání narušuje důvěru."
+      },
+      "harold": {
+        "term": "Harold",
+        "def": "Dlouhá forma vytvořená Delem Closem. Tři kola po třech scénách oddělují skupinové hry a vše vyrůstá z jediného námětu od publika."
+      },
+      "game_of_scene": {
+        "term": "Hra scény",
+        "def": "Neobvyklý, opakovatelný vzorec v jádru scény. Hráči ho objeví, v duchu pojmenují a při každém návratu dál stupňují."
+      },
+      "heightening": {
+        "term": "Stupňování",
+        "def": "Rozvíjení neobvyklého prvku scény tak, aby byl s každým opakováním vyhrocenější, konkrétnější nebo podivnější. Opak ustupování."
+      },
+      "platforming": {
+        "term": "Platforming",
+        "def": "Úvodní fáze scény, ve které hráči stanoví základní informace – kdo, co a kde – ještě než se plně objeví neobvyklý prvek neboli game."
+      },
+      "second_beat": {
+        "term": "Druhý beat",
+        "def": "V dlouhé formě návrat ke stejným postavám nebo situaci z dřívější scény, obvykle za účelem rozvinutí či komplikace toho, co už vzniklo."
+      },
+      "callback": {
+        "term": "Callback",
+        "def": "Návrat ke konkrétnímu detailu, vtipu nebo postavě z dřívější části představení. Callbacky odměňují pozorné publikum a propojují celek."
+      },
+      "reincorporation": {
+        "term": "Znovuzačlenění",
+        "def": "Návrat detailů zasazených dříve ve scéně či představení, který vytváří pocit uzavřenosti. Dřívější příprava se promění v pointu."
+      },
+      "la_ronde": {
+        "term": "La Ronde",
+        "def": "Dlouhá struktura, kde scény sdílejí jednu postavu, A hraje s B, B hraje s C, C hraje s D, čímž vytváří řetězec spojených scén."
+      },
+      "monoscene": {
+        "term": "Monoscéna",
+        "def": "Dlouhá forma, v níž se celé představení odehrává na jediném místě se souvislou skupinou postav, bez střihů a změn scén."
+      },
+      "tilt": {
+        "term": "Tilt",
+        "def": "Výrazný posun v zavedené realitě nebo pravidlech scény, často přinesený střihem či novou postavou. Tilt zvyšuje sázky a nutí hráče přizpůsobit se."
+      },
+      "pattern_game": {
+        "term": "Pattern game",
+        "def": "Hra založená na objevení nečekané asociace či souvislosti a následném opakování a obměňování tohoto vzorce. Často se používá v úvodu Harolda."
+      },
+      "tag_out": {
+        "term": "Tag out",
+        "def": "Technika střihu, při níž hráč dotykem vystřídá jiného uprostřed scény a převezme jeho místo, často pro prozkoumání alternativní reality či postavy."
+      },
+      "swipe_edit": {
+        "term": "Střih přejetím",
+        "def": "Hráč přejde přes jeviště širokým zametacím gestem, ukončí jednu scénu a zahájí další. Jasné, rychlé a snadno čitelné."
+      },
+      "time_dash": {
+        "term": "Časový střih",
+        "def": "Technika střihu, která posune scénu vpřed nebo vzad v čase a zachová stejné postavy i místo."
+      },
+      "side_by_side": {
+        "term": "Vedle sebe",
+        "def": "Dvě scény probíhají souběžně a hráči mezi nimi střihají. Jejich vzájemné postavení vytváří význam, který by ani jedna scéna sama neměla."
+      },
+      "sweep_edit": {
+        "term": "Sweep",
+        "def": "Velké obloukové gesto paží, které jasně ukončí scénu. Jeden z nejrozšířenějších a nejsrozumitelnějších jevištních střihů."
+      },
+      "walk_on": {
+        "term": "Walk-on",
+        "def": "Hráč vstoupí do rozehrané scény, přidá informaci, energii či novou postavu a po předání nabídky čistě odejde."
+      },
+      "button": {
+        "term": "Button",
+        "def": "Závěrečný okamžik, který scénu rázně ukončí callbackem, fyzickým gagem nebo replikou, po níž je konec zcela jasný."
+      },
+      "run": {
+        "term": "Série",
+        "def": "Rychlá série velmi krátkých scén, někdy jen několikasekundových, propojených tématem, místem či postavou. Slouží k rychlému stupňování vzorce."
+      },
+      "object_work": {
+        "term": "Práce s předměty",
+        "def": "Pohybové ztvárnění skutečných či pomyslných předmětů ve scéně. Konkrétní a důsledná práce s předměty ukotvuje scénu a posiluje její uvěřitelnost."
+      },
+      "space_object": {
+        "term": "Pomyslný předmět",
+        "def": "Neviditelný předmět, na jehož podobě a použití se hráči shodnou. Díky důslednému zacházení se ve scéně stává skutečným."
+      },
+      "grounding": {
+        "term": "Ukotvení",
+        "def": "Vytvoření jasné fyzické reality na začátku scény pomocí konkrétní práce s předměty, polohy těla a detailů prostředí."
+      },
+      "scene_painting": {
+        "term": "Vykreslení scény",
+        "def": "Slovní popis prostředí, často doprovázený pantomimou, který vytváří společný fyzický svět pro hráče i publikum."
+      },
+      "initiation": {
+        "term": "Zahájení",
+        "def": "První okamžik scény, který určí kdo, co nebo kde. Silné zahájení dává scéně jasný výchozí bod a směr."
+      }
+    },
+    "noResults": "Nebyly nalezeny žádné výrazy"
+  },
+  "more": {
+    "title": "Další nástroje",
+    "subtitle": "Další nástroje pro improvizátory",
+    "allTools": "Všechny nástroje",
+    "otherTools": "Další nástroje",
+    "timer": {
+      "title": "Časovač",
+      "desc": "Odpočítávání pro cvičení"
+    },
+    "character": {
+      "title": "Generátor postav",
+      "desc": "Vylosujte vlastnosti postavy"
+    },
+    "prompts": {
+      "title": "Karty námětů",
+      "desc": "Náměty pro improvizované scény"
+    },
+    "suggestions": {
+      "title": "Náměty od publika",
+      "desc": "Náhodné náměty"
+    },
+    "formats": {
+      "title": "Knihovna formátů",
+      "desc": "Naučte se formáty improvizace"
+    },
+    "reflection": {
+      "title": "Otázky k reflexi",
+      "desc": "Otázky po scéně"
+    },
+    "soundscape": {
+      "title": "Zvuková krajina",
+      "desc": "Okolní zvuky pro scény"
+    },
+    "status": {
+      "title": "Losování statusu",
+      "desc": "Tajně přidělte hráčům čísla 1–10"
+    },
+    "spine": {
+      "title": "Páteř příběhu",
+      "desc": "Vylosujte základ struktury příběhu"
+    },
+    "jam": {
+      "title": "Panel moderátora jamu",
+      "desc": "Sestavte program her pro své vystoupení"
+    },
+    "principles": {
+      "title": "Principy improvizace",
+      "desc": "Základní principy na kartách"
+    },
+    "monologue": {
+      "title": "Náměty k monologu",
+      "desc": "Podněty k osobním příběhům"
+    },
+    "genres": {
+      "title": "Karty žánrového stylu",
+      "desc": "Hrajte jakýkoli žánr s jistotou"
+    },
+    "harold": {
+      "title": "Průvodce Haroldem",
+      "desc": "Procházejte strukturou Harolda"
+    },
+    "deconstruction": {
+      "title": "Dekonstrukce",
+      "desc": "Sledujte Dekonstrukci a zapisujte si poznámky"
+    },
+    "emotion": {
+      "title": "Kolo emocí",
+      "desc": "Náhodné losování ze 48 konkrétních emocí"
+    },
+    "constraints": {
+      "title": "Omezení scény",
+      "desc": "Zbavte se návyků scény pomocí omezení"
+    },
+    "metronome": {
+      "title": "Metronom BPM",
+      "desc": "Rytmus a tempo pro hudební improvizaci"
+    },
+    "variants": {
+      "title": "Generátor herních variant",
+      "desc": "Dodejte jakékoli hře šmrnc"
+    },
+    "replay": {
+      "title": "Karty pro opakování scén",
+      "desc": "Přehrajte scénu se zvratem, v jiném žánru, pohybovém stylu či s jinou emocí"
+    },
+    "coffee": {
+      "title": "Kup mi kávu",
+      "desc": "Pokud vám tato aplikace pomůže při improvizaci, můžete její vývoj podpořit.",
+      "cta": "Podpořte tvůrce"
+    },
+    "secondaryNav": "Pomoc a právní záležitosti",
+    "legal": {
+      "contact": "Kontakt",
+      "privacy": "Zásady ochrany osobních údajů"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Sdílejte zpětnou vazbu, označte problém nebo navrhněte další užitečný nástroj.",
+    "quickAction": "Kontakt",
+    "intro": {
+      "title": "Co se vám honí hlavou?",
+      "body": "Stačí i hrubý nápad. Pokud se něco pokazilo, napište mi, na co jste klepli a co se stalo. Jestli by nový nástroj pomohl vašemu souboru nebo workshopu, popište situaci, ve které byste jej použili.",
+      "replyTime": "Obvykle odpovídám během několika dnů."
+    },
+    "form": {
+      "optional": "Volitelné",
+      "name": {
+        "label": "Jméno",
+        "placeholder": "Jak vás mám oslovit?"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "you@example.com"
+      },
+      "topic": {
+        "label": "O co jde?",
+        "feedback": "Obecná zpětná vazba",
+        "bug": "Něco nefunguje",
+        "idea": "Nový nástroj nebo funkce",
+        "other": "Něco jiného"
+      },
+      "message": {
+        "label": "Zpráva",
+        "placeholder": "Řekněte mi, čím by byla aplikace užitečnější..."
+      },
+      "submit": "Odeslat zprávu",
+      "sending": "Odesílání...",
+      "privacy": {
+        "before": "Formspree nám tuto zprávu bezpečně doručí. Viz",
+        "link": "Zásady ochrany osobních údajů",
+        "after": " s podrobnostmi."
+      }
+    },
+    "success": {
+      "title": "Zpráva odeslána",
+      "body": "Děkuji, že jste si našli čas. Vaše zpráva je na cestě a odpovím na uvedený e-mail.",
+      "again": "Odeslat další zprávu"
+    },
+    "rateLimited": "Přišlo několik zpráv najednou. Počkejte chvíli a zkuste to znovu.",
+    "configurationError": "Kontaktní formulář je dočasně nedostupný. Můžete napsat přímo na privacy@improv-toolbox.com.",
+    "timeout": "Odesílání trvalo příliš dlouho. Vaše zpráva je stále zde, takže to můžete zkusit znovu.",
+    "validation": {
+      "nameTooLong": "Jméno musí mít méně než 120 znaků.",
+      "emailRequired": "Zadejte e-mailovou adresu, abych vám mohl odpovědět.",
+      "emailInvalid": "Zadejte platnou e-mailovou adresu, například you@example.com.",
+      "topicInvalid": "Vyberte jedno z dostupných témat.",
+      "messageRequired": "Před odesláním napište krátkou zprávu.",
+      "messageTooShort": "Přidejte trochu podrobností; zpráva musí mít alespoň 10 znaků.",
+      "messageTooLong": "Zpráva musí mít méně než 3 000 znaků."
+    },
+    "error": "Zprávu nelze odeslat. Zkontrolujte připojení a zkuste to znovu."
+  },
+  "timer": {
+    "title": "Časovač workshopu",
+    "subtitle": "Načasujte si cvičení",
+    "start": "Spustit",
+    "pause": "Pozastavit",
+    "reset": "Vynulovat",
+    "done": "Čas vypršel!",
+    "customMin": "min...",
+    "fullscreen": "Celá obrazovka",
+    "exitFullscreen": "Ukončit",
+    "customPlaceholder": "s…",
+    "notificationTitle": "Čas vypršel!",
+    "notificationBody": "Čas na vašem workshopu vypršel."
+  },
+  "tip": {
+    "title": "Podpořit tvůrce",
+    "subtitle": "Pokud vám Improv Toolbox pomáhá při tréninku, můžete přispět. Každý příspěvek podpoří další vývoj.",
+    "loading": "Načítání…",
+    "unavailable": "Příspěvky teď nejsou k dispozici. Zkuste to prosím později.",
+    "processing": "Zpracovává se…",
+    "thanksTitle": "Děkujeme!",
+    "thanksBody": "Vaše podpora znamená hodně.",
+    "done": "Hotovo",
+    "error": "Něco se pokazilo – nebyla provedena žádná platba.",
+    "retry": "Zkuste to znovu",
+    "close": "Zavřít"
+  },
+  "character": {
+    "title": "Generátor postav",
+    "subtitle": "Vylosujte vlastnosti a vytvořte postavu",
+    "regenerateAll": "Nová postava",
+    "occupation": "Povolání",
+    "want": "Touha / potřeba",
+    "quirk": "Pohybová zvláštnost",
+    "speechType": "Způsob řeči",
+    "emotion": "Výchozí emoce",
+    "status": "Status",
+    "occupations": {
+      "surgeon": "Chirurg",
+      "kindergarten_teacher": "Učitelka mateřské školy",
+      "retired_detective": "Detektiv ve výslužbě",
+      "dog_groomer": "Stříhač psů",
+      "street_magician": "Pouliční kouzelník",
+      "tax_accountant": "Daňová účetní",
+      "sommelier": "Sommelier",
+      "lighthouse_keeper": "Strážce majáku",
+      "competitive_eater": "Soutěžní jedlík",
+      "dolphin_trainer": "Trenér delfínů",
+      "food_blogger": "Foodbloger",
+      "cryptographer": "Kryptograf",
+      "professional_mourner": "Najatý smutečník",
+      "conspiracy_theorist": "Konspirační teoretik",
+      "chess_grandmaster": "Šachový velmistr",
+      "astrologist": "Astrolog",
+      "wedding_photographer": "Svatební fotograf",
+      "escape_room_designer": "Návrhář únikových místností",
+      "jingle_writer": "Autor znělek",
+      "mattress_tester": "Tester matrací",
+      "patent_attorney": "Patentový zástupce",
+      "perfumer": "Parfumér",
+      "ghost_hunter": "Lovec duchů",
+      "sand_castle_architect": "Architekt hradu z písku",
+      "professional_bridesmaid": "Profesionální družička",
+      "stage_manager": "Inspicient",
+      "crisis_pr_consultant": "Krizový PR konzultant",
+      "museum_guard": "Strážce muzea",
+      "radio_host": "Rozhlasový moderátor",
+      "funeral_director": "Pracovník pohřební služby",
+      "cruise_director": "Programový vedoucí plavby",
+      "wedding_officiant": "Oddávající",
+      "city_planner": "Urbanista",
+      "animal_behaviorist": "Etolog",
+      "handwriting_analyst": "Analytik rukopisu",
+      "toy_designer": "Návrhář hraček",
+      "forensic_cleaner": "Úklidový pracovník místa činu",
+      "voice_coach": "Hlasový kouč",
+      "antique_restorer": "Restaurátor starožitností",
+      "sleep_researcher": "Výzkumník spánku",
+      "park_ranger": "Strážce parku",
+      "elevator_inspector": "Revizní technik výtahů",
+      "etiquette_coach": "Lektor etikety",
+      "disaster_planner": "Krizový plánovač",
+      "mapmaker": "Kartograf",
+      "food_truck_owner": "Majitel food trucku",
+      "court_sketch_artist": "Soudní kreslíř",
+      "scent_tester": "Tester vůně",
+      "childrens_party_entertainer": "Bavič na dětských oslavách",
+      "professional_line_stander": "Profesionální zástupce ve frontě",
+      "meteorologist": "Meteorolog",
+      "chess_clock_repairer": "Opravář šachových hodin",
+      "simultaneous_translator": "Simultánní překladatel",
+      "puppeteer": "Loutkář",
+      "archivist": "Archivář",
+      "stunt_coordinator": "Koordinátor kaskadérů",
+      "hotel_concierge": "Hotelový concierge",
+      "obituary_writer": "Spisovatel nekrologu",
+      "carnival_barker": "Vyvolávač na pouti",
+      "prop_master": "Rekvizitář",
+      "rehearsal_pianist": "Korepetitor",
+      "town_crier": "Městský křikloun",
+      "memory_coach": "Paměťový trenér",
+      "fake_psychic": "Falešné médium",
+      "etiquette_influencer": "Influencer etikety"
+    },
+    "wants": {
+      "needs_to_be_liked": "Musí se líbit všem",
+      "wants_to_seem_mysterious": "Chce vypadat tajemně",
+      "needs_to_be_smartest": "Potřebuje být nejchytřejší v místnosti",
+      "wants_to_be_elsewhere": "Chce být někde jinde",
+      "needs_last_word": "Potřebuje mít poslední slovo",
+      "wants_to_confess": "Chce se k něčemu přiznat",
+      "needs_permission": "Ke všemu potřebuje povolení",
+      "wants_to_make_history": "Chce se zapsat do historie",
+      "needs_control": "Potřebuje vše ovládat",
+      "wants_to_be_normal": "Chce být normální",
+      "needs_constant_movement": "Potřebuje neustálý pohyb",
+      "wants_to_save_someone": "Chce někoho zachránit",
+      "needs_validation": "Potřebuje neustálé ujišťování",
+      "wants_a_different_life": "Chce jiný život",
+      "needs_more_time": "Potřebuje více času",
+      "wants_to_prove_something": "Chce něco dokázat",
+      "needs_silence": "Potřebuje ticho",
+      "wants_to_impress_parent": "Chce udělat dojem na rodiče",
+      "needs_to_finish": "Potřebuje dokončit, co začal",
+      "wants_to_disappear": "Chce zmizet",
+      "wants_to_be_remembered": "Chce, aby se na něj nezapomnělo",
+      "needs_forgiveness": "Potřebuje odpuštění",
+      "wants_revenge": "Chce se pomstít",
+      "needs_to_belong": "Potřebuje někam patřit",
+      "wants_one_perfect_day": "Chce jeden dokonalý den",
+      "wants_to_keep_peace": "Chce udržet mír za každou cenu",
+      "needs_to_win_argument": "Potřebuje vyhrát každý spor",
+      "wants_to_be_taken_seriously": "Chce být brán vážně",
+      "needs_everyone_to_wait": "Potřebuje, aby všichni počkali",
+      "wants_to_be_chosen": "Chce být vybrán",
+      "needs_to_hide_panic": "Potřebuje skrýt svou paniku",
+      "wants_to_rewrite_past": "Chce přepsat minulost",
+      "needs_apology": "Potřebuje omluvu",
+      "wants_to_be_surprised": "Chce se nechat překvapit",
+      "needs_to_protect_secret": "Potřebuje chránit tajemství",
+      "wants_to_make_partner_proud": "Chce, aby na něj byl partner hrdý",
+      "needs_to_escape_boredom": "Potřebuje uniknout nudě",
+      "wants_to_be_brave": "Chce být odvážný",
+      "needs_a_clear_rule": "Vyžaduje jasné pravidlo",
+      "wants_to_control_story": "Chce ovládat příběh",
+      "needs_to_feel_useful": "Potřebuje se cítit užitečný",
+      "wants_to_be_first": "Chce být první",
+      "needs_to_keep_promise": "Potřebuje dodržet slib",
+      "wants_to_be_seen_as_kind": "Chce být viděn jako laskavý",
+      "needs_to_test_loyalty": "Potřebuje otestovat něčí loajalitu",
+      "wants_to_start_over": "Chce začít znovu",
+      "needs_to_avoid_goodbye": "Potřebuje se vyhnout sbohem",
+      "wants_to_hear_truth": "Chce slyšet pravdu",
+      "needs_to_be_needed": "Potřebuje, aby ho někdo potřeboval",
+      "wants_to_turn_back_time": "Chce vrátit čas"
+    },
+    "quirks": {
+      "cracks_knuckles": "Neustále praská klouby",
+      "avoids_eye_contact": "Vyhýbá se očnímu kontaktu",
+      "touches_face_when_lying": "Při lhaní se dotýká obličeje",
+      "sways_when_still": "Při stání se kolébá",
+      "very_deep_breaths": "Velmi zhluboka se nadechne",
+      "gestures_like_conductor": "Gestikuluje jako dirigent",
+      "sniffs_before_speaking": "Před promluvením popotáhne",
+      "tilts_head_when_thinking": "Při přemýšlení naklání hlavu",
+      "bounces_one_leg": "Nervózně poskakuje jednou nohou",
+      "leans_too_close": "Naklání se příliš blízko",
+      "one_stiff_shoulder": "Jedno tuhé rameno",
+      "taps_three_for_luck": "Třikrát klepne pro štěstí",
+      "adjusts_nonexistent_watch": "Upraví neexistující hodinky",
+      "one_raised_eyebrow": "Jedno trvale zvednuté obočí",
+      "purses_lips_before_agreeing": "Než souhlasí, našpulí rty",
+      "counts_quietly": "Počítá tiše pod dechem",
+      "always_checks_exits": "Vždy kontroluje východy",
+      "mirrors_others_posture": "Zrcadlí držení těla ostatních",
+      "straightens_objects": "Nutkavě narovnává předměty",
+      "traces_patterns_in_air": "Sleduje vzory ve vzduchu",
+      "polishes_glasses": "Leští brýle, i když to není nutné",
+      "hums_when_nervous": "Při nervozitě si brouká",
+      "narrates_actions": "Komentuje vlastní činnost",
+      "freezes_before_answering": "Před odpovědí zamrzne",
+      "laughs_one_second_late": "Směje se o sekundu pozdě",
+      "folds_invisible_paper": "Složí neviditelný papír",
+      "checks_pockets": "Neustále kontroluje kapsy",
+      "speaks_to_objects": "Mluví k objektům",
+      "uses_tiny_steps": "Dělá velmi malé kroky",
+      "salutes_accidentally": "Omylem salutuje",
+      "practices_smile": "Procvičuje úsměv uprostřed konverzace",
+      "blinks_slowly_when_angry": "Když je naštvaný, pomalu mrká",
+      "grips_chair_back": "Uchopuje opěradla židlí jako volant",
+      "smooths_hair_after_lie": "Po lži si uhladí vlasy",
+      "points_with_elbow": "Ukazuje loktem",
+      "marks_floor_with_foot": "Jednou nohou označí místo na podlaze",
+      "holds_breath_when_listening": "Zadržuje dech při poslechu",
+      "makes_tiny_bows": "Dělá drobné úklony",
+      "chews_invisible_gum": "Žvýká neviditelnou žvýkačku",
+      "keeps_score_on_fingers": "Počítá skóre na prstech",
+      "warms_hands_before_news": "Zahřeje ruce před důležitými zprávami",
+      "measures_distance_with_palms": "Měří vzdálenost dlaněmi",
+      "stares_at_ceiling_for_answers": "Odpovědi hledá pohledem ke stropu",
+      "whispers_to_self_before_choices": "Před volbami šeptá sám sobě",
+      "sits_like_waiting_room": "Sedí jako v čekárně"
+    },
+    "speech": {
+      "starts_with_technically": "Začíná věty slovy „technicky vzato“",
+      "ends_with_right": "Končí věty otázkou „že?“",
+      "calls_everyone_friend": "Každému říká „příteli“",
+      "whispers_key_words": "Zašeptá klíčová slova pro zdůraznění",
+      "sports_metaphors": "Ke všemu používá sportovní metafory",
+      "lists_of_three": "Vždy uvádí věci po třech",
+      "quotes_others": "Neustále cituje ostatní lidi",
+      "adds_disclaimers": "Ke všemu přidává výhrady",
+      "never_uses_names": "Nikdy nepoužívá jména lidí",
+      "keeps_adding_also": "K tvrzením stále přidává „a taky…“",
+      "only_questions": "Mluví pouze v otázkách",
+      "outdated_slang": "Používá zastaralý slang",
+      "trails_off_mid_sentence": "Nedokončuje věty…",
+      "stories_from_too_far_back": "Začíná příběhy příliš hluboko v minulosti",
+      "weather_references": "Vždy odkazuje na počasí",
+      "double_negatives": "Používá dvojité negativy",
+      "in_conclusion_ramble": "Řekne 'na závěr' a pak blábolí",
+      "everything_rhetorical": "Neustále klade řečnické otázky",
+      "repeats_last_word": "Zopakuje poslední slovo druhé osoby",
+      "overexplains_simple_things": "Přehnaně vysvětluje jednoduché věci",
+      "speaks_in_announcements": "Mluví jako veřejná oznámení",
+      "uses_legal_language": "Používá právnický jazyk",
+      "gives_everyone_titles": "Každého oslovuje formálním titulem",
+      "says_exactly_the_time": "Bezdůvodně sděluje přesný čas",
+      "turns_statements_into_mottos": "Proměňuje výroky v životní motta",
+      "apologizes_before_points": "Před každou myšlenkou se omluví",
+      "names_emotions_aloud": "Pojmenovává emoce nahlas",
+      "quotes_imaginary_experts": "Cituje imaginární odborníky",
+      "customer_service_voice": "Mluví hlasem pracovníka zákaznické podpory",
+      "narrates_subtext": "Vysloví nahlas podtext",
+      "replaces_yes_with_absolutely": "Místo „ano“ říká „rozhodně“",
+      "never_finishes_lists": "Seznamy nikdy nedokončí",
+      "speaks_like_recipe": "Mluví jako recept",
+      "compares_everything_to_travel": "Porovnává vše s cestováním",
+      "starts_with_listen": "Začíná tvrzení slovem „poslouchejte“",
+      "too_formal_register": "Používá příliš formální registr",
+      "asks_permission_to_speak": "Před promluvením žádá o svolení",
+      "makes_sound_effects": "Přidá zvukové efekty",
+      "repeats_important_words_twice": "Dvakrát zopakuje důležitá slova",
+      "ends_with_tiny_laugh": "Končí věty lehkým smíchem"
+    },
+    "emotions": {
+      "quietly_anxious": "Tiše úzkostný",
+      "resigned_but_pleasant": "Smířený, ale příjemný",
+      "barely_concealed_delight": "Sotva skrytá radost",
+      "suppressed_fury": "Potlačená zuřivost",
+      "terminally_optimistic": "Nevyléčitelně optimistický",
+      "world_weary": "Unavený světem",
+      "secretly_impressed": "Tajně ohromený",
+      "desperately_romantic": "Zoufale romantický",
+      "fundamentally_disappointed": "Zásadně zklamaný",
+      "suspiciously_cheerful": "Podezřele veselý",
+      "slightly_confused": "Mírně zmatený",
+      "deeply_nostalgic": "Hluboce nostalgický",
+      "professionally_detached": "Profesionálně odtažitý",
+      "overwhelmed_hiding_it": "Zahlcený, ale skrývá to",
+      "genuinely_fascinated": "Upřímně fascinovaný",
+      "trying_to_look_relaxed": "Snaží se působit uvolněně",
+      "bitter_but_polite": "Hořký, ale zdvořilý",
+      "radiantly_naive": "Zářivě naivní",
+      "cautiously_hopeful": "Opatrně doufající",
+      "exhausted_but_persistent": "Vyčerpaný, ale vytrvalý",
+      "bravely_terrified": "Statečně vyděšený",
+      "warmly_judgmental": "Vřele odsuzující",
+      "quietly_triumphant": "Tiše triumfující",
+      "theatrically_wounded": "Divadelně zraněn",
+      "tenderly_annoyed": "Něžně naštvaný",
+      "politely_panicked": "Zdvořile panikařící",
+      "jealous_but_helpful": "Žárlivý, ale nápomocný",
+      "delighted_by_disaster": "Nadšený katastrofou",
+      "lonely_in_a_crowd": "Osamělý v davu",
+      "proud_and_ashamed": "Pyšný a zahanbený",
+      "hopeful_against_evidence": "Nadějný proti všem důkazům",
+      "calmly_devastated": "Klidně zdrcený",
+      "overprepared_and_afraid": "Příliš připravený a vystrašený",
+      "grateful_but_suspicious": "Vděčný, ale podezřelý",
+      "offended_yet_curious": "Uražený, ale zvědavý",
+      "childishly_excited": "Dětinsky vzrušený",
+      "morally_conflicted": "V morálním konfliktu",
+      "newly_confident": "Nově sebevědomý",
+      "permanently_startled": "Neustále polekaný",
+      "relieved_too_soon": "Předčasně uklidněný",
+      "frightened_of_success": "Vyděšený z úspěchu",
+      "serene_under_pressure": "Klidný pod tlakem",
+      "secretly_heartbroken": "Tajně se zlomeným srdcem",
+      "competitive_but_kind": "Soutěživý, ale laskavý",
+      "dramatic_for_no_reason": "Bezdůvodně dramatický"
+    }
+  },
+  "prompts": {
+    "title": "Karty námětů",
+    "subtitle": "Náměty pro improvizaci",
+    "next": "Další karta",
+    "categories": {
+      "all": "Vše",
+      "first_line": "První replika",
+      "occupation": "Povolání",
+      "location": "Místo",
+      "what_not_to_say": "Co neříkat",
+      "title": "Název"
+    },
+    "items": {
+      "fl_1": "Neměl jsem tušení, že jsi v tomto oboru.",
+      "fl_2": "Myslel jsem, že jsi na dovolené.",
+      "fl_3": "Včera jsem tě viděl s cizincem.",
+      "fl_4": "Musím se ti s něčím přiznat.",
+      "fl_5": "Vím, co jsi dělal minulé léto.",
+      "fl_6": "Znáš moji sestru?",
+      "fl_7": "Je to složitější, než si myslíte.",
+      "fl_8": "Nikdo o tom nemůže vědět.",
+      "fl_9": "Vrátil jsem se brzy.",
+      "fl_10": "Máš něco na obličeji.",
+      "fl_11": "Tohle není moje.",
+      "fl_12": "Na tento okamžik jsem čekal roky.",
+      "oc_1": "Expert na potápěčské ploutve",
+      "oc_2": "Tester matrací",
+      "oc_3": "Profesionální svatební svědek",
+      "oc_4": "Kontrolor sušenek štěstí",
+      "oc_5": "Specialista na šňupání sýrů",
+      "oc_6": "Průvodce katakombami",
+      "oc_7": "Trenažér pro kočky",
+      "oc_8": "Specialista na zdobení dortů",
+      "oc_9": "Překladač dětské řeči",
+      "oc_10": "Ochutnávač dřeva",
+      "oc_11": "Specialista na etapovou mlhu",
+      "oc_12": "Poradce pro fobii",
+      "loc_1": "Čekání ve frontě na... něco",
+      "loc_2": "Na taneční hodině seniorů",
+      "loc_3": "V ordinaci terapeuta",
+      "loc_4": "Na střeše bytového domu",
+      "loc_5": "Ve wellness lázních",
+      "loc_6": "V muzeu voskových figurín",
+      "loc_7": "V keramické dílně",
+      "loc_8": "V kiosku s paštikami",
+      "loc_9": "Na noční směně",
+      "loc_10": "V zubní ordinaci",
+      "loc_11": "Na vesmírné stanici",
+      "loc_12": "Ve vinárně",
+      "wn_1": "Na prvním rande",
+      "wn_2": "Na pracovním pohovoru",
+      "wn_3": "Na pohřbu",
+      "wn_4": "Na svatbě",
+      "wn_5": "První den v práci",
+      "wn_6": "Vašemu zubaři",
+      "wn_7": "Vaší tchyni",
+      "wn_8": "Na policejní stanici",
+      "wn_9": "Na zkoušce sboru",
+      "wn_10": "Vašemu šéfovi",
+      "wn_11": "V ordinaci",
+      "wn_12": "Na šachovém turnaji",
+      "ti_1": "Pomsta svatebního kuchaře",
+      "ti_2": "Muž, který se bál zrcadel",
+      "ti_3": "Poslední tramvaj do Starého Města",
+      "ti_4": "Tajemství babiččina šatníku",
+      "ti_5": "Láska v době uzamčení",
+      "ti_6": "Pět hodin s mým otcem",
+      "ti_7": "Kočka, která věděla příliš mnoho",
+      "ti_8": "Náhodná svatba",
+      "ti_9": "Návrat do Gdaňsku",
+      "ti_10": "Vše, co jsem po sobě zanechal",
+      "ti_11": "Muž s kufrem",
+      "ti_12": "Nebeská čekárna",
+      "fl_13": "Polož cenu a poslouchej mě.",
+      "fl_14": "Nemůžeme tam jít jako my sami.",
+      "fl_15": "Přísahám, že kufr před vteřinou mluvil.",
+      "fl_16": "Pozval jsem tě sem, protože jen ty můžeš klidně lhát.",
+      "fl_17": "Tohle měl být normální přípitek.",
+      "fl_18": "Někdo podepsal mé jméno.",
+      "fl_19": "Nepamatuji si, že bychom měli ve skupině třetí osobu.",
+      "fl_20": "Pokud se ptají, jsme bratranci.",
+      "fl_21": "Tento plán funguje pouze tehdy, když nikdo není čestný.",
+      "fl_22": "Viděl jsem tvé jméno v závěti.",
+      "fl_23": "Neotevírejte tu obálku před dětmi.",
+      "fl_24": "Jen mi řekněte, jestli už to publikum ví.",
+      "oc_13": "Profesionální omlouvač čekání ve frontě",
+      "oc_14": "Průvodce v Muzeu ticha",
+      "oc_15": "Poradce pro dramatické vstupy",
+      "oc_16": "Inspektor výtahu se bojí výšek",
+      "oc_17": "Specialista na ztracenou řeč",
+      "oc_18": "Trenér svatebních přípitků",
+      "oc_19": "Starý odhadce panenek",
+      "oc_20": "Rodinný tajný poradce",
+      "oc_21": "Koordinátor evakuace banketu",
+      "oc_22": "Expert na falešný poplach",
+      "oc_23": "Správce divadelních rekvizit",
+      "oc_24": "Prostředník pro znesvářené dvojčata",
+      "loc_13": "Na tiché diskotéce při rozchodu",
+      "loc_14": "Uvnitř rozbité fotobudky",
+      "loc_15": "Zákulisí školního muzikálu",
+      "loc_16": "Ve svatebním salonu během bouřky",
+      "loc_17": "Na trajektu, který se otočil",
+      "loc_18": "Ve dvoulůžkovém hotelovém pokoji",
+      "loc_19": "V archivu, kde je vše špatně označeno",
+      "loc_20": "V palácové kuchyni před hostinou",
+      "loc_21": "Na střeše během falešného poplachu",
+      "loc_22": "V čekárně pro psychiku",
+      "loc_23": "Na nástupišti za posledním vlakem",
+      "loc_24": "V šatně by nikdo neměl najít",
+      "wn_13": "Na slyšení o podmíněném propuštění",
+      "wn_14": "Svatebnímu plánovači",
+      "wn_15": "Během chvíle ticha",
+      "wn_16": "Někomu, kdo právě vyhrál cenu",
+      "wn_17": "Na schůzi stavebního družstva",
+      "wn_18": "Pilotovi před vzletem",
+      "wn_19": "Během tajné mise",
+      "wn_20": "V párové terapii",
+      "wn_21": "Při sbírání dědictví",
+      "wn_22": "Během dětského představení",
+      "wn_23": "ochrance muzea",
+      "wn_24": "Živě v rádiu",
+      "ti_13": "Zálohování Groom",
+      "ti_14": "Zkouška šatů na konec světa",
+      "ti_15": "Žena s druhým lístkem",
+      "ti_16": "Starosta, který se bál mikrofonů",
+      "ti_17": "Tajemství výtahu sedm",
+      "ti_18": "Když archiv lže",
+      "ti_19": "Přípitek si nikdo neobjednal",
+      "ti_20": "Osoba placená za omluvu",
+      "ti_21": "Poslední zkouška před ztišením",
+      "ti_22": "Klon na svatbě",
+      "ti_23": "Noční směna na radnici",
+      "ti_24": "Láska, mapa a špatný kufr"
+    }
+  },
+  "suggestions": {
+    "title": "Náměty od publika",
+    "subtitle": "Náhodné náměty ve stylu publika",
+    "next": "Losovat",
+    "grabBag": "Mix námětů",
+    "grabBagHint": "Klepnutím na „Losovat“ získáte sadu námětů",
+    "categories": {
+      "location": "Místo",
+      "occupation": "Povolání",
+      "relationship": "Vztah",
+      "emotion": "Emoce",
+      "movie_title": "Název filmu",
+      "word": "Slovo"
+    },
+    "items": {
+      "loc_1": "Supermarket",
+      "loc_2": "Zubní ordinace",
+      "loc_3": "letiště",
+      "loc_4": "Tělocvična",
+      "loc_5": "Knihovna",
+      "loc_6": "Policejní stanice",
+      "loc_7": "Nemocnice",
+      "loc_8": "Svatba",
+      "loc_9": "Pláž",
+      "loc_10": "Muzeum",
+      "loc_11": "Nákupní centrum",
+      "loc_12": "Prodejna zmrzliny",
+      "loc_13": "Kancelář terapeuta",
+      "loc_14": "Škola",
+      "loc_15": "Pokladna",
+      "occ_1": "Hasič",
+      "occ_2": "Chirurg",
+      "occ_3": "Učitel",
+      "occ_4": "Řidič autobusu",
+      "occ_5": "Astronaut",
+      "occ_6": "Šéfkuchař",
+      "occ_7": "Detektiv",
+      "occ_8": "Pilot",
+      "occ_9": "Zahradník",
+      "occ_10": "Knihovník",
+      "occ_11": "Herec",
+      "occ_12": "Veterinář",
+      "occ_13": "Právník",
+      "occ_14": "Hudebník",
+      "occ_15": "Stavební dělník",
+      "rel_1": "Sourozenci",
+      "rel_2": "Šéf a zaměstnanec",
+      "rel_3": "Sousedé",
+      "rel_4": "Staří přátelé",
+      "rel_5": "Soupeři",
+      "rel_6": "Romantický pár",
+      "rel_7": "Rodič a dítě",
+      "rel_8": "Učitel a student",
+      "rel_9": "Cizinci ve výtahu",
+      "rel_10": "Kolegové",
+      "rel_11": "Pronajímatel a nájemce",
+      "rel_12": "Bývalí partneři",
+      "emo_1": "Nostalgie",
+      "emo_2": "Žárlivost",
+      "emo_3": "Vzrušení",
+      "emo_4": "Teror",
+      "emo_5": "Rozpaky",
+      "emo_6": "Smutek",
+      "emo_7": "Spokojenost",
+      "emo_8": "Nervozita",
+      "emo_9": "Hrdost",
+      "emo_10": "Frustrace",
+      "emo_11": "Být zamilovaný",
+      "emo_12": "Zvědavost",
+      "mt_1": "Rybářská pomsta",
+      "mt_2": "Náhodná svatba",
+      "mt_3": "Poslední tramvaj",
+      "mt_4": "Sousedovo tajemství",
+      "mt_5": "Velký útěk",
+      "mt_6": "Mission Impossible: Dovolená",
+      "mt_7": "Návrat z dovolené",
+      "mt_8": "Láska na provizi",
+      "mt_9": "Muž bez cíle",
+      "mt_10": "Noc v muzeu",
+      "mt_11": "Šéf náhodou",
+      "mt_12": "Bratranec z Krakova",
+      "w_1": "Deštník",
+      "w_2": "Těstoviny",
+      "w_3": "Hodiny",
+      "w_4": "Kaktus",
+      "w_5": "Most",
+      "w_6": "Lucerna",
+      "w_7": "Kompas",
+      "w_8": "Klíč",
+      "w_9": "Mapa",
+      "w_10": "Zrcadlo",
+      "w_11": "Zvonek",
+      "w_12": "Pohár",
+      "loc_16": "Divadelní zkouška",
+      "loc_17": "Výtah v luxusním hotelu",
+      "loc_18": "Trajekt během bouře",
+      "loc_19": "Kuchyně restaurace",
+      "loc_20": "Zadní místnost starožitnictví",
+      "loc_21": "Čerpací stanice v noci",
+      "loc_22": "V zákulisí talentové show",
+      "loc_23": "Čekárna veterináře",
+      "loc_24": "Radnice ve svatební den",
+      "loc_25": "Střešní terasa",
+      "loc_26": "Hodinářská dílna",
+      "loc_27": "Kancelář ztrát a nálezů",
+      "loc_28": "Trajektový terminál",
+      "loc_29": "Konferenční místnost bez oken",
+      "loc_30": "Šatna před představením",
+      "occ_16": "Inspicient",
+      "occ_17": "Meteorolog",
+      "occ_18": "Rekvizitář",
+      "occ_19": "Simultánní překladatel",
+      "occ_20": "Programový vedoucí plavby",
+      "occ_21": "Plánovač města",
+      "occ_22": "Analytik rukopisu",
+      "occ_23": "Spisovatel nekrologu",
+      "occ_24": "Restaurátor starožitností",
+      "occ_25": "Dvorní výtvarník skic",
+      "occ_26": "Hlasový kouč",
+      "occ_27": "Strážce parku",
+      "occ_28": "Hotelový concierge",
+      "occ_29": "Loutkář",
+      "occ_30": "Falešná psychika",
+      "rel_13": "Režisér a herec",
+      "rel_14": "Mentor a chráněnec",
+      "rel_15": "Bývalí spoluhráči z kapely",
+      "rel_16": "Ostraha a zloděj",
+      "rel_17": "Řidič a spolujezdec",
+      "rel_18": "Plánovač párů a svateb",
+      "rel_19": "Starosta a demonstrant",
+      "rel_20": "Archivář a hledač pokladů",
+      "rel_21": "Dva lidé předstírají, že jsou rodina",
+      "rel_22": "Klon a originál",
+      "rel_23": "Překladatel a diplomat",
+      "rel_24": "Dva náhradníci",
+      "emo_13": "Uvolněná panika",
+      "emo_14": "Něžná žárlivost",
+      "emo_15": "Falešný klid",
+      "emo_16": "Neochotná pýcha",
+      "emo_17": "Zvědavost navzdory strachu",
+      "emo_18": "Přílišná zdvořilost",
+      "emo_19": "Rozpačitá radost",
+      "emo_20": "Opožděná vina",
+      "emo_21": "Vztek pod úsměvem",
+      "emo_22": "Romantické zoufalství",
+      "emo_23": "Radost z katastrofy",
+      "emo_24": "Podezřelá vděčnost",
+      "mt_13": "Osoba, která dorazila příliš brzy",
+      "mt_14": "Tajemství ze zkušebny",
+      "mt_15": "Špatný kufr",
+      "mt_16": "Poslední přípitek",
+      "mt_17": "Láska v servisním výtahu",
+      "mt_18": "Mapa, která lhala",
+      "mt_19": "Královna ztracených deštníků",
+      "mt_20": "Galavečer bez vítěze",
+      "mt_21": "Klon z druhého patra",
+      "mt_22": "Noční trajekt domů",
+      "mt_23": "Den, kdy zhasla světla",
+      "mt_24": "Chyba v závěti",
+      "w_13": "Vstupenka",
+      "w_14": "Prop",
+      "w_15": "Kufr",
+      "w_16": "Razítko",
+      "w_17": "Mikrofon",
+      "w_18": "Potvrzení",
+      "w_19": "Paruka",
+      "w_20": "Telegram",
+      "w_21": "Maska",
+      "w_22": "Obálka",
+      "w_23": "Svítilna",
+      "w_24": "Hřebík"
+    }
+  },
+  "formats": {
+    "title": "Knihovna formátů",
+    "subtitle": "Naučte se formáty improvizace",
+    "suggestionType": {
+      "word": "Slovo",
+      "story": "Příběh",
+      "theme": "Téma",
+      "scene": "Scéna",
+      "genre": "Žánr",
+      "character": "Postava",
+      "location": "Místo",
+      "relationship": "Vztah",
+      "event": "Událost",
+      "emotion": "Emoce"
+    },
+    "allDifficulties": "Všechny úrovně",
+    "backToList": "Zpět na seznam",
+    "players_min": "{{min}}+ hráčů",
+    "players_range": "{{min}}–{{max}} hráči",
+    "difficulty": {
+      "beginner": "Pro začátečníky",
+      "intermediate": "Středně pokročilé",
+      "advanced": "Pro pokročilé"
+    },
+    "harold": {
+      "name": "Harold",
+      "description": "Dlouhá improvizační forma ve třech aktech, která vychází z jediného slova. Scény a vzorce se během přibližně čtyřicetiminutového Harolda vracejí a propojují.",
+      "rules": "Získejte od publika jedno slovo\nÚvod: skupina slovo zkoumá pomocí volných asociací, pohybu nebo abstraktních scén; zatím bez ucelených příběhů\n1. kolo: tři krátké scény pro dvě osoby, které představí nové postavy, místa a vztahy\nMezi koly se hrají skupinové hry založené na společných vzorcích\n2. kolo: návrat k postavám z 1. kola v pokračujících nebo nových situacích\n3. kolo: scény odkazují na dřívější materiál a sbíhají se ke společnému závěru"
+    },
+    "armando": {
+      "name": "Armando",
+      "description": "Formát s vypravěčem. Vypravěč sdílí skutečný osobní příběh, poté hráči předvádějí scény jím inspirované. Ve formátu se střídají monology vypravěče a scény.",
+      "rules": "Jeden hráč, Armando, začne pravdivým osobním monologem bez vymyšlených prvků\nHráči rozehrávají scény inspirované tématy, obrazy či emocemi z příběhu, ne jeho doslovné převyprávění\nArmando se mezi scénami vrací, aby v monologu pokračoval nebo začal nový\nMonology a scény se střídají po celou dobu představení\nScény hledají v osobním příběhu obecně sdílenou pravdu"
+    },
+    "montage": {
+      "name": "Montáž",
+      "description": "Série volně propojených scén inspirovaných jedním tématem nebo slovem. Každá scéna je samostatná, důraz je kladen na pestrost a rychlé přechody.",
+      "rules": "Získejte od publika téma nebo slovo\nZahrajte sérii krátkých, samostatných scén bez nutnosti souvislého příběhu\nCílem je pestrost: střídejte žánry, styly a délky scén\nV pozdějších scénách se mohou vracet dřívější obrazy či témata\nPřechody mají být rychlé a energie vysoká po celou dobu"
+    },
+    "deconstruction": {
+      "name": "Dekonstrukce",
+      "description": "Pokročilá forma, ve které se úvodní scéna přehrává a zkoumá z různých časových, emočních a vypravěčských úhlů. Vyžaduje výbornou komunikaci skupiny.",
+      "rules": "Zahrajte jednu úvodní scénu inspirovanou námětem od publika\nRozeberte ji a přehrajte z různých úhlů: v jiném čase, emočním rejstříku či žánru nebo z pohledu jiné postavy\nKaždé rozebrání má odhalit něco nového, co bylo skryté v původním materiálu\nŽádná dvě přehrání by neměla být stejná; hledejte, co dosud nebylo vidět\nSkupina se může znovu sejít u původní scény nebo nechat materiál volně růst"
+    },
+    "maestro": {
+      "name": "Maestro",
+      "description": "Jeden hráč vystupuje jako maestro: ukazuje na účinkující a během hry zadává změny emocí, stylů či scén. Velmi dynamický a zábavný formát.",
+      "rules": "Jeden hráč je Maestro a stojí po straně jeviště\nMaestro ukazuje na hráče, kteří mají začít scénu, a může ji kdykoli ukončit\nBěhem scény může zadávat pokyny: změna emoce, změna žánru, výměna míst nebo zmrazení\nHráči musí jeho pokyny bez váhání okamžitě splnit\nMaestro řídí tempo a pestrost a udržuje představení v pohybu"
+    },
+    "movie": {
+      "name": "Film",
+      "description": "Skupina zahraje improvizovaný film v zadaném žánru se stavbou příběhu, dějovými zvraty a závěrem.",
+      "rules": "Získejte od publika filmový žánr, například horor, romantickou komedii či western\nV prvních scénách představte jasného hlavního hrdinu s cílem a překážkou\nProjděte celým příběhovým obloukem: uvedení → rostoucí napětí → krize → vyvrcholení → rozuzlení\nVyužívejte žánrové konvence: hudební předěly, montáže, zpomalený pohyb a dramatická odhalení\nSměřujte k uspokojivému konci, který ctí zvolený žánr"
+    },
+    "living_room": {
+      "name": "Obývací pokoj",
+      "description": "Jednoduchá a přístupná forma: hráči sedí v prostředí obývacího pokoje a improvizují každodenní scény. Důraz je na vztazích a jemných okamžicích; ideální pro začátečnické skupiny.",
+      "rules": "Námět není potřeba; případně použijte jednoduché slovo\nHráči sedí nebo stojí v prostředí „obývacího pokoje“\nHrajte klidné, realistické scény z každodenního života; soustřeďte se na naslouchání a jemné nuance\nVyhněte se výrazné fyzické komice a dejte přednost emoční pravdivosti a dynamice vztahů\nIdeální pro začátečnické skupiny nebo jako rozehřívací formát"
+    },
+    "revolver": {
+      "name": "Revolver",
+      "description": "Každý hráč dostane konkrétní postavu a střídá partnerské scény s různými spoluhráči. Formát zkoumá, jak se tatáž postava chová v odlišných vztazích a situacích.",
+      "rules": "Získejte od publika typ postavy nebo vztahu\nKaždý hráč si před začátkem vybere nebo dostane konkrétní postavu\nHráči se střídají v párových scénách s různými spoluhráči\nTatáž postava musí zůstat ve všech scénách konzistentní: stejná touha, zvláštnost i hlas\nModerátor či režisér dává pokyn ke střídání; formát ukazuje, jak různé vztahy utvářejí jednu postavu"
+    },
+    "micetro": {
+      "name": "Micetro",
+      "description": "Soutěžní formát, v němž publikum boduje scény a hráči postupně vypadávají. Poslední hráč se stává Micetrem. Výborně se hodí pro veřejná vystoupení.",
+      "rules": "Všichni hráči začínají na jevišti; porotou je publikum\nKterýkoli hráč či skupina hráčů může vystoupit a začít scénu; ostatní se mohou přidat\nPo každé scéně publikum hlasuje a hráči s nejnižším hodnocením si sednou\nModerátor řídí hlasování a udržuje hru v pohybu\nPoslední hráč na scéně je korunován Micetrem"
+    },
+    "hot_spot": {
+      "name": "Hot Spot",
+      "description": "Jeden hráč stojí uprostřed jeviště a improvizuje píseň. Když mu dojdou nápady, vystřídá ho další. Cvičení hudebnosti a odvahy, ke kterému není potřeba námět.",
+      "rules": "Námět není potřeba\nJeden hráč vstoupí doprostřed jeviště a začne zpívat píseň na libovolné téma\nKdyž jiného hráče inspiruje slovo nebo obraz v písni, vystřídá zpěváka a začne vlastní píseň\nVystřídaný hráč okamžitě ustoupí; mezi písněmi nesmí vzniknout prodleva\nUdržujte stálou energii a plynulost; ticho je nepřítel"
+    },
+    "narrative": {
+      "name": "Vyprávění",
+      "description": "Hráči společně budují příběh s jasnou vyprávěcí strukturou: hrdina, cíl, překážka a proměna. Důraz je na dramaturgii a vývoj postav.",
+      "rules": "Získejte od publika místo\nV první scéně představte jasného hlavního hrdinu s konkrétním cílem\nProjděte klasickým příběhovým obloukem: uvedení → překážka → rostoucí sázky → vyvrcholení → rozuzlení\nPoužijte alespoň jednoho jasného protivníka nebo konfliktní sílu\nKaždá scéna musí posunout příběh vpřed, bez výplně"
+    },
+    "time_dash": {
+      "name": "Time Dash",
+      "description": "Scéna přeskakuje v čase, dopředu nebo dozadu. Hráči zkoumají, jak stejný vztah vypadal před 10 lety nebo jak bude vypadat za 10 let ode dneška.",
+      "rules": "Získejte od publika vztah\nZačněte v přítomnosti scénou, která vztah jasně představí\nNa pokyn režiséra nebo skupiny skočte v čase dopředu či dozadu\nKaždé období má o vztahu odhalit něco nového\nZkoumejte: Jak se postavy seznámily? Kde budou za 20 let? Co bylo zlomovým okamžikem?"
+    },
+    "perspective": {
+      "name": "Perspektiva",
+      "description": "Tatáž událost se několikrát opakuje, pokaždé z pohledu jiné postavy. Postupně se odhaluje, jak úhel pohledu mění její význam.",
+      "rules": "Získejte od publika událost nebo situaci\nNejprve ji zahrajte z pohledu jedné postavy\nTutéž událost zopakujte z pohledu jiné postavy: fakta zůstávají stejná, prožitek se mění\nPokračujte, dokud se nevystřídají všechny důležité postavy\nZávěrečná scéna nebo reflexe může ukázat, jak mohou různé pohledy existovat současně"
+    },
+    "soap_opera": {
+      "name": "Telenovela",
+      "description": "Melodramatický formát s přehnanými emocemi a dějovými zvraty. Hráči improvizují epizodu probíhající série plné dramatických odhalení.",
+      "rules": "Získejte od publika téma\nHrajte několik propojených postav v pokračujícím dramatickém seriálu\nKaždá scéna má skončit odhalením, cliffhangerem nebo emočním vrcholem\nPřijměte melodrama: milostné trojúhelníky, zrady, tajemství a dramatické příchody\nOdkazy na dřívější scény jsou zásadní; všechno musí být propojené"
+    },
+    "bat": {
+      "name": "BAT",
+      "description": "Character, Action, Theme neboli Postava, Akce, Téma: krátká forma pro 2–4 hráče. Jediná věta jako námět vytvoří scénu s jasnou postavou (C), akcí (A) a tématem (T).",
+      "rules": "Získejte od publika krátký námět ve formě věty, například „dva přátelé na nádraží“\nUrčete z námětu hlavní Postavu (C), Akci (A) a Téma (T)\nZahrajte scénu: ztělesněte postavu, sledujte její záměr a nechte téma přirozeně vyplynout\nScény držte krátké (3–7 minut) a soustřeďte se na hlavní námět\nNejlépe funguje se 2 hráči; se 3–4 hráči je potřeba jasně rozdělit role"
+    },
+    "movie_pitch": {
+      "name": "Filmový námět",
+      "description": "Hráči představují a rozehrávají náměty na filmy v daném žánru. „Producenti“ mohou kdykoli zasáhnout. Velmi dynamický a humorný formát.",
+      "rules": "Získejte od publika filmový žánr\nHráči se střídají a představují náměty na film v daném žánru, každý 10–30 sekund\nOstatní hrají vedoucí studia a mohou námět schválit, změnit jeho směr nebo prezentaci přerušit\nPo schválení námětu skupina zahraje krátkou scénu z daného filmu\nProducenti mohou kdykoli zvolat „střih“ nebo „přeobsadit“"
+    },
+    "dream": {
+      "name": "Sen",
+      "description": "Surrealistický formát inspirovaný logikou snu. Scény mohou být fragmentární, symbolické a poetické; běžná logika zde neplatí. Vyžaduje odvahu a vzájemnou důvěru.",
+      "rules": "Získejte od publika emoci\nVstupte do snové logiky, v níž neplatí běžné příčiny a následky\nScény se mohou bez vysvětlení rozplynout, opakovat nebo proměnit\nHráči mohou uprostřed scény změnit postavu, čas i prostředí\nNásledujte obrazy a impulzy místo logiky příběhu a nechte celé představení vést emocí"
+    },
+    "organic_narrative": {
+      "name": "Organický příběh",
+      "description": "Forma bez předem dané struktury, v níž příběh přirozeně vyrůstá ze skupiny. Hráči pozorně naslouchají a společně ho budují následováním impulzů.",
+      "rules": "Získejte od publika téma\nBez předem dané struktury skupina vytváří představení v reálném čase\nPozorně naslouchejte a podporujte příběh, který se chce ze souboru vynořit\nKterýkoli hráč může zahájit či zopakovat scénu nebo vystupňovat okamžik\nPředstavení končí, když skupina cítí, že je příběh uzavřený; žádný režisér konec nevyhlašuje"
+    }
+  },
+  "reflection": {
+    "title": "Otázky k reflexi",
+    "subtitle": "Otázky pro společný rozbor po scéně",
+    "next": "Další otázka",
+    "available": "k dispozici",
+    "categories": {
+      "all": "Vše",
+      "game": "Hra",
+      "crow": "CROW",
+      "ensemble": "Soubor",
+      "edit": "Editace",
+      "character": "Postava"
+    },
+    "items": {
+      "g1": "Kde byl první neobvyklý moment v této scéně?",
+      "g2": "Jaká byla „hra“ této scény – co se stále opakovalo?",
+      "g3": "Jak hráči poznali hru a hráli podle ní?",
+      "g4": "Kdy se scéna „rozjela“, k lepšímu nebo horšímu?",
+      "g5": "Jaký vzorec se objevil a jak byl eskalován?",
+      "c1": "Kdo hrál kterou postavu (C) v této scéně?",
+      "c2": "Jaký byl vztah (R) mezi postavami?",
+      "c3": "Jaký byl cíl každé postavy (O)?",
+      "c4": "Kde se scéna odehrála (W) a jak ovlivnila hru?",
+      "c5": "Byl CROW jasně stanoven od začátku?",
+      "e1": "Jak dobře si tým navzájem naslouchal?",
+      "e2": "Kdo podporoval a kdo blokoval energii na pódiu?",
+      "e3": "Byla rozhodnutí přijímána společně nebo jednotlivě?",
+      "e4": "Ovládl někdo scénu na úkor ostatních?",
+      "ed1": "Kdy měla tato scéna skončit?",
+      "ed2": "Jaké signály naznačovaly, že je čas přerušit?",
+      "ed3": "Jak úprava ovlivnila tempo celé sady?",
+      "ch1": "Změnila se postava během scény a proč?",
+      "ch2": "Jak hráč hrál z pohledu své postavy?",
+      "ch3": "Měla postava jasnou touhu nebo potřebu?"
+    }
+  },
+  "soundscape": {
+    "title": "Zvuková krajina",
+    "subtitle": "Okolní zvuky pro scény a cvičení",
+    "volume": "Hlasitost",
+    "play": "Přehrát",
+    "pause": "Pozastavit",
+    "stop": "Zastavit",
+    "sounds": {
+      "rain": "Déšť",
+      "city": "Město",
+      "forest": "Les",
+      "cafe": "Kavárna",
+      "storm": "Bouřka",
+      "fireplace": "Krb",
+      "ocean": "Oceán",
+      "elevator": "Výtah"
+    },
+    "loop": "Smyčka"
+  },
+  "status": {
+    "title": "Losování statusu",
+    "subtitle": "Tajně přidělte lidem čísla statusu",
+    "players": "Hráči",
+    "player": "P",
+    "shuffle": "Zamíchat",
+    "revealAll": "Odhalit vše",
+    "hideAll": "Skrýt vše",
+    "hint": "Nastavte počet hráčů a klepněte na Zamíchat"
+  },
+  "spine": {
+    "title": "Páteř příběhu",
+    "subtitle": "Náhodné podněty pro každý krok příběhu",
+    "regenerateAll": "Nový příběh",
+    "reroll": "Losovat znovu",
+    "labels": {
+      "once_upon": "Kdysi dávno...",
+      "every_day": "Každý den...",
+      "until_one_day": "Až jednoho dne...",
+      "because_of_that": "Kvůli tomu...",
+      "until_finally": "Až konečně...",
+      "ever_since": "A od té doby..."
+    },
+    "seeds": {
+      "once_upon": {
+        "s0": "vysloužilý klaun v horské vesnici",
+        "s1": "strážce majáku, který se bál moře",
+        "s2": "dva sousedé, kteří spolu nemluvili dvacet let",
+        "s3": "chirurg, který mluvil s rostlinami",
+        "s4": "duch, který nevěděl, že jsou mrtví",
+        "s5": "devítileté dítě přesvědčené, že dospělí se ve všem mýlí",
+        "s6": "detektiv známý tím, že se mýlil přesně ve správnou chvíli",
+        "s7": "cestovatel časem uvízl o tři desetiletí mimo kurz",
+        "s8": "čaroděj, který zapomněl většinu svých kouzel",
+        "s9": "knihovna, která už pět let neměla návštěvníka",
+        "s10": "malé město s jedním tajemstvím, které každý znal, ale nikdy to neřeklo nahlas",
+        "s11": "mladý archivář, který věděl, kde jsou všechna těla pohřbena, a to doslova",
+        "s12": "přepracovaný vědec, který se chystá učinit velmi nepohodlný objev",
+        "s13": "dvojčata, která sdílela tvář, ale nic jiného",
+        "s14": "robot se pomalu učí, co to znamená něco chtít"
+      },
+      "every_day": {
+        "s0": "předstírali, že je vše v pořádku",
+        "s1": "se vyhnuli jediné otázce, na které záleželo",
+        "s2": "měli úsměv, který všechno skrýval",
+        "s3": "si řekli, že zítra to bude jiné",
+        "s4": "pomohli všem kromě sebe",
+        "s5": "drželi tajemství, které je pomalu požíralo zaživa",
+        "s6": "odmítli požádat o pomoc, bez ohledu na cenu",
+        "s7": "sledovali, jak ostatní žijí život, jaký chtěli",
+        "s8": "řekli stejnou lež každému, kdo se zeptal",
+        "s9": "skoro řekli pravdu a pak ne",
+        "s10": "každou noc snili o jiném životě",
+        "s11": "se vyhnuli jedněm konkrétním dveřím na konci chodby",
+        "s12": "opravili problémy všech ostatních kromě jejich vlastních",
+        "s13": "počítali dny, aniž by věděli, na co čekají",
+        "s14": "se probudili, udělali to samé a šli spát"
+      },
+      "until_one_day": {
+        "s0": "přišel cizinec s dopisem adresovaným někomu, kdo zemřel před třiceti lety",
+        "s1": "našli fotografii, která změnila vše, čemu o sobě věřili",
+        "s2": "věc, před kterou utíkali, je našla jako první",
+        "s3": "řekli ano, když každá z nich chtěla říct ne",
+        "s4": "všechno, co mělo zůstat skryto, najednou vyšlo najevo",
+        "s5": "jedna malá chyba odstartovala řetězec obrovských následků",
+        "s6": "dostali zprávu od někoho, kdo ji neměl mít možnost poslat",
+        "s7": "zaslechli něco, co nikdy slyšet neměli",
+        "s8": "pravda přišla o dvacet let pozdě a navíc přesně včas",
+        "s9": "dostali předmět, kterému nerozuměli a kterého se nemohli zbavit",
+        "s10": "dva lidé, kteří se nikdy neměli potkat, skončili ve stejné místnosti",
+        "s11": "bouře je uvěznila s jedinou osobou, které nejvíce potřebovali čelit",
+        "s12": "někdo jiný vzal uznání za jejich největší chybu a byl za to oslavován",
+        "s13": "ve zdi byly dveře, které tam včera nebyly",
+        "s14": "šli špatným směrem a našli jedinou správnou odpověď"
+      },
+      "because_of_that": {
+        "s0": "museli učinit rozhodnutí za méně než hodinu",
+        "s1": "všechno, co pečlivě postavili, se začalo rozpadat",
+        "s2": "oslovili jedinou osobu, kterou před lety přerušili",
+        "s3": "lež, kterou řekli, aby někoho ochránili, začala růst",
+        "s4": "překročili hranici, kterou si slíbili, že ji nikdy neudělají",
+        "s5": "museli poprvé po letech požádat o pomoc",
+        "s6": "lidé, kterým nejvíce věřili, o nich začali pochybovat",
+        "s7": "zjistili, že jsou schopni něčeho, co nečekali",
+        "s8": "museli říct pravdu, nebo všechno ztratit",
+        "s9": "neměli jinou možnost, než se vrátit na úplný začátek",
+        "s10": "znepřátelili někoho, kdo býval přítelem",
+        "s11": "nejjednodušší řešení vyžadovalo největší oběti",
+        "s12": "vzdali se něčeho, co milovali, aby chránili něco důležitějšího",
+        "s13": "zjistili, kdo jsou jejich skuteční spojenci a kdo ne",
+        "s14": "jejich plán fungoval perfektně a ještě zhoršil věci"
+      },
+      "until_finally": {
+        "s0": "stáli tváří v tvář jediné věci, které se vždy báli",
+        "s1": "museli si vybrat mezi dvěma věcmi, které milovali stejně",
+        "s2": "pravda vyšla najevo přede všemi",
+        "s3": "udělali jedinou věc, kterou slíbili, že nikdy neudělají",
+        "s4": "všechny lži se zhroutily přesně ve stejnou chvíli",
+        "s5": "řekli věc, která nemohla být nevyřčena",
+        "s6": "tajemství, které drželo všechno pohromadě, bylo konečně odhaleno",
+        "s7": "osoba, kterou všichni podceňovali, se ukázala jako klíčová",
+        "s8": "vše se sblížilo v jednom nemožném okamžiku",
+        "s9": "dorazili příliš pozdě nebo přesně včas, podle toho, koho se ptáte",
+        "s10": "si museli vybrat: pravdu nebo osobu, kterou nejvíc milovali",
+        "s11": "v největší chvíli si vybrali tu nejmenší, nejčestnější věc",
+        "s12": "přestali předstírat a poprvé jen žili",
+        "s13": "stali se přesně tím, kým se vždy obávali, že by se mohli stát",
+        "s14": "všechna vlákna se propojila a celý příběh konečně dával smysl"
+      },
+      "ever_since": {
+        "s0": "konečně začali opravdu poslouchat",
+        "s1": "si dopis nechali a nikdy neodepsali",
+        "s2": "věci byly těžší, ale upřímnější",
+        "s3": "přestali zkoušet opravit to, co nebylo jejich",
+        "s4": "smáli se věcem, které je dříve děsily",
+        "s5": "nic se nevrátilo do normálu a ukázalo se, že je to v pořádku",
+        "s6": "zachovali jeden malý zvyk jako důkaz, že se to všechno stalo",
+        "s7": "konečně nechali někoho, aby jim pomohl",
+        "s8": "pokaždé vyprávěli příběh jinak, ale vždy ho vyprávěli",
+        "s9": "nedostali, co chtěli, a byli vděční",
+        "s10": "pochopili, že některé dveře se po otevření nezavírají",
+        "s11": "se stále báli, ale méně často",
+        "s12": "stali se typem člověka, kterého by jejich mladší já potřebovalo",
+        "s13": "chyba se stala věcí, na kterou byli nejvíce hrdí",
+        "s14": "pokaždé, když pršelo, mysleli na ten den"
+      }
+    }
+  },
+  "jam": {
+    "title": "Panel moderátora jamu",
+    "subtitle": "Sestavte program vystoupení a uvádějte hry na scéně",
+    "addPlaceholder": "Přidat hru...",
+    "add": "Přidat",
+    "quickAdd": "Rychlé přidání",
+    "emptyQueue": "Vaše fronta je prázdná. Chcete-li začít, přidejte hry.",
+    "startShow": "Spustit vystoupení",
+    "exitShow": "Konec",
+    "prev": "Zpět",
+    "next": "Další",
+    "tapToAdvance": "použijte k navigaci tlačítka",
+    "done": "A máme hotovo!",
+    "backToQueue": "Zpět do fronty",
+    "ask": "Požádejte o",
+    "players": "hráčů",
+    "suggest": {
+      "word": "slovo",
+      "story": "osobní příběh",
+      "theme": "téma",
+      "scene": "výchozí situaci scény",
+      "character": "typ postavy",
+      "genre": "filmový žánr",
+      "location": "místo",
+      "event": "událost",
+      "emotion": "emoce",
+      "relationship": "vztah"
+    }
+  },
+  "principles": {
+    "title": "Principy improvizace",
+    "subtitle": "Základní principy improvizace na kartách",
+    "allCategories": "Vše",
+    "exampleLabel": "Příklad",
+    "prev": "← Předchozí",
+    "next": "Další →",
+    "categories": {
+      "foundation": "Základy",
+      "character": "Postava",
+      "status": "Status",
+      "editing": "Střih",
+      "ensemble": "Soubor",
+      "stagecraft": "Jevištní řemeslo"
+    },
+    "items": {
+      "yes_and": {
+        "name": "Ano, a",
+        "text": "Přijměte nabídku spoluhráče a rozvíjejte ji. Nepopírejte ani neblokujte nic, co už ve scéně vzniklo. Scéna roste ze vzájemné shody.",
+        "example": "Pokud váš partner řekne „Pěkný pes!“, neříkejte „Nemám psa“, řekněte „Ano, od té nehody se chová divně.“"
+      },
+      "make_partner_look_good": {
+        "name": "Nechte svého partnera vypadat dobře",
+        "text": "Vaším jediným úkolem je nechat spoluhráče zazářit. Když to dělají oba, roste celá scéna. Ego scény ničí, velkorysost je buduje."
+      },
+      "listen": {
+        "name": "Poslouchejte aktivně",
+        "text": "Naslouchejte celým tělem, ne jen ušima. Většina chyb v improvizaci vzniká, když hráč skutečně nepřijme to, co mu spoluhráč právě nabídl.",
+        "example": "Neplánujte svou další větu, zatímco váš partner mluví, nechte jeho slova jako první."
+      },
+      "trust": {
+        "name": "Důvěřujte svému partnerovi",
+        "text": "Předpokládejte, že volby spoluhráče jsou záměrné a skvělé. Hrajte s důvěrou, ne s potřebou řídit. Jakmile se pokusíte scénu ovládnout, přestanete naslouchat."
+      },
+      "commit": {
+        "name": "Jděte do toho naplno",
+        "text": "Polovičatá rozhodnutí scény zabíjejí. Ať zvolíte cokoli, jděte do toho naplno. Špatný nápad zahraný s přesvědčením je lepší než dobrý nápad provedený bázlivě.",
+        "example": "Pokud hrajete doktora, který se bojí krve, buďte VYDĚLENÝ, ne mírně nepříjemný."
+      },
+      "dont_try_funny": {
+        "name": "Nesnažte se být vtipní",
+        "text": "Humor vyrůstá z pravdivosti a plného nasazení, ne z honby za vtipy. Když se snažíte získat smích, ztratíte scénu. Hrajte poctivě a komedie přijde sama."
+      },
+      "be_present": {
+        "name": "Buďte přítomni",
+        "text": "Pusťte to, co se právě stalo, a neplánujte další krok. Scéna existuje jen v přítomném okamžiku a nejlepší nabídky vznikají z plné pozornosti."
+      },
+      "mistakes_gifts": {
+        "name": "Chyby jsou dary",
+        "text": "Když se něco nepovede, hrajte, jako by to byl záměr. V improvizaci nejsou chyby, jen nečekané nabídky, které čekají na přijetí.",
+        "example": "Zapomněli jste jméno postavy uprostřed scény? Vaší postavě právě vypadla paměť, hrajte ji."
+      },
+      "be_obvious": {
+        "name": "Jděte po zřejmém",
+        "text": "První instinkt bývá správný. Nesnažte se vše promyslet ani být za každou cenu chytří. Nejzřejmější volba je často nejupřímnější a nejbližší publiku.",
+        "example": "Scéna se odehrává v nemocnici, hrajte lékaře nebo pacienta, ne tajně mimozemského domovníka."
+      },
+      "support_team": {
+        "name": "Podpořte svůj tým",
+        "text": "Souhra je důležitější než ego. Rozhodujte se ve prospěch společného příběhu, ne vlastního okamžiku ve světle reflektorů. Nejlepší hráči bývají ti, kterých si téměř nevšimnete."
+      },
+      "point_of_view": {
+        "name": "Úhel pohledu",
+        "text": "Každá postava má vlastní postoj ke světu. Zvolte jasný úhel pohledu a nechte ho zabarvit všechno, co postava říká a dělá.",
+        "example": "Postava, která věří, že „nikomu nelze věřit“, bude každou laskavost interpretovat jako manipulaci."
+      },
+      "pursue_want": {
+        "name": "Jděte za touhou",
+        "text": "Postava musí v každé scéně něco chtít. Bez touhy není scéna, jen zdvořilé povídání. Nechte touhu pohánět dění.",
+        "example": "I všední scéna o kávě se stane zajímavou, pokud ji jedna postava zoufale potřebuje a druhá stále zdržuje."
+      },
+      "react_specifically": {
+        "name": "Reagujte konkrétně",
+        "text": "Neurčité reakce scény zabíjejí. Odpovídejte konkrétní emocí, myšlenkou nebo činností. Obecná reakce prozrazuje, že ve skutečnosti neposloucháte.",
+        "example": "Ne \"Páni, to je překvapivé\", ale \"Nemůžu uvěřit, že jsi použil dobré nůžky na karton.\""
+      },
+      "use_body": {
+        "name": "Používejte své tělo",
+        "text": "Postava vzniká v těle dřív než ve slovech. Pohyb publiku ukáže, kdo jste, ještě před první replikou. Nezanedbávejte svůj hlavní nástroj."
+      },
+      "status_everything": {
+        "name": "Status je ve všem",
+        "text": "Každý vztah má dynamiku statusu. V každém okamžiku vězte, jaké postavení máte vůči partnerovi, a nechte to ovlivnit každou svou volbu."
+      },
+      "play_emotions": {
+        "name": "Hrajte skutečné emoce",
+        "text": "Emoce nenaznačujte, ale prožívejte. Skutečná emoce v těle vytváří pravdivé divadlo, které stojí za sledování. Pouze předváděná emoce působí prázdně."
+      },
+      "relationships_define": {
+        "name": "Vztahy definují postavy",
+        "text": "To, kým jsme, určují naše vztahy. Ujasněte vztah mezi postavami co nejdříve a nechte ho pohánět scénu.",
+        "example": "Dva cizí lidé nemají žádnou historii. Dva odcizení sourozenci mají nekonečnou historii. Moje to."
+      },
+      "status_relative": {
+        "name": "Status je relativní",
+        "text": "Vysoký status nemůže existovat bez nízkého. Status vzniká jen ve vztahu k ostatním a během scény se neustále proměňuje."
+      },
+      "status_shifts": {
+        "name": "Proměny statusu",
+        "text": "Status není pevný. Všímejte si okamžiků, kdy se přesune z jedné postavy na druhou; často jde o nejdramatičtější a nejuspokojivější chvíle improvizace.",
+        "example": "Student opravuje profesora. Dítě odmítá poslušnost. Zahradník zná tajemství, které král ne."
+      },
+      "low_status_fun": {
+        "name": "Nízký status je zábavný",
+        "text": "Hrát nízký status bývá zajímavější než hrát vysoký. Smolař, nešika či podřízená postava dokážou s publikem navázat hluboké spojení."
+      },
+      "status_in_body": {
+        "name": "Status sídlí v těle",
+        "text": "Vysoký status: nehybnost, zabírání prostoru, přímý oční kontakt. Nízký status: neklid, uhýbání pohledem, stažení do sebe. Tělo sděluje status dřív než slova."
+      },
+      "edit_at_height": {
+        "name": "Stříhejte na vrcholu",
+        "text": "Ukončete scénu na vrcholu, ne až ve chvíli, kdy umírá. Nechte publikum chtít víc. Jednou z nejtěžších improvizačních dovedností je poznat, kdy skončit.",
+        "example": "Když právě zazněla nejlepší pointa nebo přišel nejsilnější emoční okamžik, je čas scénu střihnout."
+      },
+      "sweep_momentum": {
+        "name": "Přeneste energii střihem",
+        "text": "Sweep přenáší energii právě končící scény do následující. Konec ovlivňuje začátek. Nechte emoci projít přes střih."
+      },
+      "callbacks_reward": {
+        "name": "Callbacky odměňují pozornost",
+        "text": "Návrat k dřívějšímu okamžiku odmění pozorné publikum a vytvoří uspokojivou strukturu. Callback říká: celou dobu jsme něco budovali.",
+        "example": "Muffin z první scény se stane vražednou zbraní ve scéně tři."
+      },
+      "end_scenes": {
+        "name": "Vědět, kdy skončit",
+        "text": "Scéna, která trvá déle, než má, oslabuje celé představení. Stříhejte rozhodně. Lepší je skončit o okamžik dřív než o minutu později."
+      },
+      "dont_over_edit": {
+        "name": "Neupravujte příliš",
+        "text": "Příliš časté střihy narušují plynulost a unavují publikum. Dejte scénám prostor dýchat a rozvinout se. Pomalu budovaná scéna bez střihu může být nejsilnější z celého představení."
+      },
+      "follow_follower": {
+        "name": "Sledujte následovníka",
+        "text": "Vedení v souboru je sdílené a proměnlivé. Následujte toho, kdo právě vede, a převezměte iniciativu, když vás skupina potřebuje. Harolda neřídí jediný člověk.",
+        "example": "Pokud se někdo začne pohybovat pomalu, celý soubor se zpomalí. Pokud někdo začne zpívat, ostatní se přidají."
+      },
+      "give_take": {
+        "name": "Dávat a brát",
+        "text": "Poznejte, kdy vystoupit vpřed a kdy ustoupit. Vyvážená souhra působí lehce. Když se tlačíte dopředu ve chvíli, kdy máte ustoupit, vzniká na scéně zácpa."
+      },
+      "group_mind": {
+        "name": "Skupinová mysl",
+        "text": "Dobře sehraný soubor funguje jako jediná tvořivá bytost. Nejlepší skupiny myslí společně beze slov. Důvěřujte sdílenému instinktu."
+      },
+      "take_care": {
+        "name": "Postarejte se jeden o druhého",
+        "text": "Pečujte o spoluhráče na jevišti i mimo ně. Soubor založený na opravdové důvěře podstupuje větší rizika a rychleji se zotavuje z chyb."
+      },
+      "agree_loud": {
+        "name": "Přijímejte nahlas",
+        "text": "Přijetí nabídky vyjádřete tělem i hlasem. Partner potřebuje poznat, že jste jeho nabídku zachytili. Mlčení může působit jako odmítnutí.",
+        "example": "Ozvěte slovo, zrcadlete pohyb nebo jednoduše řekněte „Ano“. Zviditelněte své přijetí."
+      },
+      "support_initiations": {
+        "name": "Podpořte silné začátky",
+        "text": "Když někdo přijde s odvážnou nabídkou, okamžitě ji podpořte. Úkolem souboru je nechat iniciátora zazářit, ne s ním soutěžit."
+      },
+      "use_whole_stage": {
+        "name": "Využijte celé jeviště",
+        "text": "Nehromaděte se uprostřed. Využívejte hloubku, rohy i různé výšky. Obraz na jevišti je stejně důležitý jako dialog. I prázdný prostor je volba."
+      },
+      "share_scene": {
+        "name": "Sdílejte scénu",
+        "text": "Rozdělujte pozornost vyváženě. Nezastiňujte spoluhráče ani se neschovávejte v pozadí. Oba účinkující mají zůstat viditelní a ve spojení."
+      },
+      "second_beats": {
+        "name": "Druhé beaty jdou hlouběji",
+        "text": "Druhá scéna stejných postav má jít hlouběji než první. Odolejte pokušení začít znovu a pokračujte ve zkoumání jejich vztahu.",
+        "example": "Sourozenci se pohádali v prvním kole. Ve druhém kole zjišťujeme, o co v hádce skutečně šlo."
+      },
+      "silence_funny": {
+        "name": "Ticho je legrační",
+        "text": "Nespěchejte vyplnit ticho slovy. Dlouhá pauza po skvělé replice nechá smích doznít a často vyvolá víc smíchu než další věta."
+      },
+      "simple_agreements": {
+        "name": "Jednoduché dohody budují světy",
+        "text": "Když se dva hráči shodnou na drobných konkrétních detailech, vytvoří bohatší svět než dlouhým vysvětlováním. „Tahle kuchyně voní česnekem“ vydá za tři odstavce.",
+        "example": "\"Je tady zima.\" / 'Vždy je tu zima.', dvě linie, které tvoří celou společnou historii."
+      },
+      "strong_offers": {
+        "name": "Dělejte silné nabídky",
+        "text": "Dejte spoluhráči něco konkrétního, na co může reagovat. Neurčité nabídky na něj přesouvají veškerou tvořivou práci. Konkrétnost je velkorysost.",
+        "example": "Ne 'Něco pro tebe mám', ale 'Nechal jsem si dopis, který jsi napsal, a nikdy jsem ho neposlal.'"
+      },
+      "label_relationship": {
+        "name": "Pojmenujte vztah včas",
+        "text": "Během prvních třiceti sekund dejte publiku vědět, kým si postavy navzájem jsou. Jasně pojmenovaný vztah okamžitě odemkne celou scénu.",
+        "example": "„Nemůžu uvěřit, že jsi zavolala mámě“ je jediná replika, která určí sourozenecký vztah, rodinný konflikt i nepřítomnou třetí postavu."
+      },
+      "justify": {
+        "name": "Vše zdůvodněte",
+        "text": "Ať se na jevišti stane cokoli, najděte důvod, proč je to v tomto světě pravda. Nečekané nepopírejte; zdůvodněte je a pokračujte. Smysl může dávat všechno."
+      },
+      "heighten_explore": {
+        "name": "Zkoumejte a stupňujte",
+        "text": "Najděte ve scéně neobvyklý prvek a zesilujte ho. Určete, co je zvláštní, a postupně přidávejte. Nejdřív prozkoumejte, potom stupňujte.",
+        "example": "Postava sebou trhne pokaždé, když někdo řekne slovo 'úterý', prozkoumejte proč a pak to zesilte."
+      },
+      "find_game": {
+        "name": "Najděte hru",
+        "text": "Každá scéna má svou hru: neobvyklé chování nebo dynamiku, kterou chce publikum vidět rozvinutou. Jakmile ji pro sebe rozpoznáte a pojmenujete, celá scéna se otevře."
+      }
+    }
+  },
+  "monologue": {
+    "title": "Náměty k monologu",
+    "subtitle": "Klepnutím vylosujte podnět k osobnímu monologu",
+    "allCategories": "Vše",
+    "prompt": "Vyprávějte o chvíli, kdy…",
+    "prev": "← Předchozí",
+    "next": "Další →",
+    "categories": {
+      "embarrassment": "Rozpaky",
+      "surprise": "Překvapení",
+      "pride": "Hrdost",
+      "fear": "Strach",
+      "childhood": "Dětství",
+      "work": "Práce",
+      "relationships": "Vztahy"
+    },
+    "items": {
+      "e1": "jste v nejhorší možnou chvíli řekli přesně to, co jste neměli",
+      "e2": "jste se pokusili na někoho zapůsobit a celé se to velkolepě obrátilo proti vám",
+      "e3": "jste se smáli tak, až se stalo něco trapného",
+      "e4": "jste s naprostou jistotou vešli do špatné místnosti",
+      "e5": "jste si mysleli, že na vás někdo mává, ale mával na někoho jiného",
+      "e6": "si všichni vzpomněli na něco, co jste si zoufale přáli nechat zapomenuté",
+      "e7": "jste dali radu, která se ukázala jako úplně chybná",
+      "e8": "vás někdo přistihl při něčem, co jste rozhodně dělat neměli",
+      "e9": "se váš plán vypadat skvěle rozpadal přímo před lidmi, před kterými se to hodilo nejméně",
+      "s1": "se něco nečekaného ukázalo být přesně tím, co jste potřebovali",
+      "s2": "úplně cizí člověk udělal něco, co změnilo váš den",
+      "s3": "jste objevili talent, o kterém jste nevěděli, že ho máte",
+      "s4": "se plán zvrtnul, ale výsledek byl lepší než původní záměr",
+      "s5": "vás naprosto překvapil někdo, koho jste podcenili",
+      "s6": "jste dostali zprávu a nevěděli, zda slavit, nebo plakat",
+      "s7": "vám život nadělil něco, co jste si rozhodně neobjednali",
+      "s8": "se realita ukázala podivnější než všechno, co jste si dokázali představit",
+      "p1": "jste dokázali něco, o čem jste si mysleli, že toho nejste schopni",
+      "p2": "jste někomu pomohli a opravdu to něco změnilo",
+      "p3": "jste se za sebe postavili, přestože by bylo snazší to neudělat",
+      "p4": "jste dokončili něco, co se na začátku zdálo nemožné",
+      "p5": "vám někdo řekl, že je na vás hrdý",
+      "p6": "jste učinili rozhodnutí, které by vaše mladší já obdivovalo",
+      "f1": "jste měli obrovský strach, ale přesto jste to udělali",
+      "f2": "téměř obyčejný den vykolejil naprosto iracionální strach",
+      "f3": "jste museli něco udělat před lidmi a vaše tělo vás zradilo",
+      "f4": "jste ze strachu zůstali v nějaké situaci déle, než bylo rozumné",
+      "f5": "se ukázalo, že věc, které jste se báli, je úplně neškodná",
+      "f6": "jste si uvědomili, že jste se celou dobu báli něčeho jiného",
+      "c1": "jste trapně dlouho věřili něčemu naprosto nepravdivému",
+      "c2": "vám pravidlo, které jste museli dodržovat, vůbec nedávalo smysl",
+      "c3": "jste se dostali do potíží kvůli něčemu, co vám tehdy připadalo naprosto oprávněné",
+      "c4": "některý dospělý řekl něco, co ve vás zůstalo celé roky",
+      "c5": "jste měli rituál, který vám připadal smrtelně vážný, ale zpětně působí směšně",
+      "c6": "jste něco chtěli víc než cokoli jiného na světě",
+      "c7": "jste si našli nejlepšího přítele za těch nejpodivnějších okolností",
+      "c8": "jste zjistili, že dospělí ve skutečnosti také nevědí, co dělají",
+      "c9": "se zdálo, že léto nikdy neskončí",
+      "c10": "jste měli skrýš, která patřila jen vám",
+      "w1": "projekt vůbec nešel podle plánu a vy jste museli improvizovat",
+      "w2": "jste museli pracovat s někým, kdo vás doháněl k šílenství",
+      "w3": "jste vůbec nevěděli, co děláte, a museli jste to předstírat",
+      "w4": "měla drobná chyba mnohem větší následky, než by měla mít",
+      "w5": "jste museli vysvětlit něco složitého člověku, který tomu nechtěl rozumět",
+      "w6": "udělal kolega něco nečekaného a zlepšil vám tím celý týden",
+      "w7": "jste v práci něčeho dosáhli a nikdo si toho nevšiml",
+      "w8": "jste museli oznámit špatnou zprávu a neexistoval dobrý způsob, jak to udělat",
+      "r1": "jste jako první řekli „miluji tě“ a nevěděli, jak to druhý přijme",
+      "r2": "skončilo přátelství a vy dodnes úplně nechápete proč",
+      "r3": "jste si uvědomili, že jste někoho naprosto špatně odhadli",
+      "r4": "jste se museli omluvit za něco, co skutečně byla vaše chyba",
+      "r5": "vás člen rodiny překvapil způsobem, který jste vůbec nečekali",
+      "r6": "jste se zlobili na někoho mnohem déle, než dávalo smysl",
+      "r7": "jste zvolili špatný okamžik pro upřímnost",
+      "r8": "vás někdo potřeboval víc, než jste si uvědomovali",
+      "r9": "jste museli někoho nechat odejít, i když jste nechtěli",
+      "r10": "drobná hádka odhalila mnohem větší problém ukrytý pod povrchem",
+      "r11": "se k vám zachoval laskavě někdo, od koho jste čekali spíš překážky",
+      "e10": "Vyprávějte o okamžiku, kdy se všichni dívali a vy jste předstírali, že vše probíhá podle plánu.",
+      "e11": "Vyprávějte o společenském přešlapu, který jste pochopili až o několik hodin později.",
+      "e12": "Vyprávějte o chvíli, kdy jste se snažili znít profesionálně a dosáhli pravého opaku.",
+      "s9": "Vyprávějte o zprávě, která proměnila obyčejný den v dobrodružství.",
+      "s10": "Vyprávějte o dárku, který se ukázal být něčím úplně jiným.",
+      "s11": "Vyprávějte o někom, kdo dorazil v tu nejméně očekávanou chvíli.",
+      "p7": "Vyprávějte o drobnosti, na kterou jste byli absurdně hrdí.",
+      "p8": "Vyprávějte o chvíli, kdy si někdo konečně všiml vaší práce.",
+      "p9": "Vyprávějte o vítězství, které zvenčí vypadalo směšně.",
+      "f7": "Vyprávějte o místě, které působilo bezpečně, dokud v něm nezavládlo ticho.",
+      "f8": "Vyprávějte o strachu, který jste nechtěli nikomu přiznat.",
+      "f9": "Vyprávějte o chvíli, kdy byla představivost horší než skutečnost.",
+      "c11": "Vyprávějte o domácím pravidle, kterému nikdo jiný nerozuměl.",
+      "c12": "Vyprávějte o dětském slibu, který jste dodržovali příliš dlouho.",
+      "c13": "Vyprávějte o chvíli, kdy jste se poprvé cítili dospělí.",
+      "w9": "Vyprávějte o práci, která vyžadovala víc předstírání než dovedností.",
+      "w10": "Vyprávějte o nadřízeném s podivnou posedlostí.",
+      "w11": "Vyprávějte o dni, kdy všichni v práci něco věděli, jen vy ne.",
+      "r12": "Vyprávějte o přátelství, které začalo nedorozuměním.",
+      "r13": "Vyprávějte o rozhovoru, kterému jste se příliš dlouho vyhýbali.",
+      "r14": "Vyprávějte o někom, kdo zná vaše dřívější já."
+    }
+  },
+  "genres": {
+    "title": "Karty žánrového stylu",
+    "subtitle": "Tipy pro hraní jakéhokoli žánru na pódiu",
+    "tips": "Stylové tipy",
+    "horror": {
+      "name": "Hrůza",
+      "tip1": "Pohybujte se pomalu a rozvážně, nikdy nespěchejte. Děs je postaven v pauzách, ne v rychlosti.",
+      "tip2": "Reagujte na zvuk a stín před skutečnou hrozbou. Strach je očekávání.",
+      "tip3": "Mluvte v krátkých, zkrácených větách. Vaše postava zpracovává svět ve fragmentech.",
+      "tip4": "Najděte jednu konkrétní věc, které se budete bát, a neustále se jí děste.",
+      "tip5": "Vyhněte se mrkání na publikum, nechte absurditu přirozeně vyvstat z plného nasazení."
+    },
+    "western": {
+      "name": "Western",
+      "tip1": "Široký postoj, pomalé tažení, rozvážný pohyb. Nikdo na westernu nikam nespěchá (dokud nespěchá).",
+      "tip2": "Respekt se získává, není dán. Status se ustavuje akcí a pověstí, nikoli slovy.",
+      "tip3": "Krajina je vždy postava, odkazujte na ni, trpte v ní, čerpejte z ní sílu.",
+      "tip4": "Morální kodexy jsou na povrchu černobílé a zespodu složité.",
+      "tip5": "Ticho mluví hlasitěji než dialog. Nejlepší westernové momenty žijí v pauze před losováním."
+    },
+    "film_noir": {
+      "name": "Film Noir",
+      "tip1": "Vaše postava je neustále sledována a ví to. Paranoia žije pod každou interakcí.",
+      "tip2": "Vyprávějte si v hlavě, i když to neříkáte nahlas. Vše má podtext.",
+      "tip3": "Nikdo není čistě dobrý nebo špatný, morální šedé oblasti jsou domovským územím žánru.",
+      "tip4": "Popište prostředí: stíny, světlo lamp, deštěm nasáklé ulice, zakouřené místnosti.",
+      "tip5": "Minulost vždy dožene. Každá postava má svůj příběh, který ji chce zničit."
+    },
+    "musical": {
+      "name": "Muzikál",
+      "tip1": "Emoce pohání impuls ke zpěvu. Když je cit příliš velký na řeč, je to vodítko k písni.",
+      "tip2": "Věnujte se melodii a rytmu, i když jsou nedokonalé, sebevědomí prodává hudební číslo.",
+      "tip3": "Každá píseň má jasné přání, co se vaše postava právě teď snaží vyjádřit nebo dosáhnout?",
+      "tip4": "Navažte oční kontakt s partnery scény a publikem během čísel, je to společný zážitek.",
+      "tip5": "Svět je zvýšený, ale vnitřně konzistentní, láska, ztráta, radost a touha jsou vždy skutečné."
+    },
+    "documentary": {
+      "name": "Dokumentární",
+      "tip1": "Každá postava má tezi, přesvědčení o sobě nebo o světě, který dokument zachycuje.",
+      "tip2": "Dívejte se přímo do kamery (nebo publika) během segmentů rozhovoru, záměrně to prolomí čtvrtou stěnu.",
+      "tip3": "Odporujte si. Řekněte jednu věc a udělejte druhou. Dokument vás zachytí, jak jste sami sebou.",
+      "tip4": "Žargon a odborné znalosti signalizují autenticitu, buďte expertem na něco hluboce specifického.",
+      "tip5": "Scény typu fly-on-the-wall by měly působit neskriptově, chaoticky a živé, opak vyleštěných."
+    },
+    "sci_fi": {
+      "name": "Sci-Fi",
+      "tip1": "Normální věci jsou zde mimořádné, reagujte na technologie s věcným přijetím. Divné je to jen divákům.",
+      "tip2": "Každá postava má vztah k moci: korporátní, vládní nebo technologický.",
+      "tip3": "Etická otázka vždy číhá: měli jsme to postavit my? co to stojí?",
+      "tip4": "Fyzika se posouvá, gravitace se může lišit, těla mohou fungovat jinak, čas se může zdát zvláštní.",
+      "tip5": "Najděte lidský příběh uvnitř spekulativní premisy. Sci-fi je vždy o nás, právě teď."
+    },
+    "romance": {
+      "name": "Romantika",
+      "tip1": "Překážky vytvářejí touhu. Čím těžší je být spolu, tím víc to diváci chtějí.",
+      "tip2": "Podtext je všechno, na tom, co postavy neříkají, záleží stejně jako na tom, co dělají.",
+      "tip3": "Specifičnost je romantická, ne 'Mám tě rád', ale 'Líbí se mi, jak děláš tu konkrétní věc.'",
+      "tip4": "Tělo vede pocity. Fyzické povědomí mezi postavami by mělo být hmatatelné.",
+      "tip5": "Získejte řešení, navažte konflikt včas, nechte spojení budovat pomalu, nespěchejte s výplatou."
+    },
+    "action": {
+      "name": "Akce",
+      "tip1": "Sázky musí být život nebo smrt (nebo se tak cítit). Všechno je naléhavé, na všem záleží.",
+      "tip2": "Pohybujte se účelně, žádné meandrování. Každá fyzická volba by měla vypadat jako rozhodnutí.",
+      "tip3": "Chytré kousky přicházejí po nebezpečí, ne během. Načasování je všechno.",
+      "tip4": "Vztahy vznikají v krizi, partner, kterému důvěřujete ve svém životě, je ten, se kterým se neustále hádáte.",
+      "tip5": "Nechte následky dýchat. Po velké chvíli adrenalinová kapka vypráví skutečný příběh."
+    }
+  },
+  "deconstruction": {
+    "title": "Dekonstrukce",
+    "subtitle": "Sledujte představení a zachyťte vše důležité",
+    "suggestion": "Námět od publika",
+    "suggestionPlaceholder": "Slovo nebo téma, které to odstartovalo...",
+    "reset": "Resetovat",
+    "done": "A máme hotovo! Skvělá Dekonstrukce!",
+    "characters": {
+      "label": "Postavy úvodní scény",
+      "placeholder": "Postava {{number}}",
+      "hint": "Pojmenujte dva protagonisty, objeví se ve vašich poznámkách jako tlačítka pro rychlé přidání"
+    },
+    "setup": {
+      "noteTypes": "Co zachytíte",
+      "startShow": "Spustit představení",
+      "resume": "Pokračovat v představení",
+      "newSession": "Nové představení",
+      "configure": "Nastavit"
+    },
+    "sessions": {
+      "title": "Vaše představení",
+      "untitled": "Představení bez názvu",
+      "noteCount": "{{count}} poznámek",
+      "open": "Otevřít představení",
+      "delete": "Smazat",
+      "deleteConfirm": "Smazat tuto relaci a všechny její poznámky?"
+    },
+    "show": {
+      "markDone": "Označit hotovo",
+      "done": "Hotovo"
+    },
+    "stepper": {
+      "prev": "Zpět",
+      "next": "Další"
+    },
+    "groups": {
+      "1": "Úvodní scéna",
+      "2": "Tematické scény",
+      "3": "Návrat k otevření",
+      "4": "Scény s komentářem",
+      "5": "Běh",
+      "6": "Finále"
+    },
+    "phases": {
+      "opening": "Úvodní scéna · 6–8 min",
+      "thematic1": "Tematická scéna A · 2–3 min",
+      "thematic2": "Tematická scéna B · 2–3 min",
+      "return1": "Návrat k otevření · 1,5–2 min",
+      "commentary1": "Komentář 1 · 1,5–2 min",
+      "commentary2": "Komentář 2 · 1,5–2 min",
+      "commentary3": "Komentář 3 · 1,5–2 min",
+      "commentary4": "Komentář 4 · 1,5–2 min",
+      "commentary5": "Komentář 5 · 1,5–2 min",
+      "theRun": "The Run · zrychlení",
+      "finale": "Finále · 1,5–2 min"
+    },
+    "tips": {
+      "opening": "Dva hráči, jeden bohatý vztah. Představte problém, ale neřešte ho; tato scéna je surovinou, ze které bude čerpat celé představení.",
+      "thematic": "Zcela nové postavy a nový svět. Ptejte se: O čem úvod ve skutečnosti byl? Prozkoumejte toto téma z čerstvého úhlu.",
+      "return1": "Úvodní dvojice se vrací. Zaostřete téma. Na konci návratu by publikum mělo cítit, co představení skutečně zkoumá.",
+      "commentary": "Vystupňované scény s výraznou hrou komentují to, co úvodní postavy řekly či udělaly. Postavte střízlivou postavu proti absurdní a pokaždé zajděte dál.",
+      "theRun": "Kaskáda stále kratších scén. Vracejte dřívější motivy, odbočky a cokoli, co už zažehlo jiskru. Zrychlujte až k závratnému tempu.",
+      "finale": "Postavy z úvodu se naposledy vracejí. Vyřešte, přerámujte nebo proměňte původní problém a spleťte jednotlivé nitky do uspokojivého závěru."
+    },
+    "noteCategories": {
+      "character": "Libovolná postava",
+      "scene": "Scéna",
+      "theme": "Téma",
+      "callback": "Callback",
+      "gamemove": "Herní tah",
+      "misc": "Různé"
+    },
+    "notes": {
+      "placeholder": "Co se stalo? Co vyniklo?",
+      "add": "Přidat",
+      "general": "Obecné poznámky",
+      "generalHint": "Postřehy, které nepatří do konkrétní fáze: celková témata, rozsáhlejší callbacky a reflexe po představení.",
+      "empty": "Zatím tu nic není. Zapište si svou první myšlenku!",
+      "clearAll": "Vymazat všechny poznámky a postavy",
+      "clearConfirm": "Toto trvale smaže každou poznámku a jméno postavy.",
+      "confirmYes": "Smazat vše",
+      "confirmNo": "Ponechat"
+    },
+    "summary": {
+      "title": "Poznámky k představení",
+      "open": "Shrnutí",
+      "close": "Zavřít",
+      "empty": "Dosud nebyly zaznamenány žádné poznámky."
+    }
+  },
+  "harold": {
+    "title": "Průvodce Haroldem",
+    "subtitle": "Procházejte strukturou svého Harolda",
+    "suggestion": "Námět od publika",
+    "suggestionPlaceholder": "např. zubař, maturitní ples...",
+    "reset": "Resetovat",
+    "opening": "Úvod",
+    "round": "Kolo",
+    "scene": "Scéna",
+    "groupGame": "Skupinová hra",
+    "progress": "Průběh",
+    "done": "Představení je u konce! Skvělý Harold!"
+  },
+  "emotion": {
+    "title": "Kolo emocí",
+    "subtitle": "Vylosujte postavě konkrétní emoci",
+    "allFamilies": "Vše",
+    "spin": "Losovat",
+    "available": "emoce k dispozici",
+    "families": {
+      "joy": "Radost",
+      "sadness": "Smutek",
+      "anger": "Vztek",
+      "fear": "Strach",
+      "surprise": "Překvapení",
+      "disgust": "Hnus"
+    },
+    "items": {
+      "j1": "Rozpačitá hrdost",
+      "j2": "Neklidná netrpělivost",
+      "j3": "Hořká nostalgie",
+      "j4": "Opojná úleva",
+      "j5": "Tichá spokojenost",
+      "j6": "Samolibá spokojenost",
+      "j7": "Obrovská vděčnost",
+      "j8": "Dětský úžas",
+      "j9": "Nervózní vzrušení",
+      "j10": "Hřejivá něha",
+      "s1": "Vnitřní prázdnota",
+      "s2": "Tichá rezignace",
+      "s3": "Provinilá lítost",
+      "s4": "Bezmocná touha",
+      "s5": "Hořké zklamání",
+      "s6": "Zdráhavý zármutek",
+      "s7": "Bolestivý stesk po domově",
+      "s8": "Otupené vyčerpání",
+      "a1": "Chladné pohrdání",
+      "a2": "Spravedlivé rozhořčení",
+      "a3": "Malicherná žárlivost",
+      "a4": "Doutnající zášť",
+      "a5": "Zraněná pýcha",
+      "a6": "Podrážděná netrpělivost",
+      "a7": "Urputná potřeba chránit",
+      "a8": "Vzdorná tvrdohlavost",
+      "f1": "Plíživý děs",
+      "f2": "Bezhlavá panika",
+      "f3": "Nervózní očekávání",
+      "f4": "Opatrné podezření",
+      "f5": "Paralyzující pochybnosti o sobě",
+      "f6": "Sociální úzkost",
+      "f7": "Pověrčivá nejistota",
+      "u1": "Radostná nedůvěra",
+      "u2": "Ohromený zmatek",
+      "u3": "Nedůvěřivý úžas",
+      "u4": "Zmatená zvědavost",
+      "u5": "Příjemné zahlcení",
+      "u6": "Šokované poznání",
+      "u7": "Uctivý úžas",
+      "d1": "Unavený cynismus",
+      "d2": "Zdvořilý odpor",
+      "d3": "Morální pohoršení",
+      "d4": "Úzkostlivý odpor",
+      "d5": "Pohrdavý soucit",
+      "d6": "Znuděné pohrdání",
+      "d7": "Pokrytecké znechucení",
+      "d8": "Samolibé odsuzování",
+      "j11": "Neplechy",
+      "j12": "Úleva",
+      "j13": "Vděčné nadšení",
+      "s9": "Touha",
+      "s10": "Bezmoc",
+      "s11": "Tichá rezignace",
+      "a9": "Zášť",
+      "a10": "Netrpělivost",
+      "a11": "Morální pohoršení",
+      "f8": "Nejistota",
+      "f9": "Podezření",
+      "f10": "Strach z úspěchu",
+      "u8": "Úžas",
+      "u9": "Úžas",
+      "u10": "Náhlé prozření",
+      "d9": "Trapné rozpaky",
+      "d10": "Averze",
+      "d11": "Zklamaná nechuť"
+    }
+  },
+  "constraints": {
+    "title": "Karty omezení scény",
+    "subtitle": "Použijte omezení, abyste se zbavili návyků a našli nové možnosti",
+    "allCategories": "Vše",
+    "prev": "Předchozí",
+    "next": "Další",
+    "categories": {
+      "speech": "Řeč",
+      "physical": "Pohyb",
+      "structural": "Struktura",
+      "relational": "Vztahy"
+    },
+    "items": {
+      "sp1": "Žádné otázky nejsou povoleny",
+      "sp2": "Každá věta musí začínat „Ano, a...“",
+      "sp3": "Mluvte pouze v rýmu",
+      "sp4": "Každý musí šeptat",
+      "sp5": "Nepoužívejte zkrácené tvary; mluvte formálně",
+      "sp6": "Mluvte pouze v otázkách",
+      "sp7": "Každá replika musí začínat jiným písmenem abecedy",
+      "sp8": "Mluvte, jako byste dělali důležité oznámení",
+      "sp9": "Nikdo nesmí opakovat slovo již vyslovené ve scéně",
+      "sp10": "Každý hráč smí přidat vždy jen jedno slovo (celý soubor)",
+      "sp11": "Každá věta musí mít přesně pět slov",
+      "sp12": "Mluvte poloviční rychlostí než normálně",
+      "ph1": "Nikdo se nesmí dotýkat žádných předmětů",
+      "ph2": "Vždy se držte pod výškou pasu",
+      "ph3": "Můžete se pohybovat pouze při mluvení",
+      "ph4": "Vždy udržujte fyzický kontakt se svým scénickým partnerem",
+      "ph5": "Nikdy se nedívejte stejným směrem jako jiný účinkující",
+      "ph6": "Pohybujte se jako pod vodou, vše je pomalé a namáhavé",
+      "ph7": "Jedna ruka musí být vždy v kapse nebo za zády",
+      "ph8": "Můžete se pohybovat pouze v přímých liniích",
+      "ph9": "Po každé replice na tři sekundy ztuhněte",
+      "ph10": "Každý pohyb musí zrcadlit partner ve scéně",
+      "ph11": "Nikdy nenavazujte oční kontakt s jiným účinkujícím",
+      "ph12": "Všechny předměty jsou dvakrát těžší než normálně",
+      "st1": "Scéna musí začít již uprostřed akce",
+      "st2": "Každou scénu ukončete callbackem k úvodní replice",
+      "st3": "Scénu střihněte každých 30 sekund",
+      "st4": "Scéna běží zcela zpomaleně",
+      "st5": "Každá třetí replika musí být nesouvisející",
+      "st6": "Scéna se musí zacyklit: poslední replika se stane první replikou dalšího beatu",
+      "st7": "Čas skáče každé 2 minuty o 5 let dopředu",
+      "st8": "Scéna musí vyprávět stejný příběh ze dvou různých perspektiv",
+      "st9": "Všechny dnešní scény se musí odehrávat na stejném místě",
+      "st10": "Scéna má vypravěče, který může kdykoli zmrazit akci",
+      "re1": "Postavy spolu nikdy nemohou přímo souhlasit",
+      "re2": "Jeden hráč je neviditelný pro všechny ostatní",
+      "re3": "Každá postava tajně miluje postavu po své levici",
+      "re4": "Postavy nikdy nesmí přímo uznat problém",
+      "re5": "Každý vztah vyjádřete pohybem beze slov",
+      "re6": "Každou minutu si postavy vymění vyšší status",
+      "re7": "Všechny postavy předstírají, že je vše v pořádku, ať se děje, co se děje",
+      "re8": "Postavy musí požádat o povolení, než cokoliv udělají",
+      "re9": "Jedna postava je ve spěchu; všichni ostatní jsou naprosto uvolnění",
+      "re10": "Žádná postava nesmí začít větu slovem „já“",
+      "re11": "Každá postava se tajně snaží opustit scénu",
+      "sp13": "Každá replika musí začít slovy „Pamatuji si, že…“",
+      "sp14": "Mluvte pouze v komplimentech",
+      "sp15": "Jeden hráč může odpovídat pouze čísly",
+      "sp16": "Každá třetí replika musí odhalit tajemství",
+      "ph13": "Nikdo nesmí stát na místě déle než dvě sekundy",
+      "ph14": "Každý hráč musí neustále držet pomyslný předmět",
+      "ph15": "Scéna se odehrává bez očního kontaktu",
+      "ph16": "Každý vstup a výstup musí být slavnostní",
+      "st11": "Scéna začíná svým emočním závěrem",
+      "st12": "Po každém smíchu publika skočte vpřed v čase",
+      "st13": "Každý nový detail musí vysvětlovat předchozí detail",
+      "st14": "Poslední replika musí zopakovat první repliku",
+      "re12": "Status se změní pokaždé, když někdo vysloví jméno",
+      "re13": "Jedna osoba musí chránit druhou před pravdou",
+      "re14": "Vztah začíná formálně a postupně se stává osobním",
+      "re15": "Každá dohoda zhoršuje jejich vztah"
+    }
+  },
+  "metronome": {
+    "title": "Metronom BPM",
+    "subtitle": "Rytmus a tempo pro hudební improvizaci",
+    "iosHint": "iPhone: vypněte tichý režim, abyste slyšeli kliknutí",
+    "start": "Spustit",
+    "stop": "Zastavit",
+    "tap": "Vyťukat tempo",
+    "timeSignature": "Takt",
+    "presets": {
+      "label": "Předvolby",
+      "slow": "Pomalá scéna",
+      "speech": "Řeč",
+      "fast": "Rychlá scéna",
+      "musical": "Muzikál",
+      "patter": "Rychlá rytmická píseň"
+    }
+  },
+  "variants": {
+    "title": "Generátor herních variant",
+    "subtitle": "Dodejte jakékoli hře šmrnc a udržte hráče ve střehu",
+    "gameName": "Název hry (volitelný)",
+    "gameNamePlaceholder": "např. Zip Zap Zop, vedený příběh...",
+    "twist": "Obměna",
+    "available": "dostupných obměn",
+    "newTwist": "Nová obměna",
+    "allCategories": "Vše",
+    "categories": {
+      "restriction": "Omezení",
+      "role": "Role",
+      "format": "Formát",
+      "constraint": "Omezení"
+    },
+    "items": {
+      "r1": "Nikdo nesmí používat ruce",
+      "r2": "Zavřené oči",
+      "r3": "Úplné ticho, žádná slova",
+      "r4": "Zůstaňte na jednom místě na pódiu",
+      "r5": "Zahrajte si celou hru zpomaleně",
+      "r6": "Nikdo se nesmí usmívat ani smát",
+      "r7": "Povoleny jsou pouze samohlásky",
+      "r8": "Stejnou scénu zopakujte třikrát, pokaždé s jinou emocí",
+      "r9": "Každý se neustále pohybuje",
+      "r10": "Všechny pohyby musí být ve výšce kolen nebo níže",
+      "r11": "Nikdo nestojí tváří v tvář publiku",
+      "r12": "Každá akce musí být zrcadlena alespoň jedním dalším hráčem",
+      "r13": "Hrajte v opačném pořadí",
+      "r14": "Zdvojnásobte normální rychlost",
+      "o1": "Přidejte vypravěče, který může zastavit a přetočit akci",
+      "o2": "V každém kole vystřídejte iniciátora",
+      "o3": "Přidejte hráče, který může kdykoli vykřiknout „změna“",
+      "o4": "Jeden hráč je režisér; nehraje, ale vyvolává pokyny",
+      "o5": "Přidejte druhého stínového hráče, který zrcadlí hlavního hrdinu",
+      "o6": "Každých 30 sekund přidejte nového hráče",
+      "o7": "Publikum v každém kole hlasováním někoho vyřadí",
+      "o8": "Každý hráč musí hrát jiný archetyp z kola",
+      "o9": "Poslední vyřazený hráč se stává rozhodčím dalšího kola",
+      "o10": "Jeden hráč musí při každém tahu radit ostatním",
+      "o11": "Přidejte překladatele, který publiku tlumočí každý pohyb",
+      "o12": "Po polovině hry si hráči vymění role",
+      "fm1": "Hrajte pozpátku, od závěru k začátku",
+      "fm2": "Vrstvěte dvě hry současně",
+      "fm3": "Přidejte druhou, tajnou hru probíhající pod povrchem",
+      "fm4": "Zahrajte hru v určitém žánru (horor, western, muzikál…)",
+      "fm5": "Začněte drobnými rozhodnutími a skončete s obřími",
+      "fm6": "Zahrajte celou hru bez přerušení",
+      "fm7": "Každé kolo musí být kratší než to poslední",
+      "fm8": "Zahrajte celou hru v naprostém tichu",
+      "fm9": "Hrajte, jako by vás sledoval štáb dokumentu",
+      "fm10": "Zahrajte hru jako vzpomínku jedné postavy",
+      "fm11": "Udělejte z ní soutěž se skóre",
+      "fm12": "Přehrajte ji ve velkém stylu: každý prvek desetkrát vystupňujte",
+      "c1": "V každém tahu použijte konkrétní předmět",
+      "c2": "Každý pohyb musí končit zvukovým efektem",
+      "c3": "Každých 30 sekund odkažte na původní námět",
+      "c4": "Odpočítávejte od deseti; do nuly musí scéna skončit",
+      "c5": "Všechny scény se odehrávají na stejném místě",
+      "c6": "Každá akce musí mít uvedené zdůvodnění",
+      "c7": "V každém tahu musí zaznít konkrétní fráze",
+      "c8": "Každá scéna musí obsahovat odkaz na dřívější okamžik",
+      "c9": "Hráči musí pojmenovat každý předmět, kterého se dotknou",
+      "c10": "Před každým pohybem musíte navázat oční kontakt",
+      "c11": "Každý tah musí obsahovat fyzickou činnost",
+      "c12": "Každý tah musí změnit vztah mezi postavami",
+      "r15": "Nesmíte použít slovo „já“",
+      "r16": "Každé rozhodnutí musí být učiněno společně",
+      "r17": "Nepojmenovávejte zjevné emoce",
+      "r18": "Každá postava něco ukrývá v dlaních",
+      "o13": "Jeden hráč je jediný, komu ostatní postavy ve scéně nedůvěřují",
+      "o14": "Jeden hráč je odborníkem na téma, kterému nerozumí",
+      "o15": "Jeden hráč smí pouze klást otázky",
+      "o16": "Jeden hráč vstupuje pouze proto, aby přinesl špatné zprávy",
+      "fm13": "Scéna jako tisková konference",
+      "fm14": "Scéna je zkouškou skutečné scény",
+      "fm15": "Scéna postupuje pozpátku od následku k příčině",
+      "fm16": "Scéna se přehrává v sérii stále kratších repríz",
+      "c13": "Žánr se mění každou minutu",
+      "c14": "Každá lež musí být okamžitě ospravedlněna",
+      "c15": "Nejdůležitější objekt není nikdy vidět",
+      "c16": "O tom, kdo má nejvyšší status, rozhoduje publikum"
+    }
+  },
+  "replay": {
+    "title": "Karty pro opakování scén",
+    "subtitle": "Přehrajte scénu s novým zvratem: vyhlaste ho a pusťte se do toho znovu",
+    "allCategories": "Vše",
+    "prev": "Předchozí",
+    "next": "Další",
+    "random": "Náhodná karta",
+    "categories": {
+      "physicality": "Pohyb",
+      "genre": "Žánr",
+      "emotional": "Emoce",
+      "structural": "Struktura",
+      "character": "Postava"
+    },
+    "items": {
+      "ph1": "Zahrajte celou scénu zpomaleně",
+      "ph2": "Všichni se pohybují jako pod vodou",
+      "ph3": "Zdvojnásobte tempo řeči i pohybu",
+      "ph4": "Každý se pohybuje v nulové gravitaci",
+      "ph5": "Každý pohyb přehnaně zvětšete",
+      "ph6": "Hrajte, jako by podlaha byla láva; nikdo nesmí zastavit chodidla",
+      "ph7": "Každý má po celou scénu poraněnou jednu část těla",
+      "ph8": "Pohybujte se, jako by vám byla nesnesitelná zima",
+      "gn1": "Přehrajte scénu jako horor",
+      "gn2": "Přehrajte scénu jako romantickou komedii",
+      "gn3": "Přehrajte scénu jako western",
+      "gn4": "Přehrajte scénu jako muzikál",
+      "gn5": "Přehrajte scénu jako dokument",
+      "gn6": "Přehrajte scénu jako film noir",
+      "gn7": "Přehrajte scénu jako telenovelu",
+      "gn8": "Přehrajte scénu jako dětský televizní pořad",
+      "gn9": "Přehrání jako rozhlasové drama ze 40. let",
+      "gn10": "Přehrání jako drama ze soudní síně",
+      "em1": "Všichni jsou tajně vyděšení",
+      "em2": "Toto je nejšťastnější okamžik v životě každého z nás",
+      "em3": "Každá postava zoufale zadržuje slzy",
+      "em4": "Každá postava se na jevišti zamiluje do někoho jiného",
+      "em5": "Všichni se neuvěřitelně nudí",
+      "em6": "Každý okamžik se stává velkým prozřením",
+      "em7": "Každá postava v duchu nesnáší, že je součástí této scény",
+      "em8": "Toto je pro každou postavu otázka života a smrti",
+      "st1": "Přehrajte scénu pozpátku, od konce k začátku",
+      "st2": "Začněte na konci a postupujte zpět na začátek",
+      "st3": "Jeden hráč je režisér a může kdykoli zvolat „Střih!“ a změnit směr scény",
+      "st4": "Přidejte vypravěče, který dokáže pozastavit akci a vyslovit vnitřní myšlenky postav",
+      "st5": "Každou minutu se na scénu připojí další člověk",
+      "st6": "Začněte znovu pokaždé, když někdo zmíní začátek scény",
+      "st7": "Kdykoli někdo zatleská, scéna se vrátí o 10 sekund zpět",
+      "ch1": "Vyměňte všechny role postav, každý hráč hraje postavu někoho jiného",
+      "ch2": "Všichni hrají tutéž scénu jako nové postavy, které právě dorazily",
+      "ch3": "Jedna osoba má tajemství, které skrývá před všemi ostatními",
+      "ch4": "Každá postava věří, že je hrdinou tohoto příběhu",
+      "ch5": "Všichni jsou o 10 let starší než v původní scéně",
+      "ch6": "Všichni jsou o 10 let mladší než v původní scéně",
+      "ch7": "Každá postava má nyní opačné přání než dříve",
+      "ch8": "Každá postava teď chce pravý opak toho, co chtěla původně"
+    }
+  },
+  "splash": {
+    "title": "Improv Toolbox",
+    "subtitle": "Vše pro improvizaci na jednom místě: hry, náměty, průvodci a další.",
+    "cta": "Roztočit kolo",
+    "tagline": "Váš kapesní pomocník",
+    "search": "Najít nástroj…",
+    "toolCount": "{{count}} nástrojů",
+    "allTools": "Všechny nástroje",
+    "otherTools": "Další nástroje",
+    "noResults": "Tomu neodpovídají žádné nástroje.",
+    "alpha": "Alfa",
+    "section": {
+      "core": "Základní nástroje",
+      "more": "Další nástroje"
+    },
+    "credit": "Vytvořil Przemek K.",
+    "features": {
+      "wheel": {
+        "title": "Kolo archetypů",
+        "desc": "Točením přiřadíte náhodný archetyp každé osobě před scénou."
+      },
+      "scene": {
+        "title": "Generátor scén",
+        "desc": "Jedním klepnutím vytvoříte celou scénu: kdo, kde, co a zvrat."
+      },
+      "warmup": {
+        "title": "Rozcvičky",
+        "desc": "Přes 60 rozcviček podle zaměření, velikosti skupiny a délky."
+      },
+      "facts": {
+        "title": "Fakta o improvizaci",
+        "desc": "Historie, teorie a zábavná fakta o improvizaci."
+      },
+      "timer": {
+        "title": "Časovač scény",
+        "desc": "Nastavitelný odpočítávací časovač s volitelným varovným bzučením."
+      },
+      "character": {
+        "title": "Generátor postav",
+        "desc": "Okamžitě vygenerujte celou postavu: vlastnost, hlas, tělesnost a cíl."
+      },
+      "prompts": {
+        "title": "Karty námětů",
+        "desc": "Losujte karty s předměty, emocemi, místy a vztahy."
+      },
+      "suggestions": {
+        "title": "Náměty od publika",
+        "desc": "Získejte náhodné návrhy ve stylu publika pro zahájení jakékoli scény."
+      },
+      "formats": {
+        "title": "Průvodce formáty",
+        "desc": "Pravidla a tipy pro oblíbené dlouhé a krátké improvizační formáty."
+      },
+      "reflection": {
+        "title": "Otázky k reflexi",
+        "desc": "Otázky pro rozbor po scéně, které tříbí vnímání a zpětnou vazbu."
+      },
+      "soundscape": {
+        "title": "Zvuková krajina",
+        "desc": "Okolní smyčky, déšť, kavárna, les, výtah a další pro atmosféru."
+      },
+      "status": {
+        "title": "Losování statusu",
+        "desc": "Tajně přidělte lidem status od 1 do 10 pro scény založené na hierarchii."
+      },
+      "spine": {
+        "title": "Páteř příběhu",
+        "desc": "Náhodné podněty pro každý krok klasické šestidílné páteře příběhu."
+      },
+      "principles": {
+        "title": "Principy improvizace",
+        "desc": "Základní principy jako 'Ano, a', naslouchání a přítomnost s vysvětlením."
+      },
+      "monologue": {
+        "title": "Náměty k monologu",
+        "desc": "Úvodní věty pro osobní monolog ve stylu Harolda."
+      },
+      "genres": {
+        "title": "Žánrové styly",
+        "desc": "Referenční karty pro hraní žánrových konvencí, noir, western, horor a další."
+      },
+      "harold": {
+        "title": "Haroldův průvodce",
+        "desc": "Struktura a tipy krok za krokem pro celý Harold."
+      },
+      "deconstruction": {
+        "title": "Dekonstrukce",
+        "desc": "Sledujte Dekonstrukci a průběžně si zapisujte postavy, scény a témata."
+      },
+      "emotion": {
+        "title": "Kolo emocí",
+        "desc": "Získejte náhodnou emoci ze 48 různých možností, které inspirují vaši postavu."
+      },
+      "constraints": {
+        "title": "Omezení scény",
+        "desc": "Náhodná pravidla pro přidání obtížnosti: omezená slova, pohyb nebo tělesnost."
+      },
+      "metronome": {
+        "title": "Rytmický metronom",
+        "desc": "Metronom s vyťukáním tempa pro hudební improvizaci a cvičení."
+      },
+      "variants": {
+        "title": "Herní varianty",
+        "desc": "Zvraty a obměny klasických improvizačních her a rozcviček."
+      },
+      "replay": {
+        "title": "Karty pro opakování scén",
+        "desc": "Přehrajte stejnou scénu v jiném stylu, žánru nebo s jinou volbou postavy."
+      },
+      "jam": {
+        "title": "Jam session",
+        "desc": "Volný moderovaný režim s časovači a podněty k rozehrání scén."
+      }
+    }
+  },
+  "common": {
+    "tapHint": "Klepnutím sem vylosujete další"
+  }
+}

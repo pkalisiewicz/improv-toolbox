@@ -21,7 +21,7 @@ export function DesktopRail() {
           <Link
             to="/"
             className="group flex min-w-0 items-center gap-2.5 rounded-[var(--radius-lg)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
-            aria-label="Home"
+            aria-label={t('app.home')}
           >
             <span className="grid h-13 w-13 shrink-0 place-items-center rounded-[var(--radius-md)] border-2 border-ink bg-brand-50 transition-transform duration-150 ease-[var(--ease-out)] group-active:scale-95">
               <Snake size={28} color="var(--color-ink)" eye="var(--color-brand-500)" />
@@ -31,7 +31,7 @@ export function DesktopRail() {
                 {appTitle}
               </span>
               <span className="mt-1.5 block text-sm italic leading-tight text-ink-muted break-words [overflow-wrap:anywhere]">
-                created by Przemek K.
+                {t('app.bylineLong')}
               </span>
             </span>
           </Link>

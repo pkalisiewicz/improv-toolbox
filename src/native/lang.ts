@@ -21,7 +21,7 @@ const LS_KEY = 'i18nextLng';
 /**
  * The language to open in, resolved synchronously at i18n init:
  *   1. an explicit prior choice (localStorage), else
- *   2. the device locale — Polish speakers get Polish, everyone else English.
+ *   2. the device locale — English, Polish, and Czech are recognized.
  * Runs during build-time prerender too (Node), where the guards fall through to
  * English; the real device value is read again when the bundle runs on-device.
  */

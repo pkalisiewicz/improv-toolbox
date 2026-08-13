@@ -45,18 +45,17 @@ describe('HeaderControls', () => {
     expect(screen.getByRole('combobox', { name: 'app.chooseLanguage' })).toBeInTheDocument();
   });
 
-  it('uses a one-tap language toggle in the native App', async () => {
+  it('offers every supported language in the native App', async () => {
     const user = userEvent.setup();
     const { persistLang } = await renderHeaderControls({ native: true });
 
-    expect(screen.queryByRole('combobox', { name: 'app.chooseLanguage' })).not.toBeInTheDocument();
+    const languageSelect = screen.getByRole('combobox', { name: 'app.chooseLanguage' });
+    expect(languageSelect).toHaveTextContent('EN · English');
+    expect(languageSelect).toHaveTextContent('PL · Polski');
+    expect(languageSelect).toHaveTextContent('CS · Čeština');
 
-    const languageButton = screen.getByRole('button', { name: /app\.chooseLanguage/ });
-    expect(languageButton).toHaveTextContent('PL');
-
-    await user.click(languageButton);
-
-    expect(persistLang).toHaveBeenCalledWith('pl');
+    await user.selectOptions(languageSelect, 'cs');
+    expect(persistLang).toHaveBeenCalledWith('cs');
   });
 
   it('uses a one-tap language toggle on iOS Site/PWA builds', async () => {

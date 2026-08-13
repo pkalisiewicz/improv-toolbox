@@ -96,7 +96,7 @@ Zaprojektowana z myślą o polskich zespołach improwizacyjnych. Działa offline
 ---
 
 ## 🌍 Język
-Aplikacja obsługuje **polski** (domyślny) i **angielski** — przełącznik w nagłówku.
+Aplikacja natywna obsługuje **polski**, **angielski** i **czeski** — język można wybrać w nagłówku. Publiczne wersje WWW pozostają osobnymi stronami po polsku i angielsku.
 
 ---
 

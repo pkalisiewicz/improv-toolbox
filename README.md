@@ -1,7 +1,7 @@
 # Improv Toolbox
 
 A free toolbox for improv coaches and players: 24 stage-ready tools in one
-app, in English and Polish, working fully offline.
+app. The native app supports English, Polish, and Czech and works fully offline.
 
 Use it three ways:
 
@@ -58,9 +58,10 @@ prerendering. There is no backend and no account system: all data lives in
 plain TypeScript arrays under `src/data/`, and user state stays on the
 device in localStorage.
 
-The app ships bilingual. `improv-toolbox.com` defaults to English, other
-domains default to Polish, and a header toggle persists your choice.
-Translations live in `src/locales/en/` and `src/locales/pl/`.
+The websites remain monolingual builds on their owned domains:
+`improv-toolbox.com` in English and `skrzynka-improwizatora.pl` in Polish.
+The native app bundles English, Polish, and Czech and remembers the selected
+language. Translations live in `src/locales/[locale]/`.
 
 ### Contributing translations
 

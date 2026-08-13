@@ -34,6 +34,7 @@ import { THEME_COLORS, THEME_INIT_SCRIPT } from './theme/colorMode';
 import { FAVORITE_TOOLS_INIT_SCRIPT } from './theme/favoriteTools';
 import { AppErrorPage } from './pages/ErrorPage';
 import { BUILD_LANG, CURRENT_SEO, canonicalUrl, hreflangLinksForPath } from './seo/config';
+import { DEFAULT_APP_LANG, resolveSupportedLang } from './languages';
 
 const APP_ICON_VERSION = '2026-06-18';
 const VIEWPORT_CONTENT = IS_NATIVE_BUILD
@@ -129,13 +130,16 @@ function Header() {
 
   useEffect(() => {
     document.title = t('app.title');
-  }, [i18n.language, t]);
+    document.documentElement.lang = IS_NATIVE_BUILD
+      ? resolveSupportedLang(i18n.resolvedLanguage ?? i18n.language, DEFAULT_APP_LANG)
+      : BUILD_LANG;
+  }, [i18n.language, i18n.resolvedLanguage, t]);
 
   if (isLauncher) return null;
 
   return (
     <header className="bg-surface-2 border-b-2 border-ink px-4 pb-2.5 pt-[calc(env(safe-area-inset-top)+0.625rem)] flex items-center justify-between gap-3 sticky top-0 z-40 lg:hidden">
-      <Link to="/" className="flex items-center gap-2.5 group min-w-0" aria-label="Home">
+      <Link to="/" className="flex items-center gap-2.5 group min-w-0" aria-label={t('app.home')}>
         <span className="grid place-items-center w-10 h-10 shrink-0 rounded-[var(--radius-md)] bg-brand-50 border-2 border-ink transition-transform duration-150 ease-[var(--ease-out-soft)] group-active:scale-90">
           <Snake size={22} color="var(--color-ink)" eye="var(--color-brand-500)" />
         </span>
@@ -144,8 +148,8 @@ function Header() {
             {t('app.title')}
           </span>
           <span className="text-[11px] text-ink-muted italic leading-tight mt-1 truncate">
-            <span className="sm:hidden">by Przemek K.</span>
-            <span className="hidden sm:inline">created by Przemek K.</span>
+            <span className="sm:hidden">{t('app.bylineShort')}</span>
+            <span className="hidden sm:inline">{t('app.bylineLong')}</span>
           </span>
         </span>
       </Link>

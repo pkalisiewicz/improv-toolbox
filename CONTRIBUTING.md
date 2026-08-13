@@ -50,8 +50,9 @@ Before opening a PR, please make sure `npm run lint`, `npm run build`, and
   type-only imports.
 - Data lives as plain TypeScript arrays in `src/data/`; each page has a matching
   hook in `src/hooks/`.
-- The app is **bilingual**. If you touch user-facing text, update **both**
-  `src/locales/en/translation.json` and `src/locales/pl/translation.json`.
+- The native app is **multilingual**. If you touch user-facing text, update
+  every locale in `src/locales/` (`en`, `pl`, and `cs`). The public websites
+  remain separate English and Polish builds.
   Translations are also managed via Crowdin — see the README for that workflow.
 - Mobile-first, offline-first. Keep it working as a PWA.
 

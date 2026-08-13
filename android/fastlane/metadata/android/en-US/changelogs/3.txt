@@ -1,1 +1,1 @@
-Initial mobile release of Improv Toolbox, with offline tools, English and Polish language support, haptics and timer notification.
+Initial mobile release of Improv Toolbox, with offline tools, English, Polish and Czech language support, haptics and timer notification.

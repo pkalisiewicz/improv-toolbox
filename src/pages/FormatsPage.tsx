@@ -36,7 +36,9 @@ function FormatCard({ format, onClick }: { format: ImprovFormat; onClick: () => 
         <Badge color="gray"><IconUsers size={12} /> {playersLabel}</Badge>
         <Badge color="gray"><IconTimer size={12} /> {format.durationMinutes} min</Badge>
         {format.suggestionType !== 'none' && (
-          <Badge color="gray"><IconSparkles size={12} /> {format.suggestionType}</Badge>
+          <Badge color="gray">
+            <IconSparkles size={12} /> {t(`formats.suggestionType.${format.suggestionType}`)}
+          </Badge>
         )}
       </div>
     </Card>
